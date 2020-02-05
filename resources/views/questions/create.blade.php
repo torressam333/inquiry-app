@@ -9,7 +9,8 @@
                         <div class="d-flex align-items-center">
                             <h2>Ask A Question</h2>
                             <div class="ml-auto">
-                                <a href="{{route('questions.index')}}" class="btn btn-outline-secondary">Back to all Questions</a>
+                                <a href="{{route('questions.index')}}" class="btn btn-outline-secondary">Back to all
+                                    Questions</a>
                             </div>
                         </div>
 
@@ -19,7 +20,9 @@
                             @csrf
                             <div class="form-group">
                                 <label for="question-title">Question Title</label>
-                                <input type="text" name="title" id="question-title" class="form-control {{$errors->has('title') ? 'is-invalid' : ''}}">
+                                <input type="text" name="title" id="question-title"
+                                       class="form-control {{$errors->has('title') ? 'is-invalid' : ''}}"
+                                       value="{{old('title')}}">
                                 @if($errors->has('title'))
                                     <div class="invalid-feedback">
                                         <strong>{{$errors->first('title')}}</strong>
@@ -28,7 +31,8 @@
                             </div>
                             <div class="form-group">
                                 <label for="question-body">What is your question?</label>
-                                <textarea name="body" id="question-body" rows="11" class="form-control {{$errors->has('body') ? 'is-invalid' : ''}}"></textarea>
+                                <textarea name="body" id="question-body" rows="11"
+                                          class="form-control {{$errors->has('body') ? 'is-invalid' : ''}}">{{old('body')}}</textarea>
                                 @if($errors->has('body'))
                                     <div class="invalid-feedback">
                                         <strong>{{$errors->first('body')}}</strong>
