@@ -5,9 +5,21 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
+/**
+ * @property mixed updated_at
+ * @property mixed created_at
+ */
 class Question extends Model
 {
     protected $fillable = ['title', 'body'];
+    /**
+     * @var mixed
+     */
+    private $best_answer_id;
+    /**
+     * @var mixed
+     */
+    private $answers;
 
     public function user()
     {
@@ -28,6 +40,11 @@ class Question extends Model
     public function getCreatedDateAttribute()
     {
         return $this->created_at->diffForHumans();
+    }
+
+    public function getUpdatedDateAttribute()
+    {
+        return $this->updated_at->since();
     }
 
     public function getStatusAttribute()
