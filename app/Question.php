@@ -12,14 +12,7 @@ use Illuminate\Support\Str;
 class Question extends Model
 {
     protected $fillable = ['title', 'body'];
-    /**
-     * @var mixed
-     */
-    private $best_answer_id;
-    /**
-     * @var mixed
-     */
-    private $answers;
+
 
     public function user()
     {
@@ -47,16 +40,16 @@ class Question extends Model
         return $this->updated_at->since();
     }
 
-    public function getStatusAttribute()
-    {
-        if ($this->answers > 0) {
-            if ($this->best_answer_id) {
+    public function getStatusAttribute(){
+        if ($this->answers > 0){
+            if ($this->best_answer_id){
                 return "answered-accepted";
             }
             return "answered";
         }
         return "unanswered";
     }
+
 
     public function getBodyHtmlAttribute()
     {

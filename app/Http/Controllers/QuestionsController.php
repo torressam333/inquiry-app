@@ -4,12 +4,17 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\AskQuestionRequest;
 use App\Question;
-use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 
 class QuestionsController extends Controller
 {
+    public function __construct()
+    {
+        //Redirects to login if user is not signed in
+        $this->middleware('auth')->except(['index', 'show']);
+    }
+
     public function index()
     {
         $questions = Question::with('user')->latest()->paginate(10);
