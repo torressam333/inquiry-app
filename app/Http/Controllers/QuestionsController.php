@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\AskQuestionRequest;
 use App\Question;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Gate;
 
 class QuestionsController extends Controller
 {
@@ -29,23 +30,27 @@ class QuestionsController extends Controller
 
     public function show(Question $question)
     {
+        //Increments the views count
         $question->increment('views');
         return view('questions.show', compact('question'));
     }
 
     public function edit(Question $question)
     {
-        return view('questions.edit', compact('question'));
+       Gate::authorize('update-question', $question);
+       return view('questions.edit', compact('question'));
     }
 
     public function update(AskQuestionRequest $request, Question $question)
     {
+        Gate::authorize('update-question', $question);
         $question->update($request->only('title', 'body'));
         return redirect('/questions')->with('success', 'Question successfully updated');
     }
 
     public function destroy(Question $question)
     {
+        Gate::authorize('delete-question', $question);
         $question->delete();
         return redirect('/questions')->with('success', 'Question successfully deleted');
     }
