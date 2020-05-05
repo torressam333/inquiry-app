@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\AskQuestionRequest;
 use App\Question;
+use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 
@@ -37,8 +38,8 @@ class QuestionsController extends Controller
 
     public function edit(Question $question)
     {
-       Gate::authorize('update-question', $question);
-       return view('questions.edit', compact('question'));
+        Gate::authorize('update-question', $question);
+        return view('questions.edit', compact('question'));
     }
 
     public function update(AskQuestionRequest $request, Question $question)
@@ -50,7 +51,7 @@ class QuestionsController extends Controller
 
     public function destroy(Question $question)
     {
-        Gate::authorize('delete-question', $question);
+        $this->authorize("delete", $question);
         $question->delete();
         return redirect('/questions')->with('success', 'Question successfully deleted');
     }

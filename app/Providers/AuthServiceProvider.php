@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Policies\QuestionPolicy;
+use App\Question;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Auth\Access\Response;
@@ -14,7 +16,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        // 'App\Model' => 'App\Policies\ModelPolicy',
+         Question::class => QuestionPolicy::class,
     ];
 
     /**
@@ -29,7 +31,7 @@ class AuthServiceProvider extends ServiceProvider
         Gate::define('update-question', function ($user, $question) {
             return $user->id === $question->user_id
                 ? Response::allow()
-                : Response::deny('You must be the user who owns this question to edit');
+                : Response::deny('You do NOT own this question');
         });
 
         Gate::define('delete-question', function ($user, $question) {
