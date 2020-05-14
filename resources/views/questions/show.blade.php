@@ -17,6 +17,17 @@
                     </div>
                     <div class="card-body">
                         {!! $question->body_html !!}
+                        <div class="float-right">
+                            <span class="text-muted">Asked {{$question->created_date}}</span>
+                            <div class="media mt-2">
+                                <a href="{{$question->user->url}}" class="pr-2">
+                                    <img src="{{$question->user->avatar}}" alt="">
+                                </a>
+                                <div class="media-body mt-1">
+                                    <a href="{{$question->user->url}}">{{$question->user->name}}</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -38,11 +49,11 @@
                                     {!! $answer->body_html !!}
                                     <div class="float-right">
                                         <span class="text-muted">Answered {{$answer->created_date}}</span>
-                                        <div class="media">
+                                        <div class="media mt-2">
                                             <a href="{{$answer->user->url}}" class="pr-2">
                                                 <img src="{{ $answer->user->avatar }}" alt="">
                                             </a>
-                                            <div class="media-body">
+                                            <div class="media-body mt-1">
                                                 <a href="{{$answer->user->url}}">{{$answer->user->name}}</a>
                                             </div>
                                         </div>
