@@ -6,6 +6,7 @@ use App\Answer;
 use App\Question;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Gate;
 
 class AnswersController extends Controller
 {
@@ -36,7 +37,8 @@ class AnswersController extends Controller
      */
     public function edit(Answer $answer)
     {
-        //
+        Gate::authorize('update-answer', $answer);
+        return view('answers._edit', compact('answer'));
     }
 
     /**
@@ -48,7 +50,9 @@ class AnswersController extends Controller
      */
     public function update(Request $request, Answer $answer)
     {
-        //
+        $this->authorize('update', $answer);
+        $answer->update();
+        return view('questions.show', 'answer');
     }
 
     /**
@@ -59,6 +63,7 @@ class AnswersController extends Controller
      */
     public function destroy(Answer $answer)
     {
-        //
+        $this->authorize("delete", $answer);
+        $answer->delete();
     }
 }
