@@ -6,11 +6,12 @@ use App\Answer;
 use App\Question;
 use Exception;
 use Illuminate\Auth\Access\AuthorizationException;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Gate;
+use Illuminate\View\View;
 
 class AnswersController extends Controller
 {
@@ -19,7 +20,7 @@ class AnswersController extends Controller
      * Store a newly created resource in storage.
      *
      * @param Question $question
-     * @param \Illuminate\Http\Request $request
+     * @param Request $request
      * @return RedirectResponse
      */
     public function store(Question $question, Request $request)
@@ -36,13 +37,15 @@ class AnswersController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
+     * @param Question $question
      * @param Answer $answer
-     * @return Response
+     * @return Application|Factory|View
+     * @throws AuthorizationException
      */
     public function edit(Question $question, Answer $answer)
     {
         $this->authorize('update', $answer);
-        return view('answers.edit', compact('answer'));
+        return view('answers._edit', compact('question','answer'));
     }
 
     /**
@@ -50,10 +53,11 @@ class AnswersController extends Controller
      *
      * @param Question $question
      * @param Answer $answer
+     * @param Request $request
      * @return RedirectResponse
      * @throws AuthorizationException
      */
-    public function update(Question $question, Answer $answer)
+    public function update(Request $request, Question $question, Answer $answer)
     {
         $this->authorize('update', $answer);
         $answer->update($request->validate([

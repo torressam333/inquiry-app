@@ -28,6 +28,11 @@ class Answer extends Model
         return $this->created_at->diffForHumans();
     }
 
+    public function getUpdatedDateAttribute()
+    {
+        return $this->updated_at->since();
+    }
+
     public static function boot()
     {
         parent::boot();
