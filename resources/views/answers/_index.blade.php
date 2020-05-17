@@ -41,7 +41,6 @@
                                     </div>
                                 </div>
                                 <div class="col-4">
-                                    EMPTY
                                 </div>
                                 <div class="col-4">
                                     <span class="text-muted">Answered {{ $answer->created_date }}</span>
