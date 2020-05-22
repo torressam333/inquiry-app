@@ -18,6 +18,7 @@
                             <a title="This answer is not useful" class="vote-down off">
                                 <i class="fas fa-caret-down fa-3x"></i>
                             </a>
+                            @can('accept', $answer) {{--Auth to accept answers on your own question--}}
                             <a title="Mark this answer as best answer"
                                class="{{$answer->status}} mt-2"
                                onclick="event.preventDefault();
@@ -32,6 +33,7 @@
                                 style="display:none;">
                                 @csrf
                             </form>
+                            @endcan
                         </div>
                         <div class="media-body">
                             {!! $answer->body_html !!}
