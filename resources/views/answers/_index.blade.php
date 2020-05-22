@@ -17,9 +17,21 @@
                             <a title="This answer is not useful" class="vote-down off">
                                 <i class="fas fa-caret-down fa-3x"></i>
                             </a>
-                            <a title="Mark this answer as best answer" class="{{$answer->status}} mt-2">
+                            <a title="Mark this answer as best answer"
+                               class="{{$answer->status}} mt-2"
+                                onclick="(e) => {e.preventDefault()};
+                                document.getElementById('accept-answer-{{$answer->id}}').submit();"
+                            >
                                 <i class="fas fa-check fa-2x"></i>
                             </a>
+                            <form
+                                @csrf
+                                method="post"
+                                action="{{route('answers.accept', $answer->id)}}"
+                                id="accept-answer-{{$answer->id}}"
+                                style="display: none"
+                            >
+                            </form>
                         </div>
                         <div class="media-body">
                             {!! $answer->body_html !!}
