@@ -33,6 +33,14 @@
                                 style="display:none;">
                                 @csrf
                             </form>
+                            @else
+                                @if($answer->is_best)
+                                    <a title="OP accepted this as best answer"
+                                       class="{{$answer->status}} mt-2"
+                                    >
+                                        <i class="fas fa-check fa-2x"></i>
+                                    </a>
+                                @endif
                             @endcan
                         </div>
                         <div class="media-body">
