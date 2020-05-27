@@ -59,4 +59,9 @@ class User extends Authenticatable
     public function answers(){
         return $this->hasMany(Answer::class);
     }
+
+    public function favorites()
+    {
+        return $this->belongsToMany(Question::class, 'favorites');
+    }
 }
