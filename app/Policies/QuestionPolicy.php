@@ -15,8 +15,8 @@ class QuestionPolicy
     /**
      * Determine whether the user can delete the question.
      *
-     * @param  \App\User  $user
-     * @param  \App\Question  $question
+     * @param User $user
+     * @param Question $question
      * @return mixed
      */
     public function delete(User $user, Question $question)
