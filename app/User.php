@@ -76,4 +76,23 @@ class User extends Authenticatable
     {
         return $this->morphedByMany(Answer::class, 'voteable');
     }
+
+    public function voteQuestion(Question $question, $vote)
+    {
+        //Make sure user has not already voted for the same question
+        $voteQuestions = $this->voteQuestions();
+        if ($voteQuestions->where('voteable_id', $question->id)->exists()) {
+            $voteQuestions->updateExistingPivot($question, ['vote' => $vote]);
+        }else{
+            $voteQuestions->attach($question, ['vote' => $vote]);
+        }
+
+        //Recount total number of votes when user votes for a question
+        /*https://laravel.com/docs/7.x/eloquent-relationships#lazy-eager-loading*/
+        $question->load('votes');
+        $downVotes = (int) $question->downVotes()->sum('vote');
+        $upVotes = (int) $question->upVotes()->sum('vote');
+        $question->votes_count = $upVotes + $downVotes;
+        $question->save();
+    }
 }

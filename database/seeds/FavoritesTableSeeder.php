@@ -28,7 +28,6 @@ class FavoritesTableSeeder extends Seeder
                 $user = $users[$i]; //Get random user
                 //Attach current question to random user
                 $question->favorites()->attach($user);
-
             }
         }
     }
