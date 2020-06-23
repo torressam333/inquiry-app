@@ -4,6 +4,7 @@ use Illuminate\Database\Seeder;
 use App\User;
 use App\Question;
 use Illuminate\Support\Facades\DB;
+use App\Answer;
 
 class VoteablesTableSeeder extends Seeder
 {
@@ -15,7 +16,7 @@ class VoteablesTableSeeder extends Seeder
     public function run()
     {
         //Only delete the records for Questions
-        DB::table('voteables')->where('voteable_type', 'App\Question')->delete();
+        DB::table('voteables')->delete();
         //Get all collections of user instances
         $users = User::all();
         $numberOfUsers = $users->count();
@@ -28,6 +29,15 @@ class VoteablesTableSeeder extends Seeder
                 $user = $users[$i];
                 //Randomly vote down or up (0 or 1)
                 $user->voteQuestion($question, $votes[rand(0,1)]);
+            }
+        }
+
+        foreach (Answer::all() as $answer) {
+            for ($i = 0; $i < rand(1, $numberOfUsers); $i++) {
+                //Choose a random user
+                $user = $users[$i];
+                //Randomly vote down or up (0 or 1)
+                $user->voteAnswer($answer, $votes[rand(0,1)]);
             }
         }
     }

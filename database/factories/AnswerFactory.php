@@ -11,7 +11,7 @@ $factory->define(Answer::class, function (Faker $faker) {
         'body' => $faker->paragraphs(rand(3,7), true),
         //With the random() it plucks 1 random id
         'user_id' => App\User::pluck('id')->random(),
-        'votes_count' => rand(0,9),
+        //'votes_count' => rand(0,9),
 
 
     ];

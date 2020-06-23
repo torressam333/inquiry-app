@@ -95,4 +95,23 @@ class User extends Authenticatable
         $question->votes_count = $upVotes + $downVotes;
         $question->save();
     }
+
+    public function voteAnswer(Answer $answer, $vote)
+    {
+        //Make sure user has not already voted for the same answer
+        $voteAnswers = $this->voteAnswers();
+        if ($voteAnswers->where('voteable_id', $answer->id)->exists()) {
+            $voteAnswers->updateExistingPivot($answer, ['vote' => $vote]);
+        }else{
+            $voteAnswers->attach($answer, ['vote' => $vote]);
+        }
+
+        //Recount total number of votes when user votes for a answer
+        /*https://laravel.com/docs/7.x/eloquent-relationships#lazy-eager-loading*/
+        $answer->load('votes');
+        $downVotes = (int) $answer->downVotes()->sum('vote');
+        $upVotes = (int) $answer->upVotes()->sum('vote');
+        $answer->votes_count = $upVotes + $downVotes;
+        $answer->save();
+    }
 }

@@ -28,3 +28,5 @@ Route::delete('/questions/{question}/favorites', 'FavoritesController@destroy')-
 //Vote Question Controller (single action __invoke) no method declaration
 Route::post('/questions/{question}/vote', 'VoteQuestionController');
 
+Route::post('/answers/{answer}/vote', 'VoteAnswerController');
+
