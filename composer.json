@@ -16,7 +16,9 @@
         "laravel/framework": "^6.2",
         "laravel/helpers": "^1.1",
         "laravel/tinker": "^2.0",
-        "laravel/ui": "^1.1"
+        "laravel/ui": "^1.1",
+        "mews/purifier": "^3.2",
+        "php-parallel-lint/php-console-color": "^0.3.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.3",
