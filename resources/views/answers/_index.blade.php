@@ -38,30 +38,9 @@
                                 @csrf
                                 <input type="hidden" name="vote" value="-1">
                             </form>
-                            @can('accept', $answer) {{--Auth to accept answers on your own question--}}
-                            <a title="Mark this answer as best answer"
-                               class="{{$answer->status}} mt-2"
-                               onclick="event.preventDefault();
-                                   document.getElementById('accept-answer-{{$answer->id}}').submit();"
-                            >
-                                <i class="fas fa-check fa-2x"></i>
-                            </a>
-                            <form
-                                id="accept-answer-{{ $answer->id }}"
-                                action="{{ route('answers.accept', $answer->id) }}"
-                                method="POST"
-                                style="display:none;">
-                                @csrf
-                            </form>
-                            @else
-                                @if($answer->is_best)
-                                    <a title="OP accepted this as best answer"
-                                       class="{{$answer->status}} mt-2"
-                                    >
-                                        <i class="fas fa-check fa-2x"></i>
-                                    </a>
-                                @endif
-                            @endcan
+                            @include('shared._accept', [
+                                 'model' => $answer,
+                             ])
                         </div>
                         <div class="media-body">
                             {!! $answer->body_html !!}
