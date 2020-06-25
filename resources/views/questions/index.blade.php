@@ -52,13 +52,12 @@
                                             </form>
                                         </div>
                                     </div>
-
                                     <p class="lead">
                                         Asked by <a href="{{$question->user->url}}">{{$question->user->name}}</a>
                                         <small class="text-muted">Creation Date: {{$question->created_date}}</small><br>
                                         <small class="text-muted">Last Updated: {{$question->updated_date}}</small>
                                     </p>
-                                    <p>{{$question->body}}</p>
+                                    <div class="excerpt">{{$question->excerpt}}</div>
                                 </div>
                             </div>
                             <hr>
