@@ -1,4 +1,4 @@
-<div class="media">
+<div class="media post">
     @include('shared._vote', [
         'model' => $answer
     ])

@@ -87,3 +87,10 @@ form.form-delete{
     }
 }
 
+/*CSS Rules for post class*/
+.post {
+    padding: 1.2rem 0;
+    &:not(:last-child) {
+        border-bottom: 1px solid rgba($black, .1);
+    }
+}

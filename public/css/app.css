@@ -10962,3 +10962,13 @@ form.form-delete {
   color: #38c172;
 }
 
+/*CSS Rules for post class*/
+
+.post {
+  padding: 1.2rem 0;
+}
+
+.post:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
