@@ -1,5 +1,7 @@
 <?php
 
+use App\Answer;
+use App\Question;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
