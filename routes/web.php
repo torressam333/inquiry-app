@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Root Route
+Route::get('/', 'QuestionsController@index');
+
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('/questions', 'QuestionsController')->except('show');
@@ -25,8 +25,7 @@ Route::post('/answers/{answer}/accept', 'AcceptAnswerController')->name('answers
 Route::post('/questions/{question}/favorites', 'FavoritesController@store')->name('questions.favorite');
 Route::delete('/questions/{question}/favorites', 'FavoritesController@destroy')->name('questions.unfavorite');
 
-//Vote Question Controller (single action __invoke) no method declaration
+//Vote Question/Answer Controller (single action __invoke) no method declaration
 Route::post('/questions/{question}/vote', 'VoteQuestionController');
-
 Route::post('/answers/{answer}/vote', 'VoteAnswerController');
 
