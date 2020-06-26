@@ -81,7 +81,7 @@
         </div>
     </div>
 @else
-    <div class="card mt-2">
+    <div class="alert alert-info">
         <p class="card-body pb-1">There are currently no answers to this question. Be the first to provide one!</p>
     </div>
 @endif
