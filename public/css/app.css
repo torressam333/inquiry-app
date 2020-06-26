@@ -10965,7 +10965,7 @@ form.form-delete {
 /*CSS Rules for post class*/
 
 .post {
-  padding: 1.2rem 0;
+  padding: 20px 0;
 }
 
 .post:not(:last-child) {
