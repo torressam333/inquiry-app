@@ -32,6 +32,7 @@
                                              'model' => $question,
                                              'label' => 'asked'
                                          ])
+                                        <user-info v-bind:model="{{$question}}" label="Asked"></user-info>
                                     </div>
                                 </div>
                             </div>
