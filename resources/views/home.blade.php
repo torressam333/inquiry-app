@@ -15,6 +15,9 @@
                     @endif
 
                     You are logged in!
+                    <div class="form-group pt-4">
+                        <a href="http://127.0.0.1:8000/" class="btn btn-md btn-outline-dark">All Questions</a>
+                    </div>
                 </div>
             </div>
         </div>
