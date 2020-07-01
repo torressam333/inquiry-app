@@ -3574,8 +3574,29 @@ __webpack_require__.r(__webpack_exports__);
     return {
       editing: false,
       body: this.answer.body,
-      bodyHtml: this.answer.body_html
+      bodyHtml: this.answer.body_html,
+      id: this.answer.id,
+      questionId: this.answer.question_id
     };
+  },
+  methods: {
+    update: function update() {
+      var _this = this;
+
+      //Send request to server using axios
+      //"this" in this context refers to the Answer vue component
+      //This method returns a promise (hence .then and .catch)
+      axios.patch("/questions/".concat(this.questionId, "/answers/").concat(this.id), {
+        //Data being patched (updated)
+        body: this.body
+      }).then(function (res) {
+        _this.editing = false;
+        _this.bodyHtml = res.data.body_html;
+        alert(res.data.message);
+      })["catch"](function (err) {
+        console.log("Something went wrong");
+      });
+    }
   }
 });
 

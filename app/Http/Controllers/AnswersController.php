@@ -54,7 +54,7 @@ class AnswersController extends Controller
      * @param Question $question
      * @param Answer $answer
      * @param Request $request
-     * @return RedirectResponse
+     * @return \Illuminate\Http\JsonResponse
      * @throws AuthorizationException
      */
     public function update(Request $request, Question $question, Answer $answer)
@@ -64,9 +64,18 @@ class AnswersController extends Controller
             'body' => 'required|min:2'
         ]));
 
-        return redirect()
+        if ($request->expectsJson()) {
+            //Return json response based off Answer vue component
+             return response()->json([
+                //Send data to client
+                'message' => 'Answer has been updated',
+                'body_html' => $answer->body_html
+            ]);
+        }
+
+       /* return redirect()
             ->route('questions.show', $question->slug)
-            ->with('success', 'Answer has been updated');
+            ->with('success', 'Answer has been updated');*/
     }
 
     /**
