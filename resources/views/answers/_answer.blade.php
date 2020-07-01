@@ -6,9 +6,9 @@
         <div class="media-body">
             <form v-if="editing" @submit.prevent="update">
                 <div class="form-group">
-                    <textarea rows="10" v-model="body" class="form-control"></textarea>
+                    <textarea rows="10" v-model="body" class="form-control" required></textarea>
                 </div>
-                <button class="btn btn-outline-primary" type="submit">Update</button>
+                <button class="btn btn-outline-primary" type="submit" :disabled="isInvalid">Update</button>
                 <button class="btn btn-outline-danger" type="button" @click="cancel">Cancel</button>
             </form>
             <div v-else>
