@@ -15,7 +15,6 @@
                                 <strong>{{$errors->first('body')}}</strong>
                             </div>
                         @endif
-
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-md btn-outline-info">Submit</button>
