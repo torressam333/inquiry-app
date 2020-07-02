@@ -8,7 +8,7 @@
                 bodyHtml: this.answer.body_html,
                 id: this.answer.id,
                 questionId: this.answer.question_id,
-                beforeEditCache: null
+                beforeEditCache: null,
             }
         },
         methods: {
@@ -24,7 +24,7 @@
                 //Send request to server using axios
                 //"this" in this context refers to the Answer vue component
                 //This method returns a promise (hence .then and .catch)
-                axios.patch(`/questions/${this.questionId}/answers/${this.id}`, {
+                axios.patch(this.endpoint, {
                     //Data being patched (updated)
                     body: this.body
                 })
@@ -36,11 +36,24 @@
                     .catch(err => {
                         alert(err.response.data.message);
                     });
+            },
+            destroy() {
+                if(confirm('Are you sure?')){
+                    axios.delete(this.endpoint)
+                    .then(res => {
+                       $(this.$el).fadeOut(750, () => {
+                           alert(res.data.message)
+                       })
+                    });
+                }
             }
         },
         computed: {
             isInvalid() {
                 return this.body.length < 7;
+            },
+            endpoint() {
+              return `/questions/${this.questionId}/answers/${this.id}`;
             }
         }
     }

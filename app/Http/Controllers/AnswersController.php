@@ -83,7 +83,6 @@ class AnswersController extends Controller
      *
      * @param Question $question
      * @param Answer $answer
-     * @return RedirectResponse
      * @throws AuthorizationException
      * @throws Exception
      */
@@ -91,6 +90,12 @@ class AnswersController extends Controller
     {
         $this->authorize("delete", $answer);
         $answer->delete();
+
+        if (\request()->expectsJson()) {
+            return response()->json([
+                'message' => 'Answer has been deleted'
+            ]);
+        }
 
         return redirect()
             ->route('questions.show', $question->slug)
