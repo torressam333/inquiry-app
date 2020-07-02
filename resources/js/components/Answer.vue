@@ -31,10 +31,10 @@
                     .then(res => {
                         this.editing = false;
                         this.bodyHtml = res.data.body_html;
-                        alert(res.data.message)
+                        this.$toast.success(res.data.message, "Success", {timeout: 2500});
                     })
                     .catch(err => {
-                        alert(err.response.data.message);
+                        this.$toast.error(err.response.data.message, "Error", {timeout: 2500});
                     });
             },
             destroy() {
@@ -42,7 +42,7 @@
                     axios.delete(this.endpoint)
                     .then(res => {
                        $(this.$el).fadeOut(750, () => {
-                           alert(res.data.message)
+                           this.$toast.success(res.data.message, "Success", {timeout: 2500});
                        })
                     });
                 }

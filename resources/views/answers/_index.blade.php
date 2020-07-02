@@ -18,7 +18,7 @@
         </div>
     </div>
 @else
-    <div class="alert alert-info">
+    <div class="alert alert-info m-4">
         <p class="card-body pb-1">There are currently no answers to this question. Be the first to provide one!</p>
     </div>
 @endif
