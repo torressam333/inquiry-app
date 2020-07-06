@@ -11,14 +11,16 @@ class AcceptAnswerController extends Controller
     public function __invoke(Answer $answer)
     {
         //Auth logic in AnswerPolicy
-        try {
-            $this->authorize('accept', $answer);
-        } catch (AuthorizationException $e) {
-            $e->getMessage();
-        }
+        $this->authorize('accept', $answer);
 
         //Accept answer as best answer
         $answer->question->acceptBestAnswer($answer);
+
+        if (request()->expectsJson()) {
+            return response()->json([
+               'message' => "You have accepted this answer as best answer"
+            ]);
+        }
         return back();
     }
 }
