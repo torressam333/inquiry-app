@@ -39,11 +39,8 @@
                 </div>
             </div>
         </div>
-        @include('answers._index', [
-    /*Define variable that exist in child view ($answersCount & $answer)*/
-    'answers'=> $question->answers,
-    'answersCount' => $question->answers_count
-])
+        {{--Displays answers on page--}}
+        <answers :answers="{{$question->answers}}" :count="{{$question->answers_count}}"></answers>
         @include('answers._create')
     </div>
 @endsection
