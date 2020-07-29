@@ -10,7 +10,7 @@
                     <!--Key adds an ordering hint
                         See docs for more info: https://vuejs.org/v2/api/#v-for
                     -->
-                    <answer v-for="answer in answers" :answer="answer" :key="answer.id"></answer>
+                    <answer v-on:deleted="remove(index)" v-for="(answer, index) in answers" :answer="answer" :key="answer.id"></answer>
 
                     <div class="text-center mt-3" v-if="nextUrl">
                         <button @click="fetch(nextUrl)" class="btn btn-outline-secondary">Load More Answers</button>
@@ -56,6 +56,11 @@
                         this.answers.push(...data.data);
                         this.nextUrl = data.next_page_url;
                     })
+            },
+            remove(index) {
+                //Delete answer from answers array
+                this.answers.splice(index, 1);
+                this.count--;
             }
         },
 
