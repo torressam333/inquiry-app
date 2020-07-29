@@ -11,6 +11,10 @@
                         See docs for more info: https://vuejs.org/v2/api/#v-for
                     -->
                     <answer v-for="answer in answers" :answer="answer" :key="answer.id"></answer>
+
+                    <div class="text-center mt-3">
+                        <button class="btn btn-outline-secondary">Load More Answers</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -25,11 +29,35 @@
     import Answer from './Answer';
 
     export default {
-        props: ['answers', 'count'],
+        props: ['question'],
+
+        data() {
+            return {
+                questionId: this.question.id,
+                //Hold answer count from question instance
+                count: this.question.answers_count,
+                //Store all answers
+                answers: [],
+            }
+        },
+
+        created() {
+            //Used for fetching back end api data
+            this.fetch(`/questions/${this.questionId}/answers`);
+        },
+
+        methods: {
+            fetch(endpoint) {
+                axios.get(endpoint)
+                    .then(res => {
+                        console.log(res);
+                    })
+            }
+        },
 
         computed: {
             title() {
-                return `${this.count} ${this.count > 1 ? 'Answers': 'Answer'}`;
+                return `${this.count} ${this.count > 1 ? 'Answers' : 'Answer'}`;
             }
         },
 

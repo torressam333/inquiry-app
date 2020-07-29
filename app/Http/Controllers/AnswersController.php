@@ -15,6 +15,21 @@ use Illuminate\View\View;
 
 class AnswersController extends Controller
 {
+    public function __construct()
+    {
+        //User needs to be signed in except for index
+        $this->middleware('auth')->except('index');
+    }
+
+    public function index(Question $question)
+    {
+        /*
+         * Eager load user model because when we show answers we also show user info
+         * hence the ->with('user)
+         * Bring back answers belonging to questions
+         * */
+        return $question->answers()->with('user')->simplePaginate(3);
+    }
 
     /**
      * Store a newly created resource in storage.

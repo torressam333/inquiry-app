@@ -3780,9 +3780,33 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  props: ['answers', 'count'],
+  props: ['question'],
+  data: function data() {
+    return {
+      questionId: this.question.id,
+      //Hold answer count from question instance
+      count: this.question.answers_count,
+      //Store all answers
+      answers: []
+    };
+  },
+  created: function created() {
+    //Used for fetching back end api data
+    this.fetch("/questions/".concat(this.questionId, "/answers"));
+  },
+  methods: {
+    fetch: function fetch(endpoint) {
+      axios.get(endpoint).then(function (res) {
+        console.log(res);
+      });
+    }
+  },
   computed: {
     title: function title() {
       return "".concat(this.count, " ").concat(this.count > 1 ? 'Answers' : 'Answer');
@@ -40582,7 +40606,9 @@ var render = function() {
                     key: answer.id,
                     attrs: { answer: answer }
                   })
-                })
+                }),
+                _vm._v(" "),
+                _vm._m(0)
               ],
               2
             )
@@ -40597,7 +40623,18 @@ var render = function() {
         ])
       ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-center mt-3" }, [
+      _c("button", { staticClass: "btn btn-outline-secondary" }, [
+        _vm._v("Load More Answers")
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
