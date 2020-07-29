@@ -35,7 +35,7 @@ class RouteServiceProvider extends ServiceProvider
             //From question model, go to answer model then to .user model and load the relationship
             //Hence, Question::with('answers(model).user(model)...
             //return Question::with('answers.user')->where('slug', $slug)->first() ?? abort(404);
-            return Question::where('slug', $slug)->first() ?? abort(404);
+            return Question::with('user')->where('slug', $slug)->first() ?? abort(404);
         });
 
         parent::boot();
