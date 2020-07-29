@@ -3568,6 +3568,7 @@ module.exports = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _event_bus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../event-bus */ "./resources/js/event-bus.js");
 //
 //
 //
@@ -3585,6 +3586,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['answer'],
   data: function data() {
@@ -3593,17 +3595,28 @@ __webpack_require__.r(__webpack_exports__);
       id: this.answer.id
     };
   },
+  created: function created() {
+    var _this = this;
+
+    //Listen to answer accepted event
+    _event_bus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('accepted', function (id) {
+      //Replace initial accepted answer id (isBest) with payload id (this.id)
+      _this.isBest = id === _this.id;
+    });
+  },
   methods: {
     create: function create() {
-      var _this = this;
+      var _this2 = this;
 
       axios.post("/answers/".concat(this.id, "/accept")).then(function (res) {
-        _this.$toast.success(res.data.message, "Success", {
+        _this2.$toast.success(res.data.message, "Success", {
           timeout: 3000,
           position: 'bottomLeft'
         });
 
-        _this.isBest = true;
+        _this2.isBest = true; //Emit event using eventBus
+
+        _event_bus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('accepted', _this2.id);
       });
     }
   },
@@ -53547,6 +53560,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Vote_vue_vue_type_template_id_40e744d5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./resources/js/event-bus.js":
+/*!***********************************!*\
+  !*** ./resources/js/event-bus.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
+/*more on event bus in JS
+* https://pineco.de/creating-a-javascript-event-bus/
+*/
+
+var eventBus = new vue__WEBPACK_IMPORTED_MODULE_0___default.a();
+/* harmony default export */ __webpack_exports__["default"] = (eventBus);
 
 /***/ }),
 
