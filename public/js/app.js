@@ -3805,7 +3805,8 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       //Hold answer count from question instance
       count: this.question.answers_count,
       //Store all answers
-      answers: []
+      answers: [],
+      nextUrl: null
     };
   },
   created: function created() {
@@ -3824,6 +3825,8 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
         //Adds answer to page
         (_this$answers = _this.answers).push.apply(_this$answers, _toConsumableArray(data.data));
+
+        _this.nextUrl = data.next_page_url;
       });
     }
   },
@@ -40628,7 +40631,22 @@ var render = function() {
                   })
                 }),
                 _vm._v(" "),
-                _vm._m(0)
+                _vm.nextUrl
+                  ? _c("div", { staticClass: "text-center mt-3" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-outline-secondary",
+                          on: {
+                            click: function($event) {
+                              return _vm.fetch(_vm.nextUrl)
+                            }
+                          }
+                        },
+                        [_vm._v("Load More Answers")]
+                      )
+                    ])
+                  : _vm._e()
               ],
               2
             )
@@ -40643,18 +40661,7 @@ var render = function() {
         ])
       ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "text-center mt-3" }, [
-      _c("button", { staticClass: "btn btn-outline-secondary" }, [
-        _vm._v("Load More Answers")
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

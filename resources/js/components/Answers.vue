@@ -12,8 +12,8 @@
                     -->
                     <answer v-for="answer in answers" :answer="answer" :key="answer.id"></answer>
 
-                    <div class="text-center mt-3">
-                        <button class="btn btn-outline-secondary">Load More Answers</button>
+                    <div class="text-center mt-3" v-if="nextUrl">
+                        <button @click="fetch(nextUrl)" class="btn btn-outline-secondary">Load More Answers</button>
                     </div>
                 </div>
             </div>
@@ -38,6 +38,7 @@
                 count: this.question.answers_count,
                 //Store all answers
                 answers: [],
+                nextUrl: null,
             }
         },
 
@@ -52,7 +53,8 @@
                     //Destructure res and bring back data object
                     .then(({data}) => {
                         //Adds answer to page
-                       this.answers.push(...data.data);
+                        this.answers.push(...data.data);
+                        this.nextUrl = data.next_page_url;
                     })
             }
         },
