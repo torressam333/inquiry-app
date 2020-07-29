@@ -49,8 +49,10 @@
         methods: {
             fetch(endpoint) {
                 axios.get(endpoint)
-                    .then(res => {
-                        console.log(res);
+                    //Destructure res and bring back data object
+                    .then(({data}) => {
+                        //Adds answer to page
+                       this.answers.push(...data.data);
                     })
             }
         },

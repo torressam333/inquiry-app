@@ -27,6 +27,7 @@ class AnswersController extends Controller
          * Eager load user model because when we show answers we also show user info
          * hence the ->with('user)
          * Bring back answers belonging to questions
+         * Show 3 answers at a time
          * */
         return $question->answers()->with('user')->simplePaginate(3);
     }
