@@ -1,32 +1,37 @@
 <template>
-    <div class="row mt-4" v-cloak v-if="count > 0">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <div class="card-title">
-                        <h2>{{ title }}</h2>
-                    </div>
-                    <hr>
-                    <!--Key adds an ordering hint
-                        See docs for more info: https://vuejs.org/v2/api/#v-for
-                    -->
-                    <answer v-on:deleted="remove(index)" v-for="(answer, index) in answers" :answer="answer" :key="answer.id"></answer>
+    <div>
+        <div class="row mt-4" v-cloak v-if="count > 0">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>{{ title }}</h2>
+                        </div>
+                        <hr>
+                        <!--Key adds an ordering hint
+                            See docs for more info: https://vuejs.org/v2/api/#v-for
+                        -->
+                        <answer v-on:deleted="remove(index)" v-for="(answer, index) in answers" :answer="answer" :key="answer.id"></answer>
 
-                    <div class="text-center mt-3" v-if="nextUrl">
-                        <button @click="fetch(nextUrl)" class="btn btn-outline-secondary">Load More Answers</button>
+                        <div class="text-center mt-3" v-if="nextUrl">
+                            <button @click="fetch(nextUrl)" class="btn btn-outline-secondary">Load More Answers</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="alert alert-info m-4" v-else>
+            <p class="card-body pb-1">There are currently no answers to this question. Be the first to provide one!</p>
+        </div>
+        <!--New answer component-->
+        <new-answer></new-answer>
     </div>
 
-    <div class="alert alert-info m-4" v-else>
-        <p class="card-body pb-1">There are currently no answers to this question. Be the first to provide one!</p>
-    </div>
 </template>
 
 <script>
     import Answer from './Answer';
+    import NewAnswer from "./NewAnswer";
 
     export default {
         props: ['question'],
@@ -71,7 +76,8 @@
         },
 
         components: {
-            Answer
+            Answer,
+            NewAnswer,
         }
     }
 </script>

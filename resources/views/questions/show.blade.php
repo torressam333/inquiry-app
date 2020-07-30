@@ -41,6 +41,5 @@
         </div>
         {{--Specify question property and pass quesiton instance to it--}}
         <answers :question="{{$question}}"></answers>
-        @include('answers._create')
     </div>
 @endsection
