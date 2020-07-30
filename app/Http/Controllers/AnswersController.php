@@ -37,7 +37,7 @@ class AnswersController extends Controller
      *
      * @param Question $question
      * @param Request $request
-     * @return RedirectResponse
+     * @return \Illuminate\Http\JsonResponse
      */
     public function store(Question $question, Request $request)
     {
@@ -45,7 +45,15 @@ class AnswersController extends Controller
            'body' => 'required|min:2'
         ]);
 
-        $question->answers()->create(['body' => $request->body, 'user_id'=> Auth::id()]);
+        $answer = $question->answers()->create(['body' => $request->body, 'user_id'=> Auth::id()]);
+
+        if ($request->expectsJson()) {
+            return response()->json([
+                'message'=> "Your answer has been submitted successfully",
+                //Eager load user relationship
+                'answer' => $answer->load('user'),
+            ]);
+        }
 
         return back()->with('success', "Your answer has been submitted successfully");
     }

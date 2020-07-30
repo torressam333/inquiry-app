@@ -3830,6 +3830,10 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
     this.fetch("/questions/".concat(this.questionId, "/answers"));
   },
   methods: {
+    add: function add(answer) {
+      this.answers.push(answer);
+      this.count++;
+    },
     fetch: function fetch(endpoint) {
       var _this = this;
 
@@ -3965,6 +3969,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['questionId'],
   data: function data() {
     return {
       body: ''
@@ -3974,6 +3979,28 @@ __webpack_require__.r(__webpack_exports__);
     isInvalid: function isInvalid() {
       //check if user is signed in or body length
       return !this.signedIn || this.body.length < 10;
+    }
+  },
+  methods: {
+    create: function create() {
+      var _this = this;
+
+      //Endpoint for adding an answer to a question
+      axios.post("/questions/".concat(this.questionId, "/answers"), {
+        //from payload
+        body: this.body
+      })["catch"](function (error) {
+        _this.$toast.error(error.response.data.message, "Error");
+      }).then(function (_ref) {
+        var data = _ref.data;
+
+        _this.$toast.success(data.message, "Success"); //Reset text area
+
+
+        _this.body = ''; //Add answer to answers array for immediate UI update
+
+        _this.$emit('created', data.answer);
+      });
     }
   }
 });
@@ -4068,7 +4095,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      count: this.model.votes_count,
+      count: this.model.votes_count || 0,
       id: this.model.id
     };
   },
@@ -40739,7 +40766,10 @@ var render = function() {
             ])
           ]),
       _vm._v(" "),
-      _c("new-answer")
+      _c("new-answer", {
+        attrs: { "question-id": _vm.question.id },
+        on: { created: _vm.add }
+      })
     ],
     1
   )
@@ -40819,42 +40849,53 @@ var render = function() {
           _vm._v(" "),
           _c("hr"),
           _vm._v(" "),
-          _c("form", [
-            _c("div", { staticClass: "form-group" }, [
-              _c("textarea", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.body,
-                    expression: "body"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: { rows: "10", required: "", name: "body" },
-                domProps: { value: _vm.body },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.body = $event.target.value
-                  }
+          _c(
+            "form",
+            {
+              on: {
+                submit: function($event) {
+                  $event.preventDefault()
+                  return _vm.create($event)
                 }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group" }, [
-              _c(
-                "button",
-                {
-                  staticClass: "btn btn-md btn-outline-info",
-                  attrs: { type: "submit", disabled: _vm.isInvalid }
-                },
-                [_vm._v("Submit")]
-              )
-            ])
-          ])
+              }
+            },
+            [
+              _c("div", { staticClass: "form-group" }, [
+                _c("textarea", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.body,
+                      expression: "body"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: { rows: "7", required: "", name: "body" },
+                  domProps: { value: _vm.body },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.body = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-md btn-outline-info",
+                    attrs: { type: "submit", disabled: _vm.isInvalid }
+                  },
+                  [_vm._v("Submit")]
+                )
+              ])
+            ]
+          )
         ])
       ])
     ])

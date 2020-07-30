@@ -24,7 +24,7 @@
             <p class="card-body pb-1">There are currently no answers to this question. Be the first to provide one!</p>
         </div>
         <!--New answer component-->
-        <new-answer></new-answer>
+        <new-answer @created="add" :question-id="question.id"></new-answer>
     </div>
 
 </template>
@@ -53,6 +53,10 @@
         },
 
         methods: {
+            add(answer) {
+                this.answers.push(answer);
+                this.count++;
+            },
             fetch(endpoint) {
                 axios.get(endpoint)
                     //Destructure res and bring back data object
