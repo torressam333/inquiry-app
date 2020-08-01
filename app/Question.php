@@ -16,7 +16,7 @@ class Question extends Model
 
     protected $fillable = ['title', 'body'];
 
-    protected $appends = ['created_date', 'is_favorited', 'favorites_count'];
+    protected $appends = ['created_date', 'is_favorited', 'favorites_count', 'body_html'];
 
     public function user()
     {
@@ -53,7 +53,6 @@ class Question extends Model
         }
         return "unanswered";
     }
-
 
     public function getBodyHtmlAttribute()
     {
