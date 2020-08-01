@@ -4054,10 +4054,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['question'],
   data: function data() {
@@ -40928,9 +40924,6 @@ var render = function() {
                     "div",
                     { staticClass: "col-4" },
                     [
-                      _vm._v(
-                        "\n                                @include('shared._author', [\n                                'model' => $question,\n                                'label' => 'asked'\n                                ])\n                                "
-                      ),
                       _c("user-info", {
                         attrs: { model: _vm.question, label: "Asked" }
                       })
