@@ -4060,6 +4060,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['question'],
   data: function data() {
@@ -4067,8 +4086,30 @@ __webpack_require__.r(__webpack_exports__);
       //Set question properties
       title: this.question.title,
       body: this.question.body,
-      bodyHtml: this.question.body_html
+      bodyHtml: this.question.body_html,
+      editing: false,
+      id: this.question.id,
+      //property to hold the question before modification
+      beforeEditCache: {}
     };
+  },
+  computed: {
+    isInvalid: function isInvalid() {
+      return this.body.length < 10 || this.title.length < 9;
+    },
+    endpoint: function endpoint() {
+      return "/questions/".concat(this.id);
+    }
+  },
+  methods: {
+    edit: function edit() {
+      //Store old question in cache
+      this.beforeEditCache = {
+        body: this.body,
+        title: this.title
+      };
+      this.editing = true;
+    }
   }
 });
 
@@ -40901,80 +40942,174 @@ var render = function() {
   return _c("div", { staticClass: "row justify-content-center" }, [
     _c("div", { staticClass: "col-md-12" }, [
       _c("div", { staticClass: "card" }, [
-        _c("div", { staticClass: "card-body" }, [
-          _c("div", { staticClass: "card-title" }, [
-            _c("div", { staticClass: "d-flex align-items-center" }, [
-              _c("h1", [_vm._v(_vm._s(_vm.title))]),
-              _vm._v(" "),
-              _vm._m(0)
-            ])
-          ]),
-          _vm._v(" "),
-          _c("hr"),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "media" },
-            [
-              _c("vote", { attrs: { model: _vm.question, name: "question" } }),
-              _vm._v(" "),
-              _c("div", { staticClass: "media-body" }, [
-                _c("div", { domProps: { innerHTML: _vm._s(_vm.bodyHtml) } }),
+        _vm.editing
+          ? _c(
+              "form",
+              {
+                staticClass: "card-body",
+                on: {
+                  submit: function($event) {
+                    $event.preventDefault()
+                    return _vm.update($event)
+                  }
+                }
+              },
+              [
+                _c("div", { staticClass: "card-title" }, [
+                  _c("label", [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.title,
+                          expression: "title"
+                        }
+                      ],
+                      staticClass: "form-control form-control-lg",
+                      attrs: { type: "text" },
+                      domProps: { value: _vm.title },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.title = $event.target.value
+                        }
+                      }
+                    })
+                  ])
+                ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "row" }, [
-                  _c("div", { staticClass: "col-4" }, [
-                    _c("div", { staticClass: "ml-auto" }, [
-                      _vm.authorize("modify", _vm.question)
-                        ? _c(
-                            "a",
-                            {
-                              staticClass: "btn btn-sm btn-outline-info",
-                              on: {
-                                click: function($event) {
-                                  $event.preventDefault()
-                                  return _vm.edit($event)
-                                }
-                              }
-                            },
-                            [_vm._v("Edit")]
-                          )
-                        : _vm._e(),
+                _c("hr"),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "media" },
+                  [
+                    _c("vote", {
+                      attrs: { model: _vm.question, name: "question" }
+                    }),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "media-body" }, [
+                      _c("div", {
+                        domProps: { innerHTML: _vm._s(_vm.bodyHtml) }
+                      }),
                       _vm._v(" "),
-                      _vm.authorize("modify", _vm.question)
-                        ? _c(
-                            "button",
-                            {
-                              staticClass: "btn btn-sm btn-outline-danger",
-                              on: { click: _vm.destroy }
-                            },
-                            [
-                              _vm._v(
-                                "Delete\n                                    "
-                              )
-                            ]
-                          )
-                        : _vm._e()
+                      _c("div", { staticClass: "row" }, [
+                        _c("div", { staticClass: "col-4" }, [
+                          _c("div", { staticClass: "ml-auto" }, [
+                            _vm.authorize("modify", _vm.question)
+                              ? _c(
+                                  "a",
+                                  {
+                                    staticClass: "btn btn-sm btn-outline-info",
+                                    on: {
+                                      click: function($event) {
+                                        $event.preventDefault()
+                                        return _vm.edit($event)
+                                      }
+                                    }
+                                  },
+                                  [_vm._v("Edit")]
+                                )
+                              : _vm._e(),
+                            _vm._v(" "),
+                            _vm.authorize("modify", _vm.question)
+                              ? _c(
+                                  "button",
+                                  {
+                                    staticClass:
+                                      "btn btn-sm btn-outline-danger",
+                                    on: { click: _vm.destroy }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "Delete\n                                    "
+                                    )
+                                  ]
+                                )
+                              : _vm._e()
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-4" }),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "col-4" },
+                          [
+                            _c("user-info", {
+                              attrs: { model: _vm.question, label: "Asked" }
+                            })
+                          ],
+                          1
+                        )
+                      ])
                     ])
+                  ],
+                  1
+                )
+              ]
+            )
+          : _c("div", { staticClass: "card-body" }, [
+              _c("div", { staticClass: "card-title" }, [
+                _c("div", { staticClass: "d-flex align-items-center" }, [
+                  _c("h1", [_vm._v(_vm._s(_vm.title))]),
+                  _vm._v(" "),
+                  _vm._m(0)
+                ])
+              ]),
+              _vm._v(" "),
+              _c("hr"),
+              _vm._v(" "),
+              _c("div", { staticClass: "media" }, [
+                _c("div", { staticClass: "media-body" }, [
+                  _c("div", { staticClass: "form-group" }, [
+                    _c("textarea", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.body,
+                          expression: "body"
+                        }
+                      ],
+                      staticClass: "form-control",
+                      attrs: { rows: "10", required: "" },
+                      domProps: { value: _vm.body },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.body = $event.target.value
+                        }
+                      }
+                    })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "col-4" }),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-outline-primary",
+                      attrs: { type: "submit", disabled: _vm.isInvalid }
+                    },
+                    [_vm._v("Update")]
+                  ),
                   _vm._v(" "),
                   _c(
-                    "div",
-                    { staticClass: "col-4" },
-                    [
-                      _c("user-info", {
-                        attrs: { model: _vm.question, label: "Asked" }
-                      })
-                    ],
-                    1
+                    "button",
+                    {
+                      staticClass: "btn btn-outline-danger",
+                      attrs: { type: "button" },
+                      on: { click: _vm.cancel }
+                    },
+                    [_vm._v("Cancel")]
                   )
                 ])
               ])
-            ],
-            1
-          )
-        ])
+            ])
       ])
     ])
   ])

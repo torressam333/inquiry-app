@@ -2,15 +2,12 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-body">
+
+                <form class="card-body" v-if="editing" @submit.prevent="update">
                     <div class="card-title">
-                        <div class="d-flex align-items-center">
-                            <h1>{{ title }}</h1>
-                            <div class="ml-auto">
-                                <a href="/questions" class="btn btn-outline-secondary">Back to
-                                    all Questions</a>
-                            </div>
-                        </div>
+                        <label>
+                            <input type="text" class="form-control form-control-lg" v-model="title">
+                        </label>
                     </div>
                     <hr>
                     <div class="media">
@@ -36,6 +33,28 @@
                             </div>
                         </div>
                     </div>
+                </form>
+
+                <div class="card-body" v-else>
+                    <div class="card-title">
+                        <div class="d-flex align-items-center">
+                            <h1>{{ title }}</h1>
+                            <div class="ml-auto">
+                                <a href="/questions" class="btn btn-outline-secondary">Back to
+                                    all Questions</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                        <div class="media-body">
+                            <div class="form-group">
+                                <textarea rows="10" v-model="body" class="form-control" required></textarea>
+                            </div>
+                            <button class="btn btn-outline-primary" type="submit" :disabled="isInvalid">Update</button>
+                            <button class="btn btn-outline-danger" type="button" @click="cancel">Cancel</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -51,7 +70,29 @@
                 title: this.question.title,
                 body: this.question.body,
                 bodyHtml: this.question.body_html,
+                editing: false,
+                id: this.question.id,
+                //property to hold the question before modification
+                beforeEditCache: {}
             }
         },
+        computed: {
+            isInvalid() {
+                return this.body.length < 10 || this.title.length < 9
+            },
+            endpoint() {
+                return `/questions/${this.id}`;
+            }
+        },
+        methods: {
+            edit() {
+                //Store old question in cache
+                this.beforeEditCache = {
+                    body: this.body,
+                    title: this.title
+                };
+                this.editing = true;
+            },
+        }
     }
 </script>
