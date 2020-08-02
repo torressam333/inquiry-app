@@ -4054,6 +4054,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['question'],
   data: function data() {
@@ -40916,7 +40922,40 @@ var render = function() {
                 _c("div", { domProps: { innerHTML: _vm._s(_vm.bodyHtml) } }),
                 _vm._v(" "),
                 _c("div", { staticClass: "row" }, [
-                  _c("div", { staticClass: "col-4" }),
+                  _c("div", { staticClass: "col-4" }, [
+                    _c("div", { staticClass: "ml-auto" }, [
+                      _vm.authorize("modify", _vm.question)
+                        ? _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-sm btn-outline-info",
+                              on: {
+                                click: function($event) {
+                                  $event.preventDefault()
+                                  return _vm.edit($event)
+                                }
+                              }
+                            },
+                            [_vm._v("Edit")]
+                          )
+                        : _vm._e(),
+                      _vm._v(" "),
+                      _vm.authorize("modify", _vm.question)
+                        ? _c(
+                            "button",
+                            {
+                              staticClass: "btn btn-sm btn-outline-danger",
+                              on: { click: _vm.destroy }
+                            },
+                            [
+                              _vm._v(
+                                "Delete\n                                    "
+                              )
+                            ]
+                          )
+                        : _vm._e()
+                    ])
+                  ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-4" }),
                   _vm._v(" "),

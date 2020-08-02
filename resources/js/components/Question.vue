@@ -12,9 +12,7 @@
                             </div>
                         </div>
                     </div>
-
                     <hr>
-
                     <div class="media">
                         <vote :model="question" name="question"></vote>
                         <div class="media-body">
@@ -22,7 +20,15 @@
 
                             </div>
                             <div class="row">
-                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <div class="ml-auto">
+                                        <a v-if="authorize('modify', question)" @click.prevent="edit"
+                                           class="btn btn-sm btn-outline-info">Edit</a>
+                                        <button v-if="authorize('modify', question)" @click="destroy"
+                                                class="btn btn-sm btn-outline-danger">Delete
+                                        </button>
+                                    </div>
+                                </div>
                                 <div class="col-4"></div>
                                 <div class="col-4">
                                     <user-info v-bind:model="question" label="Asked"></user-info>
