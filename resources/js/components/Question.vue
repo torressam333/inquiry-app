@@ -93,6 +93,13 @@
                 };
                 this.editing = true;
             },
+            cancel() {
+                //Before canceling, restore original title/body
+                this.body = this.beforeEditCache.body;
+                this.title = this.beforeEditCache.title;
+                this.editing = false;
+            },
+
         }
     }
 </script>

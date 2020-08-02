@@ -4109,6 +4109,12 @@ __webpack_require__.r(__webpack_exports__);
         title: this.title
       };
       this.editing = true;
+    },
+    cancel: function cancel() {
+      //Before canceling, restore original title/body
+      this.body = this.beforeEditCache.body;
+      this.title = this.beforeEditCache.title;
+      this.editing = false;
     }
   }
 });
