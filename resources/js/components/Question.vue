@@ -64,8 +64,12 @@
 </template>
 
 <script>
+    import Vote from "./Vote.vue";
+    import UserInfo from "./UserInfo.vue";
+
     export default {
         props: ['question'],
+        components: {Vote, UserInfo},
         data() {
             return {
                 title: this.question.title,
