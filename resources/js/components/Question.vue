@@ -5,9 +5,9 @@
                 <div class="card-body">
                     <div class="card-title">
                         <div class="d-flex align-items-center">
-                            <h1>{{ $question->title }}</h1>
+                            <h1>{{ title }}</h1>
                             <div class="ml-auto">
-                                <a href="{{ route('questions.index') }}" class="btn btn-outline-secondary">Back to
+                                <a href="/questions" class="btn btn-outline-secondary">Back to
                                     all Questions</a>
                             </div>
                         </div>
@@ -16,18 +16,14 @@
                     <hr>
 
                     <div class="media">
-                        <vote :model="{{$question}}" name="question"></vote>
+                        <vote :model="question" name="question"></vote>
                         <div class="media-body">
-                            {!! $question->body_html !!}
+                            <div v-html="bodyHtml"></div>
                             <div class="row">
-                                <div class="col-4"></div>
+                                <div class="colNquestion-4"></div>
                                 <div class="col-4"></div>
                                 <div class="col-4">
-                                    @include('shared._author', [
-                                    'model' => $question,
-                                    'label' => 'asked'
-                                    ])
-                                    <user-info v-bind:model="{{$question}}" label="Asked"></user-info>
+                                    <user-info :model="question" label="Asked"></user-info>
                                 </div>
                             </div>
                         </div>
@@ -37,3 +33,16 @@
         </div>
     </div>
 </template>
+
+<script>
+    export default {
+        props: ['question'],
+        data() {
+            return {
+                title: this.question.title,
+                body: this.question.body,
+                bodyHtml: this.question.body_html
+            }
+        }
+    }
+</script>
