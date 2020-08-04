@@ -20,7 +20,12 @@
                         <div class="media-body">
                             <div v-html="bodyHtml"></div>
                             <div class="row">
-                                <div class="colNquestion-4"></div>
+                                <div class="col-4">
+                                    <div class="ml-auto">
+                                        <a v-if="authorize('modify', question)" @click.prevent="edit" class="btn btn-sm btn-outline-info">Edit</a>
+                                        <button v-if="authorize('modify', question)"  @click="destroy" class="btn btn-sm btn-outline-danger">Delete</button>
+                                    </div>
+                                </div>
                                 <div class="col-4"></div>
                                 <div class="col-4">
                                     <user-info :model="question" label="Asked"></user-info>
