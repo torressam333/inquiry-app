@@ -3939,6 +3939,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['body']
 });
@@ -40919,12 +40921,18 @@ var render = function() {
   return _c("div", { staticClass: "card" }, [
     _vm._m(0),
     _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "card-body" },
-      [_vm._t("default"), _vm._v(" "), _c("div", [_vm._v("Preview...")])],
-      2
-    )
+    _c("div", { staticClass: "card-body tab-content" }, [
+      _c(
+        "div",
+        { staticClass: "tab-pane active", attrs: { id: "write" } },
+        [_vm._t("default")],
+        2
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "tab-pane", attrs: { id: "preview" } }, [
+        _vm._v("Preview...")
+      ])
+    ])
   ])
 }
 var staticRenderFns = [
@@ -40935,15 +40943,25 @@ var staticRenderFns = [
     return _c("div", { staticClass: "card-header" }, [
       _c("ul", { staticClass: "nav nav-tabs card-header-tabs" }, [
         _c("li", { staticClass: "nav-item" }, [
-          _c("a", { staticClass: "nav-link active", attrs: { href: "#" } }, [
-            _vm._v("Write")
-          ])
+          _c(
+            "a",
+            {
+              staticClass: "nav-link active",
+              attrs: { "data-toggle": "tab", href: "#write" }
+            },
+            [_vm._v("Write")]
+          )
         ]),
         _vm._v(" "),
         _c("li", { staticClass: "nav-item" }, [
-          _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-            _vm._v("Preview")
-          ])
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: { "data-toggle": "tab", href: "#preview" }
+            },
+            [_vm._v("Preview")]
+          )
         ])
       ])
     ])
