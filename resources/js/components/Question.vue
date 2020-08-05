@@ -12,7 +12,9 @@
                     <div class="media">
                         <div class="media-body">
                             <div class="form-group">
-                                <textarea rows="10" v-model="body" class="form-control" required></textarea>
+                                <m-editor :body="body">
+                                    <textarea rows="10" v-model="body" class="form-control" required></textarea>
+                                </m-editor>
                             </div>
                             <button class="btn btn-primary" :disabled="isInvalid">Update</button>
                             <button class="btn btn-outline-secondary" @click="cancel" type="button">Cancel</button>
@@ -33,7 +35,6 @@
 
                     <div class="media">
                         <vote :model="question" name="question"></vote>
-
                         <div class="media-body">
                             <div v-html="bodyHtml"></div>
                             <div class="row">
@@ -60,11 +61,12 @@
     import Vote from './Vote.vue';
     import UserInfo from './UserInfo.vue';
     import modification from "../mixins/modification";
+    import MEditor from "./MEditor";
 
     export default {
         props: ['question'],
         mixins: [modification],
-        components: { Vote, UserInfo },
+        components: { Vote, UserInfo, MEditor },
         data () {
             return {
                 title: this.question.title,
