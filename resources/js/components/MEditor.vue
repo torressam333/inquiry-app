@@ -21,8 +21,12 @@
 
 <script>
     import MarkdownIt from 'markdown-it';
+    import prism from 'markdown-it-prism';
     import autosize from 'autosize';
+    import 'prismjs/themes/prism-tomorrow.css';
+
     const markDown = new MarkdownIt();
+    markDown.use(prism);
 
     export default {
         props: ['body'],
