@@ -34,11 +34,6 @@
                 return markDown.render(this.body);
             }
         },
-        //Event hooks
-        mounted() {
-            //textarea is full height on page load
-            autosize(this.$el.querySelector('textarea'));
-        },
         updated() {
             autosize(this.$el.querySelector('textarea'));
         }
