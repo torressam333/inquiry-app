@@ -58,15 +58,12 @@
 </template>
 
 <script>
-    import Vote from './Vote.vue';
-    import UserInfo from './UserInfo.vue';
+
     import modification from "../mixins/modification";
-    import MEditor from "./MEditor";
 
     export default {
         props: ['question'],
         mixins: [modification],
-        components: { Vote, UserInfo, MEditor },
         data () {
             return {
                 title: this.question.title,

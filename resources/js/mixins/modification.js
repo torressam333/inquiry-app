@@ -1,7 +1,11 @@
 import highlight from "./highlight";
+import Vote from '../components/Vote.vue';
+import UserInfo from '../components/UserInfo.vue';
+import MEditor from "../components/MEditor";
 
 export default {
     mixins: [highlight],
+    components: { Vote, UserInfo, MEditor },
 
     data() {
         return {

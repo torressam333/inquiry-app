@@ -3937,10 +3937,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Vote_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Vote.vue */ "./resources/js/components/Vote.vue");
-/* harmony import */ var _UserInfo_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UserInfo.vue */ "./resources/js/components/UserInfo.vue");
-/* harmony import */ var _mixins_modification__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../mixins/modification */ "./resources/js/mixins/modification.js");
-/* harmony import */ var _MEditor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MEditor */ "./resources/js/components/MEditor.vue");
+/* harmony import */ var _mixins_modification__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../mixins/modification */ "./resources/js/mixins/modification.js");
 //
 //
 //
@@ -3973,18 +3970,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
-
-
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['answer'],
-  mixins: [_mixins_modification__WEBPACK_IMPORTED_MODULE_2__["default"]],
-  components: {
-    Vote: _Vote_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
-    UserInfo: _UserInfo_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    MEditor: _MEditor__WEBPACK_IMPORTED_MODULE_3__["default"]
-  },
+  mixins: [_mixins_modification__WEBPACK_IMPORTED_MODULE_0__["default"]],
   data: function data() {
     return {
       body: this.answer.body,
@@ -4353,10 +4342,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Vote_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Vote.vue */ "./resources/js/components/Vote.vue");
-/* harmony import */ var _UserInfo_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UserInfo.vue */ "./resources/js/components/UserInfo.vue");
-/* harmony import */ var _mixins_modification__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../mixins/modification */ "./resources/js/mixins/modification.js");
-/* harmony import */ var _MEditor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MEditor */ "./resources/js/components/MEditor.vue");
+/* harmony import */ var _mixins_modification__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../mixins/modification */ "./resources/js/mixins/modification.js");
 //
 //
 //
@@ -4416,18 +4402,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
-
-
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['question'],
-  mixins: [_mixins_modification__WEBPACK_IMPORTED_MODULE_2__["default"]],
-  components: {
-    Vote: _Vote_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
-    UserInfo: _UserInfo_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    MEditor: _MEditor__WEBPACK_IMPORTED_MODULE_3__["default"]
-  },
+  mixins: [_mixins_modification__WEBPACK_IMPORTED_MODULE_0__["default"]],
   data: function data() {
     return {
       title: this.question.title,
@@ -70977,9 +70955,20 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _highlight__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./highlight */ "./resources/js/mixins/highlight.js");
+/* harmony import */ var _components_Vote_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Vote.vue */ "./resources/js/components/Vote.vue");
+/* harmony import */ var _components_UserInfo_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/UserInfo.vue */ "./resources/js/components/UserInfo.vue");
+/* harmony import */ var _components_MEditor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/MEditor */ "./resources/js/components/MEditor.vue");
+
+
+
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mixins: [_highlight__WEBPACK_IMPORTED_MODULE_0__["default"]],
+  components: {
+    Vote: _components_Vote_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    UserInfo: _components_UserInfo_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    MEditor: _components_MEditor__WEBPACK_IMPORTED_MODULE_3__["default"]
+  },
   data: function data() {
     return {
       editing: false
