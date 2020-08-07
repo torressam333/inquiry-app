@@ -57233,7 +57233,10 @@ var render = function() {
             ]
           },
           [
-            _c("div", { domProps: { innerHTML: _vm._s(_vm.bodyHtml) } }),
+            _c("div", {
+              ref: "bodyHtml",
+              domProps: { innerHTML: _vm._s(_vm.bodyHtml) }
+            }),
             _vm._v(" "),
             _c("div", { staticClass: "row" }, [
               _c("div", { staticClass: "col-4" }, [
