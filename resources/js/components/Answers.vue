@@ -13,8 +13,8 @@
                         -->
                         <answer v-on:deleted="remove(index)" v-for="(answer, index) in answers" :answer="answer" :key="answer.id"></answer>
 
-                        <div class="text-center mt-3" v-if="nextUrl">
-                            <button @click="fetch(nextUrl)" class="btn btn-outline-secondary">Load More Answers</button>
+                        <div class="text-center mt-3" v-if="theNextUrl">
+                            <button @click.prevent="fetch(theNextUrl)" class="btn btn-outline-secondary">Load more answers</button>
                         </div>
                     </div>
                 </div>
@@ -30,58 +30,73 @@
 </template>
 
 <script>
-    import Answer from './Answer';
-    import NewAnswer from "./NewAnswer";
-
+    import Answer from './Answer.vue';
+    import NewAnswer from './NewAnswer.vue';
+    import highlight from '../mixins/highlight';
+    import EventBus from '../event-bus'
     export default {
         props: ['question'],
-
-        data() {
+        mixins: [highlight],
+        data () {
             return {
                 questionId: this.question.id,
-                //Hold answer count from question instance
                 count: this.question.answers_count,
-                //Store all answers
                 answers: [],
+                answerIds: [],
                 nextUrl: null,
+                excludeAnswers: []
             }
         },
-
-        created() {
-            //Used for fetching back end api data
+        created () {
             this.fetch(`/questions/${this.questionId}/answers`);
         },
-
         methods: {
-            add(answer) {
+            add (answer) {
+                this.excludeAnswers.push(answer);
                 this.answers.push(answer);
                 this.count++;
+                this.$nextTick(() => {
+                    this.highlight(`answer-${answer.id}`);
+                })
+                if (this.count === 1) {
+                    EventBus.$emit('answers-count-changed', this.count);
+                }
             },
-            fetch(endpoint) {
-                axios.get(endpoint)
-                    //Destructure res and bring back data object
-                    .then(({data}) => {
-                        //Adds answer to page
-                        this.answers.push(...data.data);
-                        this.nextUrl = data.next_page_url;
-                    })
-            },
-            remove(index) {
-                //Delete answer from answers array
+            remove (index) {
                 this.answers.splice(index, 1);
                 this.count--;
+                if (this.count === 0) {
+                    EventBus.$emit('answers-count-changed', this.count);
+                }
+            },
+            fetch (endpoint) {
+                this.answerIds = [];
+                axios.get(endpoint)
+                    .then(({data}) => {
+                        this.answerIds = data.data.map(a => a.id);
+                        this.answers.push(...data.data);
+
+                        this.nextUrl = data.next_page_url;
+                    })
+                    .then(() => {
+                        this.answerIds.forEach(id => {
+                            //Call after vue finishes updating the DOM
+                            this.highlight(`answer-${id}`);
+                        })
+                    })
             }
         },
-
         computed: {
-            title() {
-                return `${this.count} ${this.count > 1 ? 'Answers' : 'Answer'}`;
+            title () {
+                return this.count + " " + (this.count > 1 ? 'Answers' : 'Answer');
+            },
+            theNextUrl () {
+                if (this.nextUrl && this.excludeAnswers.length) {
+                    return this.nextUrl + this.excludeAnswers.map(a => '&excludes[]=' + a.id).join('');
+                }
+                return this.nextUrl;
             }
         },
-
-        components: {
-            Answer,
-            NewAnswer,
-        }
+        components: { Answer, NewAnswer }
     }
 </script>

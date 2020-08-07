@@ -4031,8 +4031,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Answer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Answer */ "./resources/js/components/Answer.vue");
-/* harmony import */ var _NewAnswer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NewAnswer */ "./resources/js/components/NewAnswer.vue");
+/* harmony import */ var _Answer_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Answer.vue */ "./resources/js/components/Answer.vue");
+/* harmony import */ var _NewAnswer_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NewAnswer.vue */ "./resources/js/components/NewAnswer.vue");
+/* harmony import */ var _mixins_highlight__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../mixins/highlight */ "./resources/js/mixins/highlight.js");
+/* harmony import */ var _event_bus__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../event-bus */ "./resources/js/event-bus.js");
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -4078,56 +4080,87 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 //
 
 
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['question'],
+  mixins: [_mixins_highlight__WEBPACK_IMPORTED_MODULE_2__["default"]],
   data: function data() {
     return {
       questionId: this.question.id,
-      //Hold answer count from question instance
       count: this.question.answers_count,
-      //Store all answers
       answers: [],
-      nextUrl: null
+      answerIds: [],
+      nextUrl: null,
+      excludeAnswers: []
     };
   },
   created: function created() {
-    //Used for fetching back end api data
     this.fetch("/questions/".concat(this.questionId, "/answers"));
   },
   methods: {
     add: function add(answer) {
-      this.answers.push(answer);
-      this.count++;
-    },
-    fetch: function fetch(endpoint) {
       var _this = this;
 
-      axios.get(endpoint) //Destructure res and bring back data object
-      .then(function (_ref) {
-        var _this$answers;
-
-        var data = _ref.data;
-
-        //Adds answer to page
-        (_this$answers = _this.answers).push.apply(_this$answers, _toConsumableArray(data.data));
-
-        _this.nextUrl = data.next_page_url;
+      this.excludeAnswers.push(answer);
+      this.answers.push(answer);
+      this.count++;
+      this.$nextTick(function () {
+        _this.highlight("answer-".concat(answer.id));
       });
+
+      if (this.count === 1) {
+        _event_bus__WEBPACK_IMPORTED_MODULE_3__["default"].$emit('answers-count-changed', this.count);
+      }
     },
     remove: function remove(index) {
-      //Delete answer from answers array
       this.answers.splice(index, 1);
       this.count--;
+
+      if (this.count === 0) {
+        _event_bus__WEBPACK_IMPORTED_MODULE_3__["default"].$emit('answers-count-changed', this.count);
+      }
+    },
+    fetch: function fetch(endpoint) {
+      var _this2 = this;
+
+      this.answerIds = [];
+      axios.get(endpoint).then(function (_ref) {
+        var _this2$answers;
+
+        var data = _ref.data;
+        _this2.answerIds = data.data.map(function (a) {
+          return a.id;
+        });
+
+        (_this2$answers = _this2.answers).push.apply(_this2$answers, _toConsumableArray(data.data));
+
+        _this2.nextUrl = data.next_page_url;
+      }).then(function () {
+        _this2.answerIds.forEach(function (id) {
+          //Call after vue finishes updating the DOM
+          _this2.highlight("answer-".concat(id));
+        });
+      });
     }
   },
   computed: {
     title: function title() {
-      return "".concat(this.count, " ").concat(this.count > 1 ? 'Answers' : 'Answer');
+      return this.count + " " + (this.count > 1 ? 'Answers' : 'Answer');
+    },
+    theNextUrl: function theNextUrl() {
+      if (this.nextUrl && this.excludeAnswers.length) {
+        return this.nextUrl + this.excludeAnswers.map(function (a) {
+          return '&excludes[]=' + a.id;
+        }).join('');
+      }
+
+      return this.nextUrl;
     }
   },
   components: {
-    Answer: _Answer__WEBPACK_IMPORTED_MODULE_0__["default"],
-    NewAnswer: _NewAnswer__WEBPACK_IMPORTED_MODULE_1__["default"]
+    Answer: _Answer_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    NewAnswer: _NewAnswer_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
   }
 });
 
@@ -4271,6 +4304,7 @@ markDown.use(markdown_it_prism__WEBPACK_IMPORTED_MODULE_1___default.a);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _MEditor_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MEditor.vue */ "./resources/js/components/MEditor.vue");
 //
 //
 //
@@ -4294,8 +4328,36 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['questionId'],
+  components: {
+    MEditor: _MEditor_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  methods: {
+    create: function create() {
+      var _this = this;
+
+      axios.post("/questions/".concat(this.questionId, "/answers"), {
+        body: this.body
+      })["catch"](function (error) {
+        _this.$toast.error(error.response.data.message, "Error");
+      }).then(function (_ref) {
+        var data = _ref.data;
+
+        _this.$toast.success(data.message, "Success");
+
+        _this.body = '';
+
+        _this.$emit('created', data.answer);
+      });
+    }
+  },
   data: function data() {
     return {
       body: ''
@@ -4303,30 +4365,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   computed: {
     isInvalid: function isInvalid() {
-      //check if user is signed in or body length
       return !this.signedIn || this.body.length < 10;
-    }
-  },
-  methods: {
-    create: function create() {
-      var _this = this;
-
-      //Endpoint for adding an answer to a question
-      axios.post("/questions/".concat(this.questionId, "/answers"), {
-        //from payload
-        body: this.body
-      })["catch"](function (error) {
-        _this.$toast.error(error.response.data.message, "Error");
-      }).then(function (_ref) {
-        var data = _ref.data;
-
-        _this.$toast.success(data.message, "Success"); //Reset text area
-
-
-        _this.body = ''; //Add answer to answers array for immediate UI update
-
-        _this.$emit('created', data.answer);
-      });
     }
   }
 });
@@ -57213,6 +57252,7 @@ var render = function() {
           [
             _c("div", {
               ref: "bodyHtml",
+              attrs: { id: _vm.uniqueName },
               domProps: { innerHTML: _vm._s(_vm.bodyHtml) }
             }),
             _vm._v(" "),
@@ -57319,7 +57359,7 @@ var render = function() {
                       })
                     }),
                     _vm._v(" "),
-                    _vm.nextUrl
+                    _vm.theNextUrl
                       ? _c("div", { staticClass: "text-center mt-3" }, [
                           _c(
                             "button",
@@ -57327,11 +57367,12 @@ var render = function() {
                               staticClass: "btn btn-outline-secondary",
                               on: {
                                 click: function($event) {
-                                  return _vm.fetch(_vm.nextUrl)
+                                  $event.preventDefault()
+                                  return _vm.fetch(_vm.theNextUrl)
                                 }
                               }
                             },
-                            [_vm._v("Load More Answers")]
+                            [_vm._v("Load more answers")]
                           )
                         ])
                       : _vm._e()
@@ -57508,38 +57549,56 @@ var render = function() {
               }
             },
             [
-              _c("div", { staticClass: "form-group" }, [
-                _c("textarea", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.body,
-                      expression: "body"
-                    }
-                  ],
-                  staticClass: "form-control",
-                  attrs: { rows: "7", required: "", name: "body" },
-                  domProps: { value: _vm.body },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.body = $event.target.value
-                    }
-                  }
-                })
-              ]),
+              _c(
+                "div",
+                { staticClass: "form-group" },
+                [
+                  _c(
+                    "m-editor",
+                    { attrs: { body: _vm.body, name: "new-answer" } },
+                    [
+                      _c("textarea", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.body,
+                            expression: "body"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { rows: "7", required: "", name: "body" },
+                        domProps: { value: _vm.body },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.body = $event.target.value
+                          }
+                        }
+                      })
+                    ]
+                  )
+                ],
+                1
+              ),
               _vm._v(" "),
               _c("div", { staticClass: "form-group" }, [
                 _c(
                   "button",
                   {
-                    staticClass: "btn btn-md btn-outline-info",
+                    staticClass: "btn btn-lg btn-outline-primary",
                     attrs: { type: "submit", disabled: _vm.isInvalid }
                   },
-                  [_vm._v("Submit")]
+                  [
+                    _vm.$root.loading
+                      ? _c("spinner", {
+                          attrs: { small: true, "min-width": 59.22 }
+                        })
+                      : _c("span", [_vm._v("Submit")])
+                  ],
+                  1
                 )
               ])
             ]
@@ -70936,7 +70995,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     highlight: function highlight() {
-      var el = this.$refs.bodyHtml; //Ensure method is called if el is defined
+      var id = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "";
+      var el;
+
+      if (!id) {
+        el = this.$refs.bodyHtml;
+      } else {
+        el = document.getElementById(id);
+      }
+
+      console.log('el', el); //Ensure method is called if el is defined
 
       if (el) prismjs__WEBPACK_IMPORTED_MODULE_0___default.a.highlightAllUnder(el);
     }
