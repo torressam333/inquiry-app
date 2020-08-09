@@ -10094,14 +10094,14 @@ exports.push([module.i, "/*\r\n* iziToast | v1.4.0\r\n* http://izitoast.marcelod
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/autolinker/prism-autolinker.css":
-/*!******************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/autolinker/prism-autolinker.css ***!
-  \******************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.css":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.css ***!
+  \*************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -10113,14 +10113,14 @@ exports.push([module.i, ".token a {\n\tcolor: inherit;\n}", ""]);
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/command-line/prism-command-line.css":
-/*!**********************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/command-line/prism-command-line.css ***!
-  \**********************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.css":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.css ***!
+  \*****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -10132,14 +10132,14 @@ exports.push([module.i, ".command-line-prompt {\n\tborder-right: 1px solid #999;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.css":
-/*!**************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.css ***!
-  \**************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.css":
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.css ***!
+  \*********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -10151,14 +10151,14 @@ exports.push([module.i, "pre.diff-highlight > code .token.deleted:not(.prefix),\
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/inline-color/prism-inline-color.css":
-/*!**********************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/inline-color/prism-inline-color.css ***!
-  \**********************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.css":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.css ***!
+  \*****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -10170,14 +10170,14 @@ exports.push([module.i, "span.inline-color-wrapper {\n\t/*\n\t * The background 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css":
-/*!**************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css ***!
-  \**************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css":
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css ***!
+  \*********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -10189,14 +10189,14 @@ exports.push([module.i, "pre[data-line] {\n\tposition: relative;\n\tpadding: 1em
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css":
-/*!**********************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css ***!
-  \**********************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css ***!
+  \*****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -10208,14 +10208,14 @@ exports.push([module.i, "pre[class*=\"language-\"].line-numbers {\n\tposition: r
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/match-braces/prism-match-braces.css":
-/*!**********************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/match-braces/prism-match-braces.css ***!
-  \**********************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.css":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.css ***!
+  \*****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -10227,14 +10227,14 @@ exports.push([module.i, ".token.punctuation.brace-hover,\n.token.punctuation.bra
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/previewers/prism-previewers.css":
-/*!******************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/previewers/prism-previewers.css ***!
-  \******************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.css":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.css ***!
+  \*************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -10246,14 +10246,14 @@ exports.push([module.i, ".prism-previewer,\n.prism-previewer:before,\n.prism-pre
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.css":
-/*!****************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.css ***!
-  \****************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.css":
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.css ***!
+  \***********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -10265,14 +10265,14 @@ exports.push([module.i, ".token.tab:not(:empty),\n.token.cr,\n.token.lf,\n.token
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/toolbar/prism-toolbar.css":
-/*!************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/toolbar/prism-toolbar.css ***!
-  \************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.css":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.css ***!
+  \*******************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -10284,14 +10284,14 @@ exports.push([module.i, "div.code-toolbar {\n\tposition: relative;\n}\n\ndiv.cod
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/treeview/prism-treeview.css":
-/*!**************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/treeview/prism-treeview.css ***!
-  \**************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.css":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.css ***!
+  \*********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -10303,14 +10303,14 @@ exports.push([module.i, ".token.treeview-part .entry-line {\n\tposition: relativ
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css":
-/*!******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css ***!
-  \******************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -10322,14 +10322,14 @@ exports.push([module.i, "/* Fallback, in case JS does not run, to ensure the cod
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/wpd/prism-wpd.css":
-/*!****************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/prismjs/plugins/wpd/prism-wpd.css ***!
-  \****************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.css":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.css ***!
+  \***********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -39383,9 +39383,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = markdownItPrism;
 
-var _prismjs = _interopRequireDefault(__webpack_require__(/*! prismjs */ "./node_modules/prismjs/prism.js"));
+var _prismjs = _interopRequireDefault(__webpack_require__(/*! prismjs */ "./node_modules/markdown-it-prism/node_modules/prismjs/prism.js"));
 
-var _components = _interopRequireDefault(__webpack_require__(/*! prismjs/components/ */ "./node_modules/prismjs/components.js"));
+var _components = _interopRequireDefault(__webpack_require__(/*! prismjs/components/ */ "./node_modules/markdown-it-prism/node_modules/prismjs/components.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39438,7 +39438,7 @@ function loadPrismLang(lang) {
 
 function loadPrismPlugin(name) {
   try {
-    __webpack_require__("./node_modules/prismjs/plugins sync recursive ^\\.\\/.*\\/prism\\-.*$")(`./${name}/prism-${name}`);
+    __webpack_require__("./node_modules/markdown-it-prism/node_modules/prismjs/plugins sync recursive ^\\.\\/.*\\/prism\\-.*$")(`./${name}/prism-${name}`);
   } catch (e) {
     throw new Error(`Cannot load Prism plugin "${name}". Please check the spelling.`);
   }
@@ -39540,6 +39540,6158 @@ function markdownItPrism(markdownit, useroptions) {
 
 module.exports = exports.default;
 module.exports.default = exports.default;
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/components.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/components.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var components = {"core":{"meta":{"path":"components/prism-core.js","option":"mandatory"},"core":"Core"},"themes":{"meta":{"path":"themes/{id}.css","link":"index.html?theme={id}","exclusive":true},"prism":{"title":"Default","option":"default"},"prism-dark":"Dark","prism-funky":"Funky","prism-okaidia":{"title":"Okaidia","owner":"ocodia"},"prism-twilight":{"title":"Twilight","owner":"remybach"},"prism-coy":{"title":"Coy","owner":"tshedor"},"prism-solarizedlight":{"title":"Solarized Light","owner":"hectormatos2011 "},"prism-tomorrow":{"title":"Tomorrow Night","owner":"Rosey"}},"languages":{"meta":{"path":"components/prism-{id}","noCSS":true,"examplesPath":"examples/prism-{id}","addCheckAll":true},"markup":{"title":"Markup","alias":["html","xml","svg","mathml"],"aliasTitles":{"html":"HTML","xml":"XML","svg":"SVG","mathml":"MathML"},"option":"default"},"css":{"title":"CSS","option":"default","modify":"markup"},"clike":{"title":"C-like","option":"default"},"javascript":{"title":"JavaScript","require":"clike","modify":"markup","alias":"js","option":"default"},"abap":{"title":"ABAP","owner":"dellagustin"},"abnf":{"title":"Augmented Backus–Naur form","owner":"RunDevelopment"},"actionscript":{"title":"ActionScript","require":"javascript","modify":"markup","owner":"Golmote"},"ada":{"title":"Ada","owner":"Lucretia"},"antlr4":{"title":"ANTLR4","alias":"g4","owner":"RunDevelopment"},"apacheconf":{"title":"Apache Configuration","owner":"GuiTeK"},"apl":{"title":"APL","owner":"ngn"},"applescript":{"title":"AppleScript","owner":"Golmote"},"aql":{"title":"AQL","owner":"RunDevelopment"},"arduino":{"title":"Arduino","require":"cpp","owner":"eisbehr-"},"arff":{"title":"ARFF","owner":"Golmote"},"asciidoc":{"alias":"adoc","title":"AsciiDoc","owner":"Golmote"},"asm6502":{"title":"6502 Assembly","owner":"kzurawel"},"aspnet":{"title":"ASP.NET (C#)","require":["markup","csharp"],"owner":"nauzilus"},"autohotkey":{"title":"AutoHotkey","owner":"aviaryan"},"autoit":{"title":"AutoIt","owner":"Golmote"},"bash":{"title":"Bash","alias":"shell","aliasTitles":{"shell":"Shell"},"owner":"zeitgeist87"},"basic":{"title":"BASIC","owner":"Golmote"},"batch":{"title":"Batch","owner":"Golmote"},"bbcode":{"title":"BBcode","alias":"shortcode","aliasTitles":{"shortcode":"Shortcode"},"owner":"RunDevelopment"},"bison":{"title":"Bison","require":"c","owner":"Golmote"},"bnf":{"title":"Backus–Naur form","alias":"rbnf","aliasTitles":{"rbnf":"Routing Backus–Naur form"},"owner":"RunDevelopment"},"brainfuck":{"title":"Brainfuck","owner":"Golmote"},"brightscript":{"title":"BrightScript","owner":"RunDevelopment"},"bro":{"title":"Bro","owner":"wayward710"},"c":{"title":"C","require":"clike","owner":"zeitgeist87"},"concurnas":{"title":"Concurnas","alias":"conc","owner":"jasontatton"},"csharp":{"title":"C#","require":"clike","alias":["cs","dotnet"],"owner":"mvalipour"},"cpp":{"title":"C++","require":"c","owner":"zeitgeist87"},"cil":{"title":"CIL","owner":"sbrl"},"coffeescript":{"title":"CoffeeScript","require":"javascript","alias":"coffee","owner":"R-osey"},"cmake":{"title":"CMake","owner":"mjrogozinski"},"clojure":{"title":"Clojure","owner":"troglotit"},"crystal":{"title":"Crystal","require":"ruby","owner":"MakeNowJust"},"csp":{"title":"Content-Security-Policy","owner":"ScottHelme"},"css-extras":{"title":"CSS Extras","require":"css","modify":"css","owner":"milesj"},"d":{"title":"D","require":"clike","owner":"Golmote"},"dart":{"title":"Dart","require":"clike","owner":"Golmote"},"dax":{"title":"DAX","owner":"peterbud"},"diff":{"title":"Diff","owner":"uranusjr"},"django":{"title":"Django/Jinja2","require":"markup-templating","alias":"jinja2","owner":"romanvm"},"dns-zone-file":{"title":"DNS zone file","owner":"RunDevelopment","alias":"dns-zone"},"docker":{"title":"Docker","alias":"dockerfile","owner":"JustinBeckwith"},"ebnf":{"title":"Extended Backus–Naur form","owner":"RunDevelopment"},"eiffel":{"title":"Eiffel","owner":"Conaclos"},"ejs":{"title":"EJS","require":["javascript","markup-templating"],"owner":"RunDevelopment"},"elixir":{"title":"Elixir","owner":"Golmote"},"elm":{"title":"Elm","owner":"zwilias"},"etlua":{"title":"Embedded Lua templating","require":["lua","markup-templating"],"owner":"RunDevelopment"},"erb":{"title":"ERB","require":["ruby","markup-templating"],"owner":"Golmote"},"erlang":{"title":"Erlang","owner":"Golmote"},"excel-formula":{"title":"Excel Formula","alias":["xlsx","xls"],"owner":"RunDevelopment"},"fsharp":{"title":"F#","require":"clike","owner":"simonreynolds7"},"factor":{"title":"Factor","owner":"catb0t"},"firestore-security-rules":{"title":"Firestore security rules","require":"clike","owner":"RunDevelopment"},"flow":{"title":"Flow","require":"javascript","owner":"Golmote"},"fortran":{"title":"Fortran","owner":"Golmote"},"ftl":{"title":"FreeMarker Template Language","require":"markup-templating","owner":"RunDevelopment"},"gcode":{"title":"G-code","owner":"RunDevelopment"},"gdscript":{"title":"GDScript","owner":"RunDevelopment"},"gedcom":{"title":"GEDCOM","owner":"Golmote"},"gherkin":{"title":"Gherkin","owner":"hason"},"git":{"title":"Git","owner":"lgiraudel"},"glsl":{"title":"GLSL","require":"clike","owner":"Golmote"},"gml":{"title":"GameMaker Language","alias":"gamemakerlanguage","require":"clike","owner":"LiarOnce"},"go":{"title":"Go","require":"clike","owner":"arnehormann"},"graphql":{"title":"GraphQL","owner":"Golmote"},"groovy":{"title":"Groovy","require":"clike","owner":"robfletcher"},"haml":{"title":"Haml","require":"ruby","optional":["css","css-extras","coffeescript","erb","javascript","less","markdown","scss","textile"],"owner":"Golmote"},"handlebars":{"title":"Handlebars","require":"markup-templating","owner":"Golmote"},"haskell":{"title":"Haskell","alias":"hs","owner":"bholst"},"haxe":{"title":"Haxe","require":"clike","owner":"Golmote"},"hcl":{"title":"HCL","owner":"outsideris"},"http":{"title":"HTTP","optional":["css","javascript","json","markup"],"owner":"danielgtaylor"},"hpkp":{"title":"HTTP Public-Key-Pins","owner":"ScottHelme"},"hsts":{"title":"HTTP Strict-Transport-Security","owner":"ScottHelme"},"ichigojam":{"title":"IchigoJam","owner":"BlueCocoa"},"icon":{"title":"Icon","owner":"Golmote"},"inform7":{"title":"Inform 7","owner":"Golmote"},"ini":{"title":"Ini","owner":"aviaryan"},"io":{"title":"Io","owner":"AlesTsurko"},"j":{"title":"J","owner":"Golmote"},"java":{"title":"Java","require":"clike","owner":"sherblot"},"javadoc":{"title":"JavaDoc","require":["markup","java","javadoclike"],"modify":"java","optional":"scala","owner":"RunDevelopment"},"javadoclike":{"title":"JavaDoc-like","modify":["java","javascript","php"],"owner":"RunDevelopment"},"javastacktrace":{"title":"Java stack trace","owner":"RunDevelopment"},"jolie":{"title":"Jolie","require":"clike","owner":"thesave"},"jq":{"title":"JQ","owner":"RunDevelopment"},"jsdoc":{"title":"JSDoc","require":["javascript","javadoclike"],"modify":"javascript","optional":["actionscript","coffeescript"],"owner":"RunDevelopment"},"js-extras":{"title":"JS Extras","require":"javascript","modify":"javascript","optional":["actionscript","coffeescript","flow","n4js","typescript"],"owner":"RunDevelopment"},"js-templates":{"title":"JS Templates","require":"javascript","modify":"javascript","optional":["css","css-extras","graphql","markdown","markup"],"owner":"RunDevelopment"},"json":{"title":"JSON","owner":"CupOfTea696"},"jsonp":{"title":"JSONP","require":"json","owner":"RunDevelopment"},"json5":{"title":"JSON5","require":"json","owner":"RunDevelopment"},"julia":{"title":"Julia","owner":"cdagnino"},"keyman":{"title":"Keyman","owner":"mcdurdin"},"kotlin":{"title":"Kotlin","require":"clike","owner":"Golmote"},"latex":{"title":"LaTeX","alias":["tex","context"],"aliasTitles":{"tex":"TeX","context":"ConTeXt"},"owner":"japborst"},"latte":{"title":"Latte","require":["clike","markup-templating","php"],"owner":"nette"},"less":{"title":"Less","require":"css","optional":"css-extras","owner":"Golmote"},"lilypond":{"title":"LilyPond","require":"scheme","alias":"ly","owner":"RunDevelopment"},"liquid":{"title":"Liquid","owner":"cinhtau"},"lisp":{"title":"Lisp","alias":["emacs","elisp","emacs-lisp"],"owner":"JuanCaicedo"},"livescript":{"title":"LiveScript","owner":"Golmote"},"llvm":{"title":"LLVM IR","owner":"porglezomp"},"lolcode":{"title":"LOLCODE","owner":"Golmote"},"lua":{"title":"Lua","owner":"Golmote"},"makefile":{"title":"Makefile","owner":"Golmote"},"markdown":{"title":"Markdown","require":"markup","alias":"md","owner":"Golmote"},"markup-templating":{"title":"Markup templating","require":"markup","owner":"Golmote"},"matlab":{"title":"MATLAB","owner":"Golmote"},"mel":{"title":"MEL","owner":"Golmote"},"mizar":{"title":"Mizar","owner":"Golmote"},"monkey":{"title":"Monkey","owner":"Golmote"},"moonscript":{"title":"MoonScript","alias":"moon","owner":"RunDevelopment"},"n1ql":{"title":"N1QL","owner":"TMWilds"},"n4js":{"title":"N4JS","require":"javascript","optional":"jsdoc","alias":"n4jsd","owner":"bsmith-n4"},"nand2tetris-hdl":{"title":"Nand To Tetris HDL","owner":"stephanmax"},"nasm":{"title":"NASM","owner":"rbmj"},"neon":{"title":"NEON","owner":"nette"},"nginx":{"title":"nginx","owner":"westonganger","require":"clike"},"nim":{"title":"Nim","owner":"Golmote"},"nix":{"title":"Nix","owner":"Golmote"},"nsis":{"title":"NSIS","owner":"idleberg"},"objectivec":{"title":"Objective-C","require":"c","owner":"uranusjr"},"ocaml":{"title":"OCaml","owner":"Golmote"},"opencl":{"title":"OpenCL","require":"c","modify":["c","cpp"],"owner":"Milania1"},"oz":{"title":"Oz","owner":"Golmote"},"parigp":{"title":"PARI/GP","owner":"Golmote"},"parser":{"title":"Parser","require":"markup","owner":"Golmote"},"pascal":{"title":"Pascal","alias":"objectpascal","aliasTitles":{"objectpascal":"Object Pascal"},"owner":"Golmote"},"pascaligo":{"title":"Pascaligo","owner":"DefinitelyNotAGoat"},"pcaxis":{"title":"PC-Axis","alias":"px","owner":"RunDevelopment"},"perl":{"title":"Perl","owner":"Golmote"},"php":{"title":"PHP","require":["clike","markup-templating"],"owner":"milesj"},"phpdoc":{"title":"PHPDoc","require":["php","javadoclike"],"modify":"php","owner":"RunDevelopment"},"php-extras":{"title":"PHP Extras","require":"php","modify":"php","owner":"milesj"},"plsql":{"title":"PL/SQL","require":"sql","owner":"Golmote"},"powerquery":{"title":"PowerQuery","alias":["pq","mscript"],"owner":"peterbud"},"powershell":{"title":"PowerShell","owner":"nauzilus"},"processing":{"title":"Processing","require":"clike","owner":"Golmote"},"prolog":{"title":"Prolog","owner":"Golmote"},"properties":{"title":".properties","owner":"Golmote"},"protobuf":{"title":"Protocol Buffers","require":"clike","owner":"just-boris"},"pug":{"title":"Pug","require":["markup","javascript"],"optional":["coffeescript","ejs","handlebars","less","livescript","markdown","scss","stylus","twig"],"owner":"Golmote"},"puppet":{"title":"Puppet","owner":"Golmote"},"pure":{"title":"Pure","optional":["c","cpp","fortran"],"owner":"Golmote"},"python":{"title":"Python","alias":"py","owner":"multipetros"},"q":{"title":"Q (kdb+ database)","owner":"Golmote"},"qml":{"title":"QML","require":"javascript","owner":"RunDevelopment"},"qore":{"title":"Qore","require":"clike","owner":"temnroegg"},"r":{"title":"R","owner":"Golmote"},"jsx":{"title":"React JSX","require":["markup","javascript"],"optional":["jsdoc","js-extras","js-templates"],"owner":"vkbansal"},"tsx":{"title":"React TSX","require":["jsx","typescript"]},"renpy":{"title":"Ren'py","owner":"HyuchiaDiego"},"reason":{"title":"Reason","require":"clike","owner":"Golmote"},"regex":{"title":"Regex","modify":["actionscript","coffeescript","flow","javascript","typescript","vala"],"owner":"RunDevelopment"},"rest":{"title":"reST (reStructuredText)","owner":"Golmote"},"rip":{"title":"Rip","owner":"ravinggenius"},"roboconf":{"title":"Roboconf","owner":"Golmote"},"robotframework":{"title":"Robot Framework","alias":"robot","owner":"RunDevelopment"},"ruby":{"title":"Ruby","require":"clike","alias":"rb","owner":"samflores"},"rust":{"title":"Rust","owner":"Golmote"},"sas":{"title":"SAS","optional":["groovy","lua","sql"],"owner":"Golmote"},"sass":{"title":"Sass (Sass)","require":"css","owner":"Golmote"},"scss":{"title":"Sass (Scss)","require":"css","optional":"css-extras","owner":"MoOx"},"scala":{"title":"Scala","require":"java","owner":"jozic"},"scheme":{"title":"Scheme","owner":"bacchus123"},"shell-session":{"title":"Shell session","require":"bash","owner":"RunDevelopment"},"smalltalk":{"title":"Smalltalk","owner":"Golmote"},"smarty":{"title":"Smarty","require":"markup-templating","owner":"Golmote"},"solidity":{"title":"Solidity (Ethereum)","require":"clike","owner":"glachaud"},"solution-file":{"title":"Solution file","alias":"sln","owner":"RunDevelopment"},"soy":{"title":"Soy (Closure Template)","require":"markup-templating","owner":"Golmote"},"sparql":{"title":"SPARQL","require":"turtle","owner":"Triply-Dev","alias":"rq"},"splunk-spl":{"title":"Splunk SPL","owner":"RunDevelopment"},"sqf":{"title":"SQF: Status Quo Function (Arma 3)","require":"clike","owner":"RunDevelopment"},"sql":{"title":"SQL","owner":"multipetros"},"stylus":{"title":"Stylus","owner":"vkbansal"},"swift":{"title":"Swift","require":"clike","owner":"chrischares"},"tap":{"title":"TAP","owner":"isaacs","require":"yaml"},"tcl":{"title":"Tcl","owner":"PeterChaplin"},"textile":{"title":"Textile","require":"markup","optional":"css","owner":"Golmote"},"toml":{"title":"TOML","owner":"RunDevelopment"},"tt2":{"title":"Template Toolkit 2","require":["clike","markup-templating"],"owner":"gflohr"},"turtle":{"title":"Turtle","alias":"trig","aliasTitles":{"trig":"TriG"},"owner":"jakubklimek"},"twig":{"title":"Twig","require":"markup","owner":"brandonkelly"},"typescript":{"title":"TypeScript","require":"javascript","optional":"js-templates","alias":"ts","owner":"vkbansal"},"t4-cs":{"title":"T4 Text Templates (C#)","require":["t4-templating","csharp"],"alias":"t4","owner":"RunDevelopment"},"t4-vb":{"title":"T4 Text Templates (VB)","require":["t4-templating","visual-basic"],"owner":"RunDevelopment"},"t4-templating":{"title":"T4 templating","owner":"RunDevelopment"},"vala":{"title":"Vala","require":"clike","owner":"TemplarVolk"},"vbnet":{"title":"VB.Net","require":"basic","owner":"Bigsby"},"velocity":{"title":"Velocity","require":"markup","owner":"Golmote"},"verilog":{"title":"Verilog","owner":"a-rey"},"vhdl":{"title":"VHDL","owner":"a-rey"},"vim":{"title":"vim","owner":"westonganger"},"visual-basic":{"title":"Visual Basic","alias":"vb","owner":"Golmote"},"wasm":{"title":"WebAssembly","owner":"Golmote"},"wiki":{"title":"Wiki markup","require":"markup","owner":"Golmote"},"xeora":{"title":"Xeora","require":"markup","alias":"xeoracube","aliasTitles":{"xeoracube":"XeoraCube"},"owner":"freakmaxi"},"xojo":{"title":"Xojo (REALbasic)","owner":"Golmote"},"xquery":{"title":"XQuery","require":"markup","owner":"Golmote"},"yaml":{"title":"YAML","alias":"yml","owner":"hason"},"zig":{"title":"Zig","owner":"RunDevelopment"}},"plugins":{"meta":{"path":"plugins/{id}/prism-{id}","link":"plugins/{id}/"},"line-highlight":{"title":"Line Highlight","description":"Highlights specific lines and/or line ranges."},"line-numbers":{"title":"Line Numbers","description":"Line number at the beginning of code lines.","owner":"kuba-kubula"},"show-invisibles":{"title":"Show Invisibles","description":"Show hidden characters such as tabs and line breaks.","optional":["autolinker","data-uri-highlight"]},"autolinker":{"title":"Autolinker","description":"Converts URLs and emails in code to clickable links. Parses Markdown links in comments."},"wpd":{"title":"WebPlatform Docs","description":"Makes tokens link to <a href=\"https://webplatform.github.io/docs/\">WebPlatform.org documentation</a>. The links open in a new tab."},"custom-class":{"title":"Custom Class","description":"This plugin allows you to prefix Prism's default classes (<code>.comment</code> can become <code>.namespace--comment</code>) or replace them with your defined ones (like <code>.editor__comment</code>). You can even add new classes.","owner":"dvkndn","noCSS":true},"file-highlight":{"title":"File Highlight","description":"Fetch external files and highlight them with Prism. Used on the Prism website itself.","noCSS":true},"show-language":{"title":"Show Language","description":"Display the highlighted language in code blocks (inline code does not show the label).","owner":"nauzilus","noCSS":true,"require":"toolbar"},"jsonp-highlight":{"title":"JSONP Highlight","description":"Fetch content with JSONP and highlight some interesting content (e.g. GitHub/Gists or Bitbucket API).","noCSS":true,"owner":"nauzilus"},"highlight-keywords":{"title":"Highlight Keywords","description":"Adds special CSS classes for each keyword matched in the code. For example, the keyword <code>if</code> will have the class <code>keyword-if</code> as well. You can have fine grained control over the appearance of each keyword by providing your own CSS rules.","owner":"vkbansal","noCSS":true},"remove-initial-line-feed":{"title":"Remove initial line feed","description":"Removes the initial line feed in code blocks.","owner":"Golmote","noCSS":true},"inline-color":{"title":"Inline color","description":"Adds a small inline preview for colors in style sheets.","require":"css-extras","owner":"RunDevelopment"},"previewers":{"title":"Previewers","description":"Previewers for angles, colors, gradients, easing and time.","require":"css-extras","owner":"Golmote"},"autoloader":{"title":"Autoloader","description":"Automatically loads the needed languages to highlight the code blocks.","owner":"Golmote","noCSS":true},"keep-markup":{"title":"Keep Markup","description":"Prevents custom markup from being dropped out during highlighting.","owner":"Golmote","optional":"normalize-whitespace","noCSS":true},"command-line":{"title":"Command Line","description":"Display a command line with a prompt and, optionally, the output/response from the commands.","owner":"chriswells0"},"unescaped-markup":{"title":"Unescaped Markup","description":"Write markup without having to escape anything."},"normalize-whitespace":{"title":"Normalize Whitespace","description":"Supports multiple operations to normalize whitespace in code blocks.","owner":"zeitgeist87","optional":"unescaped-markup","noCSS":true},"data-uri-highlight":{"title":"Data-URI Highlight","description":"Highlights data-URI contents.","owner":"Golmote","noCSS":true},"toolbar":{"title":"Toolbar","description":"Attach a toolbar for plugins to easily register buttons on the top of a code block.","owner":"mAAdhaTTah"},"copy-to-clipboard":{"title":"Copy to Clipboard Button","description":"Add a button that copies the code block to the clipboard when clicked.","owner":"mAAdhaTTah","require":"toolbar","noCSS":true},"download-button":{"title":"Download Button","description":"A button in the toolbar of a code block adding a convenient way to download a code file.","owner":"Golmote","require":"toolbar","noCSS":true},"match-braces":{"title":"Match braces","description":"Highlights matching braces.","owner":"RunDevelopment"},"diff-highlight":{"title":"Diff Highlight","description":"Highlights the code inside diff blocks.","owner":"RunDevelopment","require":"diff"},"filter-highlight-all":{"title":"Filter highlightAll","description":"Filters the elements the <code>highlightAll</code> and <code>highlightAllUnder</code> methods actually highlight.","owner":"RunDevelopment","noCSS":true},"treeview":{"title":"Treeview","description":"A language with special styles to highlight file system tree structures.","owner":"Golmote"}}};
+if ( true && module.exports) { module.exports = components; }
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins sync recursive ^\\.\\/.*\\/prism\\-.*$":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins sync ^\.\/.*\/prism\-.*$ ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./autolinker/prism-autolinker": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.js",
+	"./autolinker/prism-autolinker.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.css",
+	"./autolinker/prism-autolinker.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.js",
+	"./autolinker/prism-autolinker.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.min.js",
+	"./autolinker/prism-autolinker.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.min.js",
+	"./autoloader/prism-autoloader": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autoloader/prism-autoloader.js",
+	"./autoloader/prism-autoloader.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autoloader/prism-autoloader.js",
+	"./autoloader/prism-autoloader.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autoloader/prism-autoloader.min.js",
+	"./autoloader/prism-autoloader.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autoloader/prism-autoloader.min.js",
+	"./command-line/prism-command-line": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.js",
+	"./command-line/prism-command-line.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.css",
+	"./command-line/prism-command-line.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.js",
+	"./command-line/prism-command-line.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.min.js",
+	"./command-line/prism-command-line.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.min.js",
+	"./copy-to-clipboard/prism-copy-to-clipboard": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js",
+	"./copy-to-clipboard/prism-copy-to-clipboard.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js",
+	"./copy-to-clipboard/prism-copy-to-clipboard.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js",
+	"./copy-to-clipboard/prism-copy-to-clipboard.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js",
+	"./custom-class/prism-custom-class": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/custom-class/prism-custom-class.js",
+	"./custom-class/prism-custom-class.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/custom-class/prism-custom-class.js",
+	"./custom-class/prism-custom-class.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/custom-class/prism-custom-class.min.js",
+	"./custom-class/prism-custom-class.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/custom-class/prism-custom-class.min.js",
+	"./data-uri-highlight/prism-data-uri-highlight": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.js",
+	"./data-uri-highlight/prism-data-uri-highlight.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.js",
+	"./data-uri-highlight/prism-data-uri-highlight.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.min.js",
+	"./data-uri-highlight/prism-data-uri-highlight.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.min.js",
+	"./diff-highlight/prism-diff-highlight": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.js",
+	"./diff-highlight/prism-diff-highlight.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.css",
+	"./diff-highlight/prism-diff-highlight.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.js",
+	"./diff-highlight/prism-diff-highlight.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.min.js",
+	"./diff-highlight/prism-diff-highlight.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.min.js",
+	"./download-button/prism-download-button": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/download-button/prism-download-button.js",
+	"./download-button/prism-download-button.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/download-button/prism-download-button.js",
+	"./download-button/prism-download-button.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/download-button/prism-download-button.min.js",
+	"./download-button/prism-download-button.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/download-button/prism-download-button.min.js",
+	"./file-highlight/prism-file-highlight": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/file-highlight/prism-file-highlight.js",
+	"./file-highlight/prism-file-highlight.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/file-highlight/prism-file-highlight.js",
+	"./file-highlight/prism-file-highlight.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/file-highlight/prism-file-highlight.min.js",
+	"./file-highlight/prism-file-highlight.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/file-highlight/prism-file-highlight.min.js",
+	"./filter-highlight-all/prism-filter-highlight-all": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.js",
+	"./filter-highlight-all/prism-filter-highlight-all.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.js",
+	"./filter-highlight-all/prism-filter-highlight-all.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.min.js",
+	"./filter-highlight-all/prism-filter-highlight-all.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.min.js",
+	"./highlight-keywords/prism-highlight-keywords": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.js",
+	"./highlight-keywords/prism-highlight-keywords.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.js",
+	"./highlight-keywords/prism-highlight-keywords.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.min.js",
+	"./highlight-keywords/prism-highlight-keywords.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.min.js",
+	"./inline-color/prism-inline-color": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.js",
+	"./inline-color/prism-inline-color.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.css",
+	"./inline-color/prism-inline-color.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.js",
+	"./inline-color/prism-inline-color.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.min.js",
+	"./inline-color/prism-inline-color.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.min.js",
+	"./jsonp-highlight/prism-jsonp-highlight": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.js",
+	"./jsonp-highlight/prism-jsonp-highlight.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.js",
+	"./jsonp-highlight/prism-jsonp-highlight.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.min.js",
+	"./jsonp-highlight/prism-jsonp-highlight.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.min.js",
+	"./keep-markup/prism-keep-markup": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/keep-markup/prism-keep-markup.js",
+	"./keep-markup/prism-keep-markup.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/keep-markup/prism-keep-markup.js",
+	"./keep-markup/prism-keep-markup.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/keep-markup/prism-keep-markup.min.js",
+	"./keep-markup/prism-keep-markup.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/keep-markup/prism-keep-markup.min.js",
+	"./line-highlight/prism-line-highlight": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.js",
+	"./line-highlight/prism-line-highlight.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css",
+	"./line-highlight/prism-line-highlight.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.js",
+	"./line-highlight/prism-line-highlight.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.min.js",
+	"./line-highlight/prism-line-highlight.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.min.js",
+	"./line-numbers/prism-line-numbers": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js",
+	"./line-numbers/prism-line-numbers.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css",
+	"./line-numbers/prism-line-numbers.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js",
+	"./line-numbers/prism-line-numbers.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.min.js",
+	"./line-numbers/prism-line-numbers.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.min.js",
+	"./match-braces/prism-match-braces": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.js",
+	"./match-braces/prism-match-braces.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.css",
+	"./match-braces/prism-match-braces.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.js",
+	"./match-braces/prism-match-braces.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.min.js",
+	"./match-braces/prism-match-braces.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.min.js",
+	"./normalize-whitespace/prism-normalize-whitespace": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js",
+	"./normalize-whitespace/prism-normalize-whitespace.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js",
+	"./normalize-whitespace/prism-normalize-whitespace.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.min.js",
+	"./normalize-whitespace/prism-normalize-whitespace.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.min.js",
+	"./previewers/prism-previewers": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.js",
+	"./previewers/prism-previewers.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.css",
+	"./previewers/prism-previewers.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.js",
+	"./previewers/prism-previewers.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.min.js",
+	"./previewers/prism-previewers.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.min.js",
+	"./remove-initial-line-feed/prism-remove-initial-line-feed": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.js",
+	"./remove-initial-line-feed/prism-remove-initial-line-feed.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.js",
+	"./remove-initial-line-feed/prism-remove-initial-line-feed.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.min.js",
+	"./remove-initial-line-feed/prism-remove-initial-line-feed.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.min.js",
+	"./show-invisibles/prism-show-invisibles": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.js",
+	"./show-invisibles/prism-show-invisibles.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.css",
+	"./show-invisibles/prism-show-invisibles.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.js",
+	"./show-invisibles/prism-show-invisibles.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.min.js",
+	"./show-invisibles/prism-show-invisibles.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.min.js",
+	"./show-language/prism-show-language": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-language/prism-show-language.js",
+	"./show-language/prism-show-language.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-language/prism-show-language.js",
+	"./show-language/prism-show-language.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-language/prism-show-language.min.js",
+	"./show-language/prism-show-language.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-language/prism-show-language.min.js",
+	"./toolbar/prism-toolbar": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.js",
+	"./toolbar/prism-toolbar.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.css",
+	"./toolbar/prism-toolbar.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.js",
+	"./toolbar/prism-toolbar.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js",
+	"./toolbar/prism-toolbar.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js",
+	"./treeview/prism-treeview": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.js",
+	"./treeview/prism-treeview.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.css",
+	"./treeview/prism-treeview.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.js",
+	"./treeview/prism-treeview.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.min.js",
+	"./treeview/prism-treeview.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.min.js",
+	"./unescaped-markup/prism-unescaped-markup": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.js",
+	"./unescaped-markup/prism-unescaped-markup.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css",
+	"./unescaped-markup/prism-unescaped-markup.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.js",
+	"./unescaped-markup/prism-unescaped-markup.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.min.js",
+	"./unescaped-markup/prism-unescaped-markup.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.min.js",
+	"./wpd/prism-wpd": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.js",
+	"./wpd/prism-wpd.css": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.css",
+	"./wpd/prism-wpd.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.js",
+	"./wpd/prism-wpd.min": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.min.js",
+	"./wpd/prism-wpd.min.js": "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.min.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/markdown-it-prism/node_modules/prismjs/plugins sync recursive ^\\.\\/.*\\/prism\\-.*$";
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.css":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.css ***!
+  \*****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-autolinker.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.js ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {(function(){
+
+if (
+	typeof self !== 'undefined' && !self.Prism ||
+	typeof global !== 'undefined' && !global.Prism
+) {
+	return;
+}
+
+var url = /\b([a-z]{3,7}:\/\/|tel:)[\w\-+%~/.:=&@]+(?:\?[\w\-+%~/.:=?&!$'()*,;@]*)?(?:#[\w\-+%~/.:#=?&!$'()*,;@]*)?/,
+    email = /\b\S+@[\w.]+[a-z]{2}/,
+    linkMd = /\[([^\]]+)]\(([^)]+)\)/,
+
+	// Tokens that may contain URLs and emails
+    candidates = ['comment', 'url', 'attr-value', 'string'];
+
+Prism.plugins.autolinker = {
+	processGrammar: function (grammar) {
+		// Abort if grammar has already been processed
+		if (!grammar || grammar['url-link']) {
+			return;
+		}
+		Prism.languages.DFS(grammar, function (key, def, type) {
+			if (candidates.indexOf(type) > -1 && !Array.isArray(def)) {
+				if (!def.pattern) {
+					def = this[key] = {
+						pattern: def
+					};
+				}
+
+				def.inside = def.inside || {};
+
+				if (type == 'comment') {
+					def.inside['md-link'] = linkMd;
+				}
+				if (type == 'attr-value') {
+					Prism.languages.insertBefore('inside', 'punctuation', { 'url-link': url }, def);
+				}
+				else {
+					def.inside['url-link'] = url;
+				}
+
+				def.inside['email-link'] = email;
+			}
+		});
+		grammar['url-link'] = url;
+		grammar['email-link'] = email;
+	}
+};
+
+Prism.hooks.add('before-highlight', function(env) {
+	Prism.plugins.autolinker.processGrammar(env.grammar);
+});
+
+Prism.hooks.add('wrap', function(env) {
+	if (/-link$/.test(env.type)) {
+		env.tag = 'a';
+
+		var href = env.content;
+
+		if (env.type == 'email-link' && href.indexOf('mailto:') != 0) {
+			href = 'mailto:' + href;
+		}
+		else if (env.type == 'md-link') {
+			// Markdown
+			var match = env.content.match(linkMd);
+
+			href = match[2];
+			env.content = match[1];
+		}
+
+		env.attributes.href = href;
+
+		// Silently catch any error thrown by decodeURIComponent (#1186)
+		try {
+			env.content = decodeURIComponent(env.content);
+		} catch(e) {}
+	}
+});
+
+})();
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.min.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autolinker/prism-autolinker.min.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {!function(){if(("undefined"==typeof self||self.Prism)&&("undefined"==typeof global||global.Prism)){var t=/\b([a-z]{3,7}:\/\/|tel:)[\w\-+%~/.:=&@]+(?:\?[\w\-+%~/.:=?&!$'()*,;@]*)?(?:#[\w\-+%~/.:#=?&!$'()*,;@]*)?/,r=/\b\S+@[\w.]+[a-z]{2}/,a=/\[([^\]]+)]\(([^)]+)\)/,l=["comment","url","attr-value","string"];Prism.plugins.autolinker={processGrammar:function(i){i&&!i["url-link"]&&(Prism.languages.DFS(i,function(i,n,e){-1<l.indexOf(e)&&!Array.isArray(n)&&(n.pattern||(n=this[i]={pattern:n}),n.inside=n.inside||{},"comment"==e&&(n.inside["md-link"]=a),"attr-value"==e?Prism.languages.insertBefore("inside","punctuation",{"url-link":t},n):n.inside["url-link"]=t,n.inside["email-link"]=r)}),i["url-link"]=t,i["email-link"]=r)}},Prism.hooks.add("before-highlight",function(i){Prism.plugins.autolinker.processGrammar(i.grammar)}),Prism.hooks.add("wrap",function(i){if(/-link$/.test(i.type)){i.tag="a";var n=i.content;if("email-link"==i.type&&0!=n.indexOf("mailto:"))n="mailto:"+n;else if("md-link"==i.type){var e=i.content.match(a);n=e[2],i.content=e[1]}i.attributes.href=n;try{i.content=decodeURIComponent(i.content)}catch(i){}}})}}();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autoloader/prism-autoloader.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autoloader/prism-autoloader.js ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+	if (typeof self === 'undefined' || !self.Prism || !self.document || !document.createElement) {
+		return;
+	}
+
+	// The dependencies map is built automatically with gulp
+	var lang_dependencies = /*dependencies_placeholder[*/{
+		"javascript": "clike",
+		"actionscript": "javascript",
+		"arduino": "cpp",
+		"aspnet": [
+			"markup",
+			"csharp"
+		],
+		"bison": "c",
+		"c": "clike",
+		"csharp": "clike",
+		"cpp": "c",
+		"coffeescript": "javascript",
+		"crystal": "ruby",
+		"css-extras": "css",
+		"d": "clike",
+		"dart": "clike",
+		"django": "markup-templating",
+		"ejs": [
+			"javascript",
+			"markup-templating"
+		],
+		"etlua": [
+			"lua",
+			"markup-templating"
+		],
+		"erb": [
+			"ruby",
+			"markup-templating"
+		],
+		"fsharp": "clike",
+		"firestore-security-rules": "clike",
+		"flow": "javascript",
+		"ftl": "markup-templating",
+		"glsl": "clike",
+		"gml": "clike",
+		"go": "clike",
+		"groovy": "clike",
+		"haml": "ruby",
+		"handlebars": "markup-templating",
+		"haxe": "clike",
+		"java": "clike",
+		"javadoc": [
+			"markup",
+			"java",
+			"javadoclike"
+		],
+		"jolie": "clike",
+		"jsdoc": [
+			"javascript",
+			"javadoclike"
+		],
+		"js-extras": "javascript",
+		"js-templates": "javascript",
+		"jsonp": "json",
+		"json5": "json",
+		"kotlin": "clike",
+		"latte": [
+			"clike",
+			"markup-templating",
+			"php"
+		],
+		"less": "css",
+		"lilypond": "scheme",
+		"markdown": "markup",
+		"markup-templating": "markup",
+		"n4js": "javascript",
+		"nginx": "clike",
+		"objectivec": "c",
+		"opencl": "c",
+		"parser": "markup",
+		"php": [
+			"clike",
+			"markup-templating"
+		],
+		"phpdoc": [
+			"php",
+			"javadoclike"
+		],
+		"php-extras": "php",
+		"plsql": "sql",
+		"processing": "clike",
+		"protobuf": "clike",
+		"pug": [
+			"markup",
+			"javascript"
+		],
+		"qml": "javascript",
+		"qore": "clike",
+		"jsx": [
+			"markup",
+			"javascript"
+		],
+		"tsx": [
+			"jsx",
+			"typescript"
+		],
+		"reason": "clike",
+		"ruby": "clike",
+		"sass": "css",
+		"scss": "css",
+		"scala": "java",
+		"shell-session": "bash",
+		"smarty": "markup-templating",
+		"solidity": "clike",
+		"soy": "markup-templating",
+		"sparql": "turtle",
+		"sqf": "clike",
+		"swift": "clike",
+		"tap": "yaml",
+		"textile": "markup",
+		"tt2": [
+			"clike",
+			"markup-templating"
+		],
+		"twig": "markup",
+		"typescript": "javascript",
+		"t4-cs": [
+			"t4-templating",
+			"csharp"
+		],
+		"t4-vb": [
+			"t4-templating",
+			"visual-basic"
+		],
+		"vala": "clike",
+		"vbnet": "basic",
+		"velocity": "markup",
+		"wiki": "markup",
+		"xeora": "markup",
+		"xquery": "markup"
+	}/*]*/;
+
+	var lang_aliases = /*aliases_placeholder[*/{
+		"html": "markup",
+		"xml": "markup",
+		"svg": "markup",
+		"mathml": "markup",
+		"js": "javascript",
+		"g4": "antlr4",
+		"adoc": "asciidoc",
+		"shell": "bash",
+		"shortcode": "bbcode",
+		"rbnf": "bnf",
+		"conc": "concurnas",
+		"cs": "csharp",
+		"dotnet": "csharp",
+		"coffee": "coffeescript",
+		"jinja2": "django",
+		"dns-zone": "dns-zone-file",
+		"dockerfile": "docker",
+		"xlsx": "excel-formula",
+		"xls": "excel-formula",
+		"gamemakerlanguage": "gml",
+		"hs": "haskell",
+		"tex": "latex",
+		"context": "latex",
+		"ly": "lilypond",
+		"emacs": "lisp",
+		"elisp": "lisp",
+		"emacs-lisp": "lisp",
+		"md": "markdown",
+		"moon": "moonscript",
+		"n4jsd": "n4js",
+		"objectpascal": "pascal",
+		"px": "pcaxis",
+		"pq": "powerquery",
+		"mscript": "powerquery",
+		"py": "python",
+		"robot": "robotframework",
+		"rb": "ruby",
+		"sln": "solution-file",
+		"rq": "sparql",
+		"trig": "turtle",
+		"ts": "typescript",
+		"t4": "t4-cs",
+		"vb": "visual-basic",
+		"xeoracube": "xeora",
+		"yml": "yaml"
+	}/*]*/;
+
+	/**
+	 * @typedef LangDataItem
+	 * @property {{ success?: () => void, error?: () => void }[]} callbacks
+	 * @property {boolean} [error]
+	 * @property {boolean} [loading]
+	 */
+	/** @type {Object<string, LangDataItem>} */
+	var lang_data = {};
+
+	var ignored_language = 'none';
+	var languages_path = 'components/';
+
+	var script = Prism.util.currentScript();
+	if (script) {
+		var autoloaderFile = /\bplugins\/autoloader\/prism-autoloader\.(?:min\.)js$/i;
+		var prismFile = /[\w-]+\.(?:min\.)js$/i;
+		if (script.hasAttribute('data-autoloader-path')) {
+			// data-autoloader-path is set, so just use it
+			languages_path = script.getAttribute('data-autoloader-path').trim().replace(/\/?$/, '/');
+		} else {
+			var src = script.src;
+			if (autoloaderFile.test(src)) {
+				// the script is the original autoloader script in the usual Prism project structure
+				languages_path = src.replace(autoloaderFile, 'components/');
+			} else if (prismFile.test(src)) {
+				// the script is part of a bundle like a custom prism.js from the download page
+				languages_path = src.replace(prismFile, 'components/');
+			}
+		}
+	}
+
+	var config = Prism.plugins.autoloader = {
+		languages_path: languages_path,
+		use_minified: true,
+		loadLanguages: loadLanguages
+	};
+
+
+	/**
+	 * Lazily loads an external script.
+	 *
+	 * @param {string} src
+	 * @param {() => void} [success]
+	 * @param {() => void} [error]
+	 */
+	function addScript(src, success, error) {
+		var s = document.createElement('script');
+		s.src = src;
+		s.async = true;
+		s.onload = function () {
+			document.body.removeChild(s);
+			success && success();
+		};
+		s.onerror = function () {
+			document.body.removeChild(s);
+			error && error();
+		};
+		document.body.appendChild(s);
+	}
+
+	/**
+	 * Returns the path to a grammar, using the language_path and use_minified config keys.
+	 *
+	 * @param {string} lang
+	 * @returns {string}
+	 */
+	function getLanguagePath(lang) {
+		return config.languages_path +
+			'prism-' + lang
+			+ (config.use_minified ? '.min' : '') + '.js'
+	}
+
+	/**
+	 * Tries to load the grammar(s) and once loaded, highlights the given element again.
+	 *
+	 * @param {string} lang
+	 * @param {HTMLElement} elt
+	 */
+	function registerElement(lang, elt) {
+		if (lang in lang_aliases) {
+			lang = lang_aliases[lang];
+		}
+
+		// Look for additional dependencies defined on the <code> or <pre> tags
+		var deps = elt.getAttribute('data-dependencies');
+		var parent = elt.parentElement;
+		if (!deps && parent && parent.tagName.toLowerCase() === 'pre') {
+			deps = parent.getAttribute('data-dependencies');
+		}
+
+		if (deps) {
+			deps = deps.split(/\s*,\s*/g);
+		} else {
+			deps = [];
+		}
+
+		loadLanguages(deps, function () {
+			loadLanguage(lang, function () {
+				Prism.highlightElement(elt);
+			});
+		});
+	}
+
+	/**
+	 * Loads all given grammars concurrently.
+	 *
+	 * @param {string[]|string} languages
+	 * @param {(languages: string[]) => void} [success]
+	 * @param {(language: string) => void} [error] This callback will be invoked on the first language to fail.
+	 */
+	function loadLanguages(languages, success, error) {
+		if (typeof languages === 'string') {
+			languages = [languages];
+		}
+
+		var total = languages.length;
+		var completed = 0;
+		var failed = false;
+
+		if (total === 0) {
+			if (success) {
+				setTimeout(success, 0);
+			}
+			return;
+		}
+
+		function successCallback() {
+			if (failed) {
+				return;
+			}
+			completed++;
+			if (completed === total) {
+				success && success(languages);
+			}
+		}
+
+		languages.forEach(function (lang) {
+			loadLanguage(lang, successCallback, function () {
+				if (failed) {
+					return;
+				}
+				failed = true;
+				error && error(lang);
+			});
+		});
+	}
+
+	/**
+	 * Loads a grammar with its dependencies.
+	 *
+	 * @param {string} lang
+	 * @param {() => void} [success]
+	 * @param {() => void} [error]
+	 */
+	function loadLanguage(lang, success, error) {
+		var force = lang.indexOf('!') >= 0;
+
+		lang = lang.replace('!', '');
+		lang = lang_aliases[lang] || lang;
+
+		var load = function () {
+			var data = lang_data[lang];
+			if (!data) {
+				data = lang_data[lang] = {
+					callbacks: []
+				};
+			}
+			data.callbacks.push({
+				success: success,
+				error: error
+			});
+
+			if (!force && Prism.languages[lang]) {
+				languageCallback(lang, "success");
+			} else if (!force && data.error) {
+				languageCallback(lang, "error");
+			} else if (force || !data.loading) {
+				data.loading = true;
+				var src = getLanguagePath(lang);
+				addScript(src, function () {
+					data.loading = false;
+					languageCallback(lang, "success");
+
+				}, function () {
+					data.loading = false;
+					data.error = true;
+					languageCallback(lang, "error");
+				});
+			}
+		};
+
+		var dependencies = lang_dependencies[lang];
+		if (dependencies && dependencies.length) {
+			loadLanguages(dependencies, load, error);
+		} else {
+			load();
+		}
+	}
+
+	/**
+	 * Runs all callbacks of the given type for the given language.
+	 *
+	 * @param {string} lang
+	 * @param {"success" | "error"} type
+	 */
+	function languageCallback(lang, type) {
+		if (lang_data[lang]) {
+			var callbacks = lang_data[lang].callbacks;
+			for (var i = 0, l = callbacks.length; i < l; i++) {
+				var callback = callbacks[i][type];
+				if (callback) {
+					setTimeout(callback, 0);
+				}
+			}
+			callbacks.length = 0;
+		}
+	}
+
+	Prism.hooks.add('complete', function (env) {
+		if (env.element && env.language && !env.grammar) {
+			if (env.language !== ignored_language) {
+				registerElement(env.language, env.element);
+			}
+		}
+	});
+
+}());
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autoloader/prism-autoloader.min.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/autoloader/prism-autoloader.min.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+!function(){if("undefined"!=typeof self&&self.Prism&&self.document&&document.createElement){var c={javascript:"clike",actionscript:"javascript",arduino:"cpp",aspnet:["markup","csharp"],bison:"c",c:"clike",csharp:"clike",cpp:"c",coffeescript:"javascript",crystal:"ruby","css-extras":"css",d:"clike",dart:"clike",django:"markup-templating",ejs:["javascript","markup-templating"],etlua:["lua","markup-templating"],erb:["ruby","markup-templating"],fsharp:"clike","firestore-security-rules":"clike",flow:"javascript",ftl:"markup-templating",glsl:"clike",gml:"clike",go:"clike",groovy:"clike",haml:"ruby",handlebars:"markup-templating",haxe:"clike",java:"clike",javadoc:["markup","java","javadoclike"],jolie:"clike",jsdoc:["javascript","javadoclike"],"js-extras":"javascript","js-templates":"javascript",jsonp:"json",json5:"json",kotlin:"clike",latte:["clike","markup-templating","php"],less:"css",lilypond:"scheme",markdown:"markup","markup-templating":"markup",n4js:"javascript",nginx:"clike",objectivec:"c",opencl:"c",parser:"markup",php:["clike","markup-templating"],phpdoc:["php","javadoclike"],"php-extras":"php",plsql:"sql",processing:"clike",protobuf:"clike",pug:["markup","javascript"],qml:"javascript",qore:"clike",jsx:["markup","javascript"],tsx:["jsx","typescript"],reason:"clike",ruby:"clike",sass:"css",scss:"css",scala:"java","shell-session":"bash",smarty:"markup-templating",solidity:"clike",soy:"markup-templating",sparql:"turtle",sqf:"clike",swift:"clike",tap:"yaml",textile:"markup",tt2:["clike","markup-templating"],twig:"markup",typescript:"javascript","t4-cs":["t4-templating","csharp"],"t4-vb":["t4-templating","visual-basic"],vala:"clike",vbnet:"basic",velocity:"markup",wiki:"markup",xeora:"markup",xquery:"markup"},l={html:"markup",xml:"markup",svg:"markup",mathml:"markup",js:"javascript",g4:"antlr4",adoc:"asciidoc",shell:"bash",shortcode:"bbcode",rbnf:"bnf",conc:"concurnas",cs:"csharp",dotnet:"csharp",coffee:"coffeescript",jinja2:"django","dns-zone":"dns-zone-file",dockerfile:"docker",xlsx:"excel-formula",xls:"excel-formula",gamemakerlanguage:"gml",hs:"haskell",tex:"latex",context:"latex",ly:"lilypond",emacs:"lisp",elisp:"lisp","emacs-lisp":"lisp",md:"markdown",moon:"moonscript",n4jsd:"n4js",objectpascal:"pascal",px:"pcaxis",pq:"powerquery",mscript:"powerquery",py:"python",robot:"robotframework",rb:"ruby",sln:"solution-file",rq:"sparql",trig:"turtle",ts:"typescript",t4:"t4-cs",vb:"visual-basic",xeoracube:"xeora",yml:"yaml"},n={},e="components/",a=Prism.util.currentScript();if(a){var t=/\bplugins\/autoloader\/prism-autoloader\.(?:min\.)js$/i,r=/[\w-]+\.(?:min\.)js$/i;if(a.hasAttribute("data-autoloader-path"))e=a.getAttribute("data-autoloader-path").trim().replace(/\/?$/,"/");else{var s=a.src;t.test(s)?e=s.replace(t,"components/"):r.test(s)&&(e=s.replace(r,"components/"))}}var p=Prism.plugins.autoloader={languages_path:e,use_minified:!0,loadLanguages:o};Prism.hooks.add("complete",function(e){e.element&&e.language&&!e.grammar&&"none"!==e.language&&function(e,a){e in l&&(e=l[e]);var t=a.getAttribute("data-dependencies"),r=a.parentElement;!t&&r&&"pre"===r.tagName.toLowerCase()&&(t=r.getAttribute("data-dependencies")),o(t=t?t.split(/\s*,\s*/g):[],function(){u(e,function(){Prism.highlightElement(a)})})}(e.language,e.element)})}function o(e,a,t){"string"==typeof e&&(e=[e]);var r=e.length,s=0,i=!1;function c(){i||++s===r&&a&&a(e)}0!==r?e.forEach(function(e){u(e,c,function(){i||(i=!0,t&&t(e))})}):a&&setTimeout(a,0)}function u(a,t,r){var s=0<=a.indexOf("!");a=a.replace("!",""),a=l[a]||a;var e=function(){var e=n[a];if(e||(e=n[a]={callbacks:[]}),e.callbacks.push({success:t,error:r}),!s&&Prism.languages[a])m(a,"success");else if(!s&&e.error)m(a,"error");else if(s||!e.loading){e.loading=!0,function(e,a,t){var r=document.createElement("script");r.src=e,r.async=!0,r.onload=function(){document.body.removeChild(r),a&&a()},r.onerror=function(){document.body.removeChild(r),t&&t()},document.body.appendChild(r)}(function(e){return p.languages_path+"prism-"+e+(p.use_minified?".min":"")+".js"}(a),function(){e.loading=!1,m(a,"success")},function(){e.loading=!1,e.error=!0,m(a,"error")})}},i=c[a];i&&i.length?o(i,e,r):e()}function m(e,a){if(n[e]){for(var t=n[e].callbacks,r=0,s=t.length;r<s;r++){var i=t[r][a];i&&setTimeout(i,0)}t.length=0}}}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.css":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.css ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-command-line.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function() {
+
+if (typeof self === 'undefined' || !self.Prism || !self.document) {
+	return;
+}
+
+var clsReg = /(?:^|\s)command-line(?:\s|$)/;
+
+Prism.hooks.add('before-highlight', function (env) {
+	var vars = env.vars = env.vars || {};
+	var commandLine = vars['command-line'] = vars['command-line'] || {};
+
+	if (commandLine.complete || !env.code) {
+		commandLine.complete = true;
+		return;
+	}
+
+	// Works only for <code> wrapped inside <pre> (not inline).
+	var pre = env.element.parentNode;
+	if (!pre || !/pre/i.test(pre.nodeName) || // Abort only if neither the <pre> nor the <code> have the class
+		(!clsReg.test(pre.className) && !clsReg.test(env.element.className))) {
+		commandLine.complete = true;
+		return;
+	}
+
+	if (env.element.querySelector('.command-line-prompt')) { // Abort if prompt already exists.
+		commandLine.complete = true;
+		return;
+	}
+
+	var codeLines = env.code.split('\n');
+	commandLine.numberOfLines = codeLines.length;
+	var outputLines = commandLine.outputLines = [];
+
+	var outputSections = pre.getAttribute('data-output');
+	var outputFilter = pre.getAttribute('data-filter-output');
+	if (outputSections || outputSections === '') { // The user specified the output lines. -- cwells
+		outputSections = outputSections.split(',');
+		for (var i = 0; i < outputSections.length; i++) { // Parse the output sections into start/end ranges. -- cwells
+			var range = outputSections[i].split('-');
+			var outputStart = parseInt(range[0], 10);
+			var outputEnd = (range.length === 2 ? parseInt(range[1], 10) : outputStart);
+
+			if (!isNaN(outputStart) && !isNaN(outputEnd)) {
+				if (outputStart < 1) {
+					outputStart = 1;
+				}
+				if (outputEnd > codeLines.length) {
+					outputEnd = codeLines.length;
+				}
+				// Convert start and end to 0-based to simplify the arrays. -- cwells
+				outputStart--;
+				outputEnd--;
+				// Save the output line in an array and clear it in the code so it's not highlighted. -- cwells
+				for (var j = outputStart; j <= outputEnd; j++) {
+					outputLines[j] = codeLines[j];
+					codeLines[j] = '';
+				}
+			}
+		}
+	} else if (outputFilter) { // Treat lines beginning with this string as output. -- cwells
+		for (var i = 0; i < codeLines.length; i++) {
+			if (codeLines[i].indexOf(outputFilter) === 0) { // This line is output. -- cwells
+				outputLines[i] = codeLines[i].slice(outputFilter.length);
+				codeLines[i] = '';
+			}
+		}
+	}
+
+	env.code = codeLines.join('\n');
+});
+
+Prism.hooks.add('before-insert', function (env) {
+	var vars = env.vars = env.vars || {};
+	var commandLine = vars['command-line'] = vars['command-line'] || {};
+	if (commandLine.complete) {
+		return;
+	}
+
+	// Reinsert the output lines into the highlighted code. -- cwells
+	var codeLines = env.highlightedCode.split('\n');
+	for (var i = 0, l = (commandLine.outputLines || []).length; i < l; i++) {
+		if (commandLine.outputLines.hasOwnProperty(i)) {
+			codeLines[i] = commandLine.outputLines[i];
+		}
+	}
+	env.highlightedCode = codeLines.join('\n');
+});
+
+Prism.hooks.add('complete', function (env) {
+	var vars = env.vars = env.vars || {};
+	var commandLine = vars['command-line'] = vars['command-line'] || {};
+	if (commandLine.complete) {
+		return;
+	}
+
+	var pre = env.element.parentNode;
+	if (clsReg.test(env.element.className)) { // Remove the class "command-line" from the <code>
+		env.element.className = env.element.className.replace(clsReg, ' ');
+	}
+	if (!clsReg.test(pre.className)) { // Add the class "command-line" to the <pre>
+		pre.className += ' command-line';
+	}
+
+	var getAttribute = function(key, defaultValue) {
+		return (pre.getAttribute(key) || defaultValue).replace(/"/g, '&quot');
+	};
+
+	// Create the "rows" that will become the command-line prompts. -- cwells
+	var promptLines = new Array((commandLine.numberOfLines || 0) + 1);
+	var promptText = getAttribute('data-prompt', '');
+	if (promptText !== '') {
+		promptLines = promptLines.join('<span data-prompt="' + promptText + '"></span>');
+	} else {
+		var user = getAttribute('data-user', 'user');
+		var host = getAttribute('data-host', 'localhost');
+		promptLines = promptLines.join('<span data-user="' + user + '" data-host="' + host + '"></span>');
+	}
+
+	// Create the wrapper element. -- cwells
+	var prompt = document.createElement('span');
+	prompt.className = 'command-line-prompt';
+	prompt.innerHTML = promptLines;
+
+	// Remove the prompt from the output lines. -- cwells
+	for (var i = 0, l = (commandLine.outputLines || []).length; i < l; i++) {
+		if (commandLine.outputLines.hasOwnProperty(i)) {
+			var node = prompt.children[i];
+			node.removeAttribute('data-user');
+			node.removeAttribute('data-host');
+			node.removeAttribute('data-prompt');
+		}
+	}
+
+	env.element.insertBefore(prompt, env.element.firstChild);
+	commandLine.complete = true;
+});
+
+}());
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.min.js":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/command-line/prism-command-line.min.js ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+!function(){if("undefined"!=typeof self&&self.Prism&&self.document){var u=/(?:^|\s)command-line(?:\s|$)/;Prism.hooks.add("before-highlight",function(e){var t=e.vars=e.vars||{},a=t["command-line"]=t["command-line"]||{};if(!a.complete&&e.code){var n=e.element.parentNode;if(n&&/pre/i.test(n.nodeName)&&(u.test(n.className)||u.test(e.element.className)))if(e.element.querySelector(".command-line-prompt"))a.complete=!0;else{var r=e.code.split("\n");a.numberOfLines=r.length;var s=a.outputLines=[],o=n.getAttribute("data-output"),i=n.getAttribute("data-filter-output");if(o||""===o){o=o.split(",");for(var l=0;l<o.length;l++){var m=o[l].split("-"),p=parseInt(m[0],10),d=2===m.length?parseInt(m[1],10):p;if(!isNaN(p)&&!isNaN(d)){p<1&&(p=1),d>r.length&&(d=r.length),d--;for(var c=--p;c<=d;c++)s[c]=r[c],r[c]=""}}}else if(i)for(l=0;l<r.length;l++)0===r[l].indexOf(i)&&(s[l]=r[l].slice(i.length),r[l]="");e.code=r.join("\n")}else a.complete=!0}else a.complete=!0}),Prism.hooks.add("before-insert",function(e){var t=e.vars=e.vars||{},a=t["command-line"]=t["command-line"]||{};if(!a.complete){for(var n=e.highlightedCode.split("\n"),r=0,s=(a.outputLines||[]).length;r<s;r++)a.outputLines.hasOwnProperty(r)&&(n[r]=a.outputLines[r]);e.highlightedCode=n.join("\n")}}),Prism.hooks.add("complete",function(e){var t=e.vars=e.vars||{},a=t["command-line"]=t["command-line"]||{};if(!a.complete){var n=e.element.parentNode;u.test(e.element.className)&&(e.element.className=e.element.className.replace(u," ")),u.test(n.className)||(n.className+=" command-line");var r=function(e,t){return(n.getAttribute(e)||t).replace(/"/g,"&quot")},s=new Array((a.numberOfLines||0)+1),o=r("data-prompt","");if(""!==o)s=s.join('<span data-prompt="'+o+'"></span>');else{var i=r("data-user","user"),l=r("data-host","localhost");s=s.join('<span data-user="'+i+'" data-host="'+l+'"></span>')}var m=document.createElement("span");m.className="command-line-prompt",m.innerHTML=s;for(var p=0,d=(a.outputLines||[]).length;p<d;p++)if(a.outputLines.hasOwnProperty(p)){var c=m.children[p];c.removeAttribute("data-user"),c.removeAttribute("data-host"),c.removeAttribute("data-prompt")}e.element.insertBefore(m,e.element.firstChild),a.complete=!0}})}}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+(function(){
+	if (typeof self === 'undefined' || !self.Prism || !self.document) {
+		return;
+	}
+
+	if (!Prism.plugins.toolbar) {
+		console.warn('Copy to Clipboard plugin loaded before Toolbar plugin.');
+
+		return;
+	}
+
+	var ClipboardJS = window.ClipboardJS || undefined;
+
+	if (!ClipboardJS && "function" === 'function') {
+		ClipboardJS = __webpack_require__(/*! clipboard */ "./node_modules/clipboard/dist/clipboard.js");
+	}
+
+	var callbacks = [];
+
+	if (!ClipboardJS) {
+		var script = document.createElement('script');
+		var head = document.querySelector('head');
+
+		script.onload = function() {
+			ClipboardJS = window.ClipboardJS;
+
+			if (ClipboardJS) {
+				while (callbacks.length) {
+					callbacks.pop()();
+				}
+			}
+		};
+
+		script.src = 'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js';
+		head.appendChild(script);
+	}
+
+	Prism.plugins.toolbar.registerButton('copy-to-clipboard', function (env) {
+		var linkCopy = document.createElement('button');
+		linkCopy.textContent = 'Copy';
+
+		if (!ClipboardJS) {
+			callbacks.push(registerClipboard);
+		} else {
+			registerClipboard();
+		}
+
+		return linkCopy;
+
+		function registerClipboard() {
+			var clip = new ClipboardJS(linkCopy, {
+				'text': function () {
+					return env.code;
+				}
+			});
+
+			clip.on('success', function() {
+				linkCopy.textContent = 'Copied!';
+
+				resetText();
+			});
+			clip.on('error', function () {
+				linkCopy.textContent = 'Press Ctrl+C to copy';
+
+				resetText();
+			});
+		}
+
+		function resetText() {
+			setTimeout(function () {
+				linkCopy.textContent = 'Copy';
+			}, 5000);
+		}
+	});
+})();
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js":
+/*!**********************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(){if("undefined"!=typeof self&&self.Prism&&self.document)if(Prism.plugins.toolbar){var r=window.ClipboardJS||void 0;r||"function"!="function"||(r=__webpack_require__(/*! clipboard */ "./node_modules/clipboard/dist/clipboard.js"));var i=[];if(!r){var o=document.createElement("script"),e=document.querySelector("head");o.onload=function(){if(r=window.ClipboardJS)for(;i.length;)i.pop()()},o.src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",e.appendChild(o)}Prism.plugins.toolbar.registerButton("copy-to-clipboard",function(e){var t=document.createElement("button");return t.textContent="Copy",r?o():i.push(o),t;function o(){var o=new r(t,{text:function(){return e.code}});o.on("success",function(){t.textContent="Copied!",n()}),o.on("error",function(){t.textContent="Press Ctrl+C to copy",n()})}function n(){setTimeout(function(){t.textContent="Copy"},5e3)}})}else console.warn("Copy to Clipboard plugin loaded before Toolbar plugin.")}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/custom-class/prism-custom-class.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/custom-class/prism-custom-class.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {(function () {
+
+	if (
+		(typeof self === 'undefined' || !self.Prism) &&
+		(typeof global === 'undefined' || !global.Prism)
+	) {
+		return;
+	}
+
+	/**
+	 * @callback ClassMapper
+	 * @param {string} className
+	 * @param {string} language
+	 * @returns {string}
+	 *
+	 * @callback ClassAdder
+	 * @param {ClassAdderEnvironment} env
+	 * @returns {undefined | string | string[]}
+	 *
+	 * @typedef ClassAdderEnvironment
+	 * @property {string} language
+	 * @property {string} type
+	 * @property {string} content
+	 */
+
+	// options
+
+	/** @type {ClassAdder | undefined} */
+	var adder;
+	/** @type {ClassMapper | undefined} */
+	var mapper;
+	/** @type {string} */
+	var prefixString = '';
+
+
+	Prism.plugins.customClass = {
+		/**
+		 * Sets the function which can be used to add custom aliases to any token.
+		 *
+		 * @param {ClassAdder} classAdder
+		 */
+		add: function (classAdder) {
+			adder = classAdder;
+		},
+		/**
+		 * Maps all class names using the given object or map function.
+		 *
+		 * This does not affect the prefix.
+		 *
+		 * @param {Object<string, string> | ClassMapper} classMapper
+		 */
+		map: function map(classMapper) {
+			if (typeof classMapper === 'function') {
+				mapper = classMapper;
+			} else {
+				mapper = function (className) {
+					return classMapper[className] || className;
+				};
+			}
+		},
+		/**
+		 * Adds the given prefix to all class names.
+		 *
+		 * @param {string} string
+		 */
+		prefix: function prefix(string) {
+			prefixString = string || '';
+		}
+	}
+
+	Prism.hooks.add('wrap', function (env) {
+		if (adder) {
+			var result = adder({
+				content: env.content,
+				type: env.type,
+				language: env.language
+			});
+
+			if (Array.isArray(result)) {
+				env.classes.push.apply(env.classes, result);
+			} else if (result) {
+				env.classes.push(result);
+			}
+		}
+
+		if (!mapper && !prefixString) {
+			return;
+		}
+
+		env.classes = env.classes.map(function (c) {
+			return prefixString + (mapper ? mapper(c, env.language) : c);
+		});
+	});
+
+})();
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/custom-class/prism-custom-class.min.js":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/custom-class/prism-custom-class.min.js ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {!function(){if("undefined"!=typeof self&&self.Prism||"undefined"!=typeof global&&global.Prism){var a,e,t="";Prism.plugins.customClass={add:function(n){a=n},map:function(s){e="function"==typeof s?s:function(n){return s[n]||n}},prefix:function(n){t=n||""}},Prism.hooks.add("wrap",function(s){if(a){var n=a({content:s.content,type:s.type,language:s.language});Array.isArray(n)?s.classes.push.apply(s.classes,n):n&&s.classes.push(n)}(e||t)&&(s.classes=s.classes.map(function(n){return t+(e?e(n,s.language):n)}))})}}();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.js":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.js ***!
+  \********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {(function () {
+
+	if (
+		typeof self !== 'undefined' && !self.Prism ||
+		typeof global !== 'undefined' && !global.Prism
+	) {
+		return;
+	}
+
+	var autoLinkerProcess = function (grammar) {
+		if (Prism.plugins.autolinker) {
+			Prism.plugins.autolinker.processGrammar(grammar);
+		}
+		return grammar;
+	};
+	var dataURI = {
+		pattern: /(.)\bdata:[^\/]+\/[^,]+,(?:(?!\1)[\s\S]|\\\1)+(?=\1)/,
+		lookbehind: true,
+		inside: {
+			'language-css': {
+				pattern: /(data:[^\/]+\/(?:[^+,]+\+)?css,)[\s\S]+/,
+				lookbehind: true
+			},
+			'language-javascript': {
+				pattern: /(data:[^\/]+\/(?:[^+,]+\+)?javascript,)[\s\S]+/,
+				lookbehind: true
+			},
+			'language-json': {
+				pattern: /(data:[^\/]+\/(?:[^+,]+\+)?json,)[\s\S]+/,
+				lookbehind: true
+			},
+			'language-markup': {
+				pattern: /(data:[^\/]+\/(?:[^+,]+\+)?(?:html|xml),)[\s\S]+/,
+				lookbehind: true
+			}
+		}
+	};
+
+	// Tokens that may contain URLs
+	var candidates = ['url', 'attr-value', 'string'];
+
+	Prism.plugins.dataURIHighlight = {
+		processGrammar: function (grammar) {
+			// Abort if grammar has already been processed
+			if (!grammar || grammar['data-uri']) {
+				return;
+			}
+
+			Prism.languages.DFS(grammar, function (key, def, type) {
+				if (candidates.indexOf(type) > -1 && !Array.isArray(def)) {
+					if (!def.pattern) {
+						def = this[key] = {
+							pattern: def
+						};
+					}
+
+					def.inside = def.inside || {};
+
+					if (type == 'attr-value') {
+						Prism.languages.insertBefore('inside', def.inside['url-link'] ? 'url-link' : 'punctuation', {
+							'data-uri': dataURI
+						}, def);
+					}
+					else {
+						if (def.inside['url-link']) {
+							Prism.languages.insertBefore('inside', 'url-link', {
+								'data-uri': dataURI
+							}, def);
+						} else {
+							def.inside['data-uri'] = dataURI;
+						}
+					}
+				}
+			});
+			grammar['data-uri'] = dataURI;
+		}
+	};
+
+	Prism.hooks.add('before-highlight', function (env) {
+		// Prepare the needed grammars for this code block
+		if (dataURI.pattern.test(env.code)) {
+			for (var p in dataURI.inside) {
+				if (dataURI.inside.hasOwnProperty(p)) {
+					if (!dataURI.inside[p].inside && dataURI.inside[p].pattern.test(env.code)) {
+						var lang = p.match(/^language-(.+)/)[1];
+						if (Prism.languages[lang]) {
+							dataURI.inside[p].inside = {
+								rest: autoLinkerProcess(Prism.languages[lang])
+							};
+						}
+					}
+				}
+			}
+		}
+
+		Prism.plugins.dataURIHighlight.processGrammar(env.grammar);
+	});
+}());
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.min.js":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.min.js ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {!function(){if(("undefined"==typeof self||self.Prism)&&("undefined"==typeof global||global.Prism)){var r={pattern:/(.)\bdata:[^\/]+\/[^,]+,(?:(?!\1)[\s\S]|\\\1)+(?=\1)/,lookbehind:!0,inside:{"language-css":{pattern:/(data:[^\/]+\/(?:[^+,]+\+)?css,)[\s\S]+/,lookbehind:!0},"language-javascript":{pattern:/(data:[^\/]+\/(?:[^+,]+\+)?javascript,)[\s\S]+/,lookbehind:!0},"language-json":{pattern:/(data:[^\/]+\/(?:[^+,]+\+)?json,)[\s\S]+/,lookbehind:!0},"language-markup":{pattern:/(data:[^\/]+\/(?:[^+,]+\+)?(?:html|xml),)[\s\S]+/,lookbehind:!0}}},e=["url","attr-value","string"];Prism.plugins.dataURIHighlight={processGrammar:function(i){i&&!i["data-uri"]&&(Prism.languages.DFS(i,function(i,a,n){-1<e.indexOf(n)&&!Array.isArray(a)&&(a.pattern||(a=this[i]={pattern:a}),a.inside=a.inside||{},"attr-value"==n?Prism.languages.insertBefore("inside",a.inside["url-link"]?"url-link":"punctuation",{"data-uri":r},a):a.inside["url-link"]?Prism.languages.insertBefore("inside","url-link",{"data-uri":r},a):a.inside["data-uri"]=r)}),i["data-uri"]=r)}},Prism.hooks.add("before-highlight",function(i){if(r.pattern.test(i.code))for(var a in r.inside)if(r.inside.hasOwnProperty(a)&&!r.inside[a].inside&&r.inside[a].pattern.test(i.code)){var n=a.match(/^language-(.+)/)[1];Prism.languages[n]&&(r.inside[a].inside={rest:(e=Prism.languages[n],Prism.plugins.autolinker&&Prism.plugins.autolinker.processGrammar(e),e)})}var e;Prism.plugins.dataURIHighlight.processGrammar(i.grammar)})}}();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.css":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.css ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-diff-highlight.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.js":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.js ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+
+	if (typeof Prism === 'undefined' || !Prism.languages['diff']) {
+		return;
+	}
+
+
+	var LANGUAGE_REGEX = /diff-([\w-]+)/i;
+	var HTML_TAG = /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/gi;
+	//this will match a line plus the line break while ignoring the line breaks HTML tags may contain.
+	var HTML_LINE = RegExp(/(?:__|[^\r\n<])*(?:\r\n?|\n|(?:__|[^\r\n<])(?![^\r\n]))/.source.replace(/__/g, function () { return HTML_TAG.source; }), 'gi');
+
+	var PREFIXES = Prism.languages.diff.PREFIXES;
+
+
+	Prism.hooks.add('before-sanity-check', function (env) {
+		var lang = env.language;
+		if (LANGUAGE_REGEX.test(lang) && !env.grammar) {
+			env.grammar = Prism.languages[lang] = Prism.languages['diff'];
+		}
+	});
+	Prism.hooks.add('before-tokenize', function (env) {
+		var lang = env.language;
+		if (LANGUAGE_REGEX.test(lang) && !Prism.languages[lang]) {
+			Prism.languages[lang] = Prism.languages['diff'];
+		}
+	});
+
+	Prism.hooks.add('wrap', function (env) {
+		var diffLanguage, diffGrammar;
+
+		if (env.language !== 'diff') {
+			var langMatch = LANGUAGE_REGEX.exec(env.language);
+			if (!langMatch) {
+				return; // not a language specific diff
+			}
+
+			diffLanguage = langMatch[1];
+			diffGrammar = Prism.languages[diffLanguage];
+		}
+
+		// one of the diff tokens without any nested tokens
+		if (env.type in PREFIXES) {
+			/** @type {string} */
+			var content = env.content.replace(HTML_TAG, ''); // remove all HTML tags
+
+			/** @type {string} */
+			var decoded = content.replace(/&lt;/g, '<').replace(/&amp;/g, '&');
+
+			// remove any one-character prefix
+			var code = decoded.replace(/(^|[\r\n])./g, '$1');
+
+			// highlight, if possible
+			var highlighted;
+			if (diffGrammar) {
+				highlighted = Prism.highlight(code, diffGrammar, diffLanguage);
+			} else {
+				highlighted = Prism.util.encode(code);
+			}
+
+			// get the HTML source of the prefix token
+			var prefixToken = new Prism.Token('prefix', PREFIXES[env.type], [/\w+/.exec(env.type)[0]]);
+			var prefix = Prism.Token.stringify(prefixToken, env.language);
+
+			// add prefix
+			var lines = [], m;
+			HTML_LINE.lastIndex = 0;
+			while (m = HTML_LINE.exec(highlighted)) {
+				lines.push(prefix + m[0]);
+			}
+			if (/(?:^|[\r\n]).$/.test(decoded)) {
+				// because both "+a\n+" and "+a\n" will map to "a\n" after the line prefixes are removed
+				lines.push(prefix);
+			}
+			env.content = lines.join('');
+
+			if (diffGrammar) {
+				env.classes.push('language-' + diffLanguage);
+			}
+		}
+	});
+
+}());
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.min.js":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.min.js ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+!function(){if("undefined"!=typeof Prism&&Prism.languages.diff){var o=/diff-([\w-]+)/i,m=/<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/gi,c=RegExp("(?:__|[^\r\n<])*(?:\r\n?|\n|(?:__|[^\r\n<])(?![^\r\n]))".replace(/__/g,function(){return m.source}),"gi"),d=Prism.languages.diff.PREFIXES;Prism.hooks.add("before-sanity-check",function(e){var a=e.language;o.test(a)&&!e.grammar&&(e.grammar=Prism.languages[a]=Prism.languages.diff)}),Prism.hooks.add("before-tokenize",function(e){var a=e.language;o.test(a)&&!Prism.languages[a]&&(Prism.languages[a]=Prism.languages.diff)}),Prism.hooks.add("wrap",function(e){var a,s;if("diff"!==e.language){var n=o.exec(e.language);if(!n)return;a=n[1],s=Prism.languages[a]}if(e.type in d){var r,i=e.content.replace(m,"").replace(/&lt;/g,"<").replace(/&amp;/g,"&"),g=i.replace(/(^|[\r\n])./g,"$1");r=s?Prism.highlight(g,s,a):Prism.util.encode(g);var f,t=new Prism.Token("prefix",d[e.type],[/\w+/.exec(e.type)[0]]),u=Prism.Token.stringify(t,e.language),l=[];for(c.lastIndex=0;f=c.exec(r);)l.push(u+f[0]);/(?:^|[\r\n]).$/.test(i)&&l.push(u),e.content=l.join(""),s&&e.classes.push("language-"+a)}})}}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/download-button/prism-download-button.js":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/download-button/prism-download-button.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+	if (typeof self === 'undefined' || !self.Prism || !self.document || !document.querySelector) {
+		return;
+	}
+
+	Prism.plugins.toolbar.registerButton('download-file', function (env) {
+		var pre = env.element.parentNode;
+		if (!pre || !/pre/i.test(pre.nodeName) || !pre.hasAttribute('data-src') || !pre.hasAttribute('data-download-link')) {
+			return;
+		}
+		var src = pre.getAttribute('data-src');
+		var a = document.createElement('a');
+		a.textContent = pre.getAttribute('data-download-link-label') || 'Download';
+		a.setAttribute('download', '');
+		a.href = src;
+		return a;
+	});
+
+})();
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/download-button/prism-download-button.min.js":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/download-button/prism-download-button.min.js ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+"undefined"!=typeof self&&self.Prism&&self.document&&document.querySelector&&Prism.plugins.toolbar.registerButton("download-file",function(t){var e=t.element.parentNode;if(e&&/pre/i.test(e.nodeName)&&e.hasAttribute("data-src")&&e.hasAttribute("data-download-link")){var a=e.getAttribute("data-src"),n=document.createElement("a");return n.textContent=e.getAttribute("data-download-link-label")||"Download",n.setAttribute("download",""),n.href=a,n}});
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/file-highlight/prism-file-highlight.js":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/file-highlight/prism-file-highlight.js ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+	if (typeof self === 'undefined' || !self.Prism || !self.document || !document.querySelector) {
+		return;
+	}
+
+	/**
+	 * @param {Element} [container=document]
+	 */
+	self.Prism.fileHighlight = function(container) {
+		container = container || document;
+
+		var Extensions = {
+			'js': 'javascript',
+			'py': 'python',
+			'rb': 'ruby',
+			'ps1': 'powershell',
+			'psm1': 'powershell',
+			'sh': 'bash',
+			'bat': 'batch',
+			'h': 'c',
+			'tex': 'latex'
+		};
+
+		Array.prototype.slice.call(container.querySelectorAll('pre[data-src]')).forEach(function (pre) {
+			// ignore if already loaded
+			if (pre.hasAttribute('data-src-loaded')) {
+				return;
+			}
+
+			// load current
+			var src = pre.getAttribute('data-src');
+
+			var language, parent = pre;
+			var lang = /\blang(?:uage)?-([\w-]+)\b/i;
+			while (parent && !lang.test(parent.className)) {
+				parent = parent.parentNode;
+			}
+
+			if (parent) {
+				language = (pre.className.match(lang) || [, ''])[1];
+			}
+
+			if (!language) {
+				var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
+				language = Extensions[extension] || extension;
+			}
+
+			var code = document.createElement('code');
+			code.className = 'language-' + language;
+
+			pre.textContent = '';
+
+			code.textContent = 'Loading…';
+
+			pre.appendChild(code);
+
+			var xhr = new XMLHttpRequest();
+
+			xhr.open('GET', src, true);
+
+			xhr.onreadystatechange = function () {
+				if (xhr.readyState == 4) {
+
+					if (xhr.status < 400 && xhr.responseText) {
+						code.textContent = xhr.responseText;
+
+						Prism.highlightElement(code);
+						// mark as loaded
+						pre.setAttribute('data-src-loaded', '');
+					}
+					else if (xhr.status >= 400) {
+						code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+					}
+					else {
+						code.textContent = '✖ Error: File does not exist or is empty';
+					}
+				}
+			};
+
+			xhr.send(null);
+		});
+	};
+
+	document.addEventListener('DOMContentLoaded', function () {
+		// execute inside handler, for dropping Event as argument
+		self.Prism.fileHighlight();
+	});
+
+})();
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/file-highlight/prism-file-highlight.min.js":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/file-highlight/prism-file-highlight.min.js ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+"undefined"!=typeof self&&self.Prism&&self.document&&document.querySelector&&(self.Prism.fileHighlight=function(e){e=e||document;var i={js:"javascript",py:"python",rb:"ruby",ps1:"powershell",psm1:"powershell",sh:"bash",bat:"batch",h:"c",tex:"latex"};Array.prototype.slice.call(e.querySelectorAll("pre[data-src]")).forEach(function(e){if(!e.hasAttribute("data-src-loaded")){for(var t,a=e.getAttribute("data-src"),s=e,n=/\blang(?:uage)?-([\w-]+)\b/i;s&&!n.test(s.className);)s=s.parentNode;if(s&&(t=(e.className.match(n)||[,""])[1]),!t){var r=(a.match(/\.(\w+)$/)||[,""])[1];t=i[r]||r}var o=document.createElement("code");o.className="language-"+t,e.textContent="",o.textContent="Loading…",e.appendChild(o);var l=new XMLHttpRequest;l.open("GET",a,!0),l.onreadystatechange=function(){4==l.readyState&&(l.status<400&&l.responseText?(o.textContent=l.responseText,Prism.highlightElement(o),e.setAttribute("data-src-loaded","")):400<=l.status?o.textContent="✖ Error "+l.status+" while fetching file: "+l.statusText:o.textContent="✖ Error: File does not exist or is empty")},l.send(null)}})},document.addEventListener("DOMContentLoaded",function(){self.Prism.fileHighlight()}));
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.js":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.js ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+
+	if (typeof self !== 'undefined' && !self.Prism) {
+		return;
+	}
+
+	// https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill
+	if (!Element.prototype.matches) {
+		Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
+	}
+
+	var script = Prism.util.currentScript();
+
+
+	/**
+	 * @type {Array<(element: HTMLElement) => boolean>}
+	 */
+	var filters = [];
+
+	var config = Prism.plugins.filterHighlightAll = {
+
+		/**
+		 * Adds a new filter for the elements of `highlightAll` and `highlightAllUnder` such that only elements for
+		 * which the given function returns `true` will be highlighted.
+		 *
+		 * @param {(value: { element: HTMLElement, language: string }) => boolean} condition
+		 */
+		add: function (condition) {
+			filters.push(function (element) {
+				return condition({
+					element: element,
+					language: Prism.util.getLanguage(element)
+				});
+			});
+		},
+
+		/**
+		 * Adds a new filter for the elements of `highlightAll` and `highlightAllUnder` such that only elements that
+		 * match the given CSS selection will be highlighted.
+		 *
+		 * @param {string} selector
+		 */
+		addSelector: function (selector) {
+			filters.push(function (element) {
+				return element.matches(selector);
+			});
+		},
+
+		reject: {
+
+			/**
+			 * Adds a new filter for the elements of `highlightAll` and `highlightAllUnder` such that only elements for
+			 * which the given function returns `false` will be highlighted.
+			 *
+			 * @param {(value: { element: HTMLElement, language: string }) => boolean} condition
+			 */
+			add: function (condition) {
+				filters.push(function (element) {
+					return !condition({
+						element: element,
+						language: Prism.util.getLanguage(element)
+					});
+				});
+			},
+
+			/**
+			 * Adds a new filter for the elements of `highlightAll` and `highlightAllUnder` such that only elements that do
+			 * not match the given CSS selection will be highlighted.
+			 *
+			 * @param {string} selector
+			 */
+			addSelector: function (selector) {
+				filters.push(function (element) {
+					return !element.matches(selector);
+				});
+			},
+
+		},
+
+		/**
+		 * Filters the elements of `highlightAll` and `highlightAllUnder` such that only elements with a known language
+		 * will be highlighted. All elements with an unset or unknown language will be ignored.
+		 *
+		 * __Note:__ This will effectively disable the AutoLoader plugin.
+		 *
+		 * @type {boolean}
+		 */
+		filterKnown: !!script && script.hasAttribute('data-filter-known')
+	};
+
+	config.add(function filterKnown(env) {
+		return !config.filterKnown || typeof Prism.languages[env.language] === 'object';
+	});
+
+	if (script) {
+		var attr;
+		if (attr = script.getAttribute('data-filter-selector')) {
+			config.addSelector(attr);
+		}
+		if (attr = script.getAttribute('data-reject-selector')) {
+			config.reject.addSelector(attr);
+		}
+	}
+
+	/**
+	 * Applies all filters to the given element and returns true if and only if every filter returned true on the
+	 * given element.
+	 *
+	 * @param {HTMLElement} element
+	 * @returns {boolean}
+	 */
+	function combinedFilter(element) {
+		for (var i = 0, l = filters.length; i < l; i++) {
+			if (!filters[i](element)) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	Prism.hooks.add('before-all-elements-highlight', function (env) {
+		env.elements = env.elements.filter(combinedFilter);
+	});
+
+}());
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.min.js":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.min.js ***!
+  \****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+!function(){if("undefined"==typeof self||self.Prism){Element.prototype.matches||(Element.prototype.matches=Element.prototype.msMatchesSelector||Element.prototype.webkitMatchesSelector);var e,t=Prism.util.currentScript(),r=[],n=Prism.plugins.filterHighlightAll={add:function(t){r.push(function(e){return t({element:e,language:Prism.util.getLanguage(e)})})},addSelector:function(t){r.push(function(e){return e.matches(t)})},reject:{add:function(t){r.push(function(e){return!t({element:e,language:Prism.util.getLanguage(e)})})},addSelector:function(t){r.push(function(e){return!e.matches(t)})}},filterKnown:!!t&&t.hasAttribute("data-filter-known")};if(n.add(function(e){return!n.filterKnown||"object"==typeof Prism.languages[e.language]}),t)(e=t.getAttribute("data-filter-selector"))&&n.addSelector(e),(e=t.getAttribute("data-reject-selector"))&&n.reject.addSelector(e);Prism.hooks.add("before-all-elements-highlight",function(e){e.elements=e.elements.filter(i)})}function i(e){for(var t=0,n=r.length;t<n;t++)if(!r[t](e))return!1;return!0}}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.js":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.js ***!
+  \********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {(function(){
+
+if (
+	typeof self !== 'undefined' && !self.Prism ||
+	typeof global !== 'undefined' && !global.Prism
+) {
+	return;
+}
+
+Prism.hooks.add('wrap', function(env) {
+	if (env.type !== "keyword") {
+		return;
+	}
+	env.classes.push('keyword-' + env.content);
+});
+
+})();
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.min.js":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.min.js ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {"undefined"!=typeof self&&!self.Prism||"undefined"!=typeof global&&!global.Prism||Prism.hooks.add("wrap",function(e){"keyword"===e.type&&e.classes.push("keyword-"+e.content)});
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.css":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.css ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-inline-color.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+
+	if (typeof self === 'undefined' || typeof Prism === 'undefined' || typeof document === 'undefined') {
+		return;
+	}
+
+	// Copied from the markup language definition
+	var HTML_TAG = /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/g;
+
+	// a regex to validate hexadecimal colors
+	var HEX_COLOR = /^#?((?:[\da-f]){3,4}|(?:[\da-f]{2}){3,4})$/i;
+
+	/**
+	 * Parses the given hexadecimal representation and returns the parsed RGBA color.
+	 *
+	 * If the format of the given string is invalid, `undefined` will be returned.
+	 * Valid formats are: `RGB`, `RGBA`, `RRGGBB`, and `RRGGBBAA`.
+	 *
+	 * Hexadecimal colors are parsed because they are not fully supported by older browsers, so converting them to
+	 * `rgba` functions improves browser compatibility.
+	 *
+	 * @param {string} hex
+	 * @returns {string | undefined}
+	 */
+	function parseHexColor(hex) {
+		var match = HEX_COLOR.exec(hex);
+		if (!match) {
+			return undefined;
+		}
+		hex = match[1]; // removes the leading "#"
+
+		// the width and number of channels
+		var channelWidth = hex.length >= 6 ? 2 : 1;
+		var channelCount = hex.length / channelWidth;
+
+		// the scale used to normalize 4bit and 8bit values
+		var scale = channelWidth == 1 ? 1 / 15 : 1 / 255;
+
+		// normalized RGBA channels
+		var channels = [];
+		for (var i = 0; i < channelCount; i++) {
+			var int = parseInt(hex.substr(i * channelWidth, channelWidth), 16);
+			channels.push(int * scale);
+		}
+		if (channelCount == 3) {
+			channels.push(1); // add alpha of 100%
+		}
+
+		// output
+		var rgb = channels.slice(0, 3).map(function (x) {
+			return String(Math.round(x * 255));
+		}).join(',');
+		var alpha = String(Number(channels[3].toFixed(3))); // easy way to round 3 decimal places
+
+		return 'rgba(' + rgb + ',' + alpha + ')';
+	}
+
+	/**
+	 * Validates the given Color using the current browser's internal implementation.
+	 *
+	 * @param {string} color
+	 * @returns {string | undefined}
+	 */
+	function validateColor(color) {
+		var s = new Option().style;
+		s.color = color;
+		return s.color ? color : undefined;
+	}
+
+	/**
+	 * An array of function which parse a given string representation of a color.
+	 *
+	 * These parser serve as validators and as a layer of compatibility to support color formats which the browser
+	 * might not support natively.
+	 *
+	 * @type {((value: string) => (string|undefined))[]}
+	 */
+	var parsers = [
+		parseHexColor,
+		validateColor
+	];
+
+
+	Prism.hooks.add('wrap', function (env) {
+		if (env.type === 'color' || env.classes.indexOf('color') >= 0) {
+			var content = env.content;
+
+			// remove all HTML tags inside
+			var rawText = content.split(HTML_TAG).join('');
+
+			var color;
+			for (var i = 0, l = parsers.length; i < l && !color; i++) {
+				color = parsers[i](rawText);
+			}
+
+			if (!color) {
+				return;
+			}
+
+			var previewElement = '<span class="inline-color-wrapper"><span class="inline-color" style="background-color:' + color + ';"></span></span>';
+			env.content = previewElement + content;
+		}
+	});
+
+}());
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.min.js":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/inline-color/prism-inline-color.min.js ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+!function(){if("undefined"!=typeof self&&"undefined"!=typeof Prism&&"undefined"!=typeof document){var a=/<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/g,c=/^#?((?:[\da-f]){3,4}|(?:[\da-f]{2}){3,4})$/i,f=[function(n){var r=c.exec(n);if(r){for(var o=6<=(n=r[1]).length?2:1,e=n.length/o,s=1==o?1/15:1/255,t=[],i=0;i<e;i++){var a=parseInt(n.substr(i*o,o),16);t.push(a*s)}return 3==e&&t.push(1),"rgba("+t.slice(0,3).map(function(n){return String(Math.round(255*n))}).join(",")+","+String(Number(t[3].toFixed(3)))+")"}},function(n){var r=(new Option).style;return r.color=n,r.color?n:void 0}];Prism.hooks.add("wrap",function(n){if("color"===n.type||0<=n.classes.indexOf("color")){for(var r,o=n.content,e=o.split(a).join(""),s=0,t=f.length;s<t&&!r;s++)r=f[s](e);if(!r)return;var i='<span class="inline-color-wrapper"><span class="inline-color" style="background-color:'+r+';"></span></span>';n.content=i+o}})}}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.js":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+	if (!self.Prism || !self.document || !document.querySelectorAll || ![].filter) return;
+
+	/**
+	 * @callback Adapter
+	 * @param {any} response
+	 * @param {HTMLPreElement} [pre]
+	 * @returns {string}
+	 */
+
+	/**
+	 * The list of adapter which will be used if `data-adapter` is not specified.
+	 *
+	 * @type {Array.<{adapter: Adapter, name: string}>}
+	 */
+	var adapters = [];
+
+	/**
+	 * Adds a new function to the list of adapters.
+	 *
+	 * If the given adapter is already registered or not a function or there is an adapter with the given name already,
+	 * nothing will happen.
+	 *
+	 * @param {Adapter} adapter The adapter to be registered.
+	 * @param {string} [name] The name of the adapter. Defaults to the function name of `adapter`.
+	 */
+	function registerAdapter(adapter, name) {
+		name = name || adapter.name;
+		if (typeof adapter === "function" && !getAdapter(adapter) && !getAdapter(name)) {
+			adapters.push({ adapter: adapter, name: name });
+		}
+	}
+	/**
+	 * Returns the given adapter itself, if registered, or a registered adapter with the given name.
+	 *
+	 * If no fitting adapter is registered, `null` will be returned.
+	 *
+	 * @param {string|Function} adapter The adapter itself or the name of an adapter.
+	 * @returns {Adapter} A registered adapter or `null`.
+	 */
+	function getAdapter(adapter) {
+		if (typeof adapter === "function") {
+			for (var i = 0, item; item = adapters[i++];) {
+				if (item.adapter.valueOf() === adapter.valueOf()) {
+					return item.adapter;
+				}
+			}
+		}
+		else if (typeof adapter === "string") {
+			for (var i = 0, item; item = adapters[i++];) {
+				if (item.name === adapter) {
+					return item.adapter;
+				}
+			}
+		}
+		return null;
+	}
+	/**
+	 * Remove the given adapter or the first registered adapter with the given name from the list of
+	 * registered adapters.
+	 *
+	 * @param {string|Function} adapter The adapter itself or the name of an adapter.
+	 */
+	function removeAdapter(adapter) {
+		if (typeof adapter === "string") {
+			adapter = getAdapter(adapter);
+		}
+		if (typeof adapter === "function") {
+			var index = adapters.map(function (item) { return item.adapter; }).indexOf(adapter);
+			if (index >= 0) {
+				adapters.splice(index, 1);
+			}
+		}
+	}
+
+	registerAdapter(function github(rsp, el) {
+		if (rsp && rsp.meta && rsp.data) {
+			if (rsp.meta.status && rsp.meta.status >= 400) {
+				return "Error: " + (rsp.data.message || rsp.meta.status);
+			}
+			else if (typeof (rsp.data.content) === "string") {
+				return typeof (atob) === "function"
+					? atob(rsp.data.content.replace(/\s/g, ""))
+					: "Your browser cannot decode base64";
+			}
+		}
+		return null;
+	}, 'github');
+	registerAdapter(function gist(rsp, el) {
+		if (rsp && rsp.meta && rsp.data && rsp.data.files) {
+			if (rsp.meta.status && rsp.meta.status >= 400) {
+				return "Error: " + (rsp.data.message || rsp.meta.status);
+			}
+
+			var files = rsp.data.files;
+			var filename = el.getAttribute("data-filename");
+			if (filename == null) {
+				// Maybe in the future we can somehow render all files
+				// But the standard <script> include for gists does that nicely already,
+				// so that might be getting beyond the scope of this plugin
+				for (var key in files) {
+					if (files.hasOwnProperty(key)) {
+						filename = key;
+						break;
+					}
+				}
+			}
+
+			if (files[filename] !== undefined) {
+				return files[filename].content;
+			}
+			return "Error: unknown or missing gist file " + filename;
+		}
+		return null;
+	}, 'gist');
+	registerAdapter(function bitbucket(rsp, el) {
+		if (rsp && rsp.node && typeof (rsp.data) === "string") {
+			return rsp.data;
+		}
+		return null;
+	}, 'bitbucket');
+
+	var jsonpcb = 0,
+		loadMsg = "Loading\u2026";
+
+	/**
+	 * Highlights all `pre` elements with an `data-jsonp` by requesting the specified JSON and using the specified adapter
+	 * or a registered adapter to extract the code to highlight from the response. The highlighted code will be inserted
+	 * into the `pre` element.
+	 */
+	function highlight() {
+		Array.prototype.slice.call(document.querySelectorAll("pre[data-jsonp]")).forEach(function (pre) {
+			pre.textContent = "";
+
+			var code = document.createElement("code");
+			code.textContent = loadMsg;
+			pre.appendChild(code);
+
+			var adapterName = pre.getAttribute("data-adapter");
+			var adapter = null;
+			if (adapterName) {
+				if (typeof window[adapterName] === "function") {
+					adapter = window[adapterName];
+				}
+				else {
+					code.textContent = "JSONP adapter function '" + adapterName + "' doesn't exist";
+					return;
+				}
+			}
+
+			var cb = "prismjsonp" + jsonpcb++;
+
+			var uri = document.createElement("a");
+			var src = uri.href = pre.getAttribute("data-jsonp");
+			uri.href += (uri.search ? "&" : "?") + (pre.getAttribute("data-callback") || "callback") + "=" + cb;
+
+			var timeout = setTimeout(function () {
+				// we could clean up window[cb], but if the request finally succeeds, keeping it around is a good thing
+				if (code.textContent === loadMsg) {
+					code.textContent = "Timeout loading '" + src + "'";
+				}
+			}, 5000);
+
+			var script = document.createElement("script");
+			script.src = uri.href;
+
+			window[cb] = function (rsp) {
+				document.head.removeChild(script);
+				clearTimeout(timeout);
+				delete window[cb];
+
+				var data = "";
+
+				if (adapter) {
+					data = adapter(rsp, pre);
+				}
+				else {
+					for (var p in adapters) {
+						data = adapters[p].adapter(rsp, pre);
+						if (data !== null) {
+							break;
+						}
+					}
+				}
+
+				if (data === null) {
+					code.textContent = "Cannot parse response (perhaps you need an adapter function?)";
+				}
+				else {
+					code.textContent = data;
+					Prism.highlightElement(code);
+				}
+			};
+
+			document.head.appendChild(script);
+		});
+	}
+
+	Prism.plugins.jsonphighlight = {
+		registerAdapter: registerAdapter,
+		removeAdapter: removeAdapter,
+		highlight: highlight
+	};
+
+	highlight();
+})();
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.min.js":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.min.js ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+!function(){if(self.Prism&&self.document&&document.querySelectorAll&&[].filter){var d=[];t(function(t,e){if(t&&t.meta&&t.data){if(t.meta.status&&400<=t.meta.status)return"Error: "+(t.data.message||t.meta.status);if("string"==typeof t.data.content)return"function"==typeof atob?atob(t.data.content.replace(/\s/g,"")):"Your browser cannot decode base64"}return null},"github"),t(function(t,e){if(t&&t.meta&&t.data&&t.data.files){if(t.meta.status&&400<=t.meta.status)return"Error: "+(t.data.message||t.meta.status);var n=t.data.files,a=e.getAttribute("data-filename");if(null==a)for(var r in n)if(n.hasOwnProperty(r)){a=r;break}return void 0!==n[a]?n[a].content:"Error: unknown or missing gist file "+a}return null},"gist"),t(function(t,e){return t&&t.node&&"string"==typeof t.data?t.data:null},"bitbucket");var s=0,l="Loading…";Prism.plugins.jsonphighlight={registerAdapter:t,removeAdapter:function(t){if("string"==typeof t&&(t=n(t)),"function"==typeof t){var e=d.map(function(t){return t.adapter}).indexOf(t);0<=e&&d.splice(e,1)}},highlight:e},e()}function t(t,e){e=e||t.name,"function"!=typeof t||n(t)||n(e)||d.push({adapter:t,name:e})}function n(t){if("function"==typeof t){for(var e=0;n=d[e++];)if(n.adapter.valueOf()===t.valueOf())return n.adapter}else if("string"==typeof t){var n;for(e=0;n=d[e++];)if(n.name===t)return n.adapter}return null}function e(){Array.prototype.slice.call(document.querySelectorAll("pre[data-jsonp]")).forEach(function(a){a.textContent="";var r=document.createElement("code");r.textContent=l,a.appendChild(r);var t=a.getAttribute("data-adapter"),o=null;if(t){if("function"!=typeof window[t])return void(r.textContent="JSONP adapter function '"+t+"' doesn't exist");o=window[t]}var i="prismjsonp"+s++,e=document.createElement("a"),n=e.href=a.getAttribute("data-jsonp");e.href+=(e.search?"&":"?")+(a.getAttribute("data-callback")||"callback")+"="+i;var u=setTimeout(function(){r.textContent===l&&(r.textContent="Timeout loading '"+n+"'")},5e3),f=document.createElement("script");f.src=e.href,window[i]=function(t){document.head.removeChild(f),clearTimeout(u),delete window[i];var e="";if(o)e=o(t,a);else for(var n in d)if(null!==(e=d[n].adapter(t,a)))break;null===e?r.textContent="Cannot parse response (perhaps you need an adapter function?)":(r.textContent=e,Prism.highlightElement(r))},document.head.appendChild(f)})}}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/keep-markup/prism-keep-markup.js":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/keep-markup/prism-keep-markup.js ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+
+	if (typeof self === 'undefined' || !self.Prism || !self.document || !document.createRange) {
+		return;
+	}
+
+	Prism.plugins.KeepMarkup = true;
+
+	Prism.hooks.add('before-highlight', function (env) {
+		if (!env.element.children.length) {
+			return;
+		}
+
+		var pos = 0;
+		var data = [];
+		var f = function (elt, baseNode) {
+			var o = {};
+			if (!baseNode) {
+				// Clone the original tag to keep all attributes
+				o.clone = elt.cloneNode(false);
+				o.posOpen = pos;
+				data.push(o);
+			}
+			for (var i = 0, l = elt.childNodes.length; i < l; i++) {
+				var child = elt.childNodes[i];
+				if (child.nodeType === 1) { // element
+					f(child);
+				} else if(child.nodeType === 3) { // text
+					pos += child.data.length;
+				}
+			}
+			if (!baseNode) {
+				o.posClose = pos;
+			}
+		};
+		f(env.element, true);
+
+		if (data && data.length) {
+			// data is an array of all existing tags
+			env.keepMarkup = data;
+		}
+	});
+
+	Prism.hooks.add('after-highlight', function (env) {
+		if(env.keepMarkup && env.keepMarkup.length) {
+
+			var walk = function (elt, nodeState) {
+				for (var i = 0, l = elt.childNodes.length; i < l; i++) {
+
+					var child = elt.childNodes[i];
+
+					if (child.nodeType === 1) { // element
+						if (!walk(child, nodeState)) {
+							return false;
+						}
+
+					} else if (child.nodeType === 3) { // text
+						if(!nodeState.nodeStart && nodeState.pos + child.data.length > nodeState.node.posOpen) {
+							// We found the start position
+							nodeState.nodeStart = child;
+							nodeState.nodeStartPos = nodeState.node.posOpen - nodeState.pos;
+						}
+						if(nodeState.nodeStart && nodeState.pos + child.data.length >= nodeState.node.posClose) {
+							// We found the end position
+							nodeState.nodeEnd = child;
+							nodeState.nodeEndPos = nodeState.node.posClose - nodeState.pos;
+						}
+
+						nodeState.pos += child.data.length;
+					}
+
+					if (nodeState.nodeStart && nodeState.nodeEnd) {
+						// Select the range and wrap it with the clone
+						var range = document.createRange();
+						range.setStart(nodeState.nodeStart, nodeState.nodeStartPos);
+						range.setEnd(nodeState.nodeEnd, nodeState.nodeEndPos);
+						nodeState.node.clone.appendChild(range.extractContents());
+						range.insertNode(nodeState.node.clone);
+						range.detach();
+
+						// Process is over
+						return false;
+					}
+				}
+				return true;
+			};
+
+			// For each tag, we walk the DOM to reinsert it
+			env.keepMarkup.forEach(function (node) {
+				walk(env.element, {
+					node: node,
+					pos: 0
+				});
+			});
+			// Store new highlightedCode for later hooks calls
+			env.highlightedCode = env.element.innerHTML;
+		}
+	});
+}());
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/keep-markup/prism-keep-markup.min.js":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/keep-markup/prism-keep-markup.min.js ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+"undefined"!=typeof self&&self.Prism&&self.document&&document.createRange&&(Prism.plugins.KeepMarkup=!0,Prism.hooks.add("before-highlight",function(e){if(e.element.children.length){var a=0,s=[],l=function(e,n){var o={};n||(o.clone=e.cloneNode(!1),o.posOpen=a,s.push(o));for(var t=0,d=e.childNodes.length;t<d;t++){var r=e.childNodes[t];1===r.nodeType?l(r):3===r.nodeType&&(a+=r.data.length)}n||(o.posClose=a)};l(e.element,!0),s&&s.length&&(e.keepMarkup=s)}}),Prism.hooks.add("after-highlight",function(n){if(n.keepMarkup&&n.keepMarkup.length){var a=function(e,n){for(var o=0,t=e.childNodes.length;o<t;o++){var d=e.childNodes[o];if(1===d.nodeType){if(!a(d,n))return!1}else 3===d.nodeType&&(!n.nodeStart&&n.pos+d.data.length>n.node.posOpen&&(n.nodeStart=d,n.nodeStartPos=n.node.posOpen-n.pos),n.nodeStart&&n.pos+d.data.length>=n.node.posClose&&(n.nodeEnd=d,n.nodeEndPos=n.node.posClose-n.pos),n.pos+=d.data.length);if(n.nodeStart&&n.nodeEnd){var r=document.createRange();return r.setStart(n.nodeStart,n.nodeStartPos),r.setEnd(n.nodeEnd,n.nodeEndPos),n.node.clone.appendChild(r.extractContents()),r.insertNode(n.node.clone),r.detach(),!1}}return!0};n.keepMarkup.forEach(function(e){a(n.element,{node:e,pos:0})}),n.highlightedCode=n.element.innerHTML}}));
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-line-highlight.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.js":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.js ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+
+	if (typeof self === 'undefined' || !self.Prism || !self.document || !document.querySelector) {
+		return;
+	}
+
+	function $$(expr, con) {
+		return Array.prototype.slice.call((con || document).querySelectorAll(expr));
+	}
+
+	function hasClass(element, className) {
+		className = " " + className + " ";
+		return (" " + element.className + " ").replace(/[\n\t]/g, " ").indexOf(className) > -1
+	}
+
+	function callFunction(func) {
+		func();
+	}
+
+	// Some browsers round the line-height, others don't.
+	// We need to test for it to position the elements properly.
+	var isLineHeightRounded = (function () {
+		var res;
+		return function () {
+			if (typeof res === 'undefined') {
+				var d = document.createElement('div');
+				d.style.fontSize = '13px';
+				d.style.lineHeight = '1.5';
+				d.style.padding = 0;
+				d.style.border = 0;
+				d.innerHTML = '&nbsp;<br />&nbsp;';
+				document.body.appendChild(d);
+				// Browsers that round the line-height should have offsetHeight === 38
+				// The others should have 39.
+				res = d.offsetHeight === 38;
+				document.body.removeChild(d);
+			}
+			return res;
+		}
+	}());
+
+	/**
+	 * Highlights the lines of the given pre.
+	 *
+	 * This function is split into a DOM measuring and mutate phase to improve performance.
+	 * The returned function mutates the DOM when called.
+	 *
+	 * @param {HTMLElement} pre
+	 * @param {string} [lines]
+	 * @param {string} [classes='']
+	 * @returns {() => void}
+	 */
+	function highlightLines(pre, lines, classes) {
+		lines = typeof lines === 'string' ? lines : pre.getAttribute('data-line');
+
+		var ranges = lines.replace(/\s+/g, '').split(',');
+		var offset = +pre.getAttribute('data-line-offset') || 0;
+
+		var parseMethod = isLineHeightRounded() ? parseInt : parseFloat;
+		var lineHeight = parseMethod(getComputedStyle(pre).lineHeight);
+		var hasLineNumbers = hasClass(pre, 'line-numbers');
+		var parentElement = hasLineNumbers ? pre : pre.querySelector('code') || pre;
+		var mutateActions = /** @type {(() => void)[]} */ ([]);
+
+		ranges.forEach(function (currentRange) {
+			var range = currentRange.split('-');
+
+			var start = +range[0];
+			var end = +range[1] || start;
+
+			var line = pre.querySelector('.line-highlight[data-range="' + currentRange + '"]') || document.createElement('div');
+
+			mutateActions.push(function () {
+				line.setAttribute('aria-hidden', 'true');
+				line.setAttribute('data-range', currentRange);
+				line.className = (classes || '') + ' line-highlight';
+			});
+
+			// if the line-numbers plugin is enabled, then there is no reason for this plugin to display the line numbers
+			if (hasLineNumbers && Prism.plugins.lineNumbers) {
+				var startNode = Prism.plugins.lineNumbers.getLine(pre, start);
+				var endNode = Prism.plugins.lineNumbers.getLine(pre, end);
+
+				if (startNode) {
+					var top = startNode.offsetTop + 'px';
+					mutateActions.push(function () {
+						line.style.top = top;
+					});
+				}
+
+				if (endNode) {
+					var height = (endNode.offsetTop - startNode.offsetTop) + endNode.offsetHeight + 'px';
+					mutateActions.push(function () {
+						line.style.height = height;
+					});
+				}
+			} else {
+				mutateActions.push(function () {
+					line.setAttribute('data-start', start);
+
+					if (end > start) {
+						line.setAttribute('data-end', end);
+					}
+
+					line.style.top = (start - offset - 1) * lineHeight + 'px';
+
+					line.textContent = new Array(end - start + 2).join(' \n');
+				});
+			}
+
+			mutateActions.push(function () {
+				// allow this to play nicely with the line-numbers plugin
+				// need to attack to pre as when line-numbers is enabled, the code tag is relatively which screws up the positioning
+				parentElement.appendChild(line);
+			});
+		});
+
+		return function () {
+			mutateActions.forEach(callFunction);
+		};
+	}
+
+	function applyHash() {
+		var hash = location.hash.slice(1);
+
+		// Remove pre-existing temporary lines
+		$$('.temporary.line-highlight').forEach(function (line) {
+			line.parentNode.removeChild(line);
+		});
+
+		var range = (hash.match(/\.([\d,-]+)$/) || [, ''])[1];
+
+		if (!range || document.getElementById(hash)) {
+			return;
+		}
+
+		var id = hash.slice(0, hash.lastIndexOf('.')),
+			pre = document.getElementById(id);
+
+		if (!pre) {
+			return;
+		}
+
+		if (!pre.hasAttribute('data-line')) {
+			pre.setAttribute('data-line', '');
+		}
+
+		var mutateDom = highlightLines(pre, range, 'temporary ');
+		mutateDom();
+
+		document.querySelector('.temporary.line-highlight').scrollIntoView();
+	}
+
+	var fakeTimer = 0; // Hack to limit the number of times applyHash() runs
+
+	Prism.hooks.add('before-sanity-check', function (env) {
+		var pre = env.element.parentNode;
+		var lines = pre && pre.getAttribute('data-line');
+
+		if (!pre || !lines || !/pre/i.test(pre.nodeName)) {
+			return;
+		}
+
+		/*
+		 * Cleanup for other plugins (e.g. autoloader).
+		 *
+		 * Sometimes <code> blocks are highlighted multiple times. It is necessary
+		 * to cleanup any left-over tags, because the whitespace inside of the <div>
+		 * tags change the content of the <code> tag.
+		 */
+		var num = 0;
+		$$('.line-highlight', pre).forEach(function (line) {
+			num += line.textContent.length;
+			line.parentNode.removeChild(line);
+		});
+		// Remove extra whitespace
+		if (num && /^( \n)+$/.test(env.code.slice(-num))) {
+			env.code = env.code.slice(0, -num);
+		}
+	});
+
+	Prism.hooks.add('complete', function completeHook(env) {
+		var pre = env.element.parentNode;
+		var lines = pre && pre.getAttribute('data-line');
+
+		if (!pre || !lines || !/pre/i.test(pre.nodeName)) {
+			return;
+		}
+
+		clearTimeout(fakeTimer);
+
+		var hasLineNumbers = Prism.plugins.lineNumbers;
+		var isLineNumbersLoaded = env.plugins && env.plugins.lineNumbers;
+
+		if (hasClass(pre, 'line-numbers') && hasLineNumbers && !isLineNumbersLoaded) {
+			Prism.hooks.add('line-numbers', completeHook);
+		} else {
+			var mutateDom = highlightLines(pre, lines);
+			mutateDom();
+			fakeTimer = setTimeout(applyHash, 1);
+		}
+	});
+
+	window.addEventListener('hashchange', applyHash);
+	window.addEventListener('resize', function () {
+		var actions = [];
+		$$('pre[data-line]').forEach(function (pre) {
+			actions.push(highlightLines(pre));
+		});
+		actions.forEach(callFunction);
+	});
+
+})();
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.min.js":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-highlight/prism-line-highlight.min.js ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+!function(){if("undefined"!=typeof self&&self.Prism&&self.document&&document.querySelector){var t,n=function(){if(void 0===t){var e=document.createElement("div");e.style.fontSize="13px",e.style.lineHeight="1.5",e.style.padding=0,e.style.border=0,e.innerHTML="&nbsp;<br />&nbsp;",document.body.appendChild(e),t=38===e.offsetHeight,document.body.removeChild(e)}return t},a=0;Prism.hooks.add("before-sanity-check",function(e){var t=e.element.parentNode,n=t&&t.getAttribute("data-line");if(t&&n&&/pre/i.test(t.nodeName)){var i=0;r(".line-highlight",t).forEach(function(e){i+=e.textContent.length,e.parentNode.removeChild(e)}),i&&/^( \n)+$/.test(e.code.slice(-i))&&(e.code=e.code.slice(0,-i))}}),Prism.hooks.add("complete",function e(t){var n=t.element.parentNode,i=n&&n.getAttribute("data-line");if(n&&i&&/pre/i.test(n.nodeName)){clearTimeout(a);var r=Prism.plugins.lineNumbers,o=t.plugins&&t.plugins.lineNumbers;if(l(n,"line-numbers")&&r&&!o)Prism.hooks.add("line-numbers",e);else s(n,i)(),a=setTimeout(u,1)}}),window.addEventListener("hashchange",u),window.addEventListener("resize",function(){var t=[];r("pre[data-line]").forEach(function(e){t.push(s(e))}),t.forEach(i)})}function r(e,t){return Array.prototype.slice.call((t||document).querySelectorAll(e))}function l(e,t){return t=" "+t+" ",-1<(" "+e.className+" ").replace(/[\n\t]/g," ").indexOf(t)}function i(e){e()}function s(u,e,d){var t=(e="string"==typeof e?e:u.getAttribute("data-line")).replace(/\s+/g,"").split(","),c=+u.getAttribute("data-line-offset")||0,f=(n()?parseInt:parseFloat)(getComputedStyle(u).lineHeight),h=l(u,"line-numbers"),p=h?u:u.querySelector("code")||u,m=[];return t.forEach(function(e){var t=e.split("-"),n=+t[0],i=+t[1]||n,r=u.querySelector('.line-highlight[data-range="'+e+'"]')||document.createElement("div");if(m.push(function(){r.setAttribute("aria-hidden","true"),r.setAttribute("data-range",e),r.className=(d||"")+" line-highlight"}),h&&Prism.plugins.lineNumbers){var o=Prism.plugins.lineNumbers.getLine(u,n),a=Prism.plugins.lineNumbers.getLine(u,i);if(o){var l=o.offsetTop+"px";m.push(function(){r.style.top=l})}if(a){var s=a.offsetTop-o.offsetTop+a.offsetHeight+"px";m.push(function(){r.style.height=s})}}else m.push(function(){r.setAttribute("data-start",n),n<i&&r.setAttribute("data-end",i),r.style.top=(n-c-1)*f+"px",r.textContent=new Array(i-n+2).join(" \n")});m.push(function(){p.appendChild(r)})}),function(){m.forEach(i)}}function u(){var e=location.hash.slice(1);r(".temporary.line-highlight").forEach(function(e){e.parentNode.removeChild(e)});var t=(e.match(/\.([\d,-]+)$/)||[,""])[1];if(t&&!document.getElementById(e)){var n=e.slice(0,e.lastIndexOf(".")),i=document.getElementById(n);if(i)i.hasAttribute("data-line")||i.setAttribute("data-line",""),s(i,t,"temporary ")(),document.querySelector(".temporary.line-highlight").scrollIntoView()}}}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-line-numbers.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+
+	if (typeof self === 'undefined' || !self.Prism || !self.document) {
+		return;
+	}
+
+	/**
+	 * Plugin name which is used as a class name for <pre> which is activating the plugin
+	 * @type {String}
+	 */
+	var PLUGIN_NAME = 'line-numbers';
+
+	/**
+	 * Regular expression used for determining line breaks
+	 * @type {RegExp}
+	 */
+	var NEW_LINE_EXP = /\n(?!$)/g;
+
+	/**
+	 * Resizes line numbers spans according to height of line of code
+	 * @param {Element} element <pre> element
+	 */
+	var _resizeElement = function (element) {
+		var codeStyles = getStyles(element);
+		var whiteSpace = codeStyles['white-space'];
+
+		if (whiteSpace === 'pre-wrap' || whiteSpace === 'pre-line') {
+			var codeElement = element.querySelector('code');
+			var lineNumbersWrapper = element.querySelector('.line-numbers-rows');
+			var lineNumberSizer = element.querySelector('.line-numbers-sizer');
+			var codeLines = codeElement.textContent.split(NEW_LINE_EXP);
+
+			if (!lineNumberSizer) {
+				lineNumberSizer = document.createElement('span');
+				lineNumberSizer.className = 'line-numbers-sizer';
+
+				codeElement.appendChild(lineNumberSizer);
+			}
+
+			lineNumberSizer.style.display = 'block';
+
+			codeLines.forEach(function (line, lineNumber) {
+				lineNumberSizer.textContent = line || '\n';
+				var lineSize = lineNumberSizer.getBoundingClientRect().height;
+				lineNumbersWrapper.children[lineNumber].style.height = lineSize + 'px';
+			});
+
+			lineNumberSizer.textContent = '';
+			lineNumberSizer.style.display = 'none';
+		}
+	};
+
+	/**
+	 * Returns style declarations for the element
+	 * @param {Element} element
+	 */
+	var getStyles = function (element) {
+		if (!element) {
+			return null;
+		}
+
+		return window.getComputedStyle ? getComputedStyle(element) : (element.currentStyle || null);
+	};
+
+	window.addEventListener('resize', function () {
+		Array.prototype.forEach.call(document.querySelectorAll('pre.' + PLUGIN_NAME), _resizeElement);
+	});
+
+	Prism.hooks.add('complete', function (env) {
+		if (!env.code) {
+			return;
+		}
+
+		var code = env.element;
+		var pre = code.parentNode;
+
+		// works only for <code> wrapped inside <pre> (not inline)
+		if (!pre || !/pre/i.test(pre.nodeName)) {
+			return;
+		}
+
+		// Abort if line numbers already exists
+		if (code.querySelector('.line-numbers-rows')) {
+			return;
+		}
+
+		var addLineNumbers = false;
+		var lineNumbersRegex = /(?:^|\s)line-numbers(?:\s|$)/;
+
+		for (var element = code; element; element = element.parentNode) {
+			if (lineNumbersRegex.test(element.className)) {
+				addLineNumbers = true;
+				break;
+			}
+		}
+
+		// only add line numbers if <code> or one of its ancestors has the `line-numbers` class
+		if (!addLineNumbers) {
+			return;
+		}
+
+		// Remove the class 'line-numbers' from the <code>
+		code.className = code.className.replace(lineNumbersRegex, ' ');
+		// Add the class 'line-numbers' to the <pre>
+		if (!lineNumbersRegex.test(pre.className)) {
+			pre.className += ' line-numbers';
+		}
+
+		var match = env.code.match(NEW_LINE_EXP);
+		var linesNum = match ? match.length + 1 : 1;
+		var lineNumbersWrapper;
+
+		var lines = new Array(linesNum + 1).join('<span></span>');
+
+		lineNumbersWrapper = document.createElement('span');
+		lineNumbersWrapper.setAttribute('aria-hidden', 'true');
+		lineNumbersWrapper.className = 'line-numbers-rows';
+		lineNumbersWrapper.innerHTML = lines;
+
+		if (pre.hasAttribute('data-start')) {
+			pre.style.counterReset = 'linenumber ' + (parseInt(pre.getAttribute('data-start'), 10) - 1);
+		}
+
+		env.element.appendChild(lineNumbersWrapper);
+
+		_resizeElement(pre);
+
+		Prism.hooks.run('line-numbers', env);
+	});
+
+	Prism.hooks.add('line-numbers', function (env) {
+		env.plugins = env.plugins || {};
+		env.plugins.lineNumbers = true;
+	});
+
+	/**
+	 * Global exports
+	 */
+	Prism.plugins.lineNumbers = {
+		/**
+		 * Get node for provided line number
+		 * @param {Element} element pre element
+		 * @param {Number} number line number
+		 * @return {Element|undefined}
+		 */
+		getLine: function (element, number) {
+			if (element.tagName !== 'PRE' || !element.classList.contains(PLUGIN_NAME)) {
+				return;
+			}
+
+			var lineNumberRows = element.querySelector('.line-numbers-rows');
+			var lineNumberStart = parseInt(element.getAttribute('data-start'), 10) || 1;
+			var lineNumberEnd = lineNumberStart + (lineNumberRows.children.length - 1);
+
+			if (number < lineNumberStart) {
+				number = lineNumberStart;
+			}
+			if (number > lineNumberEnd) {
+				number = lineNumberEnd;
+			}
+
+			var lineIndex = number - lineNumberStart;
+
+			return lineNumberRows.children[lineIndex];
+		}
+	};
+
+}());
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.min.js":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.min.js ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+!function(){if("undefined"!=typeof self&&self.Prism&&self.document){var l="line-numbers",c=/\n(?!$)/g,m=function(e){var t=a(e)["white-space"];if("pre-wrap"===t||"pre-line"===t){var n=e.querySelector("code"),r=e.querySelector(".line-numbers-rows"),s=e.querySelector(".line-numbers-sizer"),i=n.textContent.split(c);s||((s=document.createElement("span")).className="line-numbers-sizer",n.appendChild(s)),s.style.display="block",i.forEach(function(e,t){s.textContent=e||"\n";var n=s.getBoundingClientRect().height;r.children[t].style.height=n+"px"}),s.textContent="",s.style.display="none"}},a=function(e){return e?window.getComputedStyle?getComputedStyle(e):e.currentStyle||null:null};window.addEventListener("resize",function(){Array.prototype.forEach.call(document.querySelectorAll("pre."+l),m)}),Prism.hooks.add("complete",function(e){if(e.code){var t=e.element,n=t.parentNode;if(n&&/pre/i.test(n.nodeName)&&!t.querySelector(".line-numbers-rows")){for(var r=!1,s=/(?:^|\s)line-numbers(?:\s|$)/,i=t;i;i=i.parentNode)if(s.test(i.className)){r=!0;break}if(r){t.className=t.className.replace(s," "),s.test(n.className)||(n.className+=" line-numbers");var l,a=e.code.match(c),o=a?a.length+1:1,u=new Array(o+1).join("<span></span>");(l=document.createElement("span")).setAttribute("aria-hidden","true"),l.className="line-numbers-rows",l.innerHTML=u,n.hasAttribute("data-start")&&(n.style.counterReset="linenumber "+(parseInt(n.getAttribute("data-start"),10)-1)),e.element.appendChild(l),m(n),Prism.hooks.run("line-numbers",e)}}}}),Prism.hooks.add("line-numbers",function(e){e.plugins=e.plugins||{},e.plugins.lineNumbers=!0}),Prism.plugins.lineNumbers={getLine:function(e,t){if("PRE"===e.tagName&&e.classList.contains(l)){var n=e.querySelector(".line-numbers-rows"),r=parseInt(e.getAttribute("data-start"),10)||1,s=r+(n.children.length-1);t<r&&(t=r),s<t&&(t=s);var i=t-r;return n.children[i]}}}}}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.css":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.css ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-match-braces.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+
+	if (typeof self === 'undefined' || !self.Prism || !self.document) {
+		return;
+	}
+
+	var MATCH_ALL_CLASS = /(?:^|\s)match-braces(?:\s|$)/;
+
+	var BRACE_HOVER_CLASS = /(?:^|\s)brace-hover(?:\s|$)/;
+	var BRACE_SELECTED_CLASS = /(?:^|\s)brace-selected(?:\s|$)/;
+
+	var NO_BRACE_HOVER_CLASS = /(?:^|\s)no-brace-hover(?:\s|$)/;
+	var NO_BRACE_SELECT_CLASS = /(?:^|\s)no-brace-select(?:\s|$)/;
+
+	var PARTNER = {
+		'(': ')',
+		'[': ']',
+		'{': '}',
+	};
+
+	var NAMES = {
+		'(': 'brace-round',
+		'[': 'brace-square',
+		'{': 'brace-curly',
+	};
+
+	var LEVEL_WARP = 12;
+
+	var pairIdCounter = 0;
+
+	var BRACE_ID_PATTERN = /^(pair-\d+-)(open|close)$/;
+
+	/**
+	 * Returns the brace partner given one brace of a brace pair.
+	 *
+	 * @param {HTMLElement} brace
+	 * @returns {HTMLElement}
+	 */
+	function getPartnerBrace(brace) {
+		var match = BRACE_ID_PATTERN.exec(brace.id);
+		return document.querySelector('#' + match[1] + (match[2] == 'open' ? 'close' : 'open'));
+	}
+
+	/**
+	 * @this {HTMLElement}
+	 */
+	function hoverBrace() {
+		for (var parent = this.parentElement; parent; parent = parent.parentElement) {
+			if (NO_BRACE_HOVER_CLASS.test(parent.className)) {
+				return;
+			}
+		}
+
+		[this, getPartnerBrace(this)].forEach(function (ele) {
+			ele.className = (ele.className.replace(BRACE_HOVER_CLASS, ' ') + ' brace-hover').replace(/\s+/g, ' ');
+		});
+	}
+	/**
+	 * @this {HTMLElement}
+	 */
+	function leaveBrace() {
+		[this, getPartnerBrace(this)].forEach(function (ele) {
+			ele.className = ele.className.replace(BRACE_HOVER_CLASS, ' ');
+		});
+	}
+	/**
+	 * @this {HTMLElement}
+	 */
+	function clickBrace() {
+		for (var parent = this.parentElement; parent; parent = parent.parentElement) {
+			if (NO_BRACE_SELECT_CLASS.test(parent.className)) {
+				return;
+			}
+		}
+
+		[this, getPartnerBrace(this)].forEach(function (ele) {
+			ele.className = (ele.className.replace(BRACE_SELECTED_CLASS, ' ') + ' brace-selected').replace(/\s+/g, ' ');
+		});
+	}
+
+	Prism.hooks.add('complete', function (env) {
+
+		/** @type {HTMLElement} */
+		var code = env.element;
+		var pre = code.parentElement;
+
+		if (!pre || pre.tagName != 'PRE') {
+			return;
+		}
+
+		// find the braces to match
+		/** @type {string[]} */
+		var toMatch = [];
+		for (var ele = code; ele; ele = ele.parentElement) {
+			if (MATCH_ALL_CLASS.test(ele.className)) {
+				toMatch.push('(', '[', '{');
+				break;
+			}
+		}
+
+		if (toMatch.length == 0) {
+			// nothing to match
+			return;
+		}
+
+		if (!pre.__listenerAdded) {
+			// code blocks might be highlighted more than once
+			pre.addEventListener('mousedown', function removeBraceSelected() {
+				// the code element might have been replaced
+				var code = pre.querySelector('code');
+				Array.prototype.slice.call(code.querySelectorAll('.brace-selected')).forEach(function (element) {
+					element.className = element.className.replace(BRACE_SELECTED_CLASS, ' ');
+				});
+			});
+			Object.defineProperty(pre, '__listenerAdded', { value: true });
+		}
+
+		/** @type {HTMLSpanElement[]} */
+		var punctuation = Array.prototype.slice.call(code.querySelectorAll('span.token.punctuation'));
+
+		/** @type {{ index: number, open: boolean, element: HTMLElement }[]} */
+		var allBraces = [];
+
+		toMatch.forEach(function (open) {
+			var close = PARTNER[open];
+			var name = NAMES[open];
+
+			/** @type {[number, number][]} */
+			var pairs = [];
+			/** @type {number[]} */
+			var openStack = [];
+
+			for (var i = 0; i < punctuation.length; i++) {
+				var element = punctuation[i];
+				if (element.childElementCount == 0) {
+					var text = element.textContent;
+					if (text === open) {
+						allBraces.push({ index: i, open: true, element: element });
+						element.className += ' ' + name;
+						element.className += ' brace-open';
+						openStack.push(i);
+					} else if (text === close) {
+						allBraces.push({ index: i, open: false, element: element });
+						element.className += ' ' + name;
+						element.className += ' brace-close';
+						if (openStack.length) {
+							pairs.push([i, openStack.pop()]);
+						}
+					}
+				}
+			}
+
+			pairs.forEach(function (pair) {
+				var pairId = 'pair-' + (pairIdCounter++) + '-';
+
+				var openEle = punctuation[pair[0]];
+				var closeEle = punctuation[pair[1]];
+
+				openEle.id = pairId + 'open';
+				closeEle.id = pairId + 'close';
+
+				[openEle, closeEle].forEach(function (ele) {
+					ele.addEventListener('mouseenter', hoverBrace);
+					ele.addEventListener('mouseleave', leaveBrace);
+					ele.addEventListener('click', clickBrace);
+				});
+			});
+		});
+
+		var level = 0;
+		allBraces.sort(function (a, b) { return a.index - b.index; });
+		allBraces.forEach(function (brace) {
+			if (brace.open) {
+				brace.element.className += ' brace-level-' + (level % LEVEL_WARP + 1);
+				level++;
+			} else {
+				level = Math.max(0, level - 1);
+				brace.element.className += ' brace-level-' + (level % LEVEL_WARP + 1);
+			}
+		});
+
+	});
+
+}());
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.min.js":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/match-braces/prism-match-braces.min.js ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+!function(){if("undefined"!=typeof self&&self.Prism&&self.document){var c=/(?:^|\s)match-braces(?:\s|$)/,a=/(?:^|\s)brace-hover(?:\s|$)/,l=/(?:^|\s)brace-selected(?:\s|$)/,n=/(?:^|\s)no-brace-hover(?:\s|$)/,t=/(?:^|\s)no-brace-select(?:\s|$)/,u={"(":")","[":"]","{":"}"},f={"(":"brace-round","[":"brace-square","{":"brace-curly"},m=0,r=/^(pair-\d+-)(open|close)$/;Prism.hooks.add("complete",function(e){var a=e.element,n=a.parentElement;if(n&&"PRE"==n.tagName){for(var t=[],r=a;r;r=r.parentElement)if(c.test(r.className)){t.push("(","[","{");break}if(0!=t.length){n.__listenerAdded||(n.addEventListener("mousedown",function(){var e=n.querySelector("code");Array.prototype.slice.call(e.querySelectorAll(".brace-selected")).forEach(function(e){e.className=e.className.replace(l," ")})}),Object.defineProperty(n,"__listenerAdded",{value:!0}));var o=Array.prototype.slice.call(a.querySelectorAll("span.token.punctuation")),i=[];t.forEach(function(e){for(var a=u[e],n=f[e],t=[],r=[],s=0;s<o.length;s++){var c=o[s];if(0==c.childElementCount){var l=c.textContent;l===e?(i.push({index:s,open:!0,element:c}),c.className+=" "+n,c.className+=" brace-open",r.push(s)):l===a&&(i.push({index:s,open:!1,element:c}),c.className+=" "+n,c.className+=" brace-close",r.length&&t.push([s,r.pop()]))}}t.forEach(function(e){var a="pair-"+m+++"-",n=o[e[0]],t=o[e[1]];n.id=a+"open",t.id=a+"close",[n,t].forEach(function(e){e.addEventListener("mouseenter",p),e.addEventListener("mouseleave",d),e.addEventListener("click",h)})})});var s=0;i.sort(function(e,a){return e.index-a.index}),i.forEach(function(e){e.open?(e.element.className+=" brace-level-"+(s%12+1),s++):(s=Math.max(0,s-1),e.element.className+=" brace-level-"+(s%12+1))})}}})}function s(e){var a=r.exec(e.id);return document.querySelector("#"+a[1]+("open"==a[2]?"close":"open"))}function p(){for(var e=this.parentElement;e;e=e.parentElement)if(n.test(e.className))return;[this,s(this)].forEach(function(e){e.className=(e.className.replace(a," ")+" brace-hover").replace(/\s+/g," ")})}function d(){[this,s(this)].forEach(function(e){e.className=e.className.replace(a," ")})}function h(){for(var e=this.parentElement;e;e=e.parentElement)if(t.test(e.className))return;[this,s(this)].forEach(function(e){e.className=(e.className.replace(l," ")+" brace-selected").replace(/\s+/g," ")})}}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+(function() {
+
+var assign = Object.assign || function (obj1, obj2) {
+	for (var name in obj2) {
+		if (obj2.hasOwnProperty(name))
+			obj1[name] = obj2[name];
+	}
+	return obj1;
+}
+
+function NormalizeWhitespace(defaults) {
+	this.defaults = assign({}, defaults);
+}
+
+function toCamelCase(value) {
+	return value.replace(/-(\w)/g, function(match, firstChar) {
+		return firstChar.toUpperCase();
+	});
+}
+
+function tabLen(str) {
+	var res = 0;
+	for (var i = 0; i < str.length; ++i) {
+		if (str.charCodeAt(i) == '\t'.charCodeAt(0))
+			res += 3;
+	}
+	return str.length + res;
+}
+
+NormalizeWhitespace.prototype = {
+	setDefaults: function (defaults) {
+		this.defaults = assign(this.defaults, defaults);
+	},
+	normalize: function (input, settings) {
+		settings = assign(this.defaults, settings);
+
+		for (var name in settings) {
+			var methodName = toCamelCase(name);
+			if (name !== "normalize" && methodName !== 'setDefaults' &&
+					settings[name] && this[methodName]) {
+				input = this[methodName].call(this, input, settings[name]);
+			}
+		}
+
+		return input;
+	},
+
+	/*
+	 * Normalization methods
+	 */
+	leftTrim: function (input) {
+		return input.replace(/^\s+/, '');
+	},
+	rightTrim: function (input) {
+		return input.replace(/\s+$/, '');
+	},
+	tabsToSpaces: function (input, spaces) {
+		spaces = spaces|0 || 4;
+		return input.replace(/\t/g, new Array(++spaces).join(' '));
+	},
+	spacesToTabs: function (input, spaces) {
+		spaces = spaces|0 || 4;
+		return input.replace(RegExp(' {' + spaces + '}', 'g'), '\t');
+	},
+	removeTrailing: function (input) {
+		return input.replace(/\s*?$/gm, '');
+	},
+	// Support for deprecated plugin remove-initial-line-feed
+	removeInitialLineFeed: function (input) {
+		return input.replace(/^(?:\r?\n|\r)/, '');
+	},
+	removeIndent: function (input) {
+		var indents = input.match(/^[^\S\n\r]*(?=\S)/gm);
+
+		if (!indents || !indents[0].length)
+			return input;
+
+		indents.sort(function(a, b){return a.length - b.length; });
+
+		if (!indents[0].length)
+			return input;
+
+		return input.replace(RegExp('^' + indents[0], 'gm'), '');
+	},
+	indent: function (input, tabs) {
+		return input.replace(/^[^\S\n\r]*(?=\S)/gm, new Array(++tabs).join('\t') + '$&');
+	},
+	breakLines: function (input, characters) {
+		characters = (characters === true) ? 80 : characters|0 || 80;
+
+		var lines = input.split('\n');
+		for (var i = 0; i < lines.length; ++i) {
+			if (tabLen(lines[i]) <= characters)
+				continue;
+
+			var line = lines[i].split(/(\s+)/g),
+			    len = 0;
+
+			for (var j = 0; j < line.length; ++j) {
+				var tl = tabLen(line[j]);
+				len += tl;
+				if (len > characters) {
+					line[j] = '\n' + line[j];
+					len = tl;
+				}
+			}
+			lines[i] = line.join('');
+		}
+		return lines.join('\n');
+	}
+};
+
+// Support node modules
+if ( true && module.exports) {
+	module.exports = NormalizeWhitespace;
+}
+
+// Exit if prism is not loaded
+if (typeof Prism === 'undefined') {
+	return;
+}
+
+Prism.plugins.NormalizeWhitespace = new NormalizeWhitespace({
+	'remove-trailing': true,
+	'remove-indent': true,
+	'left-trim': true,
+	'right-trim': true,
+	/*'break-lines': 80,
+	'indent': 2,
+	'remove-initial-line-feed': false,
+	'tabs-to-spaces': 4,
+	'spaces-to-tabs': 4*/
+});
+
+Prism.hooks.add('before-sanity-check', function (env) {
+	var Normalizer = Prism.plugins.NormalizeWhitespace;
+
+	// Check settings
+	if (env.settings && env.settings['whitespace-normalization'] === false) {
+		return;
+	}
+
+	// Simple mode if there is no env.element
+	if ((!env.element || !env.element.parentNode) && env.code) {
+		env.code = Normalizer.normalize(env.code, env.settings);
+		return;
+	}
+
+	// Normal mode
+	var pre = env.element.parentNode;
+	var clsReg = /(?:^|\s)no-whitespace-normalization(?:\s|$)/;
+	if (!env.code || !pre || pre.nodeName.toLowerCase() !== 'pre' ||
+			clsReg.test(pre.className) || clsReg.test(env.element.className))
+		return;
+
+	var children = pre.childNodes,
+	    before = '',
+	    after = '',
+	    codeFound = false;
+
+	// Move surrounding whitespace from the <pre> tag into the <code> tag
+	for (var i = 0; i < children.length; ++i) {
+		var node = children[i];
+
+		if (node == env.element) {
+			codeFound = true;
+		} else if (node.nodeName === "#text") {
+			if (codeFound) {
+				after += node.nodeValue;
+			} else {
+				before += node.nodeValue;
+			}
+
+			pre.removeChild(node);
+			--i;
+		}
+	}
+
+	if (!env.element.children.length || !Prism.plugins.KeepMarkup) {
+		env.code = before + env.code + after;
+		env.code = Normalizer.normalize(env.code, env.settings);
+	} else {
+		// Preserve markup for keep-markup plugin
+		var html = before + env.element.innerHTML + after;
+		env.element.innerHTML = Normalizer.normalize(html, env.settings);
+		env.code = env.element.textContent;
+	}
+});
+
+}());
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.min.js":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.min.js ***!
+  \****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(){var i=Object.assign||function(e,n){for(var t in n)n.hasOwnProperty(t)&&(e[t]=n[t]);return e};function e(e){this.defaults=i({},e)}function l(e){for(var n=0,t=0;t<e.length;++t)e.charCodeAt(t)=="\t".charCodeAt(0)&&(n+=3);return e.length+n}e.prototype={setDefaults:function(e){this.defaults=i(this.defaults,e)},normalize:function(e,n){for(var t in n=i(this.defaults,n)){var r=t.replace(/-(\w)/g,function(e,n){return n.toUpperCase()});"normalize"!==t&&"setDefaults"!==r&&n[t]&&this[r]&&(e=this[r].call(this,e,n[t]))}return e},leftTrim:function(e){return e.replace(/^\s+/,"")},rightTrim:function(e){return e.replace(/\s+$/,"")},tabsToSpaces:function(e,n){return n=0|n||4,e.replace(/\t/g,new Array(++n).join(" "))},spacesToTabs:function(e,n){return n=0|n||4,e.replace(RegExp(" {"+n+"}","g"),"\t")},removeTrailing:function(e){return e.replace(/\s*?$/gm,"")},removeInitialLineFeed:function(e){return e.replace(/^(?:\r?\n|\r)/,"")},removeIndent:function(e){var n=e.match(/^[^\S\n\r]*(?=\S)/gm);return n&&n[0].length?(n.sort(function(e,n){return e.length-n.length}),n[0].length?e.replace(RegExp("^"+n[0],"gm"),""):e):e},indent:function(e,n){return e.replace(/^[^\S\n\r]*(?=\S)/gm,new Array(++n).join("\t")+"$&")},breakLines:function(e,n){n=!0===n?80:0|n||80;for(var t=e.split("\n"),r=0;r<t.length;++r)if(!(l(t[r])<=n)){for(var i=t[r].split(/(\s+)/g),o=0,a=0;a<i.length;++a){var s=l(i[a]);n<(o+=s)&&(i[a]="\n"+i[a],o=s)}t[r]=i.join("")}return t.join("\n")}}, true&&module.exports&&(module.exports=e),"undefined"!=typeof Prism&&(Prism.plugins.NormalizeWhitespace=new e({"remove-trailing":!0,"remove-indent":!0,"left-trim":!0,"right-trim":!0}),Prism.hooks.add("before-sanity-check",function(e){var n=Prism.plugins.NormalizeWhitespace;if(!e.settings||!1!==e.settings["whitespace-normalization"])if(e.element&&e.element.parentNode||!e.code){var t=e.element.parentNode,r=/(?:^|\s)no-whitespace-normalization(?:\s|$)/;if(e.code&&t&&"pre"===t.nodeName.toLowerCase()&&!r.test(t.className)&&!r.test(e.element.className)){for(var i=t.childNodes,o="",a="",s=!1,l=0;l<i.length;++l){var c=i[l];c==e.element?s=!0:"#text"===c.nodeName&&(s?a+=c.nodeValue:o+=c.nodeValue,t.removeChild(c),--l)}if(e.element.children.length&&Prism.plugins.KeepMarkup){var u=o+e.element.innerHTML+a;e.element.innerHTML=n.normalize(u,e.settings),e.code=e.element.textContent}else e.code=o+e.code+a,e.code=n.normalize(e.code,e.settings)}}else e.code=n.normalize(e.code,e.settings)}))}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.css":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.css ***!
+  \*****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-previewers.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.js ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function() {
+
+	if (
+		typeof self !== 'undefined' && !self.Prism ||
+		!self.document || !Function.prototype.bind
+	) {
+		return;
+	}
+
+	var previewers = {
+		// gradient must be defined before color and angle
+		'gradient': {
+			create: (function () {
+
+				// Stores already processed gradients so that we don't
+				// make the conversion every time the previewer is shown
+				var cache = {};
+
+				/**
+				 * Returns a W3C-valid linear gradient
+				 * @param {string} prefix Vendor prefix if any ("-moz-", "-webkit-", etc.)
+				 * @param {string} func Gradient function name ("linear-gradient")
+				 * @param {string[]} values Array of the gradient function parameters (["0deg", "red 0%", "blue 100%"])
+				 */
+				var convertToW3CLinearGradient = function(prefix, func, values) {
+					// Default value for angle
+					var angle = '180deg';
+
+					if (/^(?:-?\d*\.?\d+(?:deg|rad)|to\b|top|right|bottom|left)/.test(values[0])) {
+						angle = values.shift();
+						if (angle.indexOf('to ') < 0) {
+							// Angle uses old keywords
+							// W3C syntax uses "to" + opposite keywords
+							if (angle.indexOf('top') >= 0) {
+								if (angle.indexOf('left') >= 0) {
+									angle = 'to bottom right';
+								} else if (angle.indexOf('right') >= 0) {
+									angle = 'to bottom left';
+								} else {
+									angle = 'to bottom';
+								}
+							} else if (angle.indexOf('bottom') >= 0) {
+								if (angle.indexOf('left') >= 0) {
+									angle = 'to top right';
+								} else if (angle.indexOf('right') >= 0) {
+									angle = 'to top left';
+								} else {
+									angle = 'to top';
+								}
+							} else if (angle.indexOf('left') >= 0) {
+								angle = 'to right';
+							} else if (angle.indexOf('right') >= 0) {
+								angle = 'to left';
+							} else if (prefix) {
+								// Angle is shifted by 90deg in prefixed gradients
+								if (angle.indexOf('deg') >= 0) {
+									angle = (90 - parseFloat(angle)) + 'deg';
+								} else if (angle.indexOf('rad') >= 0) {
+									angle = (Math.PI / 2 - parseFloat(angle)) + 'rad';
+								}
+							}
+						}
+					}
+
+					return func + '(' + angle + ',' + values.join(',') + ')';
+				};
+
+				/**
+				 * Returns a W3C-valid radial gradient
+				 * @param {string} prefix Vendor prefix if any ("-moz-", "-webkit-", etc.)
+				 * @param {string} func Gradient function name ("linear-gradient")
+				 * @param {string[]} values Array of the gradient function parameters (["0deg", "red 0%", "blue 100%"])
+				 */
+				var convertToW3CRadialGradient = function(prefix, func, values) {
+					if (values[0].indexOf('at') < 0) {
+						// Looks like old syntax
+
+						// Default values
+						var position = 'center';
+						var shape = 'ellipse';
+						var size = 'farthest-corner';
+
+						if (/\bcenter|top|right|bottom|left\b|^\d+/.test(values[0])) {
+							// Found a position
+							// Remove angle value, if any
+							position = values.shift().replace(/\s*-?\d+(?:rad|deg)\s*/, '');
+						}
+						if (/\bcircle|ellipse|closest|farthest|contain|cover\b/.test(values[0])) {
+							// Found a shape and/or size
+							var shapeSizeParts = values.shift().split(/\s+/);
+							if (shapeSizeParts[0] && (shapeSizeParts[0] === 'circle' || shapeSizeParts[0] === 'ellipse')) {
+								shape = shapeSizeParts.shift();
+							}
+							if (shapeSizeParts[0]) {
+								size = shapeSizeParts.shift();
+							}
+
+							// Old keywords are converted to their synonyms
+							if (size === 'cover') {
+								size = 'farthest-corner';
+							} else if (size === 'contain') {
+								size = 'clothest-side';
+							}
+						}
+
+						return func + '(' + shape + ' ' + size + ' at ' + position + ',' + values.join(',') + ')';
+					}
+					return func + '(' + values.join(',') + ')';
+				};
+
+				/**
+				 * Converts a gradient to a W3C-valid one
+				 * Does not support old webkit syntax (-webkit-gradient(linear...) and -webkit-gradient(radial...))
+				 * @param {string} gradient The CSS gradient
+				 */
+				var convertToW3CGradient = function(gradient) {
+					if (cache[gradient]) {
+						return cache[gradient];
+					}
+					var parts = gradient.match(/^(\b|\B-[a-z]{1,10}-)((?:repeating-)?(?:linear|radial)-gradient)/);
+					// "", "-moz-", etc.
+					var prefix = parts && parts[1];
+					// "linear-gradient", "radial-gradient", etc.
+					var func = parts && parts[2];
+
+					var values = gradient.replace(/^(?:\b|\B-[a-z]{1,10}-)(?:repeating-)?(?:linear|radial)-gradient\(|\)$/g, '').split(/\s*,\s*/);
+
+					if (func.indexOf('linear') >= 0) {
+						return cache[gradient] = convertToW3CLinearGradient(prefix, func, values);
+					} else if (func.indexOf('radial') >= 0) {
+						return cache[gradient] = convertToW3CRadialGradient(prefix, func, values);
+					}
+					return cache[gradient] = func + '(' + values.join(',') + ')';
+				};
+
+				return function () {
+					new Prism.plugins.Previewer('gradient', function(value) {
+						this.firstChild.style.backgroundImage = '';
+						this.firstChild.style.backgroundImage = convertToW3CGradient(value);
+						return !!this.firstChild.style.backgroundImage;
+					}, '*', function () {
+						this._elt.innerHTML = '<div></div>';
+					});
+				};
+			}()),
+			tokens: {
+				'gradient': {
+					pattern: /(?:\b|\B-[a-z]{1,10}-)(?:repeating-)?(?:linear|radial)-gradient\((?:(?:rgb|hsl)a?\(.+?\)|[^\)])+\)/gi,
+					inside: {
+						'function': /[\w-]+(?=\()/,
+						'punctuation': /[(),]/
+					}
+				}
+			},
+			languages: {
+				'css': true,
+				'less': true,
+				'sass': [
+					{
+						lang: 'sass',
+						before: 'punctuation',
+						inside: 'inside',
+						root: Prism.languages.sass && Prism.languages.sass['variable-line']
+					},
+					{
+						lang: 'sass',
+						before: 'punctuation',
+						inside: 'inside',
+						root: Prism.languages.sass && Prism.languages.sass['property-line']
+					}
+				],
+				'scss': true,
+				'stylus': [
+					{
+						lang: 'stylus',
+						before: 'func',
+						inside: 'rest',
+						root: Prism.languages.stylus && Prism.languages.stylus['property-declaration'].inside
+					},
+					{
+						lang: 'stylus',
+						before: 'func',
+						inside: 'rest',
+						root: Prism.languages.stylus && Prism.languages.stylus['variable-declaration'].inside
+					}
+				]
+			}
+		},
+		'angle': {
+			create: function () {
+				new Prism.plugins.Previewer('angle', function(value) {
+					var num = parseFloat(value);
+					var unit = value.match(/[a-z]+$/i);
+					var max, percentage;
+					if (!num || !unit) {
+						return false;
+					}
+					unit = unit[0];
+
+					switch(unit) {
+						case 'deg':
+							max = 360;
+							break;
+						case 'grad':
+							max = 400;
+							break;
+						case 'rad':
+							max = 2 * Math.PI;
+							break;
+						case 'turn':
+							max = 1;
+					}
+
+					percentage = 100 * num/max;
+					percentage %= 100;
+
+					this[(num < 0? 'set' : 'remove') + 'Attribute']('data-negative', '');
+					this.querySelector('circle').style.strokeDasharray = Math.abs(percentage) + ',500';
+					return true;
+				}, '*', function () {
+					this._elt.innerHTML = '<svg viewBox="0 0 64 64">' +
+						'<circle r="16" cy="32" cx="32"></circle>' +
+						'</svg>';
+				});
+			},
+			tokens: {
+				'angle': /(?:\b|\B-|(?=\B\.))\d*\.?\d+(?:deg|g?rad|turn)\b/i
+			},
+			languages: {
+				'css': true,
+				'less': true,
+				'markup': {
+					lang: 'markup',
+					before: 'punctuation',
+					inside: 'inside',
+					root: Prism.languages.markup && Prism.languages.markup['tag'].inside['attr-value']
+				},
+				'sass': [
+					{
+						lang: 'sass',
+						inside: 'inside',
+						root: Prism.languages.sass && Prism.languages.sass['property-line']
+					},
+					{
+						lang: 'sass',
+						before: 'operator',
+						inside: 'inside',
+						root: Prism.languages.sass && Prism.languages.sass['variable-line']
+					}
+				],
+				'scss': true,
+				'stylus': [
+					{
+						lang: 'stylus',
+						before: 'func',
+						inside: 'rest',
+						root: Prism.languages.stylus && Prism.languages.stylus['property-declaration'].inside
+					},
+					{
+						lang: 'stylus',
+						before: 'func',
+						inside: 'rest',
+						root: Prism.languages.stylus && Prism.languages.stylus['variable-declaration'].inside
+					}
+				]
+			}
+		},
+		'color': {
+			create: function () {
+				new Prism.plugins.Previewer('color', function(value) {
+					this.style.backgroundColor = '';
+					this.style.backgroundColor = value;
+					return !!this.style.backgroundColor;
+				});
+			},
+			tokens: {
+				'color': [Prism.languages.css['hexcode']].concat(Prism.languages.css['color'])
+			},
+			languages: {
+				// CSS extras is required, so css and scss are not necessary
+				'css': false,
+				'less': true,
+				'markup': {
+					lang: 'markup',
+					before: 'punctuation',
+					inside: 'inside',
+					root: Prism.languages.markup && Prism.languages.markup['tag'].inside['attr-value']
+				},
+				'sass': [
+					{
+						lang: 'sass',
+						before: 'punctuation',
+						inside: 'inside',
+						root: Prism.languages.sass && Prism.languages.sass['variable-line']
+					},
+					{
+						lang: 'sass',
+						inside: 'inside',
+						root: Prism.languages.sass && Prism.languages.sass['property-line']
+					}
+				],
+				'scss': false,
+				'stylus': [
+					{
+						lang: 'stylus',
+						before: 'hexcode',
+						inside: 'rest',
+						root: Prism.languages.stylus && Prism.languages.stylus['property-declaration'].inside
+					},
+					{
+						lang: 'stylus',
+						before: 'hexcode',
+						inside: 'rest',
+						root: Prism.languages.stylus && Prism.languages.stylus['variable-declaration'].inside
+					}
+				]
+			}
+		},
+		'easing': {
+			create: function () {
+				new Prism.plugins.Previewer('easing', function (value) {
+
+					value = {
+						'linear': '0,0,1,1',
+						'ease': '.25,.1,.25,1',
+						'ease-in': '.42,0,1,1',
+						'ease-out': '0,0,.58,1',
+						'ease-in-out':'.42,0,.58,1'
+					}[value] || value;
+
+					var p = value.match(/-?\d*\.?\d+/g);
+
+					if(p.length === 4) {
+						p = p.map(function(p, i) { return (i % 2? 1 - p : p) * 100; });
+
+						this.querySelector('path').setAttribute('d', 'M0,100 C' + p[0] + ',' + p[1] + ', ' + p[2] + ',' + p[3] + ', 100,0');
+
+						var lines = this.querySelectorAll('line');
+						lines[0].setAttribute('x2', p[0]);
+						lines[0].setAttribute('y2', p[1]);
+						lines[1].setAttribute('x2', p[2]);
+						lines[1].setAttribute('y2', p[3]);
+
+						return true;
+					}
+
+					return false;
+				}, '*', function () {
+					this._elt.innerHTML = '<svg viewBox="-20 -20 140 140" width="100" height="100">' +
+						'<defs>' +
+						'<marker id="prism-previewer-easing-marker" viewBox="0 0 4 4" refX="2" refY="2" markerUnits="strokeWidth">' +
+						'<circle cx="2" cy="2" r="1.5" />' +
+						'</marker>' +
+						'</defs>' +
+						'<path d="M0,100 C20,50, 40,30, 100,0" />' +
+						'<line x1="0" y1="100" x2="20" y2="50" marker-start="url(' + location.href + '#prism-previewer-easing-marker)" marker-end="url(' + location.href + '#prism-previewer-easing-marker)" />' +
+						'<line x1="100" y1="0" x2="40" y2="30" marker-start="url(' + location.href + '#prism-previewer-easing-marker)" marker-end="url(' + location.href + '#prism-previewer-easing-marker)" />' +
+						'</svg>';
+				});
+			},
+			tokens: {
+				'easing': {
+					pattern: /\bcubic-bezier\((?:-?\d*\.?\d+,\s*){3}-?\d*\.?\d+\)\B|\b(?:linear|ease(?:-in)?(?:-out)?)(?=\s|[;}]|$)/i,
+					inside: {
+						'function': /[\w-]+(?=\()/,
+						'punctuation': /[(),]/
+					}
+				}
+			},
+			languages: {
+				'css': true,
+				'less': true,
+				'sass': [
+					{
+						lang: 'sass',
+						inside: 'inside',
+						before: 'punctuation',
+						root: Prism.languages.sass && Prism.languages.sass['variable-line']
+					},
+					{
+						lang: 'sass',
+						inside: 'inside',
+						root: Prism.languages.sass && Prism.languages.sass['property-line']
+					}
+				],
+				'scss': true,
+				'stylus': [
+					{
+						lang: 'stylus',
+						before: 'hexcode',
+						inside: 'rest',
+						root: Prism.languages.stylus && Prism.languages.stylus['property-declaration'].inside
+					},
+					{
+						lang: 'stylus',
+						before: 'hexcode',
+						inside: 'rest',
+						root: Prism.languages.stylus && Prism.languages.stylus['variable-declaration'].inside
+					}
+				]
+			}
+		},
+
+		'time': {
+			create: function () {
+				new Prism.plugins.Previewer('time', function(value) {
+					var num = parseFloat(value);
+					var unit = value.match(/[a-z]+$/i);
+					if (!num || !unit) {
+						return false;
+					}
+					unit = unit[0];
+					this.querySelector('circle').style.animationDuration = 2 * num + unit;
+					return true;
+				}, '*', function () {
+					this._elt.innerHTML = '<svg viewBox="0 0 64 64">' +
+						'<circle r="16" cy="32" cx="32"></circle>' +
+						'</svg>';
+				});
+			},
+			tokens: {
+				'time': /(?:\b|\B-|(?=\B\.))\d*\.?\d+m?s\b/i
+			},
+			languages: {
+				'css': true,
+				'less': true,
+				'markup': {
+					lang: 'markup',
+					before: 'punctuation',
+					inside: 'inside',
+					root: Prism.languages.markup && Prism.languages.markup['tag'].inside['attr-value']
+				},
+				'sass': [
+					{
+						lang: 'sass',
+						inside: 'inside',
+						root: Prism.languages.sass && Prism.languages.sass['property-line']
+					},
+					{
+						lang: 'sass',
+						before: 'operator',
+						inside: 'inside',
+						root: Prism.languages.sass && Prism.languages.sass['variable-line']
+					}
+				],
+				'scss': true,
+				'stylus': [
+					{
+						lang: 'stylus',
+						before: 'hexcode',
+						inside: 'rest',
+						root: Prism.languages.stylus && Prism.languages.stylus['property-declaration'].inside
+					},
+					{
+						lang: 'stylus',
+						before: 'hexcode',
+						inside: 'rest',
+						root: Prism.languages.stylus && Prism.languages.stylus['variable-declaration'].inside
+					}
+				]
+			}
+		}
+	};
+
+	/**
+	 * Returns the absolute X, Y offsets for an element
+	 * @param {HTMLElement} element
+	 * @returns {{top: number, right: number, bottom: number, left: number, width: number, height: number}}
+	 */
+	var getOffset = function (element) {
+		var elementBounds = element.getBoundingClientRect();
+		var left = elementBounds.left;
+		var top = elementBounds.top;
+		var documentBounds = document.documentElement.getBoundingClientRect();
+		left -= documentBounds.left;
+		top -= documentBounds.top;
+
+		return {
+			top: top,
+			right: innerWidth - left - elementBounds.width,
+			bottom: innerHeight - top - elementBounds.height,
+			left: left,
+			width: elementBounds.width,
+			height: elementBounds.height
+		};
+	};
+
+	var tokenRegexp = /(?:^|\s)token(?=$|\s)/;
+	var activeRegexp = /(?:^|\s)active(?=$|\s)/g;
+	var flippedRegexp = /(?:^|\s)flipped(?=$|\s)/g;
+
+	/**
+	 * Previewer constructor
+	 * @param {string} type Unique previewer type
+	 * @param {function} updater Function that will be called on mouseover.
+	 * @param {string[]|string=} supportedLanguages Aliases of the languages this previewer must be enabled for. Defaults to "*", all languages.
+	 * @param {function=} initializer Function that will be called on initialization.
+	 * @constructor
+	 */
+	var Previewer = function (type, updater, supportedLanguages, initializer) {
+		this._elt = null;
+		this._type = type;
+		this._clsRegexp = RegExp('(?:^|\\s)' + type + '(?=$|\\s)');
+		this._token = null;
+		this.updater = updater;
+		this._mouseout = this.mouseout.bind(this);
+		this.initializer = initializer;
+
+		var self = this;
+
+		if (!supportedLanguages) {
+			supportedLanguages = ['*'];
+		}
+		if (!Array.isArray(supportedLanguages)) {
+			supportedLanguages = [supportedLanguages];
+		}
+		supportedLanguages.forEach(function (lang) {
+			if (typeof lang !== 'string') {
+				lang = lang.lang;
+			}
+			if (!Previewer.byLanguages[lang]) {
+				Previewer.byLanguages[lang] = [];
+			}
+			if (Previewer.byLanguages[lang].indexOf(self) < 0) {
+				Previewer.byLanguages[lang].push(self);
+			}
+		});
+		Previewer.byType[type] = this;
+	};
+
+	/**
+	 * Creates the HTML element for the previewer.
+	 */
+	Previewer.prototype.init = function () {
+		if (this._elt) {
+			return;
+		}
+		this._elt = document.createElement('div');
+		this._elt.className = 'prism-previewer prism-previewer-' + this._type;
+		document.body.appendChild(this._elt);
+		if(this.initializer) {
+			this.initializer();
+		}
+	};
+
+	Previewer.prototype.isDisabled = function (token) {
+		do {
+			if (token.hasAttribute && token.hasAttribute('data-previewers')) {
+				var previewers = token.getAttribute('data-previewers');
+				return (previewers || '').split(/\s+/).indexOf(this._type) === -1;
+			}
+		} while(token = token.parentNode);
+		return false;
+	};
+
+	/**
+	 * Checks the class name of each hovered element
+	 * @param token
+	 */
+	Previewer.prototype.check = function (token) {
+		if (tokenRegexp.test(token.className) && this.isDisabled(token)) {
+			return;
+		}
+		do {
+			if (tokenRegexp.test(token.className) && this._clsRegexp.test(token.className)) {
+				break;
+			}
+		} while(token = token.parentNode);
+
+		if (token && token !== this._token) {
+			this._token = token;
+			this.show();
+		}
+	};
+
+	/**
+	 * Called on mouseout
+	 */
+	Previewer.prototype.mouseout = function() {
+		this._token.removeEventListener('mouseout', this._mouseout, false);
+		this._token = null;
+		this.hide();
+	};
+
+	/**
+	 * Shows the previewer positioned properly for the current token.
+	 */
+	Previewer.prototype.show = function () {
+		if (!this._elt) {
+			this.init();
+		}
+		if (!this._token) {
+			return;
+		}
+
+		if (this.updater.call(this._elt, this._token.textContent)) {
+			this._token.addEventListener('mouseout', this._mouseout, false);
+
+			var offset = getOffset(this._token);
+			this._elt.className += ' active';
+
+			if (offset.top - this._elt.offsetHeight > 0) {
+				this._elt.className = this._elt.className.replace(flippedRegexp, '');
+				this._elt.style.top = offset.top + 'px';
+				this._elt.style.bottom = '';
+			} else {
+				this._elt.className +=  ' flipped';
+				this._elt.style.bottom = offset.bottom + 'px';
+				this._elt.style.top = '';
+			}
+
+			this._elt.style.left = offset.left + Math.min(200, offset.width / 2) + 'px';
+		} else {
+			this.hide();
+		}
+	};
+
+	/**
+	 * Hides the previewer.
+	 */
+	Previewer.prototype.hide = function () {
+		this._elt.className = this._elt.className.replace(activeRegexp, '');
+	};
+
+	/**
+	 * Map of all registered previewers by language
+	 * @type {{}}
+	 */
+	Previewer.byLanguages = {};
+
+	/**
+	 * Map of all registered previewers by type
+	 * @type {{}}
+	 */
+	Previewer.byType = {};
+
+	/**
+	 * Initializes the mouseover event on the code block.
+	 * @param {HTMLElement} elt The code block (env.element)
+	 * @param {string} lang The language (env.language)
+	 */
+	Previewer.initEvents = function (elt, lang) {
+		var previewers = [];
+		if (Previewer.byLanguages[lang]) {
+			previewers = previewers.concat(Previewer.byLanguages[lang]);
+		}
+		if (Previewer.byLanguages['*']) {
+			previewers = previewers.concat(Previewer.byLanguages['*']);
+		}
+		elt.addEventListener('mouseover', function (e) {
+			var target = e.target;
+			previewers.forEach(function (previewer) {
+				previewer.check(target);
+			});
+		}, false);
+	};
+	Prism.plugins.Previewer = Previewer;
+
+	Prism.hooks.add('before-highlight', function (env) {
+		for (var previewer in previewers) {
+			var languages = previewers[previewer].languages;
+			if (env.language && languages[env.language] && !languages[env.language].initialized) {
+				var lang = languages[env.language];
+				if (!Array.isArray(lang)) {
+					lang = [lang];
+				}
+				lang.forEach(function (lang) {
+					var before, inside, root, skip;
+					if (lang === true) {
+						before = 'important';
+						inside = env.language;
+						lang = env.language;
+					} else {
+						before = lang.before || 'important';
+						inside = lang.inside || lang.lang;
+						root = lang.root || Prism.languages;
+						skip = lang.skip;
+						lang = env.language;
+					}
+
+					if (!skip && Prism.languages[lang]) {
+						Prism.languages.insertBefore(inside, before, previewers[previewer].tokens, root);
+						env.grammar = Prism.languages[lang];
+
+						languages[env.language] = {initialized: true};
+					}
+				});
+			}
+		}
+	});
+
+	// Initialize the previewers only when needed
+	Prism.hooks.add('after-highlight', function (env) {
+		if(Previewer.byLanguages['*'] || Previewer.byLanguages[env.language]) {
+			Previewer.initEvents(env.element, env.language);
+		}
+	});
+
+	for (var previewer in previewers) {
+		previewers[previewer].create();
+	}
+
+}());
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.min.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/previewers/prism-previewers.min.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+!function(){if(("undefined"==typeof self||self.Prism)&&self.document&&Function.prototype.bind){var r,s,o={gradient:{create:(r={},s=function(e){if(r[e])return r[e];var s=e.match(/^(\b|\B-[a-z]{1,10}-)((?:repeating-)?(?:linear|radial)-gradient)/),t=s&&s[1],i=s&&s[2],a=e.replace(/^(?:\b|\B-[a-z]{1,10}-)(?:repeating-)?(?:linear|radial)-gradient\(|\)$/g,"").split(/\s*,\s*/);return 0<=i.indexOf("linear")?r[e]=function(e,s,t){var i="180deg";return/^(?:-?\d*\.?\d+(?:deg|rad)|to\b|top|right|bottom|left)/.test(t[0])&&(i=t.shift()).indexOf("to ")<0&&(0<=i.indexOf("top")?i=0<=i.indexOf("left")?"to bottom right":0<=i.indexOf("right")?"to bottom left":"to bottom":0<=i.indexOf("bottom")?i=0<=i.indexOf("left")?"to top right":0<=i.indexOf("right")?"to top left":"to top":0<=i.indexOf("left")?i="to right":0<=i.indexOf("right")?i="to left":e&&(0<=i.indexOf("deg")?i=90-parseFloat(i)+"deg":0<=i.indexOf("rad")&&(i=Math.PI/2-parseFloat(i)+"rad"))),s+"("+i+","+t.join(",")+")"}(t,i,a):0<=i.indexOf("radial")?r[e]=function(e,s,t){if(t[0].indexOf("at")<0){var i="center",a="ellipse",r="farthest-corner";if(/\bcenter|top|right|bottom|left\b|^\d+/.test(t[0])&&(i=t.shift().replace(/\s*-?\d+(?:rad|deg)\s*/,"")),/\bcircle|ellipse|closest|farthest|contain|cover\b/.test(t[0])){var n=t.shift().split(/\s+/);!n[0]||"circle"!==n[0]&&"ellipse"!==n[0]||(a=n.shift()),n[0]&&(r=n.shift()),"cover"===r?r="farthest-corner":"contain"===r&&(r="clothest-side")}return s+"("+a+" "+r+" at "+i+","+t.join(",")+")"}return s+"("+t.join(",")+")"}(0,i,a):r[e]=i+"("+a.join(",")+")"},function(){new Prism.plugins.Previewer("gradient",function(e){return this.firstChild.style.backgroundImage="",this.firstChild.style.backgroundImage=s(e),!!this.firstChild.style.backgroundImage},"*",function(){this._elt.innerHTML="<div></div>"})}),tokens:{gradient:{pattern:/(?:\b|\B-[a-z]{1,10}-)(?:repeating-)?(?:linear|radial)-gradient\((?:(?:rgb|hsl)a?\(.+?\)|[^\)])+\)/gi,inside:{function:/[\w-]+(?=\()/,punctuation:/[(),]/}}},languages:{css:!0,less:!0,sass:[{lang:"sass",before:"punctuation",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["variable-line"]},{lang:"sass",before:"punctuation",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["property-line"]}],scss:!0,stylus:[{lang:"stylus",before:"func",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["property-declaration"].inside},{lang:"stylus",before:"func",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["variable-declaration"].inside}]}},angle:{create:function(){new Prism.plugins.Previewer("angle",function(e){var s,t,i=parseFloat(e),a=e.match(/[a-z]+$/i);if(!i||!a)return!1;switch(a=a[0]){case"deg":s=360;break;case"grad":s=400;break;case"rad":s=2*Math.PI;break;case"turn":s=1}return t=100*i/s,t%=100,this[(i<0?"set":"remove")+"Attribute"]("data-negative",""),this.querySelector("circle").style.strokeDasharray=Math.abs(t)+",500",!0},"*",function(){this._elt.innerHTML='<svg viewBox="0 0 64 64"><circle r="16" cy="32" cx="32"></circle></svg>'})},tokens:{angle:/(?:\b|\B-|(?=\B\.))\d*\.?\d+(?:deg|g?rad|turn)\b/i},languages:{css:!0,less:!0,markup:{lang:"markup",before:"punctuation",inside:"inside",root:Prism.languages.markup&&Prism.languages.markup.tag.inside["attr-value"]},sass:[{lang:"sass",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["property-line"]},{lang:"sass",before:"operator",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["variable-line"]}],scss:!0,stylus:[{lang:"stylus",before:"func",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["property-declaration"].inside},{lang:"stylus",before:"func",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["variable-declaration"].inside}]}},color:{create:function(){new Prism.plugins.Previewer("color",function(e){return this.style.backgroundColor="",this.style.backgroundColor=e,!!this.style.backgroundColor})},tokens:{color:[Prism.languages.css.hexcode].concat(Prism.languages.css.color)},languages:{css:!1,less:!0,markup:{lang:"markup",before:"punctuation",inside:"inside",root:Prism.languages.markup&&Prism.languages.markup.tag.inside["attr-value"]},sass:[{lang:"sass",before:"punctuation",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["variable-line"]},{lang:"sass",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["property-line"]}],scss:!1,stylus:[{lang:"stylus",before:"hexcode",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["property-declaration"].inside},{lang:"stylus",before:"hexcode",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["variable-declaration"].inside}]}},easing:{create:function(){new Prism.plugins.Previewer("easing",function(e){var s=(e={linear:"0,0,1,1",ease:".25,.1,.25,1","ease-in":".42,0,1,1","ease-out":"0,0,.58,1","ease-in-out":".42,0,.58,1"}[e]||e).match(/-?\d*\.?\d+/g);if(4!==s.length)return!1;s=s.map(function(e,s){return 100*(s%2?1-e:e)}),this.querySelector("path").setAttribute("d","M0,100 C"+s[0]+","+s[1]+", "+s[2]+","+s[3]+", 100,0");var t=this.querySelectorAll("line");return t[0].setAttribute("x2",s[0]),t[0].setAttribute("y2",s[1]),t[1].setAttribute("x2",s[2]),t[1].setAttribute("y2",s[3]),!0},"*",function(){this._elt.innerHTML='<svg viewBox="-20 -20 140 140" width="100" height="100"><defs><marker id="prism-previewer-easing-marker" viewBox="0 0 4 4" refX="2" refY="2" markerUnits="strokeWidth"><circle cx="2" cy="2" r="1.5" /></marker></defs><path d="M0,100 C20,50, 40,30, 100,0" /><line x1="0" y1="100" x2="20" y2="50" marker-start="url('+location.href+'#prism-previewer-easing-marker)" marker-end="url('+location.href+'#prism-previewer-easing-marker)" /><line x1="100" y1="0" x2="40" y2="30" marker-start="url('+location.href+'#prism-previewer-easing-marker)" marker-end="url('+location.href+'#prism-previewer-easing-marker)" /></svg>'})},tokens:{easing:{pattern:/\bcubic-bezier\((?:-?\d*\.?\d+,\s*){3}-?\d*\.?\d+\)\B|\b(?:linear|ease(?:-in)?(?:-out)?)(?=\s|[;}]|$)/i,inside:{function:/[\w-]+(?=\()/,punctuation:/[(),]/}}},languages:{css:!0,less:!0,sass:[{lang:"sass",inside:"inside",before:"punctuation",root:Prism.languages.sass&&Prism.languages.sass["variable-line"]},{lang:"sass",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["property-line"]}],scss:!0,stylus:[{lang:"stylus",before:"hexcode",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["property-declaration"].inside},{lang:"stylus",before:"hexcode",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["variable-declaration"].inside}]}},time:{create:function(){new Prism.plugins.Previewer("time",function(e){var s=parseFloat(e),t=e.match(/[a-z]+$/i);return!(!s||!t)&&(t=t[0],this.querySelector("circle").style.animationDuration=2*s+t,!0)},"*",function(){this._elt.innerHTML='<svg viewBox="0 0 64 64"><circle r="16" cy="32" cx="32"></circle></svg>'})},tokens:{time:/(?:\b|\B-|(?=\B\.))\d*\.?\d+m?s\b/i},languages:{css:!0,less:!0,markup:{lang:"markup",before:"punctuation",inside:"inside",root:Prism.languages.markup&&Prism.languages.markup.tag.inside["attr-value"]},sass:[{lang:"sass",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["property-line"]},{lang:"sass",before:"operator",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["variable-line"]}],scss:!0,stylus:[{lang:"stylus",before:"hexcode",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["property-declaration"].inside},{lang:"stylus",before:"hexcode",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["variable-declaration"].inside}]}}},t=/(?:^|\s)token(?=$|\s)/,e=/(?:^|\s)active(?=$|\s)/g,i=/(?:^|\s)flipped(?=$|\s)/g,n=function(e,s,t,i){this._elt=null,this._type=e,this._clsRegexp=RegExp("(?:^|\\s)"+e+"(?=$|\\s)"),this._token=null,this.updater=s,this._mouseout=this.mouseout.bind(this),this.initializer=i;var a=this;t||(t=["*"]),Array.isArray(t)||(t=[t]),t.forEach(function(e){"string"!=typeof e&&(e=e.lang),n.byLanguages[e]||(n.byLanguages[e]=[]),n.byLanguages[e].indexOf(a)<0&&n.byLanguages[e].push(a)}),n.byType[e]=this};for(var a in n.prototype.init=function(){this._elt||(this._elt=document.createElement("div"),this._elt.className="prism-previewer prism-previewer-"+this._type,document.body.appendChild(this._elt),this.initializer&&this.initializer())},n.prototype.isDisabled=function(e){do{if(e.hasAttribute&&e.hasAttribute("data-previewers"))return-1===(e.getAttribute("data-previewers")||"").split(/\s+/).indexOf(this._type)}while(e=e.parentNode);return!1},n.prototype.check=function(e){if(!t.test(e.className)||!this.isDisabled(e)){do{if(t.test(e.className)&&this._clsRegexp.test(e.className))break}while(e=e.parentNode);e&&e!==this._token&&(this._token=e,this.show())}},n.prototype.mouseout=function(){this._token.removeEventListener("mouseout",this._mouseout,!1),this._token=null,this.hide()},n.prototype.show=function(){if(this._elt||this.init(),this._token)if(this.updater.call(this._elt,this._token.textContent)){this._token.addEventListener("mouseout",this._mouseout,!1);var e=function(e){var s=e.getBoundingClientRect(),t=s.left,i=s.top,a=document.documentElement.getBoundingClientRect();return t-=a.left,{top:i-=a.top,right:innerWidth-t-s.width,bottom:innerHeight-i-s.height,left:t,width:s.width,height:s.height}}(this._token);this._elt.className+=" active",0<e.top-this._elt.offsetHeight?(this._elt.className=this._elt.className.replace(i,""),this._elt.style.top=e.top+"px",this._elt.style.bottom=""):(this._elt.className+=" flipped",this._elt.style.bottom=e.bottom+"px",this._elt.style.top=""),this._elt.style.left=e.left+Math.min(200,e.width/2)+"px"}else this.hide()},n.prototype.hide=function(){this._elt.className=this._elt.className.replace(e,"")},n.byLanguages={},n.byType={},n.initEvents=function(e,s){var t=[];n.byLanguages[s]&&(t=t.concat(n.byLanguages[s])),n.byLanguages["*"]&&(t=t.concat(n.byLanguages["*"])),e.addEventListener("mouseover",function(e){var s=e.target;t.forEach(function(e){e.check(s)})},!1)},Prism.plugins.Previewer=n,Prism.hooks.add("before-highlight",function(r){for(var n in o){var l=o[n].languages;if(r.language&&l[r.language]&&!l[r.language].initialized){var e=l[r.language];Array.isArray(e)||(e=[e]),e.forEach(function(e){var s,t,i,a;e=(!0===e?(s="important",t=r.language):(s=e.before||"important",t=e.inside||e.lang,i=e.root||Prism.languages,a=e.skip),r.language),!a&&Prism.languages[e]&&(Prism.languages.insertBefore(t,s,o[n].tokens,i),r.grammar=Prism.languages[e],l[r.language]={initialized:!0})})}}}),Prism.hooks.add("after-highlight",function(e){(n.byLanguages["*"]||n.byLanguages[e.language])&&n.initEvents(e.element,e.language)}),o)o[a].create()}}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.js":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.js ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function() {
+
+if (typeof self === 'undefined' || !self.Prism || !self.document) {
+	return;
+}
+
+Prism.hooks.add('before-sanity-check', function (env) {
+	if (env.code) {
+		var pre = env.element.parentNode;
+		var clsReg = /(?:^|\s)keep-initial-line-feed(?:\s|$)/;
+		if (
+			pre && pre.nodeName.toLowerCase() === 'pre' &&
+			// Apply only if nor the <pre> or the <code> have the class
+			(!clsReg.test(pre.className) && !clsReg.test(env.element.className))
+		) {
+			env.code = env.code.replace(/^(?:\r?\n|\r)/, '');
+		}
+	}
+});
+
+}());
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.min.js":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.min.js ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+"undefined"!=typeof self&&self.Prism&&self.document&&Prism.hooks.add("before-sanity-check",function(e){if(e.code){var s=e.element.parentNode,n=/(?:^|\s)keep-initial-line-feed(?:\s|$)/;!s||"pre"!==s.nodeName.toLowerCase()||n.test(s.className)||n.test(e.element.className)||(e.code=e.code.replace(/^(?:\r?\n|\r)/,""))}});
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.css":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.css ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-show-invisibles.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.js":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {(function () {
+
+	if (
+		typeof self !== 'undefined' && !self.Prism ||
+		typeof global !== 'undefined' && !global.Prism
+	) {
+		return;
+	}
+
+
+	var invisibles = {
+		'tab': /\t/,
+		'crlf': /\r\n/,
+		'lf': /\n/,
+		'cr': /\r/,
+		'space': / /
+	};
+
+
+	/**
+	 * Handles the recursive calling of `addInvisibles` for one token.
+	 *
+	 * @param {Object|Array} tokens The grammar or array which contains the token.
+	 * @param {string|number} name The name or index of the token in `tokens`.
+	 */
+	function handleToken(tokens, name) {
+		var value = tokens[name];
+
+		var type = Prism.util.type(value);
+		switch (type) {
+			case 'RegExp':
+				var inside = {};
+				tokens[name] = {
+					pattern: value,
+					inside: inside
+				};
+				addInvisibles(inside);
+				break;
+
+			case 'Array':
+				for (var i = 0, l = value.length; i < l; i++) {
+					handleToken(value, i);
+				}
+				break;
+
+			default: // 'Object'
+				var inside = value.inside || (value.inside = {});
+				addInvisibles(inside);
+				break;
+		}
+	}
+
+	/**
+	 * Recursively adds patterns to match invisible characters to the given grammar (if not added already).
+	 *
+	 * @param {Object} grammar
+	 */
+	function addInvisibles(grammar) {
+		if (!grammar || grammar['tab']) {
+			return;
+		}
+
+		// assign invisibles here to "mark" the grammar in case of self references
+		for (var name in invisibles) {
+			if (invisibles.hasOwnProperty(name)) {
+				grammar[name] = invisibles[name];
+			}
+		}
+
+		for (var name in grammar) {
+			if (grammar.hasOwnProperty(name) && !invisibles[name]) {
+				if (name === 'rest') {
+					addInvisibles(grammar['rest']);
+				} else {
+					handleToken(grammar, name);
+				}
+			}
+		}
+	}
+
+	Prism.hooks.add('before-highlight', function (env) {
+		addInvisibles(env.grammar);
+	});
+})();
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.min.js":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.min.js ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {!function(){if(("undefined"==typeof self||self.Prism)&&("undefined"==typeof global||global.Prism)){var i={tab:/\t/,crlf:/\r\n/,lf:/\n/,cr:/\r/,space:/ /};Prism.hooks.add("before-highlight",function(r){s(r.grammar)})}function f(r,e){var i=r[e];switch(Prism.util.type(i)){case"RegExp":var a={};r[e]={pattern:i,inside:a},s(a);break;case"Array":for(var n=0,t=i.length;n<t;n++)f(i,n);break;default:s(a=i.inside||(i.inside={}))}}function s(r){if(r&&!r.tab){for(var e in i)i.hasOwnProperty(e)&&(r[e]=i[e]);for(var e in r)r.hasOwnProperty(e)&&!i[e]&&("rest"===e?s(r.rest):f(r,e))}}}();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-language/prism-show-language.js":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-language/prism-show-language.js ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+
+	if (typeof self === 'undefined' || !self.Prism || !self.document) {
+		return;
+	}
+
+	if (!Prism.plugins.toolbar) {
+		console.warn('Show Languages plugin loaded before Toolbar plugin.');
+
+		return;
+	}
+
+	// The languages map is built automatically with gulp
+	var Languages = /*languages_placeholder[*/{
+		"html": "HTML",
+		"xml": "XML",
+		"svg": "SVG",
+		"mathml": "MathML",
+		"css": "CSS",
+		"clike": "C-like",
+		"js": "JavaScript",
+		"abap": "ABAP",
+		"abnf": "Augmented Backus–Naur form",
+		"antlr4": "ANTLR4",
+		"g4": "ANTLR4",
+		"apacheconf": "Apache Configuration",
+		"apl": "APL",
+		"aql": "AQL",
+		"arff": "ARFF",
+		"asciidoc": "AsciiDoc",
+		"adoc": "AsciiDoc",
+		"asm6502": "6502 Assembly",
+		"aspnet": "ASP.NET (C#)",
+		"autohotkey": "AutoHotkey",
+		"autoit": "AutoIt",
+		"shell": "Bash",
+		"basic": "BASIC",
+		"bbcode": "BBcode",
+		"shortcode": "BBcode",
+		"bnf": "Backus–Naur form",
+		"rbnf": "Routing Backus–Naur form",
+		"conc": "Concurnas",
+		"csharp": "C#",
+		"cs": "C#",
+		"dotnet": "C#",
+		"cpp": "C++",
+		"cil": "CIL",
+		"coffee": "CoffeeScript",
+		"cmake": "CMake",
+		"csp": "Content-Security-Policy",
+		"css-extras": "CSS Extras",
+		"dax": "DAX",
+		"django": "Django/Jinja2",
+		"jinja2": "Django/Jinja2",
+		"dns-zone-file": "DNS zone file",
+		"dns-zone": "DNS zone file",
+		"dockerfile": "Docker",
+		"ebnf": "Extended Backus–Naur form",
+		"ejs": "EJS",
+		"etlua": "Embedded Lua templating",
+		"erb": "ERB",
+		"excel-formula": "Excel Formula",
+		"xlsx": "Excel Formula",
+		"xls": "Excel Formula",
+		"fsharp": "F#",
+		"firestore-security-rules": "Firestore security rules",
+		"ftl": "FreeMarker Template Language",
+		"gcode": "G-code",
+		"gdscript": "GDScript",
+		"gedcom": "GEDCOM",
+		"glsl": "GLSL",
+		"gml": "GameMaker Language",
+		"gamemakerlanguage": "GameMaker Language",
+		"graphql": "GraphQL",
+		"hs": "Haskell",
+		"hcl": "HCL",
+		"http": "HTTP",
+		"hpkp": "HTTP Public-Key-Pins",
+		"hsts": "HTTP Strict-Transport-Security",
+		"ichigojam": "IchigoJam",
+		"inform7": "Inform 7",
+		"javadoc": "JavaDoc",
+		"javadoclike": "JavaDoc-like",
+		"javastacktrace": "Java stack trace",
+		"jq": "JQ",
+		"jsdoc": "JSDoc",
+		"js-extras": "JS Extras",
+		"js-templates": "JS Templates",
+		"json": "JSON",
+		"jsonp": "JSONP",
+		"json5": "JSON5",
+		"latex": "LaTeX",
+		"tex": "TeX",
+		"context": "ConTeXt",
+		"lilypond": "LilyPond",
+		"ly": "LilyPond",
+		"emacs": "Lisp",
+		"elisp": "Lisp",
+		"emacs-lisp": "Lisp",
+		"llvm": "LLVM IR",
+		"lolcode": "LOLCODE",
+		"md": "Markdown",
+		"markup-templating": "Markup templating",
+		"matlab": "MATLAB",
+		"mel": "MEL",
+		"moon": "MoonScript",
+		"n1ql": "N1QL",
+		"n4js": "N4JS",
+		"n4jsd": "N4JS",
+		"nand2tetris-hdl": "Nand To Tetris HDL",
+		"nasm": "NASM",
+		"neon": "NEON",
+		"nginx": "nginx",
+		"nsis": "NSIS",
+		"objectivec": "Objective-C",
+		"ocaml": "OCaml",
+		"opencl": "OpenCL",
+		"parigp": "PARI/GP",
+		"objectpascal": "Object Pascal",
+		"pcaxis": "PC-Axis",
+		"px": "PC-Axis",
+		"php": "PHP",
+		"phpdoc": "PHPDoc",
+		"php-extras": "PHP Extras",
+		"plsql": "PL/SQL",
+		"powerquery": "PowerQuery",
+		"pq": "PowerQuery",
+		"mscript": "PowerQuery",
+		"powershell": "PowerShell",
+		"properties": ".properties",
+		"protobuf": "Protocol Buffers",
+		"py": "Python",
+		"q": "Q (kdb+ database)",
+		"qml": "QML",
+		"jsx": "React JSX",
+		"tsx": "React TSX",
+		"renpy": "Ren'py",
+		"rest": "reST (reStructuredText)",
+		"robotframework": "Robot Framework",
+		"robot": "Robot Framework",
+		"rb": "Ruby",
+		"sas": "SAS",
+		"sass": "Sass (Sass)",
+		"scss": "Sass (Scss)",
+		"shell-session": "Shell session",
+		"solidity": "Solidity (Ethereum)",
+		"solution-file": "Solution file",
+		"sln": "Solution file",
+		"soy": "Soy (Closure Template)",
+		"sparql": "SPARQL",
+		"rq": "SPARQL",
+		"splunk-spl": "Splunk SPL",
+		"sqf": "SQF: Status Quo Function (Arma 3)",
+		"sql": "SQL",
+		"tap": "TAP",
+		"toml": "TOML",
+		"tt2": "Template Toolkit 2",
+		"trig": "TriG",
+		"ts": "TypeScript",
+		"t4-cs": "T4 Text Templates (C#)",
+		"t4": "T4 Text Templates (C#)",
+		"t4-vb": "T4 Text Templates (VB)",
+		"t4-templating": "T4 templating",
+		"vbnet": "VB.Net",
+		"vhdl": "VHDL",
+		"vim": "vim",
+		"visual-basic": "Visual Basic",
+		"vb": "Visual Basic",
+		"wasm": "WebAssembly",
+		"wiki": "Wiki markup",
+		"xeoracube": "XeoraCube",
+		"xojo": "Xojo (REALbasic)",
+		"xquery": "XQuery",
+		"yaml": "YAML",
+		"yml": "YAML"
+	}/*]*/;
+
+	Prism.plugins.toolbar.registerButton('show-language', function (env) {
+		var pre = env.element.parentNode;
+		if (!pre || !/pre/i.test(pre.nodeName)) {
+			return;
+		}
+
+		/**
+		 * Tries to guess the name of a language given its id.
+		 *
+		 * @param {string} id The language id.
+		 * @returns {string}
+		 */
+		function guessTitle(id) {
+			if (!id) {
+				return id;
+			}
+			return (id.substring(0, 1).toUpperCase() + id.substring(1)).replace(/s(?=cript)/, 'S');
+		}
+
+		var language = pre.getAttribute('data-language') || Languages[env.language] || guessTitle(env.language);
+
+		if (!language) {
+			return;
+		}
+		var element = document.createElement('span');
+		element.textContent = language;
+
+		return element;
+	});
+
+})();
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-language/prism-show-language.min.js":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/show-language/prism-show-language.min.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+!function(){if("undefined"!=typeof self&&self.Prism&&self.document)if(Prism.plugins.toolbar){var r={html:"HTML",xml:"XML",svg:"SVG",mathml:"MathML",css:"CSS",clike:"C-like",js:"JavaScript",abap:"ABAP",abnf:"Augmented Backus–Naur form",antlr4:"ANTLR4",g4:"ANTLR4",apacheconf:"Apache Configuration",apl:"APL",aql:"AQL",arff:"ARFF",asciidoc:"AsciiDoc",adoc:"AsciiDoc",asm6502:"6502 Assembly",aspnet:"ASP.NET (C#)",autohotkey:"AutoHotkey",autoit:"AutoIt",shell:"Bash",basic:"BASIC",bbcode:"BBcode",shortcode:"BBcode",bnf:"Backus–Naur form",rbnf:"Routing Backus–Naur form",conc:"Concurnas",csharp:"C#",cs:"C#",dotnet:"C#",cpp:"C++",cil:"CIL",coffee:"CoffeeScript",cmake:"CMake",csp:"Content-Security-Policy","css-extras":"CSS Extras",dax:"DAX",django:"Django/Jinja2",jinja2:"Django/Jinja2","dns-zone-file":"DNS zone file","dns-zone":"DNS zone file",dockerfile:"Docker",ebnf:"Extended Backus–Naur form",ejs:"EJS",etlua:"Embedded Lua templating",erb:"ERB","excel-formula":"Excel Formula",xlsx:"Excel Formula",xls:"Excel Formula",fsharp:"F#","firestore-security-rules":"Firestore security rules",ftl:"FreeMarker Template Language",gcode:"G-code",gdscript:"GDScript",gedcom:"GEDCOM",glsl:"GLSL",gml:"GameMaker Language",gamemakerlanguage:"GameMaker Language",graphql:"GraphQL",hs:"Haskell",hcl:"HCL",http:"HTTP",hpkp:"HTTP Public-Key-Pins",hsts:"HTTP Strict-Transport-Security",ichigojam:"IchigoJam",inform7:"Inform 7",javadoc:"JavaDoc",javadoclike:"JavaDoc-like",javastacktrace:"Java stack trace",jq:"JQ",jsdoc:"JSDoc","js-extras":"JS Extras","js-templates":"JS Templates",json:"JSON",jsonp:"JSONP",json5:"JSON5",latex:"LaTeX",tex:"TeX",context:"ConTeXt",lilypond:"LilyPond",ly:"LilyPond",emacs:"Lisp",elisp:"Lisp","emacs-lisp":"Lisp",llvm:"LLVM IR",lolcode:"LOLCODE",md:"Markdown","markup-templating":"Markup templating",matlab:"MATLAB",mel:"MEL",moon:"MoonScript",n1ql:"N1QL",n4js:"N4JS",n4jsd:"N4JS","nand2tetris-hdl":"Nand To Tetris HDL",nasm:"NASM",neon:"NEON",nginx:"nginx",nsis:"NSIS",objectivec:"Objective-C",ocaml:"OCaml",opencl:"OpenCL",parigp:"PARI/GP",objectpascal:"Object Pascal",pcaxis:"PC-Axis",px:"PC-Axis",php:"PHP",phpdoc:"PHPDoc","php-extras":"PHP Extras",plsql:"PL/SQL",powerquery:"PowerQuery",pq:"PowerQuery",mscript:"PowerQuery",powershell:"PowerShell",properties:".properties",protobuf:"Protocol Buffers",py:"Python",q:"Q (kdb+ database)",qml:"QML",jsx:"React JSX",tsx:"React TSX",renpy:"Ren'py",rest:"reST (reStructuredText)",robotframework:"Robot Framework",robot:"Robot Framework",rb:"Ruby",sas:"SAS",sass:"Sass (Sass)",scss:"Sass (Scss)","shell-session":"Shell session",solidity:"Solidity (Ethereum)","solution-file":"Solution file",sln:"Solution file",soy:"Soy (Closure Template)",sparql:"SPARQL",rq:"SPARQL","splunk-spl":"Splunk SPL",sqf:"SQF: Status Quo Function (Arma 3)",sql:"SQL",tap:"TAP",toml:"TOML",tt2:"Template Toolkit 2",trig:"TriG",ts:"TypeScript","t4-cs":"T4 Text Templates (C#)",t4:"T4 Text Templates (C#)","t4-vb":"T4 Text Templates (VB)","t4-templating":"T4 templating",vbnet:"VB.Net",vhdl:"VHDL",vim:"vim","visual-basic":"Visual Basic",vb:"Visual Basic",wasm:"WebAssembly",wiki:"Wiki markup",xeoracube:"XeoraCube",xojo:"Xojo (REALbasic)",xquery:"XQuery",yaml:"YAML",yml:"YAML"};Prism.plugins.toolbar.registerButton("show-language",function(e){var a=e.element.parentNode;if(a&&/pre/i.test(a.nodeName)){var s,t=a.getAttribute("data-language")||r[e.language]||((s=e.language)?(s.substring(0,1).toUpperCase()+s.substring(1)).replace(/s(?=cript)/,"S"):s);if(t){var o=document.createElement("span");return o.textContent=t,o}}})}else console.warn("Show Languages plugin loaded before Toolbar plugin.")}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.css":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.css ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-toolbar.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.js":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.js ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function(){
+	if (typeof self === 'undefined' || !self.Prism || !self.document) {
+		return;
+	}
+
+	var callbacks = [];
+	var map = {};
+	var noop = function() {};
+
+	Prism.plugins.toolbar = {};
+
+	/**
+	 * @typedef ButtonOptions
+	 * @property {string} text The text displayed.
+	 * @property {string} [url] The URL of the link which will be created.
+	 * @property {Function} [onClick] The event listener for the `click` event of the created button.
+	 * @property {string} [className] The class attribute to include with element.
+	 */
+
+	/**
+	 * Register a button callback with the toolbar.
+	 *
+	 * @param {string} key
+	 * @param {ButtonOptions|Function} opts
+	 */
+	var registerButton = Prism.plugins.toolbar.registerButton = function (key, opts) {
+		var callback;
+
+		if (typeof opts === 'function') {
+			callback = opts;
+		} else {
+			callback = function (env) {
+				var element;
+
+				if (typeof opts.onClick === 'function') {
+					element = document.createElement('button');
+					element.type = 'button';
+					element.addEventListener('click', function () {
+						opts.onClick.call(this, env);
+					});
+				} else if (typeof opts.url === 'string') {
+					element = document.createElement('a');
+					element.href = opts.url;
+				} else {
+					element = document.createElement('span');
+				}
+
+				if (opts.className) {
+					element.classList.add(opts.className);
+				}
+
+				element.textContent = opts.text;
+
+				return element;
+			};
+		}
+
+		if (key in map) {
+			console.warn('There is a button with the key "' + key + '" registered already.');
+			return;
+		}
+
+		callbacks.push(map[key] = callback);
+	};
+
+	/**
+	 * Returns the callback order of the given element.
+	 *
+	 * @param {HTMLElement} element
+	 * @returns {string[] | undefined}
+	 */
+	function getOrder(element) {
+		while (element) {
+			var order = element.getAttribute('data-toolbar-order');
+			if (order != null) {
+				order = order.trim();
+				if (order.length) {
+					return order.split(/\s*,\s*/g);
+				} else {
+					return [];
+				}
+			}
+			element = element.parentElement;
+		}
+	}
+
+	/**
+	 * Post-highlight Prism hook callback.
+	 *
+	 * @param env
+	 */
+	var hook = Prism.plugins.toolbar.hook = function (env) {
+		// Check if inline or actual code block (credit to line-numbers plugin)
+		var pre = env.element.parentNode;
+		if (!pre || !/pre/i.test(pre.nodeName)) {
+			return;
+		}
+
+		// Autoloader rehighlights, so only do this once.
+		if (pre.parentNode.classList.contains('code-toolbar')) {
+			return;
+		}
+
+		// Create wrapper for <pre> to prevent scrolling toolbar with content
+		var wrapper = document.createElement('div');
+		wrapper.classList.add('code-toolbar');
+		pre.parentNode.insertBefore(wrapper, pre);
+		wrapper.appendChild(pre);
+
+		// Setup the toolbar
+		var toolbar = document.createElement('div');
+		toolbar.classList.add('toolbar');
+
+		// order callbacks
+		var elementCallbacks = callbacks;
+		var order = getOrder(env.element);
+		if (order) {
+			elementCallbacks = order.map(function (key) {
+				return map[key] || noop;
+			});
+		}
+
+		elementCallbacks.forEach(function(callback) {
+			var element = callback(env);
+
+			if (!element) {
+				return;
+			}
+
+			var item = document.createElement('div');
+			item.classList.add('toolbar-item');
+
+			item.appendChild(element);
+			toolbar.appendChild(item);
+		});
+
+		// Add our toolbar to the currently created wrapper of <pre> tag
+		wrapper.appendChild(toolbar);
+	};
+
+	registerButton('label', function(env) {
+		var pre = env.element.parentNode;
+		if (!pre || !/pre/i.test(pre.nodeName)) {
+			return;
+		}
+
+		if (!pre.hasAttribute('data-label')) {
+			return;
+		}
+
+		var element, template;
+		var text = pre.getAttribute('data-label');
+		try {
+			// Any normal text will blow up this selector.
+			template = document.querySelector('template#' + text);
+		} catch (e) {}
+
+		if (template) {
+			element = template.content;
+		} else {
+			if (pre.hasAttribute('data-url')) {
+				element = document.createElement('a');
+				element.href = pre.getAttribute('data-url');
+			} else {
+				element = document.createElement('span');
+			}
+
+			element.textContent = text;
+		}
+
+		return element;
+	});
+
+	/**
+	 * Register the toolbar with Prism.
+	 */
+	Prism.hooks.add('complete', hook);
+})();
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+!function(){if("undefined"!=typeof self&&self.Prism&&self.document){var i=[],l={},c=function(){};Prism.plugins.toolbar={};var e=Prism.plugins.toolbar.registerButton=function(e,n){var t;t="function"==typeof n?n:function(e){var t;return"function"==typeof n.onClick?((t=document.createElement("button")).type="button",t.addEventListener("click",function(){n.onClick.call(this,e)})):"string"==typeof n.url?(t=document.createElement("a")).href=n.url:t=document.createElement("span"),n.className&&t.classList.add(n.className),t.textContent=n.text,t},e in l?console.warn('There is a button with the key "'+e+'" registered already.'):i.push(l[e]=t)},t=Prism.plugins.toolbar.hook=function(a){var e=a.element.parentNode;if(e&&/pre/i.test(e.nodeName)&&!e.parentNode.classList.contains("code-toolbar")){var t=document.createElement("div");t.classList.add("code-toolbar"),e.parentNode.insertBefore(t,e),t.appendChild(e);var r=document.createElement("div");r.classList.add("toolbar");var n=i,o=function(e){for(;e;){var t=e.getAttribute("data-toolbar-order");if(null!=t)return(t=t.trim()).length?t.split(/\s*,\s*/g):[];e=e.parentElement}}(a.element);o&&(n=o.map(function(e){return l[e]||c})),n.forEach(function(e){var t=e(a);if(t){var n=document.createElement("div");n.classList.add("toolbar-item"),n.appendChild(t),r.appendChild(n)}}),t.appendChild(r)}};e("label",function(e){var t=e.element.parentNode;if(t&&/pre/i.test(t.nodeName)&&t.hasAttribute("data-label")){var n,a,r=t.getAttribute("data-label");try{a=document.querySelector("template#"+r)}catch(e){}return a?n=a.content:(t.hasAttribute("data-url")?(n=document.createElement("a")).href=t.getAttribute("data-url"):n=document.createElement("span"),n.textContent=r),n}}),Prism.hooks.add("complete",t)}}();
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.css":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.css ***!
+  \*************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-treeview.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.js":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+Prism.languages.treeview = {
+	'treeview-part': {
+		pattern: /^.+/m,
+		inside: {
+			'entry-line': [
+				{
+					pattern: /\|-- |├── /,
+					alias: 'line-h'
+				},
+				{
+					pattern: /\|   |│   /,
+					alias: 'line-v'
+				},
+				{
+					pattern: /`-- |└── /,
+					alias: 'line-v-last'
+				},
+				{
+					pattern: / {4}/,
+					alias: 'line-v-gap'
+				}
+			],
+			'entry-name': {
+				pattern: /.*\S.*/,
+				inside: {
+					// symlink
+					'operator': / -> /,
+				}
+			}
+		}
+	}
+};
+
+Prism.hooks.add('wrap', function (env) {
+	if (env.language === 'treeview' && env.type === 'entry-name') {
+		var classes = env.classes;
+
+		var folderPattern = /(^|[^\\])\/\s*$/;
+		if (folderPattern.test(env.content)) {
+			// folder
+
+			// remove trailing /
+			env.content = env.content.replace(folderPattern, '$1');
+			classes.push('dir');
+		} else {
+			// file
+
+			// remove trailing file marker
+			env.content = env.content.replace(/(^|[^\\])[=*|]\s*$/, '$1');
+
+			var parts = env.content.toLowerCase().replace(/\s+/g, '').split('.');
+			while (parts.length > 1) {
+				parts.shift();
+				// Ex. 'foo.min.js' would become '<span class="token keyword ext-min-js ext-js">foo.min.js</span>'
+				classes.push('ext-' + parts.join('-'));
+			}
+		}
+
+		if (env.content[0] === '.') {
+			classes.push('dotfile');
+		}
+	}
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.min.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/treeview/prism-treeview.min.js ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+Prism.languages.treeview={"treeview-part":{pattern:/^.+/m,inside:{"entry-line":[{pattern:/\|-- |├── /,alias:"line-h"},{pattern:/\|   |│   /,alias:"line-v"},{pattern:/`-- |└── /,alias:"line-v-last"},{pattern:/ {4}/,alias:"line-v-gap"}],"entry-name":{pattern:/.*\S.*/,inside:{operator:/ -> /}}}}},Prism.hooks.add("wrap",function(e){if("treeview"===e.language&&"entry-name"===e.type){var t=e.classes,n=/(^|[^\\])\/\s*$/;if(n.test(e.content))e.content=e.content.replace(n,"$1"),t.push("dir");else{e.content=e.content.replace(/(^|[^\\])[=*|]\s*$/,"$1");for(var a=e.content.toLowerCase().replace(/\s+/g,"").split(".");1<a.length;)a.shift(),t.push("ext-"+a.join("-"))}"."===e.content[0]&&t.push("dotfile")}});
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-unescaped-markup.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.js":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.js ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function () {
+
+	if (typeof self === 'undefined' || !self.Prism || !self.document || !Prism.languages.markup) {
+		return;
+	}
+
+	Prism.plugins.UnescapedMarkup = true;
+
+	Prism.hooks.add('before-highlightall', function (env) {
+		env.selector += ", [class*='lang-'] script[type='text/plain'], [class*='language-'] script[type='text/plain']" +
+		                ", script[type='text/plain'][class*='lang-'], script[type='text/plain'][class*='language-']";
+	});
+
+	Prism.hooks.add('before-sanity-check', function (env) {
+		if ((env.element.matches || env.element.msMatchesSelector).call(env.element, "script[type='text/plain']")) {
+			var code = document.createElement("code");
+			var pre = document.createElement("pre");
+
+			pre.className = code.className = env.element.className;
+
+			if (env.element.dataset) {
+				Object.keys(env.element.dataset).forEach(function (key) {
+					if (Object.prototype.hasOwnProperty.call(env.element.dataset, key)) {
+						pre.dataset[key] = env.element.dataset[key];
+					}
+				});
+			}
+
+			env.code = env.code.replace(/&lt;\/script(>|&gt;)/gi, "</scri" + "pt>");
+			code.textContent = env.code;
+
+			pre.appendChild(code);
+			env.element.parentNode.replaceChild(pre, env.element);
+			env.element = code;
+			return;
+		}
+
+		var pre = env.element.parentNode;
+		if (!env.code && pre && pre.nodeName.toLowerCase() == 'pre' &&
+				env.element.childNodes.length && env.element.childNodes[0].nodeName == "#comment") {
+			env.element.textContent = env.code = env.element.childNodes[0].textContent;
+		}
+	});
+}());
+
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.min.js":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.min.js ***!
+  \********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+"undefined"!=typeof self&&self.Prism&&self.document&&Prism.languages.markup&&(Prism.plugins.UnescapedMarkup=!0,Prism.hooks.add("before-highlightall",function(e){e.selector+=", [class*='lang-'] script[type='text/plain'], [class*='language-'] script[type='text/plain'], script[type='text/plain'][class*='lang-'], script[type='text/plain'][class*='language-']"}),Prism.hooks.add("before-sanity-check",function(t){if((t.element.matches||t.element.msMatchesSelector).call(t.element,"script[type='text/plain']")){var e=document.createElement("code");return(a=document.createElement("pre")).className=e.className=t.element.className,t.element.dataset&&Object.keys(t.element.dataset).forEach(function(e){Object.prototype.hasOwnProperty.call(t.element.dataset,e)&&(a.dataset[e]=t.element.dataset[e])}),t.code=t.code.replace(/&lt;\/script(>|&gt;)/gi,"<\/script>"),e.textContent=t.code,a.appendChild(e),t.element.parentNode.replaceChild(a,t.element),void(t.element=e)}var a=t.element.parentNode;!t.code&&a&&"pre"==a.nodeName.toLowerCase()&&t.element.childNodes.length&&"#comment"==t.element.childNodes[0].nodeName&&(t.element.textContent=t.code=t.element.childNodes[0].textContent)}));
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.css":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.css ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../css-loader??ref--6-1!../../../../../postcss-loader/src??ref--6-2!./prism-wpd.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {(function(){
+
+if (
+	typeof self !== 'undefined' && !self.Prism ||
+	typeof global !== 'undefined' && !global.Prism
+) {
+	return;
+}
+
+if (Prism.languages.css) {
+	// check whether the selector is an advanced pattern before extending it
+	if (Prism.languages.css.selector.pattern)
+	{
+		Prism.languages.css.selector.inside['pseudo-class'] = /:[\w-]+/;
+		Prism.languages.css.selector.inside['pseudo-element'] = /::[\w-]+/;
+	}
+	else
+	{
+		Prism.languages.css.selector = {
+			pattern: Prism.languages.css.selector,
+			inside: {
+				'pseudo-class': /:[\w-]+/,
+				'pseudo-element': /::[\w-]+/
+			}
+		};
+	}
+}
+
+if (Prism.languages.markup) {
+	Prism.languages.markup.tag.inside.tag.inside['tag-id'] = /[\w-]+/;
+	
+	var Tags = {
+		HTML: {
+			'a': 1, 'abbr': 1, 'acronym': 1, 'b': 1, 'basefont': 1, 'bdo': 1, 'big': 1, 'blink': 1, 'cite': 1, 'code': 1, 'dfn': 1, 'em': 1, 'kbd': 1,  'i': 1, 
+			'rp': 1, 'rt': 1, 'ruby': 1, 's': 1, 'samp': 1, 'small': 1, 'spacer': 1, 'strike': 1, 'strong': 1, 'sub': 1, 'sup': 1, 'time': 1, 'tt': 1,  'u': 1, 
+			'var': 1, 'wbr': 1, 'noframes': 1, 'summary': 1, 'command': 1, 'dt': 1, 'dd': 1, 'figure': 1, 'figcaption': 1, 'center': 1, 'section': 1, 'nav': 1,
+			'article': 1, 'aside': 1, 'hgroup': 1, 'header': 1, 'footer': 1, 'address': 1, 'noscript': 1, 'isIndex': 1, 'main': 1, 'mark': 1, 'marquee': 1,
+			'meter': 1, 'menu': 1
+		},
+		SVG: {
+			'animateColor': 1, 'animateMotion': 1, 'animateTransform': 1, 'glyph': 1, 'feBlend': 1, 'feColorMatrix': 1, 'feComponentTransfer': 1, 
+			'feFuncR': 1, 'feFuncG': 1, 'feFuncB': 1, 'feFuncA': 1, 'feComposite': 1, 'feConvolveMatrix': 1, 'feDiffuseLighting': 1, 'feDisplacementMap': 1, 
+			'feFlood': 1, 'feGaussianBlur': 1, 'feImage': 1, 'feMerge': 1, 'feMergeNode': 1, 'feMorphology': 1, 'feOffset': 1, 'feSpecularLighting': 1, 
+			'feTile': 1, 'feTurbulence': 1, 'feDistantLight': 1, 'fePointLight': 1, 'feSpotLight': 1, 'linearGradient': 1, 'radialGradient': 1, 'altGlyph': 1, 
+			'textPath': 1, 'tref': 1, 'altglyph': 1, 'textpath': 1, 'altglyphdef': 1, 'altglyphitem': 1, 'clipPath': 1, 'color-profile': 1, 'cursor': 1,
+			'font-face': 1, 'font-face-format': 1, 'font-face-name': 1, 'font-face-src': 1, 'font-face-uri': 1, 'foreignObject': 1, 'glyphRef': 1,
+			'hkern': 1, 'vkern': 1
+		},
+		MathML: {}
+	}
+}
+
+var language;
+
+Prism.hooks.add('wrap', function(env) {
+	if ((env.type == 'tag-id'
+		|| (env.type == 'property' && env.content.indexOf('-') != 0)
+		|| (env.type == 'rule'&& env.content.indexOf('@-') != 0)
+		|| (env.type == 'pseudo-class'&& env.content.indexOf(':-') != 0) 
+		|| (env.type == 'pseudo-element'&& env.content.indexOf('::-') != 0) 
+        || (env.type == 'attr-name' && env.content.indexOf('data-') != 0)
+		) && env.content.indexOf('<') === -1
+	) {
+		if (env.language == 'css'
+			|| env.language == 'scss'
+			|| env.language == 'markup'
+		) {
+			var href = 'https://webplatform.github.io/docs/';
+			var content = env.content;
+
+			if (env.language == 'css' || env.language == 'scss') {
+				href += 'css/';
+
+				if (env.type == 'property') {
+					href += 'properties/';
+				}
+				else if (env.type == 'rule') {
+					href += 'atrules/';
+					content = content.substring(1);
+				}
+				else if (env.type == 'pseudo-class') {
+					href += 'selectors/pseudo-classes/';
+					content = content.substring(1);
+				}
+				else if (env.type == 'pseudo-element') {
+					href += 'selectors/pseudo-elements/';
+					content = content.substring(2);
+				}
+			}
+			else if (env.language == 'markup') {
+				if (env.type == 'tag-id') {
+					// Check language
+					language = getLanguage(env.content) || language;
+
+					if (language) {
+						href += language + '/elements/';
+					}
+					else {
+						return; // Abort
+					}
+				}
+				else if (env.type == 'attr-name') {
+					if (language) {
+						href += language + '/attributes/';
+					}
+					else {
+						return; // Abort
+					}
+				}
+			}
+
+			href += content;
+			env.tag = 'a';
+			env.attributes.href = href;
+			env.attributes.target = '_blank';
+		}
+	}
+});
+
+function getLanguage(tag) {
+	var tagL = tag.toLowerCase();
+	
+	if (Tags.HTML[tagL]) {
+		return 'html';
+	}
+	else if (Tags.SVG[tag]) {
+		return 'svg';
+	}
+	else if (Tags.MathML[tag]) {
+		return 'mathml';
+	}
+	
+	// Not in dictionary, perform check
+	if (Tags.HTML[tagL] !== 0 && typeof document !== 'undefined') {
+		var htmlInterface = (document.createElement(tag).toString().match(/\[object HTML(.+)Element\]/) || [])[1];
+		
+		if (htmlInterface && htmlInterface != 'Unknown') {
+			Tags.HTML[tagL] = 1;
+			return 'html';
+		}
+	}
+	
+	Tags.HTML[tagL] = 0;
+	
+	if (Tags.SVG[tag] !== 0 && typeof document !== 'undefined') {
+		var svgInterface = (document.createElementNS('http://www.w3.org/2000/svg', tag).toString().match(/\[object SVG(.+)Element\]/) || [])[1];
+		
+		if (svgInterface && svgInterface != 'Unknown') {
+			Tags.SVG[tag] = 1;
+			return 'svg';
+		}
+	}
+	
+	Tags.SVG[tag] = 0;
+	
+	// Lame way to detect MathML, but browsers don’t expose interface names there :(
+	if (Tags.MathML[tag] !== 0) {
+		if (tag.indexOf('m') === 0) {
+			Tags.MathML[tag] = 1;
+			return 'mathml';
+		}
+	}
+	
+	Tags.MathML[tag] = 0;
+	
+	return null;
+}
+
+})();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.min.js":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/plugins/wpd/prism-wpd.min.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {!function(){if(("undefined"==typeof self||self.Prism)&&("undefined"==typeof global||global.Prism)){if(Prism.languages.css&&(Prism.languages.css.selector.pattern?(Prism.languages.css.selector.inside["pseudo-class"]=/:[\w-]+/,Prism.languages.css.selector.inside["pseudo-element"]=/::[\w-]+/):Prism.languages.css.selector={pattern:Prism.languages.css.selector,inside:{"pseudo-class":/:[\w-]+/,"pseudo-element":/::[\w-]+/}}),Prism.languages.markup){Prism.languages.markup.tag.inside.tag.inside["tag-id"]=/[\w-]+/;var s={HTML:{a:1,abbr:1,acronym:1,b:1,basefont:1,bdo:1,big:1,blink:1,cite:1,code:1,dfn:1,em:1,kbd:1,i:1,rp:1,rt:1,ruby:1,s:1,samp:1,small:1,spacer:1,strike:1,strong:1,sub:1,sup:1,time:1,tt:1,u:1,var:1,wbr:1,noframes:1,summary:1,command:1,dt:1,dd:1,figure:1,figcaption:1,center:1,section:1,nav:1,article:1,aside:1,hgroup:1,header:1,footer:1,address:1,noscript:1,isIndex:1,main:1,mark:1,marquee:1,meter:1,menu:1},SVG:{animateColor:1,animateMotion:1,animateTransform:1,glyph:1,feBlend:1,feColorMatrix:1,feComponentTransfer:1,feFuncR:1,feFuncG:1,feFuncB:1,feFuncA:1,feComposite:1,feConvolveMatrix:1,feDiffuseLighting:1,feDisplacementMap:1,feFlood:1,feGaussianBlur:1,feImage:1,feMerge:1,feMergeNode:1,feMorphology:1,feOffset:1,feSpecularLighting:1,feTile:1,feTurbulence:1,feDistantLight:1,fePointLight:1,feSpotLight:1,linearGradient:1,radialGradient:1,altGlyph:1,textPath:1,tref:1,altglyph:1,textpath:1,altglyphdef:1,altglyphitem:1,clipPath:1,"color-profile":1,cursor:1,"font-face":1,"font-face-format":1,"font-face-name":1,"font-face-src":1,"font-face-uri":1,foreignObject:1,glyphRef:1,hkern:1,vkern:1},MathML:{}}}var a;Prism.hooks.add("wrap",function(e){if(("tag-id"==e.type||"property"==e.type&&0!=e.content.indexOf("-")||"rule"==e.type&&0!=e.content.indexOf("@-")||"pseudo-class"==e.type&&0!=e.content.indexOf(":-")||"pseudo-element"==e.type&&0!=e.content.indexOf("::-")||"attr-name"==e.type&&0!=e.content.indexOf("data-"))&&-1===e.content.indexOf("<")&&("css"==e.language||"scss"==e.language||"markup"==e.language)){var t="https://webplatform.github.io/docs/",n=e.content;if("css"==e.language||"scss"==e.language)t+="css/","property"==e.type?t+="properties/":"rule"==e.type?(t+="atrules/",n=n.substring(1)):"pseudo-class"==e.type?(t+="selectors/pseudo-classes/",n=n.substring(1)):"pseudo-element"==e.type&&(t+="selectors/pseudo-elements/",n=n.substring(2));else if("markup"==e.language)if("tag-id"==e.type){if(!(a=function(e){var t=e.toLowerCase();{if(s.HTML[t])return"html";if(s.SVG[e])return"svg";if(s.MathML[e])return"mathml"}if(0!==s.HTML[t]&&"undefined"!=typeof document){var n=(document.createElement(e).toString().match(/\[object HTML(.+)Element\]/)||[])[1];if(n&&"Unknown"!=n)return s.HTML[t]=1,"html"}if((s.HTML[t]=0)!==s.SVG[e]&&"undefined"!=typeof document){var a=(document.createElementNS("http://www.w3.org/2000/svg",e).toString().match(/\[object SVG(.+)Element\]/)||[])[1];if(a&&"Unknown"!=a)return s.SVG[e]=1,"svg"}if((s.SVG[e]=0)!==s.MathML[e]&&0===e.indexOf("m"))return s.MathML[e]=1,"mathml";return s.MathML[e]=0,null}(e.content)||a))return;t+=a+"/elements/"}else if("attr-name"==e.type){if(!a)return;t+=a+"/attributes/"}t+=n,e.tag="a",e.attributes.href=t,e.attributes.target="_blank"}})}}();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/markdown-it-prism/node_modules/prismjs/prism.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/markdown-it-prism/node_modules/prismjs/prism.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {
+/* **********************************************
+     Begin prism-core.js
+********************************************** */
+
+var _self = (typeof window !== 'undefined')
+	? window   // if in browser
+	: (
+		(typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope)
+		? self // if in worker
+		: {}   // if in node js
+	);
+
+/**
+ * Prism: Lightweight, robust, elegant syntax highlighting
+ * MIT license http://www.opensource.org/licenses/mit-license.php/
+ * @author Lea Verou http://lea.verou.me
+ */
+
+var Prism = (function (_self){
+
+// Private helper vars
+var lang = /\blang(?:uage)?-([\w-]+)\b/i;
+var uniqueId = 0;
+
+
+var _ = {
+	manual: _self.Prism && _self.Prism.manual,
+	disableWorkerMessageHandler: _self.Prism && _self.Prism.disableWorkerMessageHandler,
+	util: {
+		encode: function encode(tokens) {
+			if (tokens instanceof Token) {
+				return new Token(tokens.type, encode(tokens.content), tokens.alias);
+			} else if (Array.isArray(tokens)) {
+				return tokens.map(encode);
+			} else {
+				return tokens.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/\u00a0/g, ' ');
+			}
+		},
+
+		type: function (o) {
+			return Object.prototype.toString.call(o).slice(8, -1);
+		},
+
+		objId: function (obj) {
+			if (!obj['__id']) {
+				Object.defineProperty(obj, '__id', { value: ++uniqueId });
+			}
+			return obj['__id'];
+		},
+
+		// Deep clone a language definition (e.g. to extend it)
+		clone: function deepClone(o, visited) {
+			var clone, id, type = _.util.type(o);
+			visited = visited || {};
+
+			switch (type) {
+				case 'Object':
+					id = _.util.objId(o);
+					if (visited[id]) {
+						return visited[id];
+					}
+					clone = {};
+					visited[id] = clone;
+
+					for (var key in o) {
+						if (o.hasOwnProperty(key)) {
+							clone[key] = deepClone(o[key], visited);
+						}
+					}
+
+					return clone;
+
+				case 'Array':
+					id = _.util.objId(o);
+					if (visited[id]) {
+						return visited[id];
+					}
+					clone = [];
+					visited[id] = clone;
+
+					o.forEach(function (v, i) {
+						clone[i] = deepClone(v, visited);
+					});
+
+					return clone;
+
+				default:
+					return o;
+			}
+		},
+
+		/**
+		 * Returns the Prism language of the given element set by a `language-xxxx` or `lang-xxxx` class.
+		 *
+		 * If no language is set for the element or the element is `null` or `undefined`, `none` will be returned.
+		 *
+		 * @param {Element} element
+		 * @returns {string}
+		 */
+		getLanguage: function (element) {
+			while (element && !lang.test(element.className)) {
+				element = element.parentElement;
+			}
+			if (element) {
+				return (element.className.match(lang) || [, 'none'])[1].toLowerCase();
+			}
+			return 'none';
+		},
+
+		/**
+		 * Returns the script element that is currently executing.
+		 *
+		 * This does __not__ work for line script element.
+		 *
+		 * @returns {HTMLScriptElement | null}
+		 */
+		currentScript: function () {
+			if (typeof document === 'undefined') {
+				return null;
+			}
+			if ('currentScript' in document) {
+				return document.currentScript;
+			}
+
+			// IE11 workaround
+			// we'll get the src of the current script by parsing IE11's error stack trace
+			// this will not work for inline scripts
+
+			try {
+				throw new Error();
+			} catch (err) {
+				// Get file src url from stack. Specifically works with the format of stack traces in IE.
+				// A stack will look like this:
+				//
+				// Error
+				//    at _.util.currentScript (http://localhost/components/prism-core.js:119:5)
+				//    at Global code (http://localhost/components/prism-core.js:606:1)
+
+				var src = (/at [^(\r\n]*\((.*):.+:.+\)$/i.exec(err.stack) || [])[1];
+				if (src) {
+					var scripts = document.getElementsByTagName('script');
+					for (var i in scripts) {
+						if (scripts[i].src == src) {
+							return scripts[i];
+						}
+					}
+				}
+				return null;
+			}
+		}
+	},
+
+	languages: {
+		extend: function (id, redef) {
+			var lang = _.util.clone(_.languages[id]);
+
+			for (var key in redef) {
+				lang[key] = redef[key];
+			}
+
+			return lang;
+		},
+
+		/**
+		 * Insert a token before another token in a language literal
+		 * As this needs to recreate the object (we cannot actually insert before keys in object literals),
+		 * we cannot just provide an object, we need an object and a key.
+		 * @param inside The key (or language id) of the parent
+		 * @param before The key to insert before.
+		 * @param insert Object with the key/value pairs to insert
+		 * @param root The object that contains `inside`. If equal to Prism.languages, it can be omitted.
+		 */
+		insertBefore: function (inside, before, insert, root) {
+			root = root || _.languages;
+			var grammar = root[inside];
+			var ret = {};
+
+			for (var token in grammar) {
+				if (grammar.hasOwnProperty(token)) {
+
+					if (token == before) {
+						for (var newToken in insert) {
+							if (insert.hasOwnProperty(newToken)) {
+								ret[newToken] = insert[newToken];
+							}
+						}
+					}
+
+					// Do not insert token which also occur in insert. See #1525
+					if (!insert.hasOwnProperty(token)) {
+						ret[token] = grammar[token];
+					}
+				}
+			}
+
+			var old = root[inside];
+			root[inside] = ret;
+
+			// Update references in other language definitions
+			_.languages.DFS(_.languages, function(key, value) {
+				if (value === old && key != inside) {
+					this[key] = ret;
+				}
+			});
+
+			return ret;
+		},
+
+		// Traverse a language definition with Depth First Search
+		DFS: function DFS(o, callback, type, visited) {
+			visited = visited || {};
+
+			var objId = _.util.objId;
+
+			for (var i in o) {
+				if (o.hasOwnProperty(i)) {
+					callback.call(o, i, o[i], type || i);
+
+					var property = o[i],
+					    propertyType = _.util.type(property);
+
+					if (propertyType === 'Object' && !visited[objId(property)]) {
+						visited[objId(property)] = true;
+						DFS(property, callback, null, visited);
+					}
+					else if (propertyType === 'Array' && !visited[objId(property)]) {
+						visited[objId(property)] = true;
+						DFS(property, callback, i, visited);
+					}
+				}
+			}
+		}
+	},
+	plugins: {},
+
+	highlightAll: function(async, callback) {
+		_.highlightAllUnder(document, async, callback);
+	},
+
+	highlightAllUnder: function(container, async, callback) {
+		var env = {
+			callback: callback,
+			container: container,
+			selector: 'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'
+		};
+
+		_.hooks.run('before-highlightall', env);
+
+		env.elements = Array.prototype.slice.apply(env.container.querySelectorAll(env.selector));
+
+		_.hooks.run('before-all-elements-highlight', env);
+
+		for (var i = 0, element; element = env.elements[i++];) {
+			_.highlightElement(element, async === true, env.callback);
+		}
+	},
+
+	highlightElement: function(element, async, callback) {
+		// Find language
+		var language = _.util.getLanguage(element);
+		var grammar = _.languages[language];
+
+		// Set language on the element, if not present
+		element.className = element.className.replace(lang, '').replace(/\s+/g, ' ') + ' language-' + language;
+
+		// Set language on the parent, for styling
+		var parent = element.parentNode;
+		if (parent && parent.nodeName.toLowerCase() === 'pre') {
+			parent.className = parent.className.replace(lang, '').replace(/\s+/g, ' ') + ' language-' + language;
+		}
+
+		var code = element.textContent;
+
+		var env = {
+			element: element,
+			language: language,
+			grammar: grammar,
+			code: code
+		};
+
+		function insertHighlightedCode(highlightedCode) {
+			env.highlightedCode = highlightedCode;
+
+			_.hooks.run('before-insert', env);
+
+			env.element.innerHTML = env.highlightedCode;
+
+			_.hooks.run('after-highlight', env);
+			_.hooks.run('complete', env);
+			callback && callback.call(env.element);
+		}
+
+		_.hooks.run('before-sanity-check', env);
+
+		if (!env.code) {
+			_.hooks.run('complete', env);
+			callback && callback.call(env.element);
+			return;
+		}
+
+		_.hooks.run('before-highlight', env);
+
+		if (!env.grammar) {
+			insertHighlightedCode(_.util.encode(env.code));
+			return;
+		}
+
+		if (async && _self.Worker) {
+			var worker = new Worker(_.filename);
+
+			worker.onmessage = function(evt) {
+				insertHighlightedCode(evt.data);
+			};
+
+			worker.postMessage(JSON.stringify({
+				language: env.language,
+				code: env.code,
+				immediateClose: true
+			}));
+		}
+		else {
+			insertHighlightedCode(_.highlight(env.code, env.grammar, env.language));
+		}
+	},
+
+	highlight: function (text, grammar, language) {
+		var env = {
+			code: text,
+			grammar: grammar,
+			language: language
+		};
+		_.hooks.run('before-tokenize', env);
+		env.tokens = _.tokenize(env.code, env.grammar);
+		_.hooks.run('after-tokenize', env);
+		return Token.stringify(_.util.encode(env.tokens), env.language);
+	},
+
+	tokenize: function(text, grammar) {
+		var rest = grammar.rest;
+		if (rest) {
+			for (var token in rest) {
+				grammar[token] = rest[token];
+			}
+
+			delete grammar.rest;
+		}
+
+		var tokenList = new LinkedList();
+		addAfter(tokenList, tokenList.head, text);
+
+		matchGrammar(text, tokenList, grammar, tokenList.head, 0);
+
+		return toArray(tokenList);
+	},
+
+	hooks: {
+		all: {},
+
+		add: function (name, callback) {
+			var hooks = _.hooks.all;
+
+			hooks[name] = hooks[name] || [];
+
+			hooks[name].push(callback);
+		},
+
+		run: function (name, env) {
+			var callbacks = _.hooks.all[name];
+
+			if (!callbacks || !callbacks.length) {
+				return;
+			}
+
+			for (var i=0, callback; callback = callbacks[i++];) {
+				callback(env);
+			}
+		}
+	},
+
+	Token: Token
+};
+
+_self.Prism = _;
+
+function Token(type, content, alias, matchedStr, greedy) {
+	this.type = type;
+	this.content = content;
+	this.alias = alias;
+	// Copy of the full string this token was created from
+	this.length = (matchedStr || '').length|0;
+	this.greedy = !!greedy;
+}
+
+Token.stringify = function stringify(o, language) {
+	if (typeof o == 'string') {
+		return o;
+	}
+	if (Array.isArray(o)) {
+		var s = '';
+		o.forEach(function (e) {
+			s += stringify(e, language);
+		});
+		return s;
+	}
+
+	var env = {
+		type: o.type,
+		content: stringify(o.content, language),
+		tag: 'span',
+		classes: ['token', o.type],
+		attributes: {},
+		language: language
+	};
+
+	var aliases = o.alias;
+	if (aliases) {
+		if (Array.isArray(aliases)) {
+			Array.prototype.push.apply(env.classes, aliases);
+		} else {
+			env.classes.push(aliases);
+		}
+	}
+
+	_.hooks.run('wrap', env);
+
+	var attributes = '';
+	for (var name in env.attributes) {
+		attributes += ' ' + name + '="' + (env.attributes[name] || '').replace(/"/g, '&quot;') + '"';
+	}
+
+	return '<' + env.tag + ' class="' + env.classes.join(' ') + '"' + attributes + '>' + env.content + '</' + env.tag + '>';
+};
+
+/**
+ * @param {string} text
+ * @param {LinkedList<string | Token>} tokenList
+ * @param {any} grammar
+ * @param {LinkedListNode<string | Token>} startNode
+ * @param {number} startPos
+ * @param {boolean} [oneshot=false]
+ * @param {string} [target]
+ */
+function matchGrammar(text, tokenList, grammar, startNode, startPos, oneshot, target) {
+	for (var token in grammar) {
+		if (!grammar.hasOwnProperty(token) || !grammar[token]) {
+			continue;
+		}
+
+		var patterns = grammar[token];
+		patterns = Array.isArray(patterns) ? patterns : [patterns];
+
+		for (var j = 0; j < patterns.length; ++j) {
+			if (target && target == token + ',' + j) {
+				return;
+			}
+
+			var pattern = patterns[j],
+				inside = pattern.inside,
+				lookbehind = !!pattern.lookbehind,
+				greedy = !!pattern.greedy,
+				lookbehindLength = 0,
+				alias = pattern.alias;
+
+			if (greedy && !pattern.pattern.global) {
+				// Without the global flag, lastIndex won't work
+				var flags = pattern.pattern.toString().match(/[imsuy]*$/)[0];
+				pattern.pattern = RegExp(pattern.pattern.source, flags + 'g');
+			}
+
+			pattern = pattern.pattern || pattern;
+
+			for ( // iterate the token list and keep track of the current token/string position
+				var currentNode = startNode.next, pos = startPos;
+				currentNode !== tokenList.tail;
+				pos += currentNode.value.length, currentNode = currentNode.next
+			) {
+
+				var str = currentNode.value;
+
+				if (tokenList.length > text.length) {
+					// Something went terribly wrong, ABORT, ABORT!
+					return;
+				}
+
+				if (str instanceof Token) {
+					continue;
+				}
+
+				var removeCount = 1; // this is the to parameter of removeBetween
+
+				if (greedy && currentNode != tokenList.tail.prev) {
+					pattern.lastIndex = pos;
+					var match = pattern.exec(text);
+					if (!match) {
+						break;
+					}
+
+					var from = match.index + (lookbehind && match[1] ? match[1].length : 0);
+					var to = match.index + match[0].length;
+					var p = pos;
+
+					// find the node that contains the match
+					p += currentNode.value.length;
+					while (from >= p) {
+						currentNode = currentNode.next;
+						p += currentNode.value.length;
+					}
+					// adjust pos (and p)
+					p -= currentNode.value.length;
+					pos = p;
+
+					// the current node is a Token, then the match starts inside another Token, which is invalid
+					if (currentNode.value instanceof Token) {
+						continue;
+					}
+
+					// find the last node which is affected by this match
+					for (
+						var k = currentNode;
+						k !== tokenList.tail && (p < to || (typeof k.value === 'string' && !k.prev.value.greedy));
+						k = k.next
+					) {
+						removeCount++;
+						p += k.value.length;
+					}
+					removeCount--;
+
+					// replace with the new match
+					str = text.slice(pos, p);
+					match.index -= pos;
+				} else {
+					pattern.lastIndex = 0;
+
+					var match = pattern.exec(str);
+				}
+
+				if (!match) {
+					if (oneshot) {
+						break;
+					}
+
+					continue;
+				}
+
+				if (lookbehind) {
+					lookbehindLength = match[1] ? match[1].length : 0;
+				}
+
+				var from = match.index + lookbehindLength,
+					match = match[0].slice(lookbehindLength),
+					to = from + match.length,
+					before = str.slice(0, from),
+					after = str.slice(to);
+
+				var removeFrom = currentNode.prev;
+
+				if (before) {
+					removeFrom = addAfter(tokenList, removeFrom, before);
+					pos += before.length;
+				}
+
+				removeRange(tokenList, removeFrom, removeCount);
+
+				var wrapped = new Token(token, inside ? _.tokenize(match, inside) : match, alias, match, greedy);
+				currentNode = addAfter(tokenList, removeFrom, wrapped);
+
+				if (after) {
+					addAfter(tokenList, currentNode, after);
+				}
+
+
+				if (removeCount > 1)
+					matchGrammar(text, tokenList, grammar, currentNode.prev, pos, true, token + ',' + j);
+
+				if (oneshot)
+					break;
+			}
+		}
+	}
+}
+
+/**
+ * @typedef LinkedListNode
+ * @property {T} value
+ * @property {LinkedListNode<T> | null} prev The previous node.
+ * @property {LinkedListNode<T> | null} next The next node.
+ * @template T
+ */
+
+/**
+ * @template T
+ */
+function LinkedList() {
+	/** @type {LinkedListNode<T>} */
+	var head = { value: null, prev: null, next: null };
+	/** @type {LinkedListNode<T>} */
+	var tail = { value: null, prev: head, next: null };
+	head.next = tail;
+
+	/** @type {LinkedListNode<T>} */
+	this.head = head;
+	/** @type {LinkedListNode<T>} */
+	this.tail = tail;
+	this.length = 0;
+}
+
+/**
+ * Adds a new node with the given value to the list.
+ * @param {LinkedList<T>} list
+ * @param {LinkedListNode<T>} node
+ * @param {T} value
+ * @returns {LinkedListNode<T>} The added node.
+ * @template T
+ */
+function addAfter(list, node, value) {
+	// assumes that node != list.tail && values.length >= 0
+	var next = node.next;
+
+	var newNode = { value: value, prev: node, next: next };
+	node.next = newNode;
+	next.prev = newNode;
+	list.length++;
+
+	return newNode;
+}
+/**
+ * Removes `count` nodes after the given node. The given node will not be removed.
+ * @param {LinkedList<T>} list
+ * @param {LinkedListNode<T>} node
+ * @param {number} count
+ * @template T
+ */
+function removeRange(list, node, count) {
+	var next = node.next;
+	for (var i = 0; i < count && next !== list.tail; i++) {
+		next = next.next;
+	}
+	node.next = next;
+	next.prev = node;
+	list.length -= i;
+}
+/**
+ * @param {LinkedList<T>} list
+ * @returns {T[]}
+ * @template T
+ */
+function toArray(list) {
+	var array = [];
+	var node = list.head.next;
+	while (node !== list.tail) {
+		array.push(node.value);
+		node = node.next;
+	}
+	return array;
+}
+
+
+if (!_self.document) {
+	if (!_self.addEventListener) {
+		// in Node.js
+		return _;
+	}
+
+	if (!_.disableWorkerMessageHandler) {
+		// In worker
+		_self.addEventListener('message', function (evt) {
+			var message = JSON.parse(evt.data),
+				lang = message.language,
+				code = message.code,
+				immediateClose = message.immediateClose;
+
+			_self.postMessage(_.highlight(code, _.languages[lang], lang));
+			if (immediateClose) {
+				_self.close();
+			}
+		}, false);
+	}
+
+	return _;
+}
+
+//Get current script and highlight
+var script = _.util.currentScript();
+
+if (script) {
+	_.filename = script.src;
+
+	if (script.hasAttribute('data-manual')) {
+		_.manual = true;
+	}
+}
+
+function highlightAutomaticallyCallback() {
+	if (!_.manual) {
+		_.highlightAll();
+	}
+}
+
+if (!_.manual) {
+	// If the document state is "loading", then we'll use DOMContentLoaded.
+	// If the document state is "interactive" and the prism.js script is deferred, then we'll also use the
+	// DOMContentLoaded event because there might be some plugins or languages which have also been deferred and they
+	// might take longer one animation frame to execute which can create a race condition where only some plugins have
+	// been loaded when Prism.highlightAll() is executed, depending on how fast resources are loaded.
+	// See https://github.com/PrismJS/prism/issues/2102
+	var readyState = document.readyState;
+	if (readyState === 'loading' || readyState === 'interactive' && script && script.defer) {
+		document.addEventListener('DOMContentLoaded', highlightAutomaticallyCallback);
+	} else {
+		if (window.requestAnimationFrame) {
+			window.requestAnimationFrame(highlightAutomaticallyCallback);
+		} else {
+			window.setTimeout(highlightAutomaticallyCallback, 16);
+		}
+	}
+}
+
+return _;
+
+})(_self);
+
+if ( true && module.exports) {
+	module.exports = Prism;
+}
+
+// hack for components to work correctly in node.js
+if (typeof global !== 'undefined') {
+	global.Prism = Prism;
+}
+
+
+/* **********************************************
+     Begin prism-markup.js
+********************************************** */
+
+Prism.languages.markup = {
+	'comment': /<!--[\s\S]*?-->/,
+	'prolog': /<\?[\s\S]+?\?>/,
+	'doctype': {
+		pattern: /<!DOCTYPE(?:[^>"'[\]]|"[^"]*"|'[^']*')+(?:\[(?:(?!<!--)[^"'\]]|"[^"]*"|'[^']*'|<!--[\s\S]*?-->)*\]\s*)?>/i,
+		greedy: true
+	},
+	'cdata': /<!\[CDATA\[[\s\S]*?]]>/i,
+	'tag': {
+		pattern: /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/i,
+		greedy: true,
+		inside: {
+			'tag': {
+				pattern: /^<\/?[^\s>\/]+/i,
+				inside: {
+					'punctuation': /^<\/?/,
+					'namespace': /^[^\s>\/:]+:/
+				}
+			},
+			'attr-value': {
+				pattern: /=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/i,
+				inside: {
+					'punctuation': [
+						/^=/,
+						{
+							pattern: /^(\s*)["']|["']$/,
+							lookbehind: true
+						}
+					]
+				}
+			},
+			'punctuation': /\/?>/,
+			'attr-name': {
+				pattern: /[^\s>\/]+/,
+				inside: {
+					'namespace': /^[^\s>\/:]+:/
+				}
+			}
+
+		}
+	},
+	'entity': /&#?[\da-z]{1,8};/i
+};
+
+Prism.languages.markup['tag'].inside['attr-value'].inside['entity'] =
+	Prism.languages.markup['entity'];
+
+// Plugin to make entity title show the real entity, idea by Roman Komarov
+Prism.hooks.add('wrap', function(env) {
+
+	if (env.type === 'entity') {
+		env.attributes['title'] = env.content.replace(/&amp;/, '&');
+	}
+});
+
+Object.defineProperty(Prism.languages.markup.tag, 'addInlined', {
+	/**
+	 * Adds an inlined language to markup.
+	 *
+	 * An example of an inlined language is CSS with `<style>` tags.
+	 *
+	 * @param {string} tagName The name of the tag that contains the inlined language. This name will be treated as
+	 * case insensitive.
+	 * @param {string} lang The language key.
+	 * @example
+	 * addInlined('style', 'css');
+	 */
+	value: function addInlined(tagName, lang) {
+		var includedCdataInside = {};
+		includedCdataInside['language-' + lang] = {
+			pattern: /(^<!\[CDATA\[)[\s\S]+?(?=\]\]>$)/i,
+			lookbehind: true,
+			inside: Prism.languages[lang]
+		};
+		includedCdataInside['cdata'] = /^<!\[CDATA\[|\]\]>$/i;
+
+		var inside = {
+			'included-cdata': {
+				pattern: /<!\[CDATA\[[\s\S]*?\]\]>/i,
+				inside: includedCdataInside
+			}
+		};
+		inside['language-' + lang] = {
+			pattern: /[\s\S]+/,
+			inside: Prism.languages[lang]
+		};
+
+		var def = {};
+		def[tagName] = {
+			pattern: RegExp(/(<__[\s\S]*?>)(?:<!\[CDATA\[[\s\S]*?\]\]>\s*|[\s\S])*?(?=<\/__>)/.source.replace(/__/g, function () { return tagName; }), 'i'),
+			lookbehind: true,
+			greedy: true,
+			inside: inside
+		};
+
+		Prism.languages.insertBefore('markup', 'cdata', def);
+	}
+});
+
+Prism.languages.xml = Prism.languages.extend('markup', {});
+Prism.languages.html = Prism.languages.markup;
+Prism.languages.mathml = Prism.languages.markup;
+Prism.languages.svg = Prism.languages.markup;
+
+
+/* **********************************************
+     Begin prism-css.js
+********************************************** */
+
+(function (Prism) {
+
+	var string = /("|')(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/;
+
+	Prism.languages.css = {
+		'comment': /\/\*[\s\S]*?\*\//,
+		'atrule': {
+			pattern: /@[\w-]+[\s\S]*?(?:;|(?=\s*\{))/,
+			inside: {
+				'rule': /^@[\w-]+/,
+				'selector-function-argument': {
+					pattern: /(\bselector\s*\((?!\s*\))\s*)(?:[^()]|\((?:[^()]|\([^()]*\))*\))+?(?=\s*\))/,
+					lookbehind: true,
+					alias: 'selector'
+				}
+				// See rest below
+			}
+		},
+		'url': {
+			pattern: RegExp('url\\((?:' + string.source + '|[^\n\r()]*)\\)', 'i'),
+			greedy: true,
+			inside: {
+				'function': /^url/i,
+				'punctuation': /^\(|\)$/
+			}
+		},
+		'selector': RegExp('[^{}\\s](?:[^{};"\']|' + string.source + ')*?(?=\\s*\\{)'),
+		'string': {
+			pattern: string,
+			greedy: true
+		},
+		'property': /[-_a-z\xA0-\uFFFF][-\w\xA0-\uFFFF]*(?=\s*:)/i,
+		'important': /!important\b/i,
+		'function': /[-a-z0-9]+(?=\()/i,
+		'punctuation': /[(){};:,]/
+	};
+
+	Prism.languages.css['atrule'].inside.rest = Prism.languages.css;
+
+	var markup = Prism.languages.markup;
+	if (markup) {
+		markup.tag.addInlined('style', 'css');
+
+		Prism.languages.insertBefore('inside', 'attr-value', {
+			'style-attr': {
+				pattern: /\s*style=("|')(?:\\[\s\S]|(?!\1)[^\\])*\1/i,
+				inside: {
+					'attr-name': {
+						pattern: /^\s*style/i,
+						inside: markup.tag.inside
+					},
+					'punctuation': /^\s*=\s*['"]|['"]\s*$/,
+					'attr-value': {
+						pattern: /.+/i,
+						inside: Prism.languages.css
+					}
+				},
+				alias: 'language-css'
+			}
+		}, markup.tag);
+	}
+
+}(Prism));
+
+
+/* **********************************************
+     Begin prism-clike.js
+********************************************** */
+
+Prism.languages.clike = {
+	'comment': [
+		{
+			pattern: /(^|[^\\])\/\*[\s\S]*?(?:\*\/|$)/,
+			lookbehind: true
+		},
+		{
+			pattern: /(^|[^\\:])\/\/.*/,
+			lookbehind: true,
+			greedy: true
+		}
+	],
+	'string': {
+		pattern: /(["'])(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/,
+		greedy: true
+	},
+	'class-name': {
+		pattern: /(\b(?:class|interface|extends|implements|trait|instanceof|new)\s+|\bcatch\s+\()[\w.\\]+/i,
+		lookbehind: true,
+		inside: {
+			'punctuation': /[.\\]/
+		}
+	},
+	'keyword': /\b(?:if|else|while|do|for|return|in|instanceof|function|new|try|throw|catch|finally|null|break|continue)\b/,
+	'boolean': /\b(?:true|false)\b/,
+	'function': /\w+(?=\()/,
+	'number': /\b0x[\da-f]+\b|(?:\b\d+\.?\d*|\B\.\d+)(?:e[+-]?\d+)?/i,
+	'operator': /[<>]=?|[!=]=?=?|--?|\+\+?|&&?|\|\|?|[?*/~^%]/,
+	'punctuation': /[{}[\];(),.:]/
+};
+
+
+/* **********************************************
+     Begin prism-javascript.js
+********************************************** */
+
+Prism.languages.javascript = Prism.languages.extend('clike', {
+	'class-name': [
+		Prism.languages.clike['class-name'],
+		{
+			pattern: /(^|[^$\w\xA0-\uFFFF])[_$A-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\.(?:prototype|constructor))/,
+			lookbehind: true
+		}
+	],
+	'keyword': [
+		{
+			pattern: /((?:^|})\s*)(?:catch|finally)\b/,
+			lookbehind: true
+		},
+		{
+			pattern: /(^|[^.]|\.\.\.\s*)\b(?:as|async(?=\s*(?:function\b|\(|[$\w\xA0-\uFFFF]|$))|await|break|case|class|const|continue|debugger|default|delete|do|else|enum|export|extends|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)\b/,
+			lookbehind: true
+		},
+	],
+	'number': /\b(?:(?:0[xX](?:[\dA-Fa-f](?:_[\dA-Fa-f])?)+|0[bB](?:[01](?:_[01])?)+|0[oO](?:[0-7](?:_[0-7])?)+)n?|(?:\d(?:_\d)?)+n|NaN|Infinity)\b|(?:\b(?:\d(?:_\d)?)+\.?(?:\d(?:_\d)?)*|\B\.(?:\d(?:_\d)?)+)(?:[Ee][+-]?(?:\d(?:_\d)?)+)?/,
+	// Allow for all non-ASCII characters (See http://stackoverflow.com/a/2008444)
+	'function': /#?[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\s*(?:\.\s*(?:apply|bind|call)\s*)?\()/,
+	'operator': /--|\+\+|\*\*=?|=>|&&|\|\||[!=]==|<<=?|>>>?=?|[-+*/%&|^!=<>]=?|\.{3}|\?[.?]?|[~:]/
+});
+
+Prism.languages.javascript['class-name'][0].pattern = /(\b(?:class|interface|extends|implements|instanceof|new)\s+)[\w.\\]+/;
+
+Prism.languages.insertBefore('javascript', 'keyword', {
+	'regex': {
+		pattern: /((?:^|[^$\w\xA0-\uFFFF."'\])\s])\s*)\/(?:\[(?:[^\]\\\r\n]|\\.)*]|\\.|[^/\\\[\r\n])+\/[gimyus]{0,6}(?=(?:\s|\/\*[\s\S]*?\*\/)*(?:$|[\r\n,.;:})\]]|\/\/))/,
+		lookbehind: true,
+		greedy: true
+	},
+	// This must be declared before keyword because we use "function" inside the look-forward
+	'function-variable': {
+		pattern: /#?[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\s*[=:]\s*(?:async\s*)?(?:\bfunction\b|(?:\((?:[^()]|\([^()]*\))*\)|[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*)\s*=>))/,
+		alias: 'function'
+	},
+	'parameter': [
+		{
+			pattern: /(function(?:\s+[_$A-Za-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*)?\s*\(\s*)(?!\s)(?:[^()]|\([^()]*\))+?(?=\s*\))/,
+			lookbehind: true,
+			inside: Prism.languages.javascript
+		},
+		{
+			pattern: /[_$a-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\s*=>)/i,
+			inside: Prism.languages.javascript
+		},
+		{
+			pattern: /(\(\s*)(?!\s)(?:[^()]|\([^()]*\))+?(?=\s*\)\s*=>)/,
+			lookbehind: true,
+			inside: Prism.languages.javascript
+		},
+		{
+			pattern: /((?:\b|\s|^)(?!(?:as|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)(?![$\w\xA0-\uFFFF]))(?:[_$A-Za-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*\s*)\(\s*)(?!\s)(?:[^()]|\([^()]*\))+?(?=\s*\)\s*\{)/,
+			lookbehind: true,
+			inside: Prism.languages.javascript
+		}
+	],
+	'constant': /\b[A-Z](?:[A-Z_]|\dx?)*\b/
+});
+
+Prism.languages.insertBefore('javascript', 'string', {
+	'template-string': {
+		pattern: /`(?:\\[\s\S]|\${(?:[^{}]|{(?:[^{}]|{[^}]*})*})+}|(?!\${)[^\\`])*`/,
+		greedy: true,
+		inside: {
+			'template-punctuation': {
+				pattern: /^`|`$/,
+				alias: 'string'
+			},
+			'interpolation': {
+				pattern: /((?:^|[^\\])(?:\\{2})*)\${(?:[^{}]|{(?:[^{}]|{[^}]*})*})+}/,
+				lookbehind: true,
+				inside: {
+					'interpolation-punctuation': {
+						pattern: /^\${|}$/,
+						alias: 'punctuation'
+					},
+					rest: Prism.languages.javascript
+				}
+			},
+			'string': /[\s\S]+/
+		}
+	}
+});
+
+if (Prism.languages.markup) {
+	Prism.languages.markup.tag.addInlined('script', 'javascript');
+}
+
+Prism.languages.js = Prism.languages.javascript;
+
+
+/* **********************************************
+     Begin prism-file-highlight.js
+********************************************** */
+
+(function () {
+	if (typeof self === 'undefined' || !self.Prism || !self.document || !document.querySelector) {
+		return;
+	}
+
+	/**
+	 * @param {Element} [container=document]
+	 */
+	self.Prism.fileHighlight = function(container) {
+		container = container || document;
+
+		var Extensions = {
+			'js': 'javascript',
+			'py': 'python',
+			'rb': 'ruby',
+			'ps1': 'powershell',
+			'psm1': 'powershell',
+			'sh': 'bash',
+			'bat': 'batch',
+			'h': 'c',
+			'tex': 'latex'
+		};
+
+		Array.prototype.slice.call(container.querySelectorAll('pre[data-src]')).forEach(function (pre) {
+			// ignore if already loaded
+			if (pre.hasAttribute('data-src-loaded')) {
+				return;
+			}
+
+			// load current
+			var src = pre.getAttribute('data-src');
+
+			var language, parent = pre;
+			var lang = /\blang(?:uage)?-([\w-]+)\b/i;
+			while (parent && !lang.test(parent.className)) {
+				parent = parent.parentNode;
+			}
+
+			if (parent) {
+				language = (pre.className.match(lang) || [, ''])[1];
+			}
+
+			if (!language) {
+				var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
+				language = Extensions[extension] || extension;
+			}
+
+			var code = document.createElement('code');
+			code.className = 'language-' + language;
+
+			pre.textContent = '';
+
+			code.textContent = 'Loading…';
+
+			pre.appendChild(code);
+
+			var xhr = new XMLHttpRequest();
+
+			xhr.open('GET', src, true);
+
+			xhr.onreadystatechange = function () {
+				if (xhr.readyState == 4) {
+
+					if (xhr.status < 400 && xhr.responseText) {
+						code.textContent = xhr.responseText;
+
+						Prism.highlightElement(code);
+						// mark as loaded
+						pre.setAttribute('data-src-loaded', '');
+					}
+					else if (xhr.status >= 400) {
+						code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+					}
+					else {
+						code.textContent = '✖ Error: File does not exist or is empty';
+					}
+				}
+			};
+
+			xhr.send(null);
+		});
+	};
+
+	document.addEventListener('DOMContentLoaded', function () {
+		// execute inside handler, for dropping Event as argument
+		self.Prism.fileHighlight();
+	});
+
+})();
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -49872,5010 +56024,6 @@ Popper.Defaults = Defaults;
 
 /***/ }),
 
-/***/ "./node_modules/prismjs/components.js":
-/*!********************************************!*\
-  !*** ./node_modules/prismjs/components.js ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var components = {"core":{"meta":{"path":"components/prism-core.js","option":"mandatory"},"core":"Core"},"themes":{"meta":{"path":"themes/{id}.css","link":"index.html?theme={id}","exclusive":true},"prism":{"title":"Default","option":"default"},"prism-dark":"Dark","prism-funky":"Funky","prism-okaidia":{"title":"Okaidia","owner":"ocodia"},"prism-twilight":{"title":"Twilight","owner":"remybach"},"prism-coy":{"title":"Coy","owner":"tshedor"},"prism-solarizedlight":{"title":"Solarized Light","owner":"hectormatos2011 "},"prism-tomorrow":{"title":"Tomorrow Night","owner":"Rosey"}},"languages":{"meta":{"path":"components/prism-{id}","noCSS":true,"examplesPath":"examples/prism-{id}","addCheckAll":true},"markup":{"title":"Markup","alias":["html","xml","svg","mathml"],"aliasTitles":{"html":"HTML","xml":"XML","svg":"SVG","mathml":"MathML"},"option":"default"},"css":{"title":"CSS","option":"default","modify":"markup"},"clike":{"title":"C-like","option":"default"},"javascript":{"title":"JavaScript","require":"clike","modify":"markup","alias":"js","option":"default"},"abap":{"title":"ABAP","owner":"dellagustin"},"abnf":{"title":"Augmented Backus–Naur form","owner":"RunDevelopment"},"actionscript":{"title":"ActionScript","require":"javascript","modify":"markup","owner":"Golmote"},"ada":{"title":"Ada","owner":"Lucretia"},"antlr4":{"title":"ANTLR4","alias":"g4","owner":"RunDevelopment"},"apacheconf":{"title":"Apache Configuration","owner":"GuiTeK"},"apl":{"title":"APL","owner":"ngn"},"applescript":{"title":"AppleScript","owner":"Golmote"},"aql":{"title":"AQL","owner":"RunDevelopment"},"arduino":{"title":"Arduino","require":"cpp","owner":"eisbehr-"},"arff":{"title":"ARFF","owner":"Golmote"},"asciidoc":{"alias":"adoc","title":"AsciiDoc","owner":"Golmote"},"asm6502":{"title":"6502 Assembly","owner":"kzurawel"},"aspnet":{"title":"ASP.NET (C#)","require":["markup","csharp"],"owner":"nauzilus"},"autohotkey":{"title":"AutoHotkey","owner":"aviaryan"},"autoit":{"title":"AutoIt","owner":"Golmote"},"bash":{"title":"Bash","alias":"shell","aliasTitles":{"shell":"Shell"},"owner":"zeitgeist87"},"basic":{"title":"BASIC","owner":"Golmote"},"batch":{"title":"Batch","owner":"Golmote"},"bbcode":{"title":"BBcode","alias":"shortcode","aliasTitles":{"shortcode":"Shortcode"},"owner":"RunDevelopment"},"bison":{"title":"Bison","require":"c","owner":"Golmote"},"bnf":{"title":"Backus–Naur form","alias":"rbnf","aliasTitles":{"rbnf":"Routing Backus–Naur form"},"owner":"RunDevelopment"},"brainfuck":{"title":"Brainfuck","owner":"Golmote"},"brightscript":{"title":"BrightScript","owner":"RunDevelopment"},"bro":{"title":"Bro","owner":"wayward710"},"c":{"title":"C","require":"clike","owner":"zeitgeist87"},"concurnas":{"title":"Concurnas","alias":"conc","owner":"jasontatton"},"csharp":{"title":"C#","require":"clike","alias":["cs","dotnet"],"owner":"mvalipour"},"cpp":{"title":"C++","require":"c","owner":"zeitgeist87"},"cil":{"title":"CIL","owner":"sbrl"},"coffeescript":{"title":"CoffeeScript","require":"javascript","alias":"coffee","owner":"R-osey"},"cmake":{"title":"CMake","owner":"mjrogozinski"},"clojure":{"title":"Clojure","owner":"troglotit"},"crystal":{"title":"Crystal","require":"ruby","owner":"MakeNowJust"},"csp":{"title":"Content-Security-Policy","owner":"ScottHelme"},"css-extras":{"title":"CSS Extras","require":"css","modify":"css","owner":"milesj"},"d":{"title":"D","require":"clike","owner":"Golmote"},"dart":{"title":"Dart","require":"clike","owner":"Golmote"},"dax":{"title":"DAX","owner":"peterbud"},"diff":{"title":"Diff","owner":"uranusjr"},"django":{"title":"Django/Jinja2","require":"markup-templating","alias":"jinja2","owner":"romanvm"},"dns-zone-file":{"title":"DNS zone file","owner":"RunDevelopment","alias":"dns-zone"},"docker":{"title":"Docker","alias":"dockerfile","owner":"JustinBeckwith"},"ebnf":{"title":"Extended Backus–Naur form","owner":"RunDevelopment"},"eiffel":{"title":"Eiffel","owner":"Conaclos"},"ejs":{"title":"EJS","require":["javascript","markup-templating"],"owner":"RunDevelopment"},"elixir":{"title":"Elixir","owner":"Golmote"},"elm":{"title":"Elm","owner":"zwilias"},"etlua":{"title":"Embedded Lua templating","require":["lua","markup-templating"],"owner":"RunDevelopment"},"erb":{"title":"ERB","require":["ruby","markup-templating"],"owner":"Golmote"},"erlang":{"title":"Erlang","owner":"Golmote"},"excel-formula":{"title":"Excel Formula","alias":["xlsx","xls"],"owner":"RunDevelopment"},"fsharp":{"title":"F#","require":"clike","owner":"simonreynolds7"},"factor":{"title":"Factor","owner":"catb0t"},"firestore-security-rules":{"title":"Firestore security rules","require":"clike","owner":"RunDevelopment"},"flow":{"title":"Flow","require":"javascript","owner":"Golmote"},"fortran":{"title":"Fortran","owner":"Golmote"},"ftl":{"title":"FreeMarker Template Language","require":"markup-templating","owner":"RunDevelopment"},"gcode":{"title":"G-code","owner":"RunDevelopment"},"gdscript":{"title":"GDScript","owner":"RunDevelopment"},"gedcom":{"title":"GEDCOM","owner":"Golmote"},"gherkin":{"title":"Gherkin","owner":"hason"},"git":{"title":"Git","owner":"lgiraudel"},"glsl":{"title":"GLSL","require":"clike","owner":"Golmote"},"gml":{"title":"GameMaker Language","alias":"gamemakerlanguage","require":"clike","owner":"LiarOnce"},"go":{"title":"Go","require":"clike","owner":"arnehormann"},"graphql":{"title":"GraphQL","owner":"Golmote"},"groovy":{"title":"Groovy","require":"clike","owner":"robfletcher"},"haml":{"title":"Haml","require":"ruby","optional":["css","css-extras","coffeescript","erb","javascript","less","markdown","scss","textile"],"owner":"Golmote"},"handlebars":{"title":"Handlebars","require":"markup-templating","owner":"Golmote"},"haskell":{"title":"Haskell","alias":"hs","owner":"bholst"},"haxe":{"title":"Haxe","require":"clike","owner":"Golmote"},"hcl":{"title":"HCL","owner":"outsideris"},"http":{"title":"HTTP","optional":["css","javascript","json","markup"],"owner":"danielgtaylor"},"hpkp":{"title":"HTTP Public-Key-Pins","owner":"ScottHelme"},"hsts":{"title":"HTTP Strict-Transport-Security","owner":"ScottHelme"},"ichigojam":{"title":"IchigoJam","owner":"BlueCocoa"},"icon":{"title":"Icon","owner":"Golmote"},"inform7":{"title":"Inform 7","owner":"Golmote"},"ini":{"title":"Ini","owner":"aviaryan"},"io":{"title":"Io","owner":"AlesTsurko"},"j":{"title":"J","owner":"Golmote"},"java":{"title":"Java","require":"clike","owner":"sherblot"},"javadoc":{"title":"JavaDoc","require":["markup","java","javadoclike"],"modify":"java","optional":"scala","owner":"RunDevelopment"},"javadoclike":{"title":"JavaDoc-like","modify":["java","javascript","php"],"owner":"RunDevelopment"},"javastacktrace":{"title":"Java stack trace","owner":"RunDevelopment"},"jolie":{"title":"Jolie","require":"clike","owner":"thesave"},"jq":{"title":"JQ","owner":"RunDevelopment"},"jsdoc":{"title":"JSDoc","require":["javascript","javadoclike"],"modify":"javascript","optional":["actionscript","coffeescript"],"owner":"RunDevelopment"},"js-extras":{"title":"JS Extras","require":"javascript","modify":"javascript","optional":["actionscript","coffeescript","flow","n4js","typescript"],"owner":"RunDevelopment"},"js-templates":{"title":"JS Templates","require":"javascript","modify":"javascript","optional":["css","css-extras","graphql","markdown","markup"],"owner":"RunDevelopment"},"json":{"title":"JSON","owner":"CupOfTea696"},"jsonp":{"title":"JSONP","require":"json","owner":"RunDevelopment"},"json5":{"title":"JSON5","require":"json","owner":"RunDevelopment"},"julia":{"title":"Julia","owner":"cdagnino"},"keyman":{"title":"Keyman","owner":"mcdurdin"},"kotlin":{"title":"Kotlin","require":"clike","owner":"Golmote"},"latex":{"title":"LaTeX","alias":["tex","context"],"aliasTitles":{"tex":"TeX","context":"ConTeXt"},"owner":"japborst"},"latte":{"title":"Latte","require":["clike","markup-templating","php"],"owner":"nette"},"less":{"title":"Less","require":"css","optional":"css-extras","owner":"Golmote"},"lilypond":{"title":"LilyPond","require":"scheme","alias":"ly","owner":"RunDevelopment"},"liquid":{"title":"Liquid","owner":"cinhtau"},"lisp":{"title":"Lisp","alias":["emacs","elisp","emacs-lisp"],"owner":"JuanCaicedo"},"livescript":{"title":"LiveScript","owner":"Golmote"},"llvm":{"title":"LLVM IR","owner":"porglezomp"},"lolcode":{"title":"LOLCODE","owner":"Golmote"},"lua":{"title":"Lua","owner":"Golmote"},"makefile":{"title":"Makefile","owner":"Golmote"},"markdown":{"title":"Markdown","require":"markup","alias":"md","owner":"Golmote"},"markup-templating":{"title":"Markup templating","require":"markup","owner":"Golmote"},"matlab":{"title":"MATLAB","owner":"Golmote"},"mel":{"title":"MEL","owner":"Golmote"},"mizar":{"title":"Mizar","owner":"Golmote"},"monkey":{"title":"Monkey","owner":"Golmote"},"moonscript":{"title":"MoonScript","alias":"moon","owner":"RunDevelopment"},"n1ql":{"title":"N1QL","owner":"TMWilds"},"n4js":{"title":"N4JS","require":"javascript","optional":"jsdoc","alias":"n4jsd","owner":"bsmith-n4"},"nand2tetris-hdl":{"title":"Nand To Tetris HDL","owner":"stephanmax"},"nasm":{"title":"NASM","owner":"rbmj"},"neon":{"title":"NEON","owner":"nette"},"nginx":{"title":"nginx","owner":"westonganger","require":"clike"},"nim":{"title":"Nim","owner":"Golmote"},"nix":{"title":"Nix","owner":"Golmote"},"nsis":{"title":"NSIS","owner":"idleberg"},"objectivec":{"title":"Objective-C","require":"c","owner":"uranusjr"},"ocaml":{"title":"OCaml","owner":"Golmote"},"opencl":{"title":"OpenCL","require":"c","modify":["c","cpp"],"owner":"Milania1"},"oz":{"title":"Oz","owner":"Golmote"},"parigp":{"title":"PARI/GP","owner":"Golmote"},"parser":{"title":"Parser","require":"markup","owner":"Golmote"},"pascal":{"title":"Pascal","alias":"objectpascal","aliasTitles":{"objectpascal":"Object Pascal"},"owner":"Golmote"},"pascaligo":{"title":"Pascaligo","owner":"DefinitelyNotAGoat"},"pcaxis":{"title":"PC-Axis","alias":"px","owner":"RunDevelopment"},"perl":{"title":"Perl","owner":"Golmote"},"php":{"title":"PHP","require":["clike","markup-templating"],"owner":"milesj"},"phpdoc":{"title":"PHPDoc","require":["php","javadoclike"],"modify":"php","owner":"RunDevelopment"},"php-extras":{"title":"PHP Extras","require":"php","modify":"php","owner":"milesj"},"plsql":{"title":"PL/SQL","require":"sql","owner":"Golmote"},"powerquery":{"title":"PowerQuery","alias":["pq","mscript"],"owner":"peterbud"},"powershell":{"title":"PowerShell","owner":"nauzilus"},"processing":{"title":"Processing","require":"clike","owner":"Golmote"},"prolog":{"title":"Prolog","owner":"Golmote"},"properties":{"title":".properties","owner":"Golmote"},"protobuf":{"title":"Protocol Buffers","require":"clike","owner":"just-boris"},"pug":{"title":"Pug","require":["markup","javascript"],"optional":["coffeescript","ejs","handlebars","less","livescript","markdown","scss","stylus","twig"],"owner":"Golmote"},"puppet":{"title":"Puppet","owner":"Golmote"},"pure":{"title":"Pure","optional":["c","cpp","fortran"],"owner":"Golmote"},"python":{"title":"Python","alias":"py","owner":"multipetros"},"q":{"title":"Q (kdb+ database)","owner":"Golmote"},"qml":{"title":"QML","require":"javascript","owner":"RunDevelopment"},"qore":{"title":"Qore","require":"clike","owner":"temnroegg"},"r":{"title":"R","owner":"Golmote"},"jsx":{"title":"React JSX","require":["markup","javascript"],"optional":["jsdoc","js-extras","js-templates"],"owner":"vkbansal"},"tsx":{"title":"React TSX","require":["jsx","typescript"]},"renpy":{"title":"Ren'py","owner":"HyuchiaDiego"},"reason":{"title":"Reason","require":"clike","owner":"Golmote"},"regex":{"title":"Regex","modify":["actionscript","coffeescript","flow","javascript","typescript","vala"],"owner":"RunDevelopment"},"rest":{"title":"reST (reStructuredText)","owner":"Golmote"},"rip":{"title":"Rip","owner":"ravinggenius"},"roboconf":{"title":"Roboconf","owner":"Golmote"},"robotframework":{"title":"Robot Framework","alias":"robot","owner":"RunDevelopment"},"ruby":{"title":"Ruby","require":"clike","alias":"rb","owner":"samflores"},"rust":{"title":"Rust","owner":"Golmote"},"sas":{"title":"SAS","optional":["groovy","lua","sql"],"owner":"Golmote"},"sass":{"title":"Sass (Sass)","require":"css","owner":"Golmote"},"scss":{"title":"Sass (Scss)","require":"css","optional":"css-extras","owner":"MoOx"},"scala":{"title":"Scala","require":"java","owner":"jozic"},"scheme":{"title":"Scheme","owner":"bacchus123"},"shell-session":{"title":"Shell session","require":"bash","owner":"RunDevelopment"},"smalltalk":{"title":"Smalltalk","owner":"Golmote"},"smarty":{"title":"Smarty","require":"markup-templating","owner":"Golmote"},"solidity":{"title":"Solidity (Ethereum)","require":"clike","owner":"glachaud"},"solution-file":{"title":"Solution file","alias":"sln","owner":"RunDevelopment"},"soy":{"title":"Soy (Closure Template)","require":"markup-templating","owner":"Golmote"},"sparql":{"title":"SPARQL","require":"turtle","owner":"Triply-Dev","alias":"rq"},"splunk-spl":{"title":"Splunk SPL","owner":"RunDevelopment"},"sqf":{"title":"SQF: Status Quo Function (Arma 3)","require":"clike","owner":"RunDevelopment"},"sql":{"title":"SQL","owner":"multipetros"},"stylus":{"title":"Stylus","owner":"vkbansal"},"swift":{"title":"Swift","require":"clike","owner":"chrischares"},"tap":{"title":"TAP","owner":"isaacs","require":"yaml"},"tcl":{"title":"Tcl","owner":"PeterChaplin"},"textile":{"title":"Textile","require":"markup","optional":"css","owner":"Golmote"},"toml":{"title":"TOML","owner":"RunDevelopment"},"tt2":{"title":"Template Toolkit 2","require":["clike","markup-templating"],"owner":"gflohr"},"turtle":{"title":"Turtle","alias":"trig","aliasTitles":{"trig":"TriG"},"owner":"jakubklimek"},"twig":{"title":"Twig","require":"markup","owner":"brandonkelly"},"typescript":{"title":"TypeScript","require":"javascript","optional":"js-templates","alias":"ts","owner":"vkbansal"},"t4-cs":{"title":"T4 Text Templates (C#)","require":["t4-templating","csharp"],"alias":"t4","owner":"RunDevelopment"},"t4-vb":{"title":"T4 Text Templates (VB)","require":["t4-templating","visual-basic"],"owner":"RunDevelopment"},"t4-templating":{"title":"T4 templating","owner":"RunDevelopment"},"vala":{"title":"Vala","require":"clike","owner":"TemplarVolk"},"vbnet":{"title":"VB.Net","require":"basic","owner":"Bigsby"},"velocity":{"title":"Velocity","require":"markup","owner":"Golmote"},"verilog":{"title":"Verilog","owner":"a-rey"},"vhdl":{"title":"VHDL","owner":"a-rey"},"vim":{"title":"vim","owner":"westonganger"},"visual-basic":{"title":"Visual Basic","alias":"vb","owner":"Golmote"},"wasm":{"title":"WebAssembly","owner":"Golmote"},"wiki":{"title":"Wiki markup","require":"markup","owner":"Golmote"},"xeora":{"title":"Xeora","require":"markup","alias":"xeoracube","aliasTitles":{"xeoracube":"XeoraCube"},"owner":"freakmaxi"},"xojo":{"title":"Xojo (REALbasic)","owner":"Golmote"},"xquery":{"title":"XQuery","require":"markup","owner":"Golmote"},"yaml":{"title":"YAML","alias":"yml","owner":"hason"},"zig":{"title":"Zig","owner":"RunDevelopment"}},"plugins":{"meta":{"path":"plugins/{id}/prism-{id}","link":"plugins/{id}/"},"line-highlight":{"title":"Line Highlight","description":"Highlights specific lines and/or line ranges."},"line-numbers":{"title":"Line Numbers","description":"Line number at the beginning of code lines.","owner":"kuba-kubula"},"show-invisibles":{"title":"Show Invisibles","description":"Show hidden characters such as tabs and line breaks.","optional":["autolinker","data-uri-highlight"]},"autolinker":{"title":"Autolinker","description":"Converts URLs and emails in code to clickable links. Parses Markdown links in comments."},"wpd":{"title":"WebPlatform Docs","description":"Makes tokens link to <a href=\"https://webplatform.github.io/docs/\">WebPlatform.org documentation</a>. The links open in a new tab."},"custom-class":{"title":"Custom Class","description":"This plugin allows you to prefix Prism's default classes (<code>.comment</code> can become <code>.namespace--comment</code>) or replace them with your defined ones (like <code>.editor__comment</code>). You can even add new classes.","owner":"dvkndn","noCSS":true},"file-highlight":{"title":"File Highlight","description":"Fetch external files and highlight them with Prism. Used on the Prism website itself.","noCSS":true},"show-language":{"title":"Show Language","description":"Display the highlighted language in code blocks (inline code does not show the label).","owner":"nauzilus","noCSS":true,"require":"toolbar"},"jsonp-highlight":{"title":"JSONP Highlight","description":"Fetch content with JSONP and highlight some interesting content (e.g. GitHub/Gists or Bitbucket API).","noCSS":true,"owner":"nauzilus"},"highlight-keywords":{"title":"Highlight Keywords","description":"Adds special CSS classes for each keyword matched in the code. For example, the keyword <code>if</code> will have the class <code>keyword-if</code> as well. You can have fine grained control over the appearance of each keyword by providing your own CSS rules.","owner":"vkbansal","noCSS":true},"remove-initial-line-feed":{"title":"Remove initial line feed","description":"Removes the initial line feed in code blocks.","owner":"Golmote","noCSS":true},"inline-color":{"title":"Inline color","description":"Adds a small inline preview for colors in style sheets.","require":"css-extras","owner":"RunDevelopment"},"previewers":{"title":"Previewers","description":"Previewers for angles, colors, gradients, easing and time.","require":"css-extras","owner":"Golmote"},"autoloader":{"title":"Autoloader","description":"Automatically loads the needed languages to highlight the code blocks.","owner":"Golmote","noCSS":true},"keep-markup":{"title":"Keep Markup","description":"Prevents custom markup from being dropped out during highlighting.","owner":"Golmote","optional":"normalize-whitespace","noCSS":true},"command-line":{"title":"Command Line","description":"Display a command line with a prompt and, optionally, the output/response from the commands.","owner":"chriswells0"},"unescaped-markup":{"title":"Unescaped Markup","description":"Write markup without having to escape anything."},"normalize-whitespace":{"title":"Normalize Whitespace","description":"Supports multiple operations to normalize whitespace in code blocks.","owner":"zeitgeist87","optional":"unescaped-markup","noCSS":true},"data-uri-highlight":{"title":"Data-URI Highlight","description":"Highlights data-URI contents.","owner":"Golmote","noCSS":true},"toolbar":{"title":"Toolbar","description":"Attach a toolbar for plugins to easily register buttons on the top of a code block.","owner":"mAAdhaTTah"},"copy-to-clipboard":{"title":"Copy to Clipboard Button","description":"Add a button that copies the code block to the clipboard when clicked.","owner":"mAAdhaTTah","require":"toolbar","noCSS":true},"download-button":{"title":"Download Button","description":"A button in the toolbar of a code block adding a convenient way to download a code file.","owner":"Golmote","require":"toolbar","noCSS":true},"match-braces":{"title":"Match braces","description":"Highlights matching braces.","owner":"RunDevelopment"},"diff-highlight":{"title":"Diff Highlight","description":"Highlights the code inside diff blocks.","owner":"RunDevelopment","require":"diff"},"filter-highlight-all":{"title":"Filter highlightAll","description":"Filters the elements the <code>highlightAll</code> and <code>highlightAllUnder</code> methods actually highlight.","owner":"RunDevelopment","noCSS":true},"treeview":{"title":"Treeview","description":"A language with special styles to highlight file system tree structures.","owner":"Golmote"}}};
-if ( true && module.exports) { module.exports = components; }
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins sync recursive ^\\.\\/.*\\/prism\\-.*$":
-/*!***************************************************************!*\
-  !*** ./node_modules/prismjs/plugins sync ^\.\/.*\/prism\-.*$ ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./autolinker/prism-autolinker": "./node_modules/prismjs/plugins/autolinker/prism-autolinker.js",
-	"./autolinker/prism-autolinker.css": "./node_modules/prismjs/plugins/autolinker/prism-autolinker.css",
-	"./autolinker/prism-autolinker.js": "./node_modules/prismjs/plugins/autolinker/prism-autolinker.js",
-	"./autolinker/prism-autolinker.min": "./node_modules/prismjs/plugins/autolinker/prism-autolinker.min.js",
-	"./autolinker/prism-autolinker.min.js": "./node_modules/prismjs/plugins/autolinker/prism-autolinker.min.js",
-	"./autoloader/prism-autoloader": "./node_modules/prismjs/plugins/autoloader/prism-autoloader.js",
-	"./autoloader/prism-autoloader.js": "./node_modules/prismjs/plugins/autoloader/prism-autoloader.js",
-	"./autoloader/prism-autoloader.min": "./node_modules/prismjs/plugins/autoloader/prism-autoloader.min.js",
-	"./autoloader/prism-autoloader.min.js": "./node_modules/prismjs/plugins/autoloader/prism-autoloader.min.js",
-	"./command-line/prism-command-line": "./node_modules/prismjs/plugins/command-line/prism-command-line.js",
-	"./command-line/prism-command-line.css": "./node_modules/prismjs/plugins/command-line/prism-command-line.css",
-	"./command-line/prism-command-line.js": "./node_modules/prismjs/plugins/command-line/prism-command-line.js",
-	"./command-line/prism-command-line.min": "./node_modules/prismjs/plugins/command-line/prism-command-line.min.js",
-	"./command-line/prism-command-line.min.js": "./node_modules/prismjs/plugins/command-line/prism-command-line.min.js",
-	"./copy-to-clipboard/prism-copy-to-clipboard": "./node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js",
-	"./copy-to-clipboard/prism-copy-to-clipboard.js": "./node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js",
-	"./copy-to-clipboard/prism-copy-to-clipboard.min": "./node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js",
-	"./copy-to-clipboard/prism-copy-to-clipboard.min.js": "./node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js",
-	"./custom-class/prism-custom-class": "./node_modules/prismjs/plugins/custom-class/prism-custom-class.js",
-	"./custom-class/prism-custom-class.js": "./node_modules/prismjs/plugins/custom-class/prism-custom-class.js",
-	"./custom-class/prism-custom-class.min": "./node_modules/prismjs/plugins/custom-class/prism-custom-class.min.js",
-	"./custom-class/prism-custom-class.min.js": "./node_modules/prismjs/plugins/custom-class/prism-custom-class.min.js",
-	"./data-uri-highlight/prism-data-uri-highlight": "./node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.js",
-	"./data-uri-highlight/prism-data-uri-highlight.js": "./node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.js",
-	"./data-uri-highlight/prism-data-uri-highlight.min": "./node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.min.js",
-	"./data-uri-highlight/prism-data-uri-highlight.min.js": "./node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.min.js",
-	"./diff-highlight/prism-diff-highlight": "./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.js",
-	"./diff-highlight/prism-diff-highlight.css": "./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.css",
-	"./diff-highlight/prism-diff-highlight.js": "./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.js",
-	"./diff-highlight/prism-diff-highlight.min": "./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.min.js",
-	"./diff-highlight/prism-diff-highlight.min.js": "./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.min.js",
-	"./download-button/prism-download-button": "./node_modules/prismjs/plugins/download-button/prism-download-button.js",
-	"./download-button/prism-download-button.js": "./node_modules/prismjs/plugins/download-button/prism-download-button.js",
-	"./download-button/prism-download-button.min": "./node_modules/prismjs/plugins/download-button/prism-download-button.min.js",
-	"./download-button/prism-download-button.min.js": "./node_modules/prismjs/plugins/download-button/prism-download-button.min.js",
-	"./file-highlight/prism-file-highlight": "./node_modules/prismjs/plugins/file-highlight/prism-file-highlight.js",
-	"./file-highlight/prism-file-highlight.js": "./node_modules/prismjs/plugins/file-highlight/prism-file-highlight.js",
-	"./file-highlight/prism-file-highlight.min": "./node_modules/prismjs/plugins/file-highlight/prism-file-highlight.min.js",
-	"./file-highlight/prism-file-highlight.min.js": "./node_modules/prismjs/plugins/file-highlight/prism-file-highlight.min.js",
-	"./filter-highlight-all/prism-filter-highlight-all": "./node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.js",
-	"./filter-highlight-all/prism-filter-highlight-all.js": "./node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.js",
-	"./filter-highlight-all/prism-filter-highlight-all.min": "./node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.min.js",
-	"./filter-highlight-all/prism-filter-highlight-all.min.js": "./node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.min.js",
-	"./highlight-keywords/prism-highlight-keywords": "./node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.js",
-	"./highlight-keywords/prism-highlight-keywords.js": "./node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.js",
-	"./highlight-keywords/prism-highlight-keywords.min": "./node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.min.js",
-	"./highlight-keywords/prism-highlight-keywords.min.js": "./node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.min.js",
-	"./inline-color/prism-inline-color": "./node_modules/prismjs/plugins/inline-color/prism-inline-color.js",
-	"./inline-color/prism-inline-color.css": "./node_modules/prismjs/plugins/inline-color/prism-inline-color.css",
-	"./inline-color/prism-inline-color.js": "./node_modules/prismjs/plugins/inline-color/prism-inline-color.js",
-	"./inline-color/prism-inline-color.min": "./node_modules/prismjs/plugins/inline-color/prism-inline-color.min.js",
-	"./inline-color/prism-inline-color.min.js": "./node_modules/prismjs/plugins/inline-color/prism-inline-color.min.js",
-	"./jsonp-highlight/prism-jsonp-highlight": "./node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.js",
-	"./jsonp-highlight/prism-jsonp-highlight.js": "./node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.js",
-	"./jsonp-highlight/prism-jsonp-highlight.min": "./node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.min.js",
-	"./jsonp-highlight/prism-jsonp-highlight.min.js": "./node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.min.js",
-	"./keep-markup/prism-keep-markup": "./node_modules/prismjs/plugins/keep-markup/prism-keep-markup.js",
-	"./keep-markup/prism-keep-markup.js": "./node_modules/prismjs/plugins/keep-markup/prism-keep-markup.js",
-	"./keep-markup/prism-keep-markup.min": "./node_modules/prismjs/plugins/keep-markup/prism-keep-markup.min.js",
-	"./keep-markup/prism-keep-markup.min.js": "./node_modules/prismjs/plugins/keep-markup/prism-keep-markup.min.js",
-	"./line-highlight/prism-line-highlight": "./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.js",
-	"./line-highlight/prism-line-highlight.css": "./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css",
-	"./line-highlight/prism-line-highlight.js": "./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.js",
-	"./line-highlight/prism-line-highlight.min": "./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.min.js",
-	"./line-highlight/prism-line-highlight.min.js": "./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.min.js",
-	"./line-numbers/prism-line-numbers": "./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js",
-	"./line-numbers/prism-line-numbers.css": "./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css",
-	"./line-numbers/prism-line-numbers.js": "./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js",
-	"./line-numbers/prism-line-numbers.min": "./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.min.js",
-	"./line-numbers/prism-line-numbers.min.js": "./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.min.js",
-	"./match-braces/prism-match-braces": "./node_modules/prismjs/plugins/match-braces/prism-match-braces.js",
-	"./match-braces/prism-match-braces.css": "./node_modules/prismjs/plugins/match-braces/prism-match-braces.css",
-	"./match-braces/prism-match-braces.js": "./node_modules/prismjs/plugins/match-braces/prism-match-braces.js",
-	"./match-braces/prism-match-braces.min": "./node_modules/prismjs/plugins/match-braces/prism-match-braces.min.js",
-	"./match-braces/prism-match-braces.min.js": "./node_modules/prismjs/plugins/match-braces/prism-match-braces.min.js",
-	"./normalize-whitespace/prism-normalize-whitespace": "./node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js",
-	"./normalize-whitespace/prism-normalize-whitespace.js": "./node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js",
-	"./normalize-whitespace/prism-normalize-whitespace.min": "./node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.min.js",
-	"./normalize-whitespace/prism-normalize-whitespace.min.js": "./node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.min.js",
-	"./previewers/prism-previewers": "./node_modules/prismjs/plugins/previewers/prism-previewers.js",
-	"./previewers/prism-previewers.css": "./node_modules/prismjs/plugins/previewers/prism-previewers.css",
-	"./previewers/prism-previewers.js": "./node_modules/prismjs/plugins/previewers/prism-previewers.js",
-	"./previewers/prism-previewers.min": "./node_modules/prismjs/plugins/previewers/prism-previewers.min.js",
-	"./previewers/prism-previewers.min.js": "./node_modules/prismjs/plugins/previewers/prism-previewers.min.js",
-	"./remove-initial-line-feed/prism-remove-initial-line-feed": "./node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.js",
-	"./remove-initial-line-feed/prism-remove-initial-line-feed.js": "./node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.js",
-	"./remove-initial-line-feed/prism-remove-initial-line-feed.min": "./node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.min.js",
-	"./remove-initial-line-feed/prism-remove-initial-line-feed.min.js": "./node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.min.js",
-	"./show-invisibles/prism-show-invisibles": "./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.js",
-	"./show-invisibles/prism-show-invisibles.css": "./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.css",
-	"./show-invisibles/prism-show-invisibles.js": "./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.js",
-	"./show-invisibles/prism-show-invisibles.min": "./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.min.js",
-	"./show-invisibles/prism-show-invisibles.min.js": "./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.min.js",
-	"./show-language/prism-show-language": "./node_modules/prismjs/plugins/show-language/prism-show-language.js",
-	"./show-language/prism-show-language.js": "./node_modules/prismjs/plugins/show-language/prism-show-language.js",
-	"./show-language/prism-show-language.min": "./node_modules/prismjs/plugins/show-language/prism-show-language.min.js",
-	"./show-language/prism-show-language.min.js": "./node_modules/prismjs/plugins/show-language/prism-show-language.min.js",
-	"./toolbar/prism-toolbar": "./node_modules/prismjs/plugins/toolbar/prism-toolbar.js",
-	"./toolbar/prism-toolbar.css": "./node_modules/prismjs/plugins/toolbar/prism-toolbar.css",
-	"./toolbar/prism-toolbar.js": "./node_modules/prismjs/plugins/toolbar/prism-toolbar.js",
-	"./toolbar/prism-toolbar.min": "./node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js",
-	"./toolbar/prism-toolbar.min.js": "./node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js",
-	"./treeview/prism-treeview": "./node_modules/prismjs/plugins/treeview/prism-treeview.js",
-	"./treeview/prism-treeview.css": "./node_modules/prismjs/plugins/treeview/prism-treeview.css",
-	"./treeview/prism-treeview.js": "./node_modules/prismjs/plugins/treeview/prism-treeview.js",
-	"./treeview/prism-treeview.min": "./node_modules/prismjs/plugins/treeview/prism-treeview.min.js",
-	"./treeview/prism-treeview.min.js": "./node_modules/prismjs/plugins/treeview/prism-treeview.min.js",
-	"./unescaped-markup/prism-unescaped-markup": "./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.js",
-	"./unescaped-markup/prism-unescaped-markup.css": "./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css",
-	"./unescaped-markup/prism-unescaped-markup.js": "./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.js",
-	"./unescaped-markup/prism-unescaped-markup.min": "./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.min.js",
-	"./unescaped-markup/prism-unescaped-markup.min.js": "./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.min.js",
-	"./wpd/prism-wpd": "./node_modules/prismjs/plugins/wpd/prism-wpd.js",
-	"./wpd/prism-wpd.css": "./node_modules/prismjs/plugins/wpd/prism-wpd.css",
-	"./wpd/prism-wpd.js": "./node_modules/prismjs/plugins/wpd/prism-wpd.js",
-	"./wpd/prism-wpd.min": "./node_modules/prismjs/plugins/wpd/prism-wpd.min.js",
-	"./wpd/prism-wpd.min.js": "./node_modules/prismjs/plugins/wpd/prism-wpd.min.js"
-};
-
-
-function webpackContext(req) {
-	var id = webpackContextResolve(req);
-	return __webpack_require__(id);
-}
-function webpackContextResolve(req) {
-	if(!__webpack_require__.o(map, req)) {
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	}
-	return map[req];
-}
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = "./node_modules/prismjs/plugins sync recursive ^\\.\\/.*\\/prism\\-.*$";
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/autolinker/prism-autolinker.css":
-/*!**********************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/autolinker/prism-autolinker.css ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-autolinker.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/autolinker/prism-autolinker.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/autolinker/prism-autolinker.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/autolinker/prism-autolinker.js ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {(function(){
-
-if (
-	typeof self !== 'undefined' && !self.Prism ||
-	typeof global !== 'undefined' && !global.Prism
-) {
-	return;
-}
-
-var url = /\b([a-z]{3,7}:\/\/|tel:)[\w\-+%~/.:=&@]+(?:\?[\w\-+%~/.:=?&!$'()*,;@]*)?(?:#[\w\-+%~/.:#=?&!$'()*,;@]*)?/,
-    email = /\b\S+@[\w.]+[a-z]{2}/,
-    linkMd = /\[([^\]]+)]\(([^)]+)\)/,
-
-	// Tokens that may contain URLs and emails
-    candidates = ['comment', 'url', 'attr-value', 'string'];
-
-Prism.plugins.autolinker = {
-	processGrammar: function (grammar) {
-		// Abort if grammar has already been processed
-		if (!grammar || grammar['url-link']) {
-			return;
-		}
-		Prism.languages.DFS(grammar, function (key, def, type) {
-			if (candidates.indexOf(type) > -1 && !Array.isArray(def)) {
-				if (!def.pattern) {
-					def = this[key] = {
-						pattern: def
-					};
-				}
-
-				def.inside = def.inside || {};
-
-				if (type == 'comment') {
-					def.inside['md-link'] = linkMd;
-				}
-				if (type == 'attr-value') {
-					Prism.languages.insertBefore('inside', 'punctuation', { 'url-link': url }, def);
-				}
-				else {
-					def.inside['url-link'] = url;
-				}
-
-				def.inside['email-link'] = email;
-			}
-		});
-		grammar['url-link'] = url;
-		grammar['email-link'] = email;
-	}
-};
-
-Prism.hooks.add('before-highlight', function(env) {
-	Prism.plugins.autolinker.processGrammar(env.grammar);
-});
-
-Prism.hooks.add('wrap', function(env) {
-	if (/-link$/.test(env.type)) {
-		env.tag = 'a';
-
-		var href = env.content;
-
-		if (env.type == 'email-link' && href.indexOf('mailto:') != 0) {
-			href = 'mailto:' + href;
-		}
-		else if (env.type == 'md-link') {
-			// Markdown
-			var match = env.content.match(linkMd);
-
-			href = match[2];
-			env.content = match[1];
-		}
-
-		env.attributes.href = href;
-
-		// Silently catch any error thrown by decodeURIComponent (#1186)
-		try {
-			env.content = decodeURIComponent(env.content);
-		} catch(e) {}
-	}
-});
-
-})();
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/autolinker/prism-autolinker.min.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/autolinker/prism-autolinker.min.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {!function(){if(("undefined"==typeof self||self.Prism)&&("undefined"==typeof global||global.Prism)){var t=/\b([a-z]{3,7}:\/\/|tel:)[\w\-+%~/.:=&@]+(?:\?[\w\-+%~/.:=?&!$'()*,;@]*)?(?:#[\w\-+%~/.:#=?&!$'()*,;@]*)?/,r=/\b\S+@[\w.]+[a-z]{2}/,a=/\[([^\]]+)]\(([^)]+)\)/,l=["comment","url","attr-value","string"];Prism.plugins.autolinker={processGrammar:function(i){i&&!i["url-link"]&&(Prism.languages.DFS(i,function(i,n,e){-1<l.indexOf(e)&&!Array.isArray(n)&&(n.pattern||(n=this[i]={pattern:n}),n.inside=n.inside||{},"comment"==e&&(n.inside["md-link"]=a),"attr-value"==e?Prism.languages.insertBefore("inside","punctuation",{"url-link":t},n):n.inside["url-link"]=t,n.inside["email-link"]=r)}),i["url-link"]=t,i["email-link"]=r)}},Prism.hooks.add("before-highlight",function(i){Prism.plugins.autolinker.processGrammar(i.grammar)}),Prism.hooks.add("wrap",function(i){if(/-link$/.test(i.type)){i.tag="a";var n=i.content;if("email-link"==i.type&&0!=n.indexOf("mailto:"))n="mailto:"+n;else if("md-link"==i.type){var e=i.content.match(a);n=e[2],i.content=e[1]}i.attributes.href=n;try{i.content=decodeURIComponent(i.content)}catch(i){}}})}}();
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/autoloader/prism-autoloader.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/autoloader/prism-autoloader.js ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-	if (typeof self === 'undefined' || !self.Prism || !self.document || !document.createElement) {
-		return;
-	}
-
-	// The dependencies map is built automatically with gulp
-	var lang_dependencies = /*dependencies_placeholder[*/{
-		"javascript": "clike",
-		"actionscript": "javascript",
-		"arduino": "cpp",
-		"aspnet": [
-			"markup",
-			"csharp"
-		],
-		"bison": "c",
-		"c": "clike",
-		"csharp": "clike",
-		"cpp": "c",
-		"coffeescript": "javascript",
-		"crystal": "ruby",
-		"css-extras": "css",
-		"d": "clike",
-		"dart": "clike",
-		"django": "markup-templating",
-		"ejs": [
-			"javascript",
-			"markup-templating"
-		],
-		"etlua": [
-			"lua",
-			"markup-templating"
-		],
-		"erb": [
-			"ruby",
-			"markup-templating"
-		],
-		"fsharp": "clike",
-		"firestore-security-rules": "clike",
-		"flow": "javascript",
-		"ftl": "markup-templating",
-		"glsl": "clike",
-		"gml": "clike",
-		"go": "clike",
-		"groovy": "clike",
-		"haml": "ruby",
-		"handlebars": "markup-templating",
-		"haxe": "clike",
-		"java": "clike",
-		"javadoc": [
-			"markup",
-			"java",
-			"javadoclike"
-		],
-		"jolie": "clike",
-		"jsdoc": [
-			"javascript",
-			"javadoclike"
-		],
-		"js-extras": "javascript",
-		"js-templates": "javascript",
-		"jsonp": "json",
-		"json5": "json",
-		"kotlin": "clike",
-		"latte": [
-			"clike",
-			"markup-templating",
-			"php"
-		],
-		"less": "css",
-		"lilypond": "scheme",
-		"markdown": "markup",
-		"markup-templating": "markup",
-		"n4js": "javascript",
-		"nginx": "clike",
-		"objectivec": "c",
-		"opencl": "c",
-		"parser": "markup",
-		"php": [
-			"clike",
-			"markup-templating"
-		],
-		"phpdoc": [
-			"php",
-			"javadoclike"
-		],
-		"php-extras": "php",
-		"plsql": "sql",
-		"processing": "clike",
-		"protobuf": "clike",
-		"pug": [
-			"markup",
-			"javascript"
-		],
-		"qml": "javascript",
-		"qore": "clike",
-		"jsx": [
-			"markup",
-			"javascript"
-		],
-		"tsx": [
-			"jsx",
-			"typescript"
-		],
-		"reason": "clike",
-		"ruby": "clike",
-		"sass": "css",
-		"scss": "css",
-		"scala": "java",
-		"shell-session": "bash",
-		"smarty": "markup-templating",
-		"solidity": "clike",
-		"soy": "markup-templating",
-		"sparql": "turtle",
-		"sqf": "clike",
-		"swift": "clike",
-		"tap": "yaml",
-		"textile": "markup",
-		"tt2": [
-			"clike",
-			"markup-templating"
-		],
-		"twig": "markup",
-		"typescript": "javascript",
-		"t4-cs": [
-			"t4-templating",
-			"csharp"
-		],
-		"t4-vb": [
-			"t4-templating",
-			"visual-basic"
-		],
-		"vala": "clike",
-		"vbnet": "basic",
-		"velocity": "markup",
-		"wiki": "markup",
-		"xeora": "markup",
-		"xquery": "markup"
-	}/*]*/;
-
-	var lang_aliases = /*aliases_placeholder[*/{
-		"html": "markup",
-		"xml": "markup",
-		"svg": "markup",
-		"mathml": "markup",
-		"js": "javascript",
-		"g4": "antlr4",
-		"adoc": "asciidoc",
-		"shell": "bash",
-		"shortcode": "bbcode",
-		"rbnf": "bnf",
-		"conc": "concurnas",
-		"cs": "csharp",
-		"dotnet": "csharp",
-		"coffee": "coffeescript",
-		"jinja2": "django",
-		"dns-zone": "dns-zone-file",
-		"dockerfile": "docker",
-		"xlsx": "excel-formula",
-		"xls": "excel-formula",
-		"gamemakerlanguage": "gml",
-		"hs": "haskell",
-		"tex": "latex",
-		"context": "latex",
-		"ly": "lilypond",
-		"emacs": "lisp",
-		"elisp": "lisp",
-		"emacs-lisp": "lisp",
-		"md": "markdown",
-		"moon": "moonscript",
-		"n4jsd": "n4js",
-		"objectpascal": "pascal",
-		"px": "pcaxis",
-		"pq": "powerquery",
-		"mscript": "powerquery",
-		"py": "python",
-		"robot": "robotframework",
-		"rb": "ruby",
-		"sln": "solution-file",
-		"rq": "sparql",
-		"trig": "turtle",
-		"ts": "typescript",
-		"t4": "t4-cs",
-		"vb": "visual-basic",
-		"xeoracube": "xeora",
-		"yml": "yaml"
-	}/*]*/;
-
-	/**
-	 * @typedef LangDataItem
-	 * @property {{ success?: () => void, error?: () => void }[]} callbacks
-	 * @property {boolean} [error]
-	 * @property {boolean} [loading]
-	 */
-	/** @type {Object<string, LangDataItem>} */
-	var lang_data = {};
-
-	var ignored_language = 'none';
-	var languages_path = 'components/';
-
-	var script = Prism.util.currentScript();
-	if (script) {
-		var autoloaderFile = /\bplugins\/autoloader\/prism-autoloader\.(?:min\.)js$/i;
-		var prismFile = /[\w-]+\.(?:min\.)js$/i;
-		if (script.hasAttribute('data-autoloader-path')) {
-			// data-autoloader-path is set, so just use it
-			languages_path = script.getAttribute('data-autoloader-path').trim().replace(/\/?$/, '/');
-		} else {
-			var src = script.src;
-			if (autoloaderFile.test(src)) {
-				// the script is the original autoloader script in the usual Prism project structure
-				languages_path = src.replace(autoloaderFile, 'components/');
-			} else if (prismFile.test(src)) {
-				// the script is part of a bundle like a custom prism.js from the download page
-				languages_path = src.replace(prismFile, 'components/');
-			}
-		}
-	}
-
-	var config = Prism.plugins.autoloader = {
-		languages_path: languages_path,
-		use_minified: true,
-		loadLanguages: loadLanguages
-	};
-
-
-	/**
-	 * Lazily loads an external script.
-	 *
-	 * @param {string} src
-	 * @param {() => void} [success]
-	 * @param {() => void} [error]
-	 */
-	function addScript(src, success, error) {
-		var s = document.createElement('script');
-		s.src = src;
-		s.async = true;
-		s.onload = function () {
-			document.body.removeChild(s);
-			success && success();
-		};
-		s.onerror = function () {
-			document.body.removeChild(s);
-			error && error();
-		};
-		document.body.appendChild(s);
-	}
-
-	/**
-	 * Returns the path to a grammar, using the language_path and use_minified config keys.
-	 *
-	 * @param {string} lang
-	 * @returns {string}
-	 */
-	function getLanguagePath(lang) {
-		return config.languages_path +
-			'prism-' + lang
-			+ (config.use_minified ? '.min' : '') + '.js'
-	}
-
-	/**
-	 * Tries to load the grammar(s) and once loaded, highlights the given element again.
-	 *
-	 * @param {string} lang
-	 * @param {HTMLElement} elt
-	 */
-	function registerElement(lang, elt) {
-		if (lang in lang_aliases) {
-			lang = lang_aliases[lang];
-		}
-
-		// Look for additional dependencies defined on the <code> or <pre> tags
-		var deps = elt.getAttribute('data-dependencies');
-		var parent = elt.parentElement;
-		if (!deps && parent && parent.tagName.toLowerCase() === 'pre') {
-			deps = parent.getAttribute('data-dependencies');
-		}
-
-		if (deps) {
-			deps = deps.split(/\s*,\s*/g);
-		} else {
-			deps = [];
-		}
-
-		loadLanguages(deps, function () {
-			loadLanguage(lang, function () {
-				Prism.highlightElement(elt);
-			});
-		});
-	}
-
-	/**
-	 * Loads all given grammars concurrently.
-	 *
-	 * @param {string[]|string} languages
-	 * @param {(languages: string[]) => void} [success]
-	 * @param {(language: string) => void} [error] This callback will be invoked on the first language to fail.
-	 */
-	function loadLanguages(languages, success, error) {
-		if (typeof languages === 'string') {
-			languages = [languages];
-		}
-
-		var total = languages.length;
-		var completed = 0;
-		var failed = false;
-
-		if (total === 0) {
-			if (success) {
-				setTimeout(success, 0);
-			}
-			return;
-		}
-
-		function successCallback() {
-			if (failed) {
-				return;
-			}
-			completed++;
-			if (completed === total) {
-				success && success(languages);
-			}
-		}
-
-		languages.forEach(function (lang) {
-			loadLanguage(lang, successCallback, function () {
-				if (failed) {
-					return;
-				}
-				failed = true;
-				error && error(lang);
-			});
-		});
-	}
-
-	/**
-	 * Loads a grammar with its dependencies.
-	 *
-	 * @param {string} lang
-	 * @param {() => void} [success]
-	 * @param {() => void} [error]
-	 */
-	function loadLanguage(lang, success, error) {
-		var force = lang.indexOf('!') >= 0;
-
-		lang = lang.replace('!', '');
-		lang = lang_aliases[lang] || lang;
-
-		var load = function () {
-			var data = lang_data[lang];
-			if (!data) {
-				data = lang_data[lang] = {
-					callbacks: []
-				};
-			}
-			data.callbacks.push({
-				success: success,
-				error: error
-			});
-
-			if (!force && Prism.languages[lang]) {
-				languageCallback(lang, "success");
-			} else if (!force && data.error) {
-				languageCallback(lang, "error");
-			} else if (force || !data.loading) {
-				data.loading = true;
-				var src = getLanguagePath(lang);
-				addScript(src, function () {
-					data.loading = false;
-					languageCallback(lang, "success");
-
-				}, function () {
-					data.loading = false;
-					data.error = true;
-					languageCallback(lang, "error");
-				});
-			}
-		};
-
-		var dependencies = lang_dependencies[lang];
-		if (dependencies && dependencies.length) {
-			loadLanguages(dependencies, load, error);
-		} else {
-			load();
-		}
-	}
-
-	/**
-	 * Runs all callbacks of the given type for the given language.
-	 *
-	 * @param {string} lang
-	 * @param {"success" | "error"} type
-	 */
-	function languageCallback(lang, type) {
-		if (lang_data[lang]) {
-			var callbacks = lang_data[lang].callbacks;
-			for (var i = 0, l = callbacks.length; i < l; i++) {
-				var callback = callbacks[i][type];
-				if (callback) {
-					setTimeout(callback, 0);
-				}
-			}
-			callbacks.length = 0;
-		}
-	}
-
-	Prism.hooks.add('complete', function (env) {
-		if (env.element && env.language && !env.grammar) {
-			if (env.language !== ignored_language) {
-				registerElement(env.language, env.element);
-			}
-		}
-	});
-
-}());
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/autoloader/prism-autoloader.min.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/autoloader/prism-autoloader.min.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-!function(){if("undefined"!=typeof self&&self.Prism&&self.document&&document.createElement){var c={javascript:"clike",actionscript:"javascript",arduino:"cpp",aspnet:["markup","csharp"],bison:"c",c:"clike",csharp:"clike",cpp:"c",coffeescript:"javascript",crystal:"ruby","css-extras":"css",d:"clike",dart:"clike",django:"markup-templating",ejs:["javascript","markup-templating"],etlua:["lua","markup-templating"],erb:["ruby","markup-templating"],fsharp:"clike","firestore-security-rules":"clike",flow:"javascript",ftl:"markup-templating",glsl:"clike",gml:"clike",go:"clike",groovy:"clike",haml:"ruby",handlebars:"markup-templating",haxe:"clike",java:"clike",javadoc:["markup","java","javadoclike"],jolie:"clike",jsdoc:["javascript","javadoclike"],"js-extras":"javascript","js-templates":"javascript",jsonp:"json",json5:"json",kotlin:"clike",latte:["clike","markup-templating","php"],less:"css",lilypond:"scheme",markdown:"markup","markup-templating":"markup",n4js:"javascript",nginx:"clike",objectivec:"c",opencl:"c",parser:"markup",php:["clike","markup-templating"],phpdoc:["php","javadoclike"],"php-extras":"php",plsql:"sql",processing:"clike",protobuf:"clike",pug:["markup","javascript"],qml:"javascript",qore:"clike",jsx:["markup","javascript"],tsx:["jsx","typescript"],reason:"clike",ruby:"clike",sass:"css",scss:"css",scala:"java","shell-session":"bash",smarty:"markup-templating",solidity:"clike",soy:"markup-templating",sparql:"turtle",sqf:"clike",swift:"clike",tap:"yaml",textile:"markup",tt2:["clike","markup-templating"],twig:"markup",typescript:"javascript","t4-cs":["t4-templating","csharp"],"t4-vb":["t4-templating","visual-basic"],vala:"clike",vbnet:"basic",velocity:"markup",wiki:"markup",xeora:"markup",xquery:"markup"},l={html:"markup",xml:"markup",svg:"markup",mathml:"markup",js:"javascript",g4:"antlr4",adoc:"asciidoc",shell:"bash",shortcode:"bbcode",rbnf:"bnf",conc:"concurnas",cs:"csharp",dotnet:"csharp",coffee:"coffeescript",jinja2:"django","dns-zone":"dns-zone-file",dockerfile:"docker",xlsx:"excel-formula",xls:"excel-formula",gamemakerlanguage:"gml",hs:"haskell",tex:"latex",context:"latex",ly:"lilypond",emacs:"lisp",elisp:"lisp","emacs-lisp":"lisp",md:"markdown",moon:"moonscript",n4jsd:"n4js",objectpascal:"pascal",px:"pcaxis",pq:"powerquery",mscript:"powerquery",py:"python",robot:"robotframework",rb:"ruby",sln:"solution-file",rq:"sparql",trig:"turtle",ts:"typescript",t4:"t4-cs",vb:"visual-basic",xeoracube:"xeora",yml:"yaml"},n={},e="components/",a=Prism.util.currentScript();if(a){var t=/\bplugins\/autoloader\/prism-autoloader\.(?:min\.)js$/i,r=/[\w-]+\.(?:min\.)js$/i;if(a.hasAttribute("data-autoloader-path"))e=a.getAttribute("data-autoloader-path").trim().replace(/\/?$/,"/");else{var s=a.src;t.test(s)?e=s.replace(t,"components/"):r.test(s)&&(e=s.replace(r,"components/"))}}var p=Prism.plugins.autoloader={languages_path:e,use_minified:!0,loadLanguages:o};Prism.hooks.add("complete",function(e){e.element&&e.language&&!e.grammar&&"none"!==e.language&&function(e,a){e in l&&(e=l[e]);var t=a.getAttribute("data-dependencies"),r=a.parentElement;!t&&r&&"pre"===r.tagName.toLowerCase()&&(t=r.getAttribute("data-dependencies")),o(t=t?t.split(/\s*,\s*/g):[],function(){u(e,function(){Prism.highlightElement(a)})})}(e.language,e.element)})}function o(e,a,t){"string"==typeof e&&(e=[e]);var r=e.length,s=0,i=!1;function c(){i||++s===r&&a&&a(e)}0!==r?e.forEach(function(e){u(e,c,function(){i||(i=!0,t&&t(e))})}):a&&setTimeout(a,0)}function u(a,t,r){var s=0<=a.indexOf("!");a=a.replace("!",""),a=l[a]||a;var e=function(){var e=n[a];if(e||(e=n[a]={callbacks:[]}),e.callbacks.push({success:t,error:r}),!s&&Prism.languages[a])m(a,"success");else if(!s&&e.error)m(a,"error");else if(s||!e.loading){e.loading=!0,function(e,a,t){var r=document.createElement("script");r.src=e,r.async=!0,r.onload=function(){document.body.removeChild(r),a&&a()},r.onerror=function(){document.body.removeChild(r),t&&t()},document.body.appendChild(r)}(function(e){return p.languages_path+"prism-"+e+(p.use_minified?".min":"")+".js"}(a),function(){e.loading=!1,m(a,"success")},function(){e.loading=!1,e.error=!0,m(a,"error")})}},i=c[a];i&&i.length?o(i,e,r):e()}function m(e,a){if(n[e]){for(var t=n[e].callbacks,r=0,s=t.length;r<s;r++){var i=t[r][a];i&&setTimeout(i,0)}t.length=0}}}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/command-line/prism-command-line.css":
-/*!**************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/command-line/prism-command-line.css ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-command-line.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/command-line/prism-command-line.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/command-line/prism-command-line.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/command-line/prism-command-line.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function() {
-
-if (typeof self === 'undefined' || !self.Prism || !self.document) {
-	return;
-}
-
-var clsReg = /(?:^|\s)command-line(?:\s|$)/;
-
-Prism.hooks.add('before-highlight', function (env) {
-	var vars = env.vars = env.vars || {};
-	var commandLine = vars['command-line'] = vars['command-line'] || {};
-
-	if (commandLine.complete || !env.code) {
-		commandLine.complete = true;
-		return;
-	}
-
-	// Works only for <code> wrapped inside <pre> (not inline).
-	var pre = env.element.parentNode;
-	if (!pre || !/pre/i.test(pre.nodeName) || // Abort only if neither the <pre> nor the <code> have the class
-		(!clsReg.test(pre.className) && !clsReg.test(env.element.className))) {
-		commandLine.complete = true;
-		return;
-	}
-
-	if (env.element.querySelector('.command-line-prompt')) { // Abort if prompt already exists.
-		commandLine.complete = true;
-		return;
-	}
-
-	var codeLines = env.code.split('\n');
-	commandLine.numberOfLines = codeLines.length;
-	var outputLines = commandLine.outputLines = [];
-
-	var outputSections = pre.getAttribute('data-output');
-	var outputFilter = pre.getAttribute('data-filter-output');
-	if (outputSections || outputSections === '') { // The user specified the output lines. -- cwells
-		outputSections = outputSections.split(',');
-		for (var i = 0; i < outputSections.length; i++) { // Parse the output sections into start/end ranges. -- cwells
-			var range = outputSections[i].split('-');
-			var outputStart = parseInt(range[0], 10);
-			var outputEnd = (range.length === 2 ? parseInt(range[1], 10) : outputStart);
-
-			if (!isNaN(outputStart) && !isNaN(outputEnd)) {
-				if (outputStart < 1) {
-					outputStart = 1;
-				}
-				if (outputEnd > codeLines.length) {
-					outputEnd = codeLines.length;
-				}
-				// Convert start and end to 0-based to simplify the arrays. -- cwells
-				outputStart--;
-				outputEnd--;
-				// Save the output line in an array and clear it in the code so it's not highlighted. -- cwells
-				for (var j = outputStart; j <= outputEnd; j++) {
-					outputLines[j] = codeLines[j];
-					codeLines[j] = '';
-				}
-			}
-		}
-	} else if (outputFilter) { // Treat lines beginning with this string as output. -- cwells
-		for (var i = 0; i < codeLines.length; i++) {
-			if (codeLines[i].indexOf(outputFilter) === 0) { // This line is output. -- cwells
-				outputLines[i] = codeLines[i].slice(outputFilter.length);
-				codeLines[i] = '';
-			}
-		}
-	}
-
-	env.code = codeLines.join('\n');
-});
-
-Prism.hooks.add('before-insert', function (env) {
-	var vars = env.vars = env.vars || {};
-	var commandLine = vars['command-line'] = vars['command-line'] || {};
-	if (commandLine.complete) {
-		return;
-	}
-
-	// Reinsert the output lines into the highlighted code. -- cwells
-	var codeLines = env.highlightedCode.split('\n');
-	for (var i = 0, l = (commandLine.outputLines || []).length; i < l; i++) {
-		if (commandLine.outputLines.hasOwnProperty(i)) {
-			codeLines[i] = commandLine.outputLines[i];
-		}
-	}
-	env.highlightedCode = codeLines.join('\n');
-});
-
-Prism.hooks.add('complete', function (env) {
-	var vars = env.vars = env.vars || {};
-	var commandLine = vars['command-line'] = vars['command-line'] || {};
-	if (commandLine.complete) {
-		return;
-	}
-
-	var pre = env.element.parentNode;
-	if (clsReg.test(env.element.className)) { // Remove the class "command-line" from the <code>
-		env.element.className = env.element.className.replace(clsReg, ' ');
-	}
-	if (!clsReg.test(pre.className)) { // Add the class "command-line" to the <pre>
-		pre.className += ' command-line';
-	}
-
-	var getAttribute = function(key, defaultValue) {
-		return (pre.getAttribute(key) || defaultValue).replace(/"/g, '&quot');
-	};
-
-	// Create the "rows" that will become the command-line prompts. -- cwells
-	var promptLines = new Array((commandLine.numberOfLines || 0) + 1);
-	var promptText = getAttribute('data-prompt', '');
-	if (promptText !== '') {
-		promptLines = promptLines.join('<span data-prompt="' + promptText + '"></span>');
-	} else {
-		var user = getAttribute('data-user', 'user');
-		var host = getAttribute('data-host', 'localhost');
-		promptLines = promptLines.join('<span data-user="' + user + '" data-host="' + host + '"></span>');
-	}
-
-	// Create the wrapper element. -- cwells
-	var prompt = document.createElement('span');
-	prompt.className = 'command-line-prompt';
-	prompt.innerHTML = promptLines;
-
-	// Remove the prompt from the output lines. -- cwells
-	for (var i = 0, l = (commandLine.outputLines || []).length; i < l; i++) {
-		if (commandLine.outputLines.hasOwnProperty(i)) {
-			var node = prompt.children[i];
-			node.removeAttribute('data-user');
-			node.removeAttribute('data-host');
-			node.removeAttribute('data-prompt');
-		}
-	}
-
-	env.element.insertBefore(prompt, env.element.firstChild);
-	commandLine.complete = true;
-});
-
-}());
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/command-line/prism-command-line.min.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/command-line/prism-command-line.min.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-!function(){if("undefined"!=typeof self&&self.Prism&&self.document){var u=/(?:^|\s)command-line(?:\s|$)/;Prism.hooks.add("before-highlight",function(e){var t=e.vars=e.vars||{},a=t["command-line"]=t["command-line"]||{};if(!a.complete&&e.code){var n=e.element.parentNode;if(n&&/pre/i.test(n.nodeName)&&(u.test(n.className)||u.test(e.element.className)))if(e.element.querySelector(".command-line-prompt"))a.complete=!0;else{var r=e.code.split("\n");a.numberOfLines=r.length;var s=a.outputLines=[],o=n.getAttribute("data-output"),i=n.getAttribute("data-filter-output");if(o||""===o){o=o.split(",");for(var l=0;l<o.length;l++){var m=o[l].split("-"),p=parseInt(m[0],10),d=2===m.length?parseInt(m[1],10):p;if(!isNaN(p)&&!isNaN(d)){p<1&&(p=1),d>r.length&&(d=r.length),d--;for(var c=--p;c<=d;c++)s[c]=r[c],r[c]=""}}}else if(i)for(l=0;l<r.length;l++)0===r[l].indexOf(i)&&(s[l]=r[l].slice(i.length),r[l]="");e.code=r.join("\n")}else a.complete=!0}else a.complete=!0}),Prism.hooks.add("before-insert",function(e){var t=e.vars=e.vars||{},a=t["command-line"]=t["command-line"]||{};if(!a.complete){for(var n=e.highlightedCode.split("\n"),r=0,s=(a.outputLines||[]).length;r<s;r++)a.outputLines.hasOwnProperty(r)&&(n[r]=a.outputLines[r]);e.highlightedCode=n.join("\n")}}),Prism.hooks.add("complete",function(e){var t=e.vars=e.vars||{},a=t["command-line"]=t["command-line"]||{};if(!a.complete){var n=e.element.parentNode;u.test(e.element.className)&&(e.element.className=e.element.className.replace(u," ")),u.test(n.className)||(n.className+=" command-line");var r=function(e,t){return(n.getAttribute(e)||t).replace(/"/g,"&quot")},s=new Array((a.numberOfLines||0)+1),o=r("data-prompt","");if(""!==o)s=s.join('<span data-prompt="'+o+'"></span>');else{var i=r("data-user","user"),l=r("data-host","localhost");s=s.join('<span data-user="'+i+'" data-host="'+l+'"></span>')}var m=document.createElement("span");m.className="command-line-prompt",m.innerHTML=s;for(var p=0,d=(a.outputLines||[]).length;p<d;p++)if(a.outputLines.hasOwnProperty(p)){var c=m.children[p];c.removeAttribute("data-user"),c.removeAttribute("data-host"),c.removeAttribute("data-prompt")}e.element.insertBefore(m,e.element.firstChild),a.complete=!0}})}}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-(function(){
-	if (typeof self === 'undefined' || !self.Prism || !self.document) {
-		return;
-	}
-
-	if (!Prism.plugins.toolbar) {
-		console.warn('Copy to Clipboard plugin loaded before Toolbar plugin.');
-
-		return;
-	}
-
-	var ClipboardJS = window.ClipboardJS || undefined;
-
-	if (!ClipboardJS && "function" === 'function') {
-		ClipboardJS = __webpack_require__(/*! clipboard */ "./node_modules/clipboard/dist/clipboard.js");
-	}
-
-	var callbacks = [];
-
-	if (!ClipboardJS) {
-		var script = document.createElement('script');
-		var head = document.querySelector('head');
-
-		script.onload = function() {
-			ClipboardJS = window.ClipboardJS;
-
-			if (ClipboardJS) {
-				while (callbacks.length) {
-					callbacks.pop()();
-				}
-			}
-		};
-
-		script.src = 'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js';
-		head.appendChild(script);
-	}
-
-	Prism.plugins.toolbar.registerButton('copy-to-clipboard', function (env) {
-		var linkCopy = document.createElement('button');
-		linkCopy.textContent = 'Copy';
-
-		if (!ClipboardJS) {
-			callbacks.push(registerClipboard);
-		} else {
-			registerClipboard();
-		}
-
-		return linkCopy;
-
-		function registerClipboard() {
-			var clip = new ClipboardJS(linkCopy, {
-				'text': function () {
-					return env.code;
-				}
-			});
-
-			clip.on('success', function() {
-				linkCopy.textContent = 'Copied!';
-
-				resetText();
-			});
-			clip.on('error', function () {
-				linkCopy.textContent = 'Press Ctrl+C to copy';
-
-				resetText();
-			});
-		}
-
-		function resetText() {
-			setTimeout(function () {
-				linkCopy.textContent = 'Copy';
-			}, 5000);
-		}
-	});
-})();
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js":
-/*!***************************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js ***!
-  \***************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-!function(){if("undefined"!=typeof self&&self.Prism&&self.document)if(Prism.plugins.toolbar){var r=window.ClipboardJS||void 0;r||"function"!="function"||(r=__webpack_require__(/*! clipboard */ "./node_modules/clipboard/dist/clipboard.js"));var i=[];if(!r){var o=document.createElement("script"),e=document.querySelector("head");o.onload=function(){if(r=window.ClipboardJS)for(;i.length;)i.pop()()},o.src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",e.appendChild(o)}Prism.plugins.toolbar.registerButton("copy-to-clipboard",function(e){var t=document.createElement("button");return t.textContent="Copy",r?o():i.push(o),t;function o(){var o=new r(t,{text:function(){return e.code}});o.on("success",function(){t.textContent="Copied!",n()}),o.on("error",function(){t.textContent="Press Ctrl+C to copy",n()})}function n(){setTimeout(function(){t.textContent="Copy"},5e3)}})}else console.warn("Copy to Clipboard plugin loaded before Toolbar plugin.")}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/custom-class/prism-custom-class.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/custom-class/prism-custom-class.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {(function () {
-
-	if (
-		(typeof self === 'undefined' || !self.Prism) &&
-		(typeof global === 'undefined' || !global.Prism)
-	) {
-		return;
-	}
-
-	/**
-	 * @callback ClassMapper
-	 * @param {string} className
-	 * @param {string} language
-	 * @returns {string}
-	 *
-	 * @callback ClassAdder
-	 * @param {ClassAdderEnvironment} env
-	 * @returns {undefined | string | string[]}
-	 *
-	 * @typedef ClassAdderEnvironment
-	 * @property {string} language
-	 * @property {string} type
-	 * @property {string} content
-	 */
-
-	// options
-
-	/** @type {ClassAdder | undefined} */
-	var adder;
-	/** @type {ClassMapper | undefined} */
-	var mapper;
-	/** @type {string} */
-	var prefixString = '';
-
-
-	Prism.plugins.customClass = {
-		/**
-		 * Sets the function which can be used to add custom aliases to any token.
-		 *
-		 * @param {ClassAdder} classAdder
-		 */
-		add: function (classAdder) {
-			adder = classAdder;
-		},
-		/**
-		 * Maps all class names using the given object or map function.
-		 *
-		 * This does not affect the prefix.
-		 *
-		 * @param {Object<string, string> | ClassMapper} classMapper
-		 */
-		map: function map(classMapper) {
-			if (typeof classMapper === 'function') {
-				mapper = classMapper;
-			} else {
-				mapper = function (className) {
-					return classMapper[className] || className;
-				};
-			}
-		},
-		/**
-		 * Adds the given prefix to all class names.
-		 *
-		 * @param {string} string
-		 */
-		prefix: function prefix(string) {
-			prefixString = string || '';
-		}
-	}
-
-	Prism.hooks.add('wrap', function (env) {
-		if (adder) {
-			var result = adder({
-				content: env.content,
-				type: env.type,
-				language: env.language
-			});
-
-			if (Array.isArray(result)) {
-				env.classes.push.apply(env.classes, result);
-			} else if (result) {
-				env.classes.push(result);
-			}
-		}
-
-		if (!mapper && !prefixString) {
-			return;
-		}
-
-		env.classes = env.classes.map(function (c) {
-			return prefixString + (mapper ? mapper(c, env.language) : c);
-		});
-	});
-
-})();
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/custom-class/prism-custom-class.min.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/custom-class/prism-custom-class.min.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {!function(){if("undefined"!=typeof self&&self.Prism||"undefined"!=typeof global&&global.Prism){var a,e,t="";Prism.plugins.customClass={add:function(n){a=n},map:function(s){e="function"==typeof s?s:function(n){return s[n]||n}},prefix:function(n){t=n||""}},Prism.hooks.add("wrap",function(s){if(a){var n=a({content:s.content,type:s.type,language:s.language});Array.isArray(n)?s.classes.push.apply(s.classes,n):n&&s.classes.push(n)}(e||t)&&(s.classes=s.classes.map(function(n){return t+(e?e(n,s.language):n)}))})}}();
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.js":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.js ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {(function () {
-
-	if (
-		typeof self !== 'undefined' && !self.Prism ||
-		typeof global !== 'undefined' && !global.Prism
-	) {
-		return;
-	}
-
-	var autoLinkerProcess = function (grammar) {
-		if (Prism.plugins.autolinker) {
-			Prism.plugins.autolinker.processGrammar(grammar);
-		}
-		return grammar;
-	};
-	var dataURI = {
-		pattern: /(.)\bdata:[^\/]+\/[^,]+,(?:(?!\1)[\s\S]|\\\1)+(?=\1)/,
-		lookbehind: true,
-		inside: {
-			'language-css': {
-				pattern: /(data:[^\/]+\/(?:[^+,]+\+)?css,)[\s\S]+/,
-				lookbehind: true
-			},
-			'language-javascript': {
-				pattern: /(data:[^\/]+\/(?:[^+,]+\+)?javascript,)[\s\S]+/,
-				lookbehind: true
-			},
-			'language-json': {
-				pattern: /(data:[^\/]+\/(?:[^+,]+\+)?json,)[\s\S]+/,
-				lookbehind: true
-			},
-			'language-markup': {
-				pattern: /(data:[^\/]+\/(?:[^+,]+\+)?(?:html|xml),)[\s\S]+/,
-				lookbehind: true
-			}
-		}
-	};
-
-	// Tokens that may contain URLs
-	var candidates = ['url', 'attr-value', 'string'];
-
-	Prism.plugins.dataURIHighlight = {
-		processGrammar: function (grammar) {
-			// Abort if grammar has already been processed
-			if (!grammar || grammar['data-uri']) {
-				return;
-			}
-
-			Prism.languages.DFS(grammar, function (key, def, type) {
-				if (candidates.indexOf(type) > -1 && !Array.isArray(def)) {
-					if (!def.pattern) {
-						def = this[key] = {
-							pattern: def
-						};
-					}
-
-					def.inside = def.inside || {};
-
-					if (type == 'attr-value') {
-						Prism.languages.insertBefore('inside', def.inside['url-link'] ? 'url-link' : 'punctuation', {
-							'data-uri': dataURI
-						}, def);
-					}
-					else {
-						if (def.inside['url-link']) {
-							Prism.languages.insertBefore('inside', 'url-link', {
-								'data-uri': dataURI
-							}, def);
-						} else {
-							def.inside['data-uri'] = dataURI;
-						}
-					}
-				}
-			});
-			grammar['data-uri'] = dataURI;
-		}
-	};
-
-	Prism.hooks.add('before-highlight', function (env) {
-		// Prepare the needed grammars for this code block
-		if (dataURI.pattern.test(env.code)) {
-			for (var p in dataURI.inside) {
-				if (dataURI.inside.hasOwnProperty(p)) {
-					if (!dataURI.inside[p].inside && dataURI.inside[p].pattern.test(env.code)) {
-						var lang = p.match(/^language-(.+)/)[1];
-						if (Prism.languages[lang]) {
-							dataURI.inside[p].inside = {
-								rest: autoLinkerProcess(Prism.languages[lang])
-							};
-						}
-					}
-				}
-			}
-		}
-
-		Prism.plugins.dataURIHighlight.processGrammar(env.grammar);
-	});
-}());
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.min.js":
-/*!*****************************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/data-uri-highlight/prism-data-uri-highlight.min.js ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {!function(){if(("undefined"==typeof self||self.Prism)&&("undefined"==typeof global||global.Prism)){var r={pattern:/(.)\bdata:[^\/]+\/[^,]+,(?:(?!\1)[\s\S]|\\\1)+(?=\1)/,lookbehind:!0,inside:{"language-css":{pattern:/(data:[^\/]+\/(?:[^+,]+\+)?css,)[\s\S]+/,lookbehind:!0},"language-javascript":{pattern:/(data:[^\/]+\/(?:[^+,]+\+)?javascript,)[\s\S]+/,lookbehind:!0},"language-json":{pattern:/(data:[^\/]+\/(?:[^+,]+\+)?json,)[\s\S]+/,lookbehind:!0},"language-markup":{pattern:/(data:[^\/]+\/(?:[^+,]+\+)?(?:html|xml),)[\s\S]+/,lookbehind:!0}}},e=["url","attr-value","string"];Prism.plugins.dataURIHighlight={processGrammar:function(i){i&&!i["data-uri"]&&(Prism.languages.DFS(i,function(i,a,n){-1<e.indexOf(n)&&!Array.isArray(a)&&(a.pattern||(a=this[i]={pattern:a}),a.inside=a.inside||{},"attr-value"==n?Prism.languages.insertBefore("inside",a.inside["url-link"]?"url-link":"punctuation",{"data-uri":r},a):a.inside["url-link"]?Prism.languages.insertBefore("inside","url-link",{"data-uri":r},a):a.inside["data-uri"]=r)}),i["data-uri"]=r)}},Prism.hooks.add("before-highlight",function(i){if(r.pattern.test(i.code))for(var a in r.inside)if(r.inside.hasOwnProperty(a)&&!r.inside[a].inside&&r.inside[a].pattern.test(i.code)){var n=a.match(/^language-(.+)/)[1];Prism.languages[n]&&(r.inside[a].inside={rest:(e=Prism.languages[n],Prism.plugins.autolinker&&Prism.plugins.autolinker.processGrammar(e),e)})}var e;Prism.plugins.dataURIHighlight.processGrammar(i.grammar)})}}();
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.css":
-/*!******************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.css ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-diff-highlight.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-
-	if (typeof Prism === 'undefined' || !Prism.languages['diff']) {
-		return;
-	}
-
-
-	var LANGUAGE_REGEX = /diff-([\w-]+)/i;
-	var HTML_TAG = /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/gi;
-	//this will match a line plus the line break while ignoring the line breaks HTML tags may contain.
-	var HTML_LINE = RegExp(/(?:__|[^\r\n<])*(?:\r\n?|\n|(?:__|[^\r\n<])(?![^\r\n]))/.source.replace(/__/g, function () { return HTML_TAG.source; }), 'gi');
-
-	var PREFIXES = Prism.languages.diff.PREFIXES;
-
-
-	Prism.hooks.add('before-sanity-check', function (env) {
-		var lang = env.language;
-		if (LANGUAGE_REGEX.test(lang) && !env.grammar) {
-			env.grammar = Prism.languages[lang] = Prism.languages['diff'];
-		}
-	});
-	Prism.hooks.add('before-tokenize', function (env) {
-		var lang = env.language;
-		if (LANGUAGE_REGEX.test(lang) && !Prism.languages[lang]) {
-			Prism.languages[lang] = Prism.languages['diff'];
-		}
-	});
-
-	Prism.hooks.add('wrap', function (env) {
-		var diffLanguage, diffGrammar;
-
-		if (env.language !== 'diff') {
-			var langMatch = LANGUAGE_REGEX.exec(env.language);
-			if (!langMatch) {
-				return; // not a language specific diff
-			}
-
-			diffLanguage = langMatch[1];
-			diffGrammar = Prism.languages[diffLanguage];
-		}
-
-		// one of the diff tokens without any nested tokens
-		if (env.type in PREFIXES) {
-			/** @type {string} */
-			var content = env.content.replace(HTML_TAG, ''); // remove all HTML tags
-
-			/** @type {string} */
-			var decoded = content.replace(/&lt;/g, '<').replace(/&amp;/g, '&');
-
-			// remove any one-character prefix
-			var code = decoded.replace(/(^|[\r\n])./g, '$1');
-
-			// highlight, if possible
-			var highlighted;
-			if (diffGrammar) {
-				highlighted = Prism.highlight(code, diffGrammar, diffLanguage);
-			} else {
-				highlighted = Prism.util.encode(code);
-			}
-
-			// get the HTML source of the prefix token
-			var prefixToken = new Prism.Token('prefix', PREFIXES[env.type], [/\w+/.exec(env.type)[0]]);
-			var prefix = Prism.Token.stringify(prefixToken, env.language);
-
-			// add prefix
-			var lines = [], m;
-			HTML_LINE.lastIndex = 0;
-			while (m = HTML_LINE.exec(highlighted)) {
-				lines.push(prefix + m[0]);
-			}
-			if (/(?:^|[\r\n]).$/.test(decoded)) {
-				// because both "+a\n+" and "+a\n" will map to "a\n" after the line prefixes are removed
-				lines.push(prefix);
-			}
-			env.content = lines.join('');
-
-			if (diffGrammar) {
-				env.classes.push('language-' + diffLanguage);
-			}
-		}
-	});
-
-}());
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.min.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/diff-highlight/prism-diff-highlight.min.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-!function(){if("undefined"!=typeof Prism&&Prism.languages.diff){var o=/diff-([\w-]+)/i,m=/<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/gi,c=RegExp("(?:__|[^\r\n<])*(?:\r\n?|\n|(?:__|[^\r\n<])(?![^\r\n]))".replace(/__/g,function(){return m.source}),"gi"),d=Prism.languages.diff.PREFIXES;Prism.hooks.add("before-sanity-check",function(e){var a=e.language;o.test(a)&&!e.grammar&&(e.grammar=Prism.languages[a]=Prism.languages.diff)}),Prism.hooks.add("before-tokenize",function(e){var a=e.language;o.test(a)&&!Prism.languages[a]&&(Prism.languages[a]=Prism.languages.diff)}),Prism.hooks.add("wrap",function(e){var a,s;if("diff"!==e.language){var n=o.exec(e.language);if(!n)return;a=n[1],s=Prism.languages[a]}if(e.type in d){var r,i=e.content.replace(m,"").replace(/&lt;/g,"<").replace(/&amp;/g,"&"),g=i.replace(/(^|[\r\n])./g,"$1");r=s?Prism.highlight(g,s,a):Prism.util.encode(g);var f,t=new Prism.Token("prefix",d[e.type],[/\w+/.exec(e.type)[0]]),u=Prism.Token.stringify(t,e.language),l=[];for(c.lastIndex=0;f=c.exec(r);)l.push(u+f[0]);/(?:^|[\r\n]).$/.test(i)&&l.push(u),e.content=l.join(""),s&&e.classes.push("language-"+a)}})}}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/download-button/prism-download-button.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/download-button/prism-download-button.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-	if (typeof self === 'undefined' || !self.Prism || !self.document || !document.querySelector) {
-		return;
-	}
-
-	Prism.plugins.toolbar.registerButton('download-file', function (env) {
-		var pre = env.element.parentNode;
-		if (!pre || !/pre/i.test(pre.nodeName) || !pre.hasAttribute('data-src') || !pre.hasAttribute('data-download-link')) {
-			return;
-		}
-		var src = pre.getAttribute('data-src');
-		var a = document.createElement('a');
-		a.textContent = pre.getAttribute('data-download-link-label') || 'Download';
-		a.setAttribute('download', '');
-		a.href = src;
-		return a;
-	});
-
-})();
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/download-button/prism-download-button.min.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/download-button/prism-download-button.min.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-"undefined"!=typeof self&&self.Prism&&self.document&&document.querySelector&&Prism.plugins.toolbar.registerButton("download-file",function(t){var e=t.element.parentNode;if(e&&/pre/i.test(e.nodeName)&&e.hasAttribute("data-src")&&e.hasAttribute("data-download-link")){var a=e.getAttribute("data-src"),n=document.createElement("a");return n.textContent=e.getAttribute("data-download-link-label")||"Download",n.setAttribute("download",""),n.href=a,n}});
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/file-highlight/prism-file-highlight.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/file-highlight/prism-file-highlight.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-	if (typeof self === 'undefined' || !self.Prism || !self.document || !document.querySelector) {
-		return;
-	}
-
-	/**
-	 * @param {Element} [container=document]
-	 */
-	self.Prism.fileHighlight = function(container) {
-		container = container || document;
-
-		var Extensions = {
-			'js': 'javascript',
-			'py': 'python',
-			'rb': 'ruby',
-			'ps1': 'powershell',
-			'psm1': 'powershell',
-			'sh': 'bash',
-			'bat': 'batch',
-			'h': 'c',
-			'tex': 'latex'
-		};
-
-		Array.prototype.slice.call(container.querySelectorAll('pre[data-src]')).forEach(function (pre) {
-			// ignore if already loaded
-			if (pre.hasAttribute('data-src-loaded')) {
-				return;
-			}
-
-			// load current
-			var src = pre.getAttribute('data-src');
-
-			var language, parent = pre;
-			var lang = /\blang(?:uage)?-([\w-]+)\b/i;
-			while (parent && !lang.test(parent.className)) {
-				parent = parent.parentNode;
-			}
-
-			if (parent) {
-				language = (pre.className.match(lang) || [, ''])[1];
-			}
-
-			if (!language) {
-				var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-				language = Extensions[extension] || extension;
-			}
-
-			var code = document.createElement('code');
-			code.className = 'language-' + language;
-
-			pre.textContent = '';
-
-			code.textContent = 'Loading…';
-
-			pre.appendChild(code);
-
-			var xhr = new XMLHttpRequest();
-
-			xhr.open('GET', src, true);
-
-			xhr.onreadystatechange = function () {
-				if (xhr.readyState == 4) {
-
-					if (xhr.status < 400 && xhr.responseText) {
-						code.textContent = xhr.responseText;
-
-						Prism.highlightElement(code);
-						// mark as loaded
-						pre.setAttribute('data-src-loaded', '');
-					}
-					else if (xhr.status >= 400) {
-						code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
-					}
-					else {
-						code.textContent = '✖ Error: File does not exist or is empty';
-					}
-				}
-			};
-
-			xhr.send(null);
-		});
-	};
-
-	document.addEventListener('DOMContentLoaded', function () {
-		// execute inside handler, for dropping Event as argument
-		self.Prism.fileHighlight();
-	});
-
-})();
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/file-highlight/prism-file-highlight.min.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/file-highlight/prism-file-highlight.min.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-"undefined"!=typeof self&&self.Prism&&self.document&&document.querySelector&&(self.Prism.fileHighlight=function(e){e=e||document;var i={js:"javascript",py:"python",rb:"ruby",ps1:"powershell",psm1:"powershell",sh:"bash",bat:"batch",h:"c",tex:"latex"};Array.prototype.slice.call(e.querySelectorAll("pre[data-src]")).forEach(function(e){if(!e.hasAttribute("data-src-loaded")){for(var t,a=e.getAttribute("data-src"),s=e,n=/\blang(?:uage)?-([\w-]+)\b/i;s&&!n.test(s.className);)s=s.parentNode;if(s&&(t=(e.className.match(n)||[,""])[1]),!t){var r=(a.match(/\.(\w+)$/)||[,""])[1];t=i[r]||r}var o=document.createElement("code");o.className="language-"+t,e.textContent="",o.textContent="Loading…",e.appendChild(o);var l=new XMLHttpRequest;l.open("GET",a,!0),l.onreadystatechange=function(){4==l.readyState&&(l.status<400&&l.responseText?(o.textContent=l.responseText,Prism.highlightElement(o),e.setAttribute("data-src-loaded","")):400<=l.status?o.textContent="✖ Error "+l.status+" while fetching file: "+l.statusText:o.textContent="✖ Error: File does not exist or is empty")},l.send(null)}})},document.addEventListener("DOMContentLoaded",function(){self.Prism.fileHighlight()}));
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.js":
-/*!*****************************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.js ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-
-	if (typeof self !== 'undefined' && !self.Prism) {
-		return;
-	}
-
-	// https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill
-	if (!Element.prototype.matches) {
-		Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
-	}
-
-	var script = Prism.util.currentScript();
-
-
-	/**
-	 * @type {Array<(element: HTMLElement) => boolean>}
-	 */
-	var filters = [];
-
-	var config = Prism.plugins.filterHighlightAll = {
-
-		/**
-		 * Adds a new filter for the elements of `highlightAll` and `highlightAllUnder` such that only elements for
-		 * which the given function returns `true` will be highlighted.
-		 *
-		 * @param {(value: { element: HTMLElement, language: string }) => boolean} condition
-		 */
-		add: function (condition) {
-			filters.push(function (element) {
-				return condition({
-					element: element,
-					language: Prism.util.getLanguage(element)
-				});
-			});
-		},
-
-		/**
-		 * Adds a new filter for the elements of `highlightAll` and `highlightAllUnder` such that only elements that
-		 * match the given CSS selection will be highlighted.
-		 *
-		 * @param {string} selector
-		 */
-		addSelector: function (selector) {
-			filters.push(function (element) {
-				return element.matches(selector);
-			});
-		},
-
-		reject: {
-
-			/**
-			 * Adds a new filter for the elements of `highlightAll` and `highlightAllUnder` such that only elements for
-			 * which the given function returns `false` will be highlighted.
-			 *
-			 * @param {(value: { element: HTMLElement, language: string }) => boolean} condition
-			 */
-			add: function (condition) {
-				filters.push(function (element) {
-					return !condition({
-						element: element,
-						language: Prism.util.getLanguage(element)
-					});
-				});
-			},
-
-			/**
-			 * Adds a new filter for the elements of `highlightAll` and `highlightAllUnder` such that only elements that do
-			 * not match the given CSS selection will be highlighted.
-			 *
-			 * @param {string} selector
-			 */
-			addSelector: function (selector) {
-				filters.push(function (element) {
-					return !element.matches(selector);
-				});
-			},
-
-		},
-
-		/**
-		 * Filters the elements of `highlightAll` and `highlightAllUnder` such that only elements with a known language
-		 * will be highlighted. All elements with an unset or unknown language will be ignored.
-		 *
-		 * __Note:__ This will effectively disable the AutoLoader plugin.
-		 *
-		 * @type {boolean}
-		 */
-		filterKnown: !!script && script.hasAttribute('data-filter-known')
-	};
-
-	config.add(function filterKnown(env) {
-		return !config.filterKnown || typeof Prism.languages[env.language] === 'object';
-	});
-
-	if (script) {
-		var attr;
-		if (attr = script.getAttribute('data-filter-selector')) {
-			config.addSelector(attr);
-		}
-		if (attr = script.getAttribute('data-reject-selector')) {
-			config.reject.addSelector(attr);
-		}
-	}
-
-	/**
-	 * Applies all filters to the given element and returns true if and only if every filter returned true on the
-	 * given element.
-	 *
-	 * @param {HTMLElement} element
-	 * @returns {boolean}
-	 */
-	function combinedFilter(element) {
-		for (var i = 0, l = filters.length; i < l; i++) {
-			if (!filters[i](element)) {
-				return false;
-			}
-		}
-		return true;
-	}
-
-	Prism.hooks.add('before-all-elements-highlight', function (env) {
-		env.elements = env.elements.filter(combinedFilter);
-	});
-
-}());
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.min.js":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/filter-highlight-all/prism-filter-highlight-all.min.js ***!
-  \*********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-!function(){if("undefined"==typeof self||self.Prism){Element.prototype.matches||(Element.prototype.matches=Element.prototype.msMatchesSelector||Element.prototype.webkitMatchesSelector);var e,t=Prism.util.currentScript(),r=[],n=Prism.plugins.filterHighlightAll={add:function(t){r.push(function(e){return t({element:e,language:Prism.util.getLanguage(e)})})},addSelector:function(t){r.push(function(e){return e.matches(t)})},reject:{add:function(t){r.push(function(e){return!t({element:e,language:Prism.util.getLanguage(e)})})},addSelector:function(t){r.push(function(e){return!e.matches(t)})}},filterKnown:!!t&&t.hasAttribute("data-filter-known")};if(n.add(function(e){return!n.filterKnown||"object"==typeof Prism.languages[e.language]}),t)(e=t.getAttribute("data-filter-selector"))&&n.addSelector(e),(e=t.getAttribute("data-reject-selector"))&&n.reject.addSelector(e);Prism.hooks.add("before-all-elements-highlight",function(e){e.elements=e.elements.filter(i)})}function i(e){for(var t=0,n=r.length;t<n;t++)if(!r[t](e))return!1;return!0}}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.js":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.js ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {(function(){
-
-if (
-	typeof self !== 'undefined' && !self.Prism ||
-	typeof global !== 'undefined' && !global.Prism
-) {
-	return;
-}
-
-Prism.hooks.add('wrap', function(env) {
-	if (env.type !== "keyword") {
-		return;
-	}
-	env.classes.push('keyword-' + env.content);
-});
-
-})();
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.min.js":
-/*!*****************************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/highlight-keywords/prism-highlight-keywords.min.js ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {"undefined"!=typeof self&&!self.Prism||"undefined"!=typeof global&&!global.Prism||Prism.hooks.add("wrap",function(e){"keyword"===e.type&&e.classes.push("keyword-"+e.content)});
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/inline-color/prism-inline-color.css":
-/*!**************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/inline-color/prism-inline-color.css ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-inline-color.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/inline-color/prism-inline-color.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/inline-color/prism-inline-color.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/inline-color/prism-inline-color.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-
-	if (typeof self === 'undefined' || typeof Prism === 'undefined' || typeof document === 'undefined') {
-		return;
-	}
-
-	// Copied from the markup language definition
-	var HTML_TAG = /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/g;
-
-	// a regex to validate hexadecimal colors
-	var HEX_COLOR = /^#?((?:[\da-f]){3,4}|(?:[\da-f]{2}){3,4})$/i;
-
-	/**
-	 * Parses the given hexadecimal representation and returns the parsed RGBA color.
-	 *
-	 * If the format of the given string is invalid, `undefined` will be returned.
-	 * Valid formats are: `RGB`, `RGBA`, `RRGGBB`, and `RRGGBBAA`.
-	 *
-	 * Hexadecimal colors are parsed because they are not fully supported by older browsers, so converting them to
-	 * `rgba` functions improves browser compatibility.
-	 *
-	 * @param {string} hex
-	 * @returns {string | undefined}
-	 */
-	function parseHexColor(hex) {
-		var match = HEX_COLOR.exec(hex);
-		if (!match) {
-			return undefined;
-		}
-		hex = match[1]; // removes the leading "#"
-
-		// the width and number of channels
-		var channelWidth = hex.length >= 6 ? 2 : 1;
-		var channelCount = hex.length / channelWidth;
-
-		// the scale used to normalize 4bit and 8bit values
-		var scale = channelWidth == 1 ? 1 / 15 : 1 / 255;
-
-		// normalized RGBA channels
-		var channels = [];
-		for (var i = 0; i < channelCount; i++) {
-			var int = parseInt(hex.substr(i * channelWidth, channelWidth), 16);
-			channels.push(int * scale);
-		}
-		if (channelCount == 3) {
-			channels.push(1); // add alpha of 100%
-		}
-
-		// output
-		var rgb = channels.slice(0, 3).map(function (x) {
-			return String(Math.round(x * 255));
-		}).join(',');
-		var alpha = String(Number(channels[3].toFixed(3))); // easy way to round 3 decimal places
-
-		return 'rgba(' + rgb + ',' + alpha + ')';
-	}
-
-	/**
-	 * Validates the given Color using the current browser's internal implementation.
-	 *
-	 * @param {string} color
-	 * @returns {string | undefined}
-	 */
-	function validateColor(color) {
-		var s = new Option().style;
-		s.color = color;
-		return s.color ? color : undefined;
-	}
-
-	/**
-	 * An array of function which parse a given string representation of a color.
-	 *
-	 * These parser serve as validators and as a layer of compatibility to support color formats which the browser
-	 * might not support natively.
-	 *
-	 * @type {((value: string) => (string|undefined))[]}
-	 */
-	var parsers = [
-		parseHexColor,
-		validateColor
-	];
-
-
-	Prism.hooks.add('wrap', function (env) {
-		if (env.type === 'color' || env.classes.indexOf('color') >= 0) {
-			var content = env.content;
-
-			// remove all HTML tags inside
-			var rawText = content.split(HTML_TAG).join('');
-
-			var color;
-			for (var i = 0, l = parsers.length; i < l && !color; i++) {
-				color = parsers[i](rawText);
-			}
-
-			if (!color) {
-				return;
-			}
-
-			var previewElement = '<span class="inline-color-wrapper"><span class="inline-color" style="background-color:' + color + ';"></span></span>';
-			env.content = previewElement + content;
-		}
-	});
-
-}());
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/inline-color/prism-inline-color.min.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/inline-color/prism-inline-color.min.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-!function(){if("undefined"!=typeof self&&"undefined"!=typeof Prism&&"undefined"!=typeof document){var a=/<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/g,c=/^#?((?:[\da-f]){3,4}|(?:[\da-f]{2}){3,4})$/i,f=[function(n){var r=c.exec(n);if(r){for(var o=6<=(n=r[1]).length?2:1,e=n.length/o,s=1==o?1/15:1/255,t=[],i=0;i<e;i++){var a=parseInt(n.substr(i*o,o),16);t.push(a*s)}return 3==e&&t.push(1),"rgba("+t.slice(0,3).map(function(n){return String(Math.round(255*n))}).join(",")+","+String(Number(t[3].toFixed(3)))+")"}},function(n){var r=(new Option).style;return r.color=n,r.color?n:void 0}];Prism.hooks.add("wrap",function(n){if("color"===n.type||0<=n.classes.indexOf("color")){for(var r,o=n.content,e=o.split(a).join(""),s=0,t=f.length;s<t&&!r;s++)r=f[s](e);if(!r)return;var i='<span class="inline-color-wrapper"><span class="inline-color" style="background-color:'+r+';"></span></span>';n.content=i+o}})}}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-	if (!self.Prism || !self.document || !document.querySelectorAll || ![].filter) return;
-
-	/**
-	 * @callback Adapter
-	 * @param {any} response
-	 * @param {HTMLPreElement} [pre]
-	 * @returns {string}
-	 */
-
-	/**
-	 * The list of adapter which will be used if `data-adapter` is not specified.
-	 *
-	 * @type {Array.<{adapter: Adapter, name: string}>}
-	 */
-	var adapters = [];
-
-	/**
-	 * Adds a new function to the list of adapters.
-	 *
-	 * If the given adapter is already registered or not a function or there is an adapter with the given name already,
-	 * nothing will happen.
-	 *
-	 * @param {Adapter} adapter The adapter to be registered.
-	 * @param {string} [name] The name of the adapter. Defaults to the function name of `adapter`.
-	 */
-	function registerAdapter(adapter, name) {
-		name = name || adapter.name;
-		if (typeof adapter === "function" && !getAdapter(adapter) && !getAdapter(name)) {
-			adapters.push({ adapter: adapter, name: name });
-		}
-	}
-	/**
-	 * Returns the given adapter itself, if registered, or a registered adapter with the given name.
-	 *
-	 * If no fitting adapter is registered, `null` will be returned.
-	 *
-	 * @param {string|Function} adapter The adapter itself or the name of an adapter.
-	 * @returns {Adapter} A registered adapter or `null`.
-	 */
-	function getAdapter(adapter) {
-		if (typeof adapter === "function") {
-			for (var i = 0, item; item = adapters[i++];) {
-				if (item.adapter.valueOf() === adapter.valueOf()) {
-					return item.adapter;
-				}
-			}
-		}
-		else if (typeof adapter === "string") {
-			for (var i = 0, item; item = adapters[i++];) {
-				if (item.name === adapter) {
-					return item.adapter;
-				}
-			}
-		}
-		return null;
-	}
-	/**
-	 * Remove the given adapter or the first registered adapter with the given name from the list of
-	 * registered adapters.
-	 *
-	 * @param {string|Function} adapter The adapter itself or the name of an adapter.
-	 */
-	function removeAdapter(adapter) {
-		if (typeof adapter === "string") {
-			adapter = getAdapter(adapter);
-		}
-		if (typeof adapter === "function") {
-			var index = adapters.map(function (item) { return item.adapter; }).indexOf(adapter);
-			if (index >= 0) {
-				adapters.splice(index, 1);
-			}
-		}
-	}
-
-	registerAdapter(function github(rsp, el) {
-		if (rsp && rsp.meta && rsp.data) {
-			if (rsp.meta.status && rsp.meta.status >= 400) {
-				return "Error: " + (rsp.data.message || rsp.meta.status);
-			}
-			else if (typeof (rsp.data.content) === "string") {
-				return typeof (atob) === "function"
-					? atob(rsp.data.content.replace(/\s/g, ""))
-					: "Your browser cannot decode base64";
-			}
-		}
-		return null;
-	}, 'github');
-	registerAdapter(function gist(rsp, el) {
-		if (rsp && rsp.meta && rsp.data && rsp.data.files) {
-			if (rsp.meta.status && rsp.meta.status >= 400) {
-				return "Error: " + (rsp.data.message || rsp.meta.status);
-			}
-
-			var files = rsp.data.files;
-			var filename = el.getAttribute("data-filename");
-			if (filename == null) {
-				// Maybe in the future we can somehow render all files
-				// But the standard <script> include for gists does that nicely already,
-				// so that might be getting beyond the scope of this plugin
-				for (var key in files) {
-					if (files.hasOwnProperty(key)) {
-						filename = key;
-						break;
-					}
-				}
-			}
-
-			if (files[filename] !== undefined) {
-				return files[filename].content;
-			}
-			return "Error: unknown or missing gist file " + filename;
-		}
-		return null;
-	}, 'gist');
-	registerAdapter(function bitbucket(rsp, el) {
-		if (rsp && rsp.node && typeof (rsp.data) === "string") {
-			return rsp.data;
-		}
-		return null;
-	}, 'bitbucket');
-
-	var jsonpcb = 0,
-		loadMsg = "Loading\u2026";
-
-	/**
-	 * Highlights all `pre` elements with an `data-jsonp` by requesting the specified JSON and using the specified adapter
-	 * or a registered adapter to extract the code to highlight from the response. The highlighted code will be inserted
-	 * into the `pre` element.
-	 */
-	function highlight() {
-		Array.prototype.slice.call(document.querySelectorAll("pre[data-jsonp]")).forEach(function (pre) {
-			pre.textContent = "";
-
-			var code = document.createElement("code");
-			code.textContent = loadMsg;
-			pre.appendChild(code);
-
-			var adapterName = pre.getAttribute("data-adapter");
-			var adapter = null;
-			if (adapterName) {
-				if (typeof window[adapterName] === "function") {
-					adapter = window[adapterName];
-				}
-				else {
-					code.textContent = "JSONP adapter function '" + adapterName + "' doesn't exist";
-					return;
-				}
-			}
-
-			var cb = "prismjsonp" + jsonpcb++;
-
-			var uri = document.createElement("a");
-			var src = uri.href = pre.getAttribute("data-jsonp");
-			uri.href += (uri.search ? "&" : "?") + (pre.getAttribute("data-callback") || "callback") + "=" + cb;
-
-			var timeout = setTimeout(function () {
-				// we could clean up window[cb], but if the request finally succeeds, keeping it around is a good thing
-				if (code.textContent === loadMsg) {
-					code.textContent = "Timeout loading '" + src + "'";
-				}
-			}, 5000);
-
-			var script = document.createElement("script");
-			script.src = uri.href;
-
-			window[cb] = function (rsp) {
-				document.head.removeChild(script);
-				clearTimeout(timeout);
-				delete window[cb];
-
-				var data = "";
-
-				if (adapter) {
-					data = adapter(rsp, pre);
-				}
-				else {
-					for (var p in adapters) {
-						data = adapters[p].adapter(rsp, pre);
-						if (data !== null) {
-							break;
-						}
-					}
-				}
-
-				if (data === null) {
-					code.textContent = "Cannot parse response (perhaps you need an adapter function?)";
-				}
-				else {
-					code.textContent = data;
-					Prism.highlightElement(code);
-				}
-			};
-
-			document.head.appendChild(script);
-		});
-	}
-
-	Prism.plugins.jsonphighlight = {
-		registerAdapter: registerAdapter,
-		removeAdapter: removeAdapter,
-		highlight: highlight
-	};
-
-	highlight();
-})();
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.min.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/jsonp-highlight/prism-jsonp-highlight.min.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-!function(){if(self.Prism&&self.document&&document.querySelectorAll&&[].filter){var d=[];t(function(t,e){if(t&&t.meta&&t.data){if(t.meta.status&&400<=t.meta.status)return"Error: "+(t.data.message||t.meta.status);if("string"==typeof t.data.content)return"function"==typeof atob?atob(t.data.content.replace(/\s/g,"")):"Your browser cannot decode base64"}return null},"github"),t(function(t,e){if(t&&t.meta&&t.data&&t.data.files){if(t.meta.status&&400<=t.meta.status)return"Error: "+(t.data.message||t.meta.status);var n=t.data.files,a=e.getAttribute("data-filename");if(null==a)for(var r in n)if(n.hasOwnProperty(r)){a=r;break}return void 0!==n[a]?n[a].content:"Error: unknown or missing gist file "+a}return null},"gist"),t(function(t,e){return t&&t.node&&"string"==typeof t.data?t.data:null},"bitbucket");var s=0,l="Loading…";Prism.plugins.jsonphighlight={registerAdapter:t,removeAdapter:function(t){if("string"==typeof t&&(t=n(t)),"function"==typeof t){var e=d.map(function(t){return t.adapter}).indexOf(t);0<=e&&d.splice(e,1)}},highlight:e},e()}function t(t,e){e=e||t.name,"function"!=typeof t||n(t)||n(e)||d.push({adapter:t,name:e})}function n(t){if("function"==typeof t){for(var e=0;n=d[e++];)if(n.adapter.valueOf()===t.valueOf())return n.adapter}else if("string"==typeof t){var n;for(e=0;n=d[e++];)if(n.name===t)return n.adapter}return null}function e(){Array.prototype.slice.call(document.querySelectorAll("pre[data-jsonp]")).forEach(function(a){a.textContent="";var r=document.createElement("code");r.textContent=l,a.appendChild(r);var t=a.getAttribute("data-adapter"),o=null;if(t){if("function"!=typeof window[t])return void(r.textContent="JSONP adapter function '"+t+"' doesn't exist");o=window[t]}var i="prismjsonp"+s++,e=document.createElement("a"),n=e.href=a.getAttribute("data-jsonp");e.href+=(e.search?"&":"?")+(a.getAttribute("data-callback")||"callback")+"="+i;var u=setTimeout(function(){r.textContent===l&&(r.textContent="Timeout loading '"+n+"'")},5e3),f=document.createElement("script");f.src=e.href,window[i]=function(t){document.head.removeChild(f),clearTimeout(u),delete window[i];var e="";if(o)e=o(t,a);else for(var n in d)if(null!==(e=d[n].adapter(t,a)))break;null===e?r.textContent="Cannot parse response (perhaps you need an adapter function?)":(r.textContent=e,Prism.highlightElement(r))},document.head.appendChild(f)})}}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/keep-markup/prism-keep-markup.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/keep-markup/prism-keep-markup.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-
-	if (typeof self === 'undefined' || !self.Prism || !self.document || !document.createRange) {
-		return;
-	}
-
-	Prism.plugins.KeepMarkup = true;
-
-	Prism.hooks.add('before-highlight', function (env) {
-		if (!env.element.children.length) {
-			return;
-		}
-
-		var pos = 0;
-		var data = [];
-		var f = function (elt, baseNode) {
-			var o = {};
-			if (!baseNode) {
-				// Clone the original tag to keep all attributes
-				o.clone = elt.cloneNode(false);
-				o.posOpen = pos;
-				data.push(o);
-			}
-			for (var i = 0, l = elt.childNodes.length; i < l; i++) {
-				var child = elt.childNodes[i];
-				if (child.nodeType === 1) { // element
-					f(child);
-				} else if(child.nodeType === 3) { // text
-					pos += child.data.length;
-				}
-			}
-			if (!baseNode) {
-				o.posClose = pos;
-			}
-		};
-		f(env.element, true);
-
-		if (data && data.length) {
-			// data is an array of all existing tags
-			env.keepMarkup = data;
-		}
-	});
-
-	Prism.hooks.add('after-highlight', function (env) {
-		if(env.keepMarkup && env.keepMarkup.length) {
-
-			var walk = function (elt, nodeState) {
-				for (var i = 0, l = elt.childNodes.length; i < l; i++) {
-
-					var child = elt.childNodes[i];
-
-					if (child.nodeType === 1) { // element
-						if (!walk(child, nodeState)) {
-							return false;
-						}
-
-					} else if (child.nodeType === 3) { // text
-						if(!nodeState.nodeStart && nodeState.pos + child.data.length > nodeState.node.posOpen) {
-							// We found the start position
-							nodeState.nodeStart = child;
-							nodeState.nodeStartPos = nodeState.node.posOpen - nodeState.pos;
-						}
-						if(nodeState.nodeStart && nodeState.pos + child.data.length >= nodeState.node.posClose) {
-							// We found the end position
-							nodeState.nodeEnd = child;
-							nodeState.nodeEndPos = nodeState.node.posClose - nodeState.pos;
-						}
-
-						nodeState.pos += child.data.length;
-					}
-
-					if (nodeState.nodeStart && nodeState.nodeEnd) {
-						// Select the range and wrap it with the clone
-						var range = document.createRange();
-						range.setStart(nodeState.nodeStart, nodeState.nodeStartPos);
-						range.setEnd(nodeState.nodeEnd, nodeState.nodeEndPos);
-						nodeState.node.clone.appendChild(range.extractContents());
-						range.insertNode(nodeState.node.clone);
-						range.detach();
-
-						// Process is over
-						return false;
-					}
-				}
-				return true;
-			};
-
-			// For each tag, we walk the DOM to reinsert it
-			env.keepMarkup.forEach(function (node) {
-				walk(env.element, {
-					node: node,
-					pos: 0
-				});
-			});
-			// Store new highlightedCode for later hooks calls
-			env.highlightedCode = env.element.innerHTML;
-		}
-	});
-}());
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/keep-markup/prism-keep-markup.min.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/keep-markup/prism-keep-markup.min.js ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-"undefined"!=typeof self&&self.Prism&&self.document&&document.createRange&&(Prism.plugins.KeepMarkup=!0,Prism.hooks.add("before-highlight",function(e){if(e.element.children.length){var a=0,s=[],l=function(e,n){var o={};n||(o.clone=e.cloneNode(!1),o.posOpen=a,s.push(o));for(var t=0,d=e.childNodes.length;t<d;t++){var r=e.childNodes[t];1===r.nodeType?l(r):3===r.nodeType&&(a+=r.data.length)}n||(o.posClose=a)};l(e.element,!0),s&&s.length&&(e.keepMarkup=s)}}),Prism.hooks.add("after-highlight",function(n){if(n.keepMarkup&&n.keepMarkup.length){var a=function(e,n){for(var o=0,t=e.childNodes.length;o<t;o++){var d=e.childNodes[o];if(1===d.nodeType){if(!a(d,n))return!1}else 3===d.nodeType&&(!n.nodeStart&&n.pos+d.data.length>n.node.posOpen&&(n.nodeStart=d,n.nodeStartPos=n.node.posOpen-n.pos),n.nodeStart&&n.pos+d.data.length>=n.node.posClose&&(n.nodeEnd=d,n.nodeEndPos=n.node.posClose-n.pos),n.pos+=d.data.length);if(n.nodeStart&&n.nodeEnd){var r=document.createRange();return r.setStart(n.nodeStart,n.nodeStartPos),r.setEnd(n.nodeEnd,n.nodeEndPos),n.node.clone.appendChild(r.extractContents()),r.insertNode(n.node.clone),r.detach(),!1}}return!0};n.keepMarkup.forEach(function(e){a(n.element,{node:e,pos:0})}),n.highlightedCode=n.element.innerHTML}}));
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css":
-/*!******************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-line-highlight.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-
-	if (typeof self === 'undefined' || !self.Prism || !self.document || !document.querySelector) {
-		return;
-	}
-
-	function $$(expr, con) {
-		return Array.prototype.slice.call((con || document).querySelectorAll(expr));
-	}
-
-	function hasClass(element, className) {
-		className = " " + className + " ";
-		return (" " + element.className + " ").replace(/[\n\t]/g, " ").indexOf(className) > -1
-	}
-
-	function callFunction(func) {
-		func();
-	}
-
-	// Some browsers round the line-height, others don't.
-	// We need to test for it to position the elements properly.
-	var isLineHeightRounded = (function () {
-		var res;
-		return function () {
-			if (typeof res === 'undefined') {
-				var d = document.createElement('div');
-				d.style.fontSize = '13px';
-				d.style.lineHeight = '1.5';
-				d.style.padding = 0;
-				d.style.border = 0;
-				d.innerHTML = '&nbsp;<br />&nbsp;';
-				document.body.appendChild(d);
-				// Browsers that round the line-height should have offsetHeight === 38
-				// The others should have 39.
-				res = d.offsetHeight === 38;
-				document.body.removeChild(d);
-			}
-			return res;
-		}
-	}());
-
-	/**
-	 * Highlights the lines of the given pre.
-	 *
-	 * This function is split into a DOM measuring and mutate phase to improve performance.
-	 * The returned function mutates the DOM when called.
-	 *
-	 * @param {HTMLElement} pre
-	 * @param {string} [lines]
-	 * @param {string} [classes='']
-	 * @returns {() => void}
-	 */
-	function highlightLines(pre, lines, classes) {
-		lines = typeof lines === 'string' ? lines : pre.getAttribute('data-line');
-
-		var ranges = lines.replace(/\s+/g, '').split(',');
-		var offset = +pre.getAttribute('data-line-offset') || 0;
-
-		var parseMethod = isLineHeightRounded() ? parseInt : parseFloat;
-		var lineHeight = parseMethod(getComputedStyle(pre).lineHeight);
-		var hasLineNumbers = hasClass(pre, 'line-numbers');
-		var parentElement = hasLineNumbers ? pre : pre.querySelector('code') || pre;
-		var mutateActions = /** @type {(() => void)[]} */ ([]);
-
-		ranges.forEach(function (currentRange) {
-			var range = currentRange.split('-');
-
-			var start = +range[0];
-			var end = +range[1] || start;
-
-			var line = pre.querySelector('.line-highlight[data-range="' + currentRange + '"]') || document.createElement('div');
-
-			mutateActions.push(function () {
-				line.setAttribute('aria-hidden', 'true');
-				line.setAttribute('data-range', currentRange);
-				line.className = (classes || '') + ' line-highlight';
-			});
-
-			// if the line-numbers plugin is enabled, then there is no reason for this plugin to display the line numbers
-			if (hasLineNumbers && Prism.plugins.lineNumbers) {
-				var startNode = Prism.plugins.lineNumbers.getLine(pre, start);
-				var endNode = Prism.plugins.lineNumbers.getLine(pre, end);
-
-				if (startNode) {
-					var top = startNode.offsetTop + 'px';
-					mutateActions.push(function () {
-						line.style.top = top;
-					});
-				}
-
-				if (endNode) {
-					var height = (endNode.offsetTop - startNode.offsetTop) + endNode.offsetHeight + 'px';
-					mutateActions.push(function () {
-						line.style.height = height;
-					});
-				}
-			} else {
-				mutateActions.push(function () {
-					line.setAttribute('data-start', start);
-
-					if (end > start) {
-						line.setAttribute('data-end', end);
-					}
-
-					line.style.top = (start - offset - 1) * lineHeight + 'px';
-
-					line.textContent = new Array(end - start + 2).join(' \n');
-				});
-			}
-
-			mutateActions.push(function () {
-				// allow this to play nicely with the line-numbers plugin
-				// need to attack to pre as when line-numbers is enabled, the code tag is relatively which screws up the positioning
-				parentElement.appendChild(line);
-			});
-		});
-
-		return function () {
-			mutateActions.forEach(callFunction);
-		};
-	}
-
-	function applyHash() {
-		var hash = location.hash.slice(1);
-
-		// Remove pre-existing temporary lines
-		$$('.temporary.line-highlight').forEach(function (line) {
-			line.parentNode.removeChild(line);
-		});
-
-		var range = (hash.match(/\.([\d,-]+)$/) || [, ''])[1];
-
-		if (!range || document.getElementById(hash)) {
-			return;
-		}
-
-		var id = hash.slice(0, hash.lastIndexOf('.')),
-			pre = document.getElementById(id);
-
-		if (!pre) {
-			return;
-		}
-
-		if (!pre.hasAttribute('data-line')) {
-			pre.setAttribute('data-line', '');
-		}
-
-		var mutateDom = highlightLines(pre, range, 'temporary ');
-		mutateDom();
-
-		document.querySelector('.temporary.line-highlight').scrollIntoView();
-	}
-
-	var fakeTimer = 0; // Hack to limit the number of times applyHash() runs
-
-	Prism.hooks.add('before-sanity-check', function (env) {
-		var pre = env.element.parentNode;
-		var lines = pre && pre.getAttribute('data-line');
-
-		if (!pre || !lines || !/pre/i.test(pre.nodeName)) {
-			return;
-		}
-
-		/*
-		 * Cleanup for other plugins (e.g. autoloader).
-		 *
-		 * Sometimes <code> blocks are highlighted multiple times. It is necessary
-		 * to cleanup any left-over tags, because the whitespace inside of the <div>
-		 * tags change the content of the <code> tag.
-		 */
-		var num = 0;
-		$$('.line-highlight', pre).forEach(function (line) {
-			num += line.textContent.length;
-			line.parentNode.removeChild(line);
-		});
-		// Remove extra whitespace
-		if (num && /^( \n)+$/.test(env.code.slice(-num))) {
-			env.code = env.code.slice(0, -num);
-		}
-	});
-
-	Prism.hooks.add('complete', function completeHook(env) {
-		var pre = env.element.parentNode;
-		var lines = pre && pre.getAttribute('data-line');
-
-		if (!pre || !lines || !/pre/i.test(pre.nodeName)) {
-			return;
-		}
-
-		clearTimeout(fakeTimer);
-
-		var hasLineNumbers = Prism.plugins.lineNumbers;
-		var isLineNumbersLoaded = env.plugins && env.plugins.lineNumbers;
-
-		if (hasClass(pre, 'line-numbers') && hasLineNumbers && !isLineNumbersLoaded) {
-			Prism.hooks.add('line-numbers', completeHook);
-		} else {
-			var mutateDom = highlightLines(pre, lines);
-			mutateDom();
-			fakeTimer = setTimeout(applyHash, 1);
-		}
-	});
-
-	window.addEventListener('hashchange', applyHash);
-	window.addEventListener('resize', function () {
-		var actions = [];
-		$$('pre[data-line]').forEach(function (pre) {
-			actions.push(highlightLines(pre));
-		});
-		actions.forEach(callFunction);
-	});
-
-})();
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.min.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/line-highlight/prism-line-highlight.min.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-!function(){if("undefined"!=typeof self&&self.Prism&&self.document&&document.querySelector){var t,n=function(){if(void 0===t){var e=document.createElement("div");e.style.fontSize="13px",e.style.lineHeight="1.5",e.style.padding=0,e.style.border=0,e.innerHTML="&nbsp;<br />&nbsp;",document.body.appendChild(e),t=38===e.offsetHeight,document.body.removeChild(e)}return t},a=0;Prism.hooks.add("before-sanity-check",function(e){var t=e.element.parentNode,n=t&&t.getAttribute("data-line");if(t&&n&&/pre/i.test(t.nodeName)){var i=0;r(".line-highlight",t).forEach(function(e){i+=e.textContent.length,e.parentNode.removeChild(e)}),i&&/^( \n)+$/.test(e.code.slice(-i))&&(e.code=e.code.slice(0,-i))}}),Prism.hooks.add("complete",function e(t){var n=t.element.parentNode,i=n&&n.getAttribute("data-line");if(n&&i&&/pre/i.test(n.nodeName)){clearTimeout(a);var r=Prism.plugins.lineNumbers,o=t.plugins&&t.plugins.lineNumbers;if(l(n,"line-numbers")&&r&&!o)Prism.hooks.add("line-numbers",e);else s(n,i)(),a=setTimeout(u,1)}}),window.addEventListener("hashchange",u),window.addEventListener("resize",function(){var t=[];r("pre[data-line]").forEach(function(e){t.push(s(e))}),t.forEach(i)})}function r(e,t){return Array.prototype.slice.call((t||document).querySelectorAll(e))}function l(e,t){return t=" "+t+" ",-1<(" "+e.className+" ").replace(/[\n\t]/g," ").indexOf(t)}function i(e){e()}function s(u,e,d){var t=(e="string"==typeof e?e:u.getAttribute("data-line")).replace(/\s+/g,"").split(","),c=+u.getAttribute("data-line-offset")||0,f=(n()?parseInt:parseFloat)(getComputedStyle(u).lineHeight),h=l(u,"line-numbers"),p=h?u:u.querySelector("code")||u,m=[];return t.forEach(function(e){var t=e.split("-"),n=+t[0],i=+t[1]||n,r=u.querySelector('.line-highlight[data-range="'+e+'"]')||document.createElement("div");if(m.push(function(){r.setAttribute("aria-hidden","true"),r.setAttribute("data-range",e),r.className=(d||"")+" line-highlight"}),h&&Prism.plugins.lineNumbers){var o=Prism.plugins.lineNumbers.getLine(u,n),a=Prism.plugins.lineNumbers.getLine(u,i);if(o){var l=o.offsetTop+"px";m.push(function(){r.style.top=l})}if(a){var s=a.offsetTop-o.offsetTop+a.offsetHeight+"px";m.push(function(){r.style.height=s})}}else m.push(function(){r.setAttribute("data-start",n),n<i&&r.setAttribute("data-end",i),r.style.top=(n-c-1)*f+"px",r.textContent=new Array(i-n+2).join(" \n")});m.push(function(){p.appendChild(r)})}),function(){m.forEach(i)}}function u(){var e=location.hash.slice(1);r(".temporary.line-highlight").forEach(function(e){e.parentNode.removeChild(e)});var t=(e.match(/\.([\d,-]+)$/)||[,""])[1];if(t&&!document.getElementById(e)){var n=e.slice(0,e.lastIndexOf(".")),i=document.getElementById(n);if(i)i.hasAttribute("data-line")||i.setAttribute("data-line",""),s(i,t,"temporary ")(),document.querySelector(".temporary.line-highlight").scrollIntoView()}}}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css":
-/*!**************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-line-numbers.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-
-	if (typeof self === 'undefined' || !self.Prism || !self.document) {
-		return;
-	}
-
-	/**
-	 * Plugin name which is used as a class name for <pre> which is activating the plugin
-	 * @type {String}
-	 */
-	var PLUGIN_NAME = 'line-numbers';
-
-	/**
-	 * Regular expression used for determining line breaks
-	 * @type {RegExp}
-	 */
-	var NEW_LINE_EXP = /\n(?!$)/g;
-
-	/**
-	 * Resizes line numbers spans according to height of line of code
-	 * @param {Element} element <pre> element
-	 */
-	var _resizeElement = function (element) {
-		var codeStyles = getStyles(element);
-		var whiteSpace = codeStyles['white-space'];
-
-		if (whiteSpace === 'pre-wrap' || whiteSpace === 'pre-line') {
-			var codeElement = element.querySelector('code');
-			var lineNumbersWrapper = element.querySelector('.line-numbers-rows');
-			var lineNumberSizer = element.querySelector('.line-numbers-sizer');
-			var codeLines = codeElement.textContent.split(NEW_LINE_EXP);
-
-			if (!lineNumberSizer) {
-				lineNumberSizer = document.createElement('span');
-				lineNumberSizer.className = 'line-numbers-sizer';
-
-				codeElement.appendChild(lineNumberSizer);
-			}
-
-			lineNumberSizer.style.display = 'block';
-
-			codeLines.forEach(function (line, lineNumber) {
-				lineNumberSizer.textContent = line || '\n';
-				var lineSize = lineNumberSizer.getBoundingClientRect().height;
-				lineNumbersWrapper.children[lineNumber].style.height = lineSize + 'px';
-			});
-
-			lineNumberSizer.textContent = '';
-			lineNumberSizer.style.display = 'none';
-		}
-	};
-
-	/**
-	 * Returns style declarations for the element
-	 * @param {Element} element
-	 */
-	var getStyles = function (element) {
-		if (!element) {
-			return null;
-		}
-
-		return window.getComputedStyle ? getComputedStyle(element) : (element.currentStyle || null);
-	};
-
-	window.addEventListener('resize', function () {
-		Array.prototype.forEach.call(document.querySelectorAll('pre.' + PLUGIN_NAME), _resizeElement);
-	});
-
-	Prism.hooks.add('complete', function (env) {
-		if (!env.code) {
-			return;
-		}
-
-		var code = env.element;
-		var pre = code.parentNode;
-
-		// works only for <code> wrapped inside <pre> (not inline)
-		if (!pre || !/pre/i.test(pre.nodeName)) {
-			return;
-		}
-
-		// Abort if line numbers already exists
-		if (code.querySelector('.line-numbers-rows')) {
-			return;
-		}
-
-		var addLineNumbers = false;
-		var lineNumbersRegex = /(?:^|\s)line-numbers(?:\s|$)/;
-
-		for (var element = code; element; element = element.parentNode) {
-			if (lineNumbersRegex.test(element.className)) {
-				addLineNumbers = true;
-				break;
-			}
-		}
-
-		// only add line numbers if <code> or one of its ancestors has the `line-numbers` class
-		if (!addLineNumbers) {
-			return;
-		}
-
-		// Remove the class 'line-numbers' from the <code>
-		code.className = code.className.replace(lineNumbersRegex, ' ');
-		// Add the class 'line-numbers' to the <pre>
-		if (!lineNumbersRegex.test(pre.className)) {
-			pre.className += ' line-numbers';
-		}
-
-		var match = env.code.match(NEW_LINE_EXP);
-		var linesNum = match ? match.length + 1 : 1;
-		var lineNumbersWrapper;
-
-		var lines = new Array(linesNum + 1).join('<span></span>');
-
-		lineNumbersWrapper = document.createElement('span');
-		lineNumbersWrapper.setAttribute('aria-hidden', 'true');
-		lineNumbersWrapper.className = 'line-numbers-rows';
-		lineNumbersWrapper.innerHTML = lines;
-
-		if (pre.hasAttribute('data-start')) {
-			pre.style.counterReset = 'linenumber ' + (parseInt(pre.getAttribute('data-start'), 10) - 1);
-		}
-
-		env.element.appendChild(lineNumbersWrapper);
-
-		_resizeElement(pre);
-
-		Prism.hooks.run('line-numbers', env);
-	});
-
-	Prism.hooks.add('line-numbers', function (env) {
-		env.plugins = env.plugins || {};
-		env.plugins.lineNumbers = true;
-	});
-
-	/**
-	 * Global exports
-	 */
-	Prism.plugins.lineNumbers = {
-		/**
-		 * Get node for provided line number
-		 * @param {Element} element pre element
-		 * @param {Number} number line number
-		 * @return {Element|undefined}
-		 */
-		getLine: function (element, number) {
-			if (element.tagName !== 'PRE' || !element.classList.contains(PLUGIN_NAME)) {
-				return;
-			}
-
-			var lineNumberRows = element.querySelector('.line-numbers-rows');
-			var lineNumberStart = parseInt(element.getAttribute('data-start'), 10) || 1;
-			var lineNumberEnd = lineNumberStart + (lineNumberRows.children.length - 1);
-
-			if (number < lineNumberStart) {
-				number = lineNumberStart;
-			}
-			if (number > lineNumberEnd) {
-				number = lineNumberEnd;
-			}
-
-			var lineIndex = number - lineNumberStart;
-
-			return lineNumberRows.children[lineIndex];
-		}
-	};
-
-}());
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.min.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/line-numbers/prism-line-numbers.min.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-!function(){if("undefined"!=typeof self&&self.Prism&&self.document){var l="line-numbers",c=/\n(?!$)/g,m=function(e){var t=a(e)["white-space"];if("pre-wrap"===t||"pre-line"===t){var n=e.querySelector("code"),r=e.querySelector(".line-numbers-rows"),s=e.querySelector(".line-numbers-sizer"),i=n.textContent.split(c);s||((s=document.createElement("span")).className="line-numbers-sizer",n.appendChild(s)),s.style.display="block",i.forEach(function(e,t){s.textContent=e||"\n";var n=s.getBoundingClientRect().height;r.children[t].style.height=n+"px"}),s.textContent="",s.style.display="none"}},a=function(e){return e?window.getComputedStyle?getComputedStyle(e):e.currentStyle||null:null};window.addEventListener("resize",function(){Array.prototype.forEach.call(document.querySelectorAll("pre."+l),m)}),Prism.hooks.add("complete",function(e){if(e.code){var t=e.element,n=t.parentNode;if(n&&/pre/i.test(n.nodeName)&&!t.querySelector(".line-numbers-rows")){for(var r=!1,s=/(?:^|\s)line-numbers(?:\s|$)/,i=t;i;i=i.parentNode)if(s.test(i.className)){r=!0;break}if(r){t.className=t.className.replace(s," "),s.test(n.className)||(n.className+=" line-numbers");var l,a=e.code.match(c),o=a?a.length+1:1,u=new Array(o+1).join("<span></span>");(l=document.createElement("span")).setAttribute("aria-hidden","true"),l.className="line-numbers-rows",l.innerHTML=u,n.hasAttribute("data-start")&&(n.style.counterReset="linenumber "+(parseInt(n.getAttribute("data-start"),10)-1)),e.element.appendChild(l),m(n),Prism.hooks.run("line-numbers",e)}}}}),Prism.hooks.add("line-numbers",function(e){e.plugins=e.plugins||{},e.plugins.lineNumbers=!0}),Prism.plugins.lineNumbers={getLine:function(e,t){if("PRE"===e.tagName&&e.classList.contains(l)){var n=e.querySelector(".line-numbers-rows"),r=parseInt(e.getAttribute("data-start"),10)||1,s=r+(n.children.length-1);t<r&&(t=r),s<t&&(t=s);var i=t-r;return n.children[i]}}}}}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/match-braces/prism-match-braces.css":
-/*!**************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/match-braces/prism-match-braces.css ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-match-braces.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/match-braces/prism-match-braces.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/match-braces/prism-match-braces.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/match-braces/prism-match-braces.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-
-	if (typeof self === 'undefined' || !self.Prism || !self.document) {
-		return;
-	}
-
-	var MATCH_ALL_CLASS = /(?:^|\s)match-braces(?:\s|$)/;
-
-	var BRACE_HOVER_CLASS = /(?:^|\s)brace-hover(?:\s|$)/;
-	var BRACE_SELECTED_CLASS = /(?:^|\s)brace-selected(?:\s|$)/;
-
-	var NO_BRACE_HOVER_CLASS = /(?:^|\s)no-brace-hover(?:\s|$)/;
-	var NO_BRACE_SELECT_CLASS = /(?:^|\s)no-brace-select(?:\s|$)/;
-
-	var PARTNER = {
-		'(': ')',
-		'[': ']',
-		'{': '}',
-	};
-
-	var NAMES = {
-		'(': 'brace-round',
-		'[': 'brace-square',
-		'{': 'brace-curly',
-	};
-
-	var LEVEL_WARP = 12;
-
-	var pairIdCounter = 0;
-
-	var BRACE_ID_PATTERN = /^(pair-\d+-)(open|close)$/;
-
-	/**
-	 * Returns the brace partner given one brace of a brace pair.
-	 *
-	 * @param {HTMLElement} brace
-	 * @returns {HTMLElement}
-	 */
-	function getPartnerBrace(brace) {
-		var match = BRACE_ID_PATTERN.exec(brace.id);
-		return document.querySelector('#' + match[1] + (match[2] == 'open' ? 'close' : 'open'));
-	}
-
-	/**
-	 * @this {HTMLElement}
-	 */
-	function hoverBrace() {
-		for (var parent = this.parentElement; parent; parent = parent.parentElement) {
-			if (NO_BRACE_HOVER_CLASS.test(parent.className)) {
-				return;
-			}
-		}
-
-		[this, getPartnerBrace(this)].forEach(function (ele) {
-			ele.className = (ele.className.replace(BRACE_HOVER_CLASS, ' ') + ' brace-hover').replace(/\s+/g, ' ');
-		});
-	}
-	/**
-	 * @this {HTMLElement}
-	 */
-	function leaveBrace() {
-		[this, getPartnerBrace(this)].forEach(function (ele) {
-			ele.className = ele.className.replace(BRACE_HOVER_CLASS, ' ');
-		});
-	}
-	/**
-	 * @this {HTMLElement}
-	 */
-	function clickBrace() {
-		for (var parent = this.parentElement; parent; parent = parent.parentElement) {
-			if (NO_BRACE_SELECT_CLASS.test(parent.className)) {
-				return;
-			}
-		}
-
-		[this, getPartnerBrace(this)].forEach(function (ele) {
-			ele.className = (ele.className.replace(BRACE_SELECTED_CLASS, ' ') + ' brace-selected').replace(/\s+/g, ' ');
-		});
-	}
-
-	Prism.hooks.add('complete', function (env) {
-
-		/** @type {HTMLElement} */
-		var code = env.element;
-		var pre = code.parentElement;
-
-		if (!pre || pre.tagName != 'PRE') {
-			return;
-		}
-
-		// find the braces to match
-		/** @type {string[]} */
-		var toMatch = [];
-		for (var ele = code; ele; ele = ele.parentElement) {
-			if (MATCH_ALL_CLASS.test(ele.className)) {
-				toMatch.push('(', '[', '{');
-				break;
-			}
-		}
-
-		if (toMatch.length == 0) {
-			// nothing to match
-			return;
-		}
-
-		if (!pre.__listenerAdded) {
-			// code blocks might be highlighted more than once
-			pre.addEventListener('mousedown', function removeBraceSelected() {
-				// the code element might have been replaced
-				var code = pre.querySelector('code');
-				Array.prototype.slice.call(code.querySelectorAll('.brace-selected')).forEach(function (element) {
-					element.className = element.className.replace(BRACE_SELECTED_CLASS, ' ');
-				});
-			});
-			Object.defineProperty(pre, '__listenerAdded', { value: true });
-		}
-
-		/** @type {HTMLSpanElement[]} */
-		var punctuation = Array.prototype.slice.call(code.querySelectorAll('span.token.punctuation'));
-
-		/** @type {{ index: number, open: boolean, element: HTMLElement }[]} */
-		var allBraces = [];
-
-		toMatch.forEach(function (open) {
-			var close = PARTNER[open];
-			var name = NAMES[open];
-
-			/** @type {[number, number][]} */
-			var pairs = [];
-			/** @type {number[]} */
-			var openStack = [];
-
-			for (var i = 0; i < punctuation.length; i++) {
-				var element = punctuation[i];
-				if (element.childElementCount == 0) {
-					var text = element.textContent;
-					if (text === open) {
-						allBraces.push({ index: i, open: true, element: element });
-						element.className += ' ' + name;
-						element.className += ' brace-open';
-						openStack.push(i);
-					} else if (text === close) {
-						allBraces.push({ index: i, open: false, element: element });
-						element.className += ' ' + name;
-						element.className += ' brace-close';
-						if (openStack.length) {
-							pairs.push([i, openStack.pop()]);
-						}
-					}
-				}
-			}
-
-			pairs.forEach(function (pair) {
-				var pairId = 'pair-' + (pairIdCounter++) + '-';
-
-				var openEle = punctuation[pair[0]];
-				var closeEle = punctuation[pair[1]];
-
-				openEle.id = pairId + 'open';
-				closeEle.id = pairId + 'close';
-
-				[openEle, closeEle].forEach(function (ele) {
-					ele.addEventListener('mouseenter', hoverBrace);
-					ele.addEventListener('mouseleave', leaveBrace);
-					ele.addEventListener('click', clickBrace);
-				});
-			});
-		});
-
-		var level = 0;
-		allBraces.sort(function (a, b) { return a.index - b.index; });
-		allBraces.forEach(function (brace) {
-			if (brace.open) {
-				brace.element.className += ' brace-level-' + (level % LEVEL_WARP + 1);
-				level++;
-			} else {
-				level = Math.max(0, level - 1);
-				brace.element.className += ' brace-level-' + (level % LEVEL_WARP + 1);
-			}
-		});
-
-	});
-
-}());
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/match-braces/prism-match-braces.min.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/match-braces/prism-match-braces.min.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-!function(){if("undefined"!=typeof self&&self.Prism&&self.document){var c=/(?:^|\s)match-braces(?:\s|$)/,a=/(?:^|\s)brace-hover(?:\s|$)/,l=/(?:^|\s)brace-selected(?:\s|$)/,n=/(?:^|\s)no-brace-hover(?:\s|$)/,t=/(?:^|\s)no-brace-select(?:\s|$)/,u={"(":")","[":"]","{":"}"},f={"(":"brace-round","[":"brace-square","{":"brace-curly"},m=0,r=/^(pair-\d+-)(open|close)$/;Prism.hooks.add("complete",function(e){var a=e.element,n=a.parentElement;if(n&&"PRE"==n.tagName){for(var t=[],r=a;r;r=r.parentElement)if(c.test(r.className)){t.push("(","[","{");break}if(0!=t.length){n.__listenerAdded||(n.addEventListener("mousedown",function(){var e=n.querySelector("code");Array.prototype.slice.call(e.querySelectorAll(".brace-selected")).forEach(function(e){e.className=e.className.replace(l," ")})}),Object.defineProperty(n,"__listenerAdded",{value:!0}));var o=Array.prototype.slice.call(a.querySelectorAll("span.token.punctuation")),i=[];t.forEach(function(e){for(var a=u[e],n=f[e],t=[],r=[],s=0;s<o.length;s++){var c=o[s];if(0==c.childElementCount){var l=c.textContent;l===e?(i.push({index:s,open:!0,element:c}),c.className+=" "+n,c.className+=" brace-open",r.push(s)):l===a&&(i.push({index:s,open:!1,element:c}),c.className+=" "+n,c.className+=" brace-close",r.length&&t.push([s,r.pop()]))}}t.forEach(function(e){var a="pair-"+m+++"-",n=o[e[0]],t=o[e[1]];n.id=a+"open",t.id=a+"close",[n,t].forEach(function(e){e.addEventListener("mouseenter",p),e.addEventListener("mouseleave",d),e.addEventListener("click",h)})})});var s=0;i.sort(function(e,a){return e.index-a.index}),i.forEach(function(e){e.open?(e.element.className+=" brace-level-"+(s%12+1),s++):(s=Math.max(0,s-1),e.element.className+=" brace-level-"+(s%12+1))})}}})}function s(e){var a=r.exec(e.id);return document.querySelector("#"+a[1]+("open"==a[2]?"close":"open"))}function p(){for(var e=this.parentElement;e;e=e.parentElement)if(n.test(e.className))return;[this,s(this)].forEach(function(e){e.className=(e.className.replace(a," ")+" brace-hover").replace(/\s+/g," ")})}function d(){[this,s(this)].forEach(function(e){e.className=e.className.replace(a," ")})}function h(){for(var e=this.parentElement;e;e=e.parentElement)if(t.test(e.className))return;[this,s(this)].forEach(function(e){e.className=(e.className.replace(l," ")+" brace-selected").replace(/\s+/g," ")})}}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js":
-/*!*****************************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-(function() {
-
-var assign = Object.assign || function (obj1, obj2) {
-	for (var name in obj2) {
-		if (obj2.hasOwnProperty(name))
-			obj1[name] = obj2[name];
-	}
-	return obj1;
-}
-
-function NormalizeWhitespace(defaults) {
-	this.defaults = assign({}, defaults);
-}
-
-function toCamelCase(value) {
-	return value.replace(/-(\w)/g, function(match, firstChar) {
-		return firstChar.toUpperCase();
-	});
-}
-
-function tabLen(str) {
-	var res = 0;
-	for (var i = 0; i < str.length; ++i) {
-		if (str.charCodeAt(i) == '\t'.charCodeAt(0))
-			res += 3;
-	}
-	return str.length + res;
-}
-
-NormalizeWhitespace.prototype = {
-	setDefaults: function (defaults) {
-		this.defaults = assign(this.defaults, defaults);
-	},
-	normalize: function (input, settings) {
-		settings = assign(this.defaults, settings);
-
-		for (var name in settings) {
-			var methodName = toCamelCase(name);
-			if (name !== "normalize" && methodName !== 'setDefaults' &&
-					settings[name] && this[methodName]) {
-				input = this[methodName].call(this, input, settings[name]);
-			}
-		}
-
-		return input;
-	},
-
-	/*
-	 * Normalization methods
-	 */
-	leftTrim: function (input) {
-		return input.replace(/^\s+/, '');
-	},
-	rightTrim: function (input) {
-		return input.replace(/\s+$/, '');
-	},
-	tabsToSpaces: function (input, spaces) {
-		spaces = spaces|0 || 4;
-		return input.replace(/\t/g, new Array(++spaces).join(' '));
-	},
-	spacesToTabs: function (input, spaces) {
-		spaces = spaces|0 || 4;
-		return input.replace(RegExp(' {' + spaces + '}', 'g'), '\t');
-	},
-	removeTrailing: function (input) {
-		return input.replace(/\s*?$/gm, '');
-	},
-	// Support for deprecated plugin remove-initial-line-feed
-	removeInitialLineFeed: function (input) {
-		return input.replace(/^(?:\r?\n|\r)/, '');
-	},
-	removeIndent: function (input) {
-		var indents = input.match(/^[^\S\n\r]*(?=\S)/gm);
-
-		if (!indents || !indents[0].length)
-			return input;
-
-		indents.sort(function(a, b){return a.length - b.length; });
-
-		if (!indents[0].length)
-			return input;
-
-		return input.replace(RegExp('^' + indents[0], 'gm'), '');
-	},
-	indent: function (input, tabs) {
-		return input.replace(/^[^\S\n\r]*(?=\S)/gm, new Array(++tabs).join('\t') + '$&');
-	},
-	breakLines: function (input, characters) {
-		characters = (characters === true) ? 80 : characters|0 || 80;
-
-		var lines = input.split('\n');
-		for (var i = 0; i < lines.length; ++i) {
-			if (tabLen(lines[i]) <= characters)
-				continue;
-
-			var line = lines[i].split(/(\s+)/g),
-			    len = 0;
-
-			for (var j = 0; j < line.length; ++j) {
-				var tl = tabLen(line[j]);
-				len += tl;
-				if (len > characters) {
-					line[j] = '\n' + line[j];
-					len = tl;
-				}
-			}
-			lines[i] = line.join('');
-		}
-		return lines.join('\n');
-	}
-};
-
-// Support node modules
-if ( true && module.exports) {
-	module.exports = NormalizeWhitespace;
-}
-
-// Exit if prism is not loaded
-if (typeof Prism === 'undefined') {
-	return;
-}
-
-Prism.plugins.NormalizeWhitespace = new NormalizeWhitespace({
-	'remove-trailing': true,
-	'remove-indent': true,
-	'left-trim': true,
-	'right-trim': true,
-	/*'break-lines': 80,
-	'indent': 2,
-	'remove-initial-line-feed': false,
-	'tabs-to-spaces': 4,
-	'spaces-to-tabs': 4*/
-});
-
-Prism.hooks.add('before-sanity-check', function (env) {
-	var Normalizer = Prism.plugins.NormalizeWhitespace;
-
-	// Check settings
-	if (env.settings && env.settings['whitespace-normalization'] === false) {
-		return;
-	}
-
-	// Simple mode if there is no env.element
-	if ((!env.element || !env.element.parentNode) && env.code) {
-		env.code = Normalizer.normalize(env.code, env.settings);
-		return;
-	}
-
-	// Normal mode
-	var pre = env.element.parentNode;
-	var clsReg = /(?:^|\s)no-whitespace-normalization(?:\s|$)/;
-	if (!env.code || !pre || pre.nodeName.toLowerCase() !== 'pre' ||
-			clsReg.test(pre.className) || clsReg.test(env.element.className))
-		return;
-
-	var children = pre.childNodes,
-	    before = '',
-	    after = '',
-	    codeFound = false;
-
-	// Move surrounding whitespace from the <pre> tag into the <code> tag
-	for (var i = 0; i < children.length; ++i) {
-		var node = children[i];
-
-		if (node == env.element) {
-			codeFound = true;
-		} else if (node.nodeName === "#text") {
-			if (codeFound) {
-				after += node.nodeValue;
-			} else {
-				before += node.nodeValue;
-			}
-
-			pre.removeChild(node);
-			--i;
-		}
-	}
-
-	if (!env.element.children.length || !Prism.plugins.KeepMarkup) {
-		env.code = before + env.code + after;
-		env.code = Normalizer.normalize(env.code, env.settings);
-	} else {
-		// Preserve markup for keep-markup plugin
-		var html = before + env.element.innerHTML + after;
-		env.element.innerHTML = Normalizer.normalize(html, env.settings);
-		env.code = env.element.textContent;
-	}
-});
-
-}());
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.min.js":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.min.js ***!
-  \*********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-!function(){var i=Object.assign||function(e,n){for(var t in n)n.hasOwnProperty(t)&&(e[t]=n[t]);return e};function e(e){this.defaults=i({},e)}function l(e){for(var n=0,t=0;t<e.length;++t)e.charCodeAt(t)=="\t".charCodeAt(0)&&(n+=3);return e.length+n}e.prototype={setDefaults:function(e){this.defaults=i(this.defaults,e)},normalize:function(e,n){for(var t in n=i(this.defaults,n)){var r=t.replace(/-(\w)/g,function(e,n){return n.toUpperCase()});"normalize"!==t&&"setDefaults"!==r&&n[t]&&this[r]&&(e=this[r].call(this,e,n[t]))}return e},leftTrim:function(e){return e.replace(/^\s+/,"")},rightTrim:function(e){return e.replace(/\s+$/,"")},tabsToSpaces:function(e,n){return n=0|n||4,e.replace(/\t/g,new Array(++n).join(" "))},spacesToTabs:function(e,n){return n=0|n||4,e.replace(RegExp(" {"+n+"}","g"),"\t")},removeTrailing:function(e){return e.replace(/\s*?$/gm,"")},removeInitialLineFeed:function(e){return e.replace(/^(?:\r?\n|\r)/,"")},removeIndent:function(e){var n=e.match(/^[^\S\n\r]*(?=\S)/gm);return n&&n[0].length?(n.sort(function(e,n){return e.length-n.length}),n[0].length?e.replace(RegExp("^"+n[0],"gm"),""):e):e},indent:function(e,n){return e.replace(/^[^\S\n\r]*(?=\S)/gm,new Array(++n).join("\t")+"$&")},breakLines:function(e,n){n=!0===n?80:0|n||80;for(var t=e.split("\n"),r=0;r<t.length;++r)if(!(l(t[r])<=n)){for(var i=t[r].split(/(\s+)/g),o=0,a=0;a<i.length;++a){var s=l(i[a]);n<(o+=s)&&(i[a]="\n"+i[a],o=s)}t[r]=i.join("")}return t.join("\n")}}, true&&module.exports&&(module.exports=e),"undefined"!=typeof Prism&&(Prism.plugins.NormalizeWhitespace=new e({"remove-trailing":!0,"remove-indent":!0,"left-trim":!0,"right-trim":!0}),Prism.hooks.add("before-sanity-check",function(e){var n=Prism.plugins.NormalizeWhitespace;if(!e.settings||!1!==e.settings["whitespace-normalization"])if(e.element&&e.element.parentNode||!e.code){var t=e.element.parentNode,r=/(?:^|\s)no-whitespace-normalization(?:\s|$)/;if(e.code&&t&&"pre"===t.nodeName.toLowerCase()&&!r.test(t.className)&&!r.test(e.element.className)){for(var i=t.childNodes,o="",a="",s=!1,l=0;l<i.length;++l){var c=i[l];c==e.element?s=!0:"#text"===c.nodeName&&(s?a+=c.nodeValue:o+=c.nodeValue,t.removeChild(c),--l)}if(e.element.children.length&&Prism.plugins.KeepMarkup){var u=o+e.element.innerHTML+a;e.element.innerHTML=n.normalize(u,e.settings),e.code=e.element.textContent}else e.code=o+e.code+a,e.code=n.normalize(e.code,e.settings)}}else e.code=n.normalize(e.code,e.settings)}))}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/previewers/prism-previewers.css":
-/*!**********************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/previewers/prism-previewers.css ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-previewers.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/previewers/prism-previewers.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/previewers/prism-previewers.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/previewers/prism-previewers.js ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function() {
-
-	if (
-		typeof self !== 'undefined' && !self.Prism ||
-		!self.document || !Function.prototype.bind
-	) {
-		return;
-	}
-
-	var previewers = {
-		// gradient must be defined before color and angle
-		'gradient': {
-			create: (function () {
-
-				// Stores already processed gradients so that we don't
-				// make the conversion every time the previewer is shown
-				var cache = {};
-
-				/**
-				 * Returns a W3C-valid linear gradient
-				 * @param {string} prefix Vendor prefix if any ("-moz-", "-webkit-", etc.)
-				 * @param {string} func Gradient function name ("linear-gradient")
-				 * @param {string[]} values Array of the gradient function parameters (["0deg", "red 0%", "blue 100%"])
-				 */
-				var convertToW3CLinearGradient = function(prefix, func, values) {
-					// Default value for angle
-					var angle = '180deg';
-
-					if (/^(?:-?\d*\.?\d+(?:deg|rad)|to\b|top|right|bottom|left)/.test(values[0])) {
-						angle = values.shift();
-						if (angle.indexOf('to ') < 0) {
-							// Angle uses old keywords
-							// W3C syntax uses "to" + opposite keywords
-							if (angle.indexOf('top') >= 0) {
-								if (angle.indexOf('left') >= 0) {
-									angle = 'to bottom right';
-								} else if (angle.indexOf('right') >= 0) {
-									angle = 'to bottom left';
-								} else {
-									angle = 'to bottom';
-								}
-							} else if (angle.indexOf('bottom') >= 0) {
-								if (angle.indexOf('left') >= 0) {
-									angle = 'to top right';
-								} else if (angle.indexOf('right') >= 0) {
-									angle = 'to top left';
-								} else {
-									angle = 'to top';
-								}
-							} else if (angle.indexOf('left') >= 0) {
-								angle = 'to right';
-							} else if (angle.indexOf('right') >= 0) {
-								angle = 'to left';
-							} else if (prefix) {
-								// Angle is shifted by 90deg in prefixed gradients
-								if (angle.indexOf('deg') >= 0) {
-									angle = (90 - parseFloat(angle)) + 'deg';
-								} else if (angle.indexOf('rad') >= 0) {
-									angle = (Math.PI / 2 - parseFloat(angle)) + 'rad';
-								}
-							}
-						}
-					}
-
-					return func + '(' + angle + ',' + values.join(',') + ')';
-				};
-
-				/**
-				 * Returns a W3C-valid radial gradient
-				 * @param {string} prefix Vendor prefix if any ("-moz-", "-webkit-", etc.)
-				 * @param {string} func Gradient function name ("linear-gradient")
-				 * @param {string[]} values Array of the gradient function parameters (["0deg", "red 0%", "blue 100%"])
-				 */
-				var convertToW3CRadialGradient = function(prefix, func, values) {
-					if (values[0].indexOf('at') < 0) {
-						// Looks like old syntax
-
-						// Default values
-						var position = 'center';
-						var shape = 'ellipse';
-						var size = 'farthest-corner';
-
-						if (/\bcenter|top|right|bottom|left\b|^\d+/.test(values[0])) {
-							// Found a position
-							// Remove angle value, if any
-							position = values.shift().replace(/\s*-?\d+(?:rad|deg)\s*/, '');
-						}
-						if (/\bcircle|ellipse|closest|farthest|contain|cover\b/.test(values[0])) {
-							// Found a shape and/or size
-							var shapeSizeParts = values.shift().split(/\s+/);
-							if (shapeSizeParts[0] && (shapeSizeParts[0] === 'circle' || shapeSizeParts[0] === 'ellipse')) {
-								shape = shapeSizeParts.shift();
-							}
-							if (shapeSizeParts[0]) {
-								size = shapeSizeParts.shift();
-							}
-
-							// Old keywords are converted to their synonyms
-							if (size === 'cover') {
-								size = 'farthest-corner';
-							} else if (size === 'contain') {
-								size = 'clothest-side';
-							}
-						}
-
-						return func + '(' + shape + ' ' + size + ' at ' + position + ',' + values.join(',') + ')';
-					}
-					return func + '(' + values.join(',') + ')';
-				};
-
-				/**
-				 * Converts a gradient to a W3C-valid one
-				 * Does not support old webkit syntax (-webkit-gradient(linear...) and -webkit-gradient(radial...))
-				 * @param {string} gradient The CSS gradient
-				 */
-				var convertToW3CGradient = function(gradient) {
-					if (cache[gradient]) {
-						return cache[gradient];
-					}
-					var parts = gradient.match(/^(\b|\B-[a-z]{1,10}-)((?:repeating-)?(?:linear|radial)-gradient)/);
-					// "", "-moz-", etc.
-					var prefix = parts && parts[1];
-					// "linear-gradient", "radial-gradient", etc.
-					var func = parts && parts[2];
-
-					var values = gradient.replace(/^(?:\b|\B-[a-z]{1,10}-)(?:repeating-)?(?:linear|radial)-gradient\(|\)$/g, '').split(/\s*,\s*/);
-
-					if (func.indexOf('linear') >= 0) {
-						return cache[gradient] = convertToW3CLinearGradient(prefix, func, values);
-					} else if (func.indexOf('radial') >= 0) {
-						return cache[gradient] = convertToW3CRadialGradient(prefix, func, values);
-					}
-					return cache[gradient] = func + '(' + values.join(',') + ')';
-				};
-
-				return function () {
-					new Prism.plugins.Previewer('gradient', function(value) {
-						this.firstChild.style.backgroundImage = '';
-						this.firstChild.style.backgroundImage = convertToW3CGradient(value);
-						return !!this.firstChild.style.backgroundImage;
-					}, '*', function () {
-						this._elt.innerHTML = '<div></div>';
-					});
-				};
-			}()),
-			tokens: {
-				'gradient': {
-					pattern: /(?:\b|\B-[a-z]{1,10}-)(?:repeating-)?(?:linear|radial)-gradient\((?:(?:rgb|hsl)a?\(.+?\)|[^\)])+\)/gi,
-					inside: {
-						'function': /[\w-]+(?=\()/,
-						'punctuation': /[(),]/
-					}
-				}
-			},
-			languages: {
-				'css': true,
-				'less': true,
-				'sass': [
-					{
-						lang: 'sass',
-						before: 'punctuation',
-						inside: 'inside',
-						root: Prism.languages.sass && Prism.languages.sass['variable-line']
-					},
-					{
-						lang: 'sass',
-						before: 'punctuation',
-						inside: 'inside',
-						root: Prism.languages.sass && Prism.languages.sass['property-line']
-					}
-				],
-				'scss': true,
-				'stylus': [
-					{
-						lang: 'stylus',
-						before: 'func',
-						inside: 'rest',
-						root: Prism.languages.stylus && Prism.languages.stylus['property-declaration'].inside
-					},
-					{
-						lang: 'stylus',
-						before: 'func',
-						inside: 'rest',
-						root: Prism.languages.stylus && Prism.languages.stylus['variable-declaration'].inside
-					}
-				]
-			}
-		},
-		'angle': {
-			create: function () {
-				new Prism.plugins.Previewer('angle', function(value) {
-					var num = parseFloat(value);
-					var unit = value.match(/[a-z]+$/i);
-					var max, percentage;
-					if (!num || !unit) {
-						return false;
-					}
-					unit = unit[0];
-
-					switch(unit) {
-						case 'deg':
-							max = 360;
-							break;
-						case 'grad':
-							max = 400;
-							break;
-						case 'rad':
-							max = 2 * Math.PI;
-							break;
-						case 'turn':
-							max = 1;
-					}
-
-					percentage = 100 * num/max;
-					percentage %= 100;
-
-					this[(num < 0? 'set' : 'remove') + 'Attribute']('data-negative', '');
-					this.querySelector('circle').style.strokeDasharray = Math.abs(percentage) + ',500';
-					return true;
-				}, '*', function () {
-					this._elt.innerHTML = '<svg viewBox="0 0 64 64">' +
-						'<circle r="16" cy="32" cx="32"></circle>' +
-						'</svg>';
-				});
-			},
-			tokens: {
-				'angle': /(?:\b|\B-|(?=\B\.))\d*\.?\d+(?:deg|g?rad|turn)\b/i
-			},
-			languages: {
-				'css': true,
-				'less': true,
-				'markup': {
-					lang: 'markup',
-					before: 'punctuation',
-					inside: 'inside',
-					root: Prism.languages.markup && Prism.languages.markup['tag'].inside['attr-value']
-				},
-				'sass': [
-					{
-						lang: 'sass',
-						inside: 'inside',
-						root: Prism.languages.sass && Prism.languages.sass['property-line']
-					},
-					{
-						lang: 'sass',
-						before: 'operator',
-						inside: 'inside',
-						root: Prism.languages.sass && Prism.languages.sass['variable-line']
-					}
-				],
-				'scss': true,
-				'stylus': [
-					{
-						lang: 'stylus',
-						before: 'func',
-						inside: 'rest',
-						root: Prism.languages.stylus && Prism.languages.stylus['property-declaration'].inside
-					},
-					{
-						lang: 'stylus',
-						before: 'func',
-						inside: 'rest',
-						root: Prism.languages.stylus && Prism.languages.stylus['variable-declaration'].inside
-					}
-				]
-			}
-		},
-		'color': {
-			create: function () {
-				new Prism.plugins.Previewer('color', function(value) {
-					this.style.backgroundColor = '';
-					this.style.backgroundColor = value;
-					return !!this.style.backgroundColor;
-				});
-			},
-			tokens: {
-				'color': [Prism.languages.css['hexcode']].concat(Prism.languages.css['color'])
-			},
-			languages: {
-				// CSS extras is required, so css and scss are not necessary
-				'css': false,
-				'less': true,
-				'markup': {
-					lang: 'markup',
-					before: 'punctuation',
-					inside: 'inside',
-					root: Prism.languages.markup && Prism.languages.markup['tag'].inside['attr-value']
-				},
-				'sass': [
-					{
-						lang: 'sass',
-						before: 'punctuation',
-						inside: 'inside',
-						root: Prism.languages.sass && Prism.languages.sass['variable-line']
-					},
-					{
-						lang: 'sass',
-						inside: 'inside',
-						root: Prism.languages.sass && Prism.languages.sass['property-line']
-					}
-				],
-				'scss': false,
-				'stylus': [
-					{
-						lang: 'stylus',
-						before: 'hexcode',
-						inside: 'rest',
-						root: Prism.languages.stylus && Prism.languages.stylus['property-declaration'].inside
-					},
-					{
-						lang: 'stylus',
-						before: 'hexcode',
-						inside: 'rest',
-						root: Prism.languages.stylus && Prism.languages.stylus['variable-declaration'].inside
-					}
-				]
-			}
-		},
-		'easing': {
-			create: function () {
-				new Prism.plugins.Previewer('easing', function (value) {
-
-					value = {
-						'linear': '0,0,1,1',
-						'ease': '.25,.1,.25,1',
-						'ease-in': '.42,0,1,1',
-						'ease-out': '0,0,.58,1',
-						'ease-in-out':'.42,0,.58,1'
-					}[value] || value;
-
-					var p = value.match(/-?\d*\.?\d+/g);
-
-					if(p.length === 4) {
-						p = p.map(function(p, i) { return (i % 2? 1 - p : p) * 100; });
-
-						this.querySelector('path').setAttribute('d', 'M0,100 C' + p[0] + ',' + p[1] + ', ' + p[2] + ',' + p[3] + ', 100,0');
-
-						var lines = this.querySelectorAll('line');
-						lines[0].setAttribute('x2', p[0]);
-						lines[0].setAttribute('y2', p[1]);
-						lines[1].setAttribute('x2', p[2]);
-						lines[1].setAttribute('y2', p[3]);
-
-						return true;
-					}
-
-					return false;
-				}, '*', function () {
-					this._elt.innerHTML = '<svg viewBox="-20 -20 140 140" width="100" height="100">' +
-						'<defs>' +
-						'<marker id="prism-previewer-easing-marker" viewBox="0 0 4 4" refX="2" refY="2" markerUnits="strokeWidth">' +
-						'<circle cx="2" cy="2" r="1.5" />' +
-						'</marker>' +
-						'</defs>' +
-						'<path d="M0,100 C20,50, 40,30, 100,0" />' +
-						'<line x1="0" y1="100" x2="20" y2="50" marker-start="url(' + location.href + '#prism-previewer-easing-marker)" marker-end="url(' + location.href + '#prism-previewer-easing-marker)" />' +
-						'<line x1="100" y1="0" x2="40" y2="30" marker-start="url(' + location.href + '#prism-previewer-easing-marker)" marker-end="url(' + location.href + '#prism-previewer-easing-marker)" />' +
-						'</svg>';
-				});
-			},
-			tokens: {
-				'easing': {
-					pattern: /\bcubic-bezier\((?:-?\d*\.?\d+,\s*){3}-?\d*\.?\d+\)\B|\b(?:linear|ease(?:-in)?(?:-out)?)(?=\s|[;}]|$)/i,
-					inside: {
-						'function': /[\w-]+(?=\()/,
-						'punctuation': /[(),]/
-					}
-				}
-			},
-			languages: {
-				'css': true,
-				'less': true,
-				'sass': [
-					{
-						lang: 'sass',
-						inside: 'inside',
-						before: 'punctuation',
-						root: Prism.languages.sass && Prism.languages.sass['variable-line']
-					},
-					{
-						lang: 'sass',
-						inside: 'inside',
-						root: Prism.languages.sass && Prism.languages.sass['property-line']
-					}
-				],
-				'scss': true,
-				'stylus': [
-					{
-						lang: 'stylus',
-						before: 'hexcode',
-						inside: 'rest',
-						root: Prism.languages.stylus && Prism.languages.stylus['property-declaration'].inside
-					},
-					{
-						lang: 'stylus',
-						before: 'hexcode',
-						inside: 'rest',
-						root: Prism.languages.stylus && Prism.languages.stylus['variable-declaration'].inside
-					}
-				]
-			}
-		},
-
-		'time': {
-			create: function () {
-				new Prism.plugins.Previewer('time', function(value) {
-					var num = parseFloat(value);
-					var unit = value.match(/[a-z]+$/i);
-					if (!num || !unit) {
-						return false;
-					}
-					unit = unit[0];
-					this.querySelector('circle').style.animationDuration = 2 * num + unit;
-					return true;
-				}, '*', function () {
-					this._elt.innerHTML = '<svg viewBox="0 0 64 64">' +
-						'<circle r="16" cy="32" cx="32"></circle>' +
-						'</svg>';
-				});
-			},
-			tokens: {
-				'time': /(?:\b|\B-|(?=\B\.))\d*\.?\d+m?s\b/i
-			},
-			languages: {
-				'css': true,
-				'less': true,
-				'markup': {
-					lang: 'markup',
-					before: 'punctuation',
-					inside: 'inside',
-					root: Prism.languages.markup && Prism.languages.markup['tag'].inside['attr-value']
-				},
-				'sass': [
-					{
-						lang: 'sass',
-						inside: 'inside',
-						root: Prism.languages.sass && Prism.languages.sass['property-line']
-					},
-					{
-						lang: 'sass',
-						before: 'operator',
-						inside: 'inside',
-						root: Prism.languages.sass && Prism.languages.sass['variable-line']
-					}
-				],
-				'scss': true,
-				'stylus': [
-					{
-						lang: 'stylus',
-						before: 'hexcode',
-						inside: 'rest',
-						root: Prism.languages.stylus && Prism.languages.stylus['property-declaration'].inside
-					},
-					{
-						lang: 'stylus',
-						before: 'hexcode',
-						inside: 'rest',
-						root: Prism.languages.stylus && Prism.languages.stylus['variable-declaration'].inside
-					}
-				]
-			}
-		}
-	};
-
-	/**
-	 * Returns the absolute X, Y offsets for an element
-	 * @param {HTMLElement} element
-	 * @returns {{top: number, right: number, bottom: number, left: number, width: number, height: number}}
-	 */
-	var getOffset = function (element) {
-		var elementBounds = element.getBoundingClientRect();
-		var left = elementBounds.left;
-		var top = elementBounds.top;
-		var documentBounds = document.documentElement.getBoundingClientRect();
-		left -= documentBounds.left;
-		top -= documentBounds.top;
-
-		return {
-			top: top,
-			right: innerWidth - left - elementBounds.width,
-			bottom: innerHeight - top - elementBounds.height,
-			left: left,
-			width: elementBounds.width,
-			height: elementBounds.height
-		};
-	};
-
-	var tokenRegexp = /(?:^|\s)token(?=$|\s)/;
-	var activeRegexp = /(?:^|\s)active(?=$|\s)/g;
-	var flippedRegexp = /(?:^|\s)flipped(?=$|\s)/g;
-
-	/**
-	 * Previewer constructor
-	 * @param {string} type Unique previewer type
-	 * @param {function} updater Function that will be called on mouseover.
-	 * @param {string[]|string=} supportedLanguages Aliases of the languages this previewer must be enabled for. Defaults to "*", all languages.
-	 * @param {function=} initializer Function that will be called on initialization.
-	 * @constructor
-	 */
-	var Previewer = function (type, updater, supportedLanguages, initializer) {
-		this._elt = null;
-		this._type = type;
-		this._clsRegexp = RegExp('(?:^|\\s)' + type + '(?=$|\\s)');
-		this._token = null;
-		this.updater = updater;
-		this._mouseout = this.mouseout.bind(this);
-		this.initializer = initializer;
-
-		var self = this;
-
-		if (!supportedLanguages) {
-			supportedLanguages = ['*'];
-		}
-		if (!Array.isArray(supportedLanguages)) {
-			supportedLanguages = [supportedLanguages];
-		}
-		supportedLanguages.forEach(function (lang) {
-			if (typeof lang !== 'string') {
-				lang = lang.lang;
-			}
-			if (!Previewer.byLanguages[lang]) {
-				Previewer.byLanguages[lang] = [];
-			}
-			if (Previewer.byLanguages[lang].indexOf(self) < 0) {
-				Previewer.byLanguages[lang].push(self);
-			}
-		});
-		Previewer.byType[type] = this;
-	};
-
-	/**
-	 * Creates the HTML element for the previewer.
-	 */
-	Previewer.prototype.init = function () {
-		if (this._elt) {
-			return;
-		}
-		this._elt = document.createElement('div');
-		this._elt.className = 'prism-previewer prism-previewer-' + this._type;
-		document.body.appendChild(this._elt);
-		if(this.initializer) {
-			this.initializer();
-		}
-	};
-
-	Previewer.prototype.isDisabled = function (token) {
-		do {
-			if (token.hasAttribute && token.hasAttribute('data-previewers')) {
-				var previewers = token.getAttribute('data-previewers');
-				return (previewers || '').split(/\s+/).indexOf(this._type) === -1;
-			}
-		} while(token = token.parentNode);
-		return false;
-	};
-
-	/**
-	 * Checks the class name of each hovered element
-	 * @param token
-	 */
-	Previewer.prototype.check = function (token) {
-		if (tokenRegexp.test(token.className) && this.isDisabled(token)) {
-			return;
-		}
-		do {
-			if (tokenRegexp.test(token.className) && this._clsRegexp.test(token.className)) {
-				break;
-			}
-		} while(token = token.parentNode);
-
-		if (token && token !== this._token) {
-			this._token = token;
-			this.show();
-		}
-	};
-
-	/**
-	 * Called on mouseout
-	 */
-	Previewer.prototype.mouseout = function() {
-		this._token.removeEventListener('mouseout', this._mouseout, false);
-		this._token = null;
-		this.hide();
-	};
-
-	/**
-	 * Shows the previewer positioned properly for the current token.
-	 */
-	Previewer.prototype.show = function () {
-		if (!this._elt) {
-			this.init();
-		}
-		if (!this._token) {
-			return;
-		}
-
-		if (this.updater.call(this._elt, this._token.textContent)) {
-			this._token.addEventListener('mouseout', this._mouseout, false);
-
-			var offset = getOffset(this._token);
-			this._elt.className += ' active';
-
-			if (offset.top - this._elt.offsetHeight > 0) {
-				this._elt.className = this._elt.className.replace(flippedRegexp, '');
-				this._elt.style.top = offset.top + 'px';
-				this._elt.style.bottom = '';
-			} else {
-				this._elt.className +=  ' flipped';
-				this._elt.style.bottom = offset.bottom + 'px';
-				this._elt.style.top = '';
-			}
-
-			this._elt.style.left = offset.left + Math.min(200, offset.width / 2) + 'px';
-		} else {
-			this.hide();
-		}
-	};
-
-	/**
-	 * Hides the previewer.
-	 */
-	Previewer.prototype.hide = function () {
-		this._elt.className = this._elt.className.replace(activeRegexp, '');
-	};
-
-	/**
-	 * Map of all registered previewers by language
-	 * @type {{}}
-	 */
-	Previewer.byLanguages = {};
-
-	/**
-	 * Map of all registered previewers by type
-	 * @type {{}}
-	 */
-	Previewer.byType = {};
-
-	/**
-	 * Initializes the mouseover event on the code block.
-	 * @param {HTMLElement} elt The code block (env.element)
-	 * @param {string} lang The language (env.language)
-	 */
-	Previewer.initEvents = function (elt, lang) {
-		var previewers = [];
-		if (Previewer.byLanguages[lang]) {
-			previewers = previewers.concat(Previewer.byLanguages[lang]);
-		}
-		if (Previewer.byLanguages['*']) {
-			previewers = previewers.concat(Previewer.byLanguages['*']);
-		}
-		elt.addEventListener('mouseover', function (e) {
-			var target = e.target;
-			previewers.forEach(function (previewer) {
-				previewer.check(target);
-			});
-		}, false);
-	};
-	Prism.plugins.Previewer = Previewer;
-
-	Prism.hooks.add('before-highlight', function (env) {
-		for (var previewer in previewers) {
-			var languages = previewers[previewer].languages;
-			if (env.language && languages[env.language] && !languages[env.language].initialized) {
-				var lang = languages[env.language];
-				if (!Array.isArray(lang)) {
-					lang = [lang];
-				}
-				lang.forEach(function (lang) {
-					var before, inside, root, skip;
-					if (lang === true) {
-						before = 'important';
-						inside = env.language;
-						lang = env.language;
-					} else {
-						before = lang.before || 'important';
-						inside = lang.inside || lang.lang;
-						root = lang.root || Prism.languages;
-						skip = lang.skip;
-						lang = env.language;
-					}
-
-					if (!skip && Prism.languages[lang]) {
-						Prism.languages.insertBefore(inside, before, previewers[previewer].tokens, root);
-						env.grammar = Prism.languages[lang];
-
-						languages[env.language] = {initialized: true};
-					}
-				});
-			}
-		}
-	});
-
-	// Initialize the previewers only when needed
-	Prism.hooks.add('after-highlight', function (env) {
-		if(Previewer.byLanguages['*'] || Previewer.byLanguages[env.language]) {
-			Previewer.initEvents(env.element, env.language);
-		}
-	});
-
-	for (var previewer in previewers) {
-		previewers[previewer].create();
-	}
-
-}());
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/previewers/prism-previewers.min.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/previewers/prism-previewers.min.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-!function(){if(("undefined"==typeof self||self.Prism)&&self.document&&Function.prototype.bind){var r,s,o={gradient:{create:(r={},s=function(e){if(r[e])return r[e];var s=e.match(/^(\b|\B-[a-z]{1,10}-)((?:repeating-)?(?:linear|radial)-gradient)/),t=s&&s[1],i=s&&s[2],a=e.replace(/^(?:\b|\B-[a-z]{1,10}-)(?:repeating-)?(?:linear|radial)-gradient\(|\)$/g,"").split(/\s*,\s*/);return 0<=i.indexOf("linear")?r[e]=function(e,s,t){var i="180deg";return/^(?:-?\d*\.?\d+(?:deg|rad)|to\b|top|right|bottom|left)/.test(t[0])&&(i=t.shift()).indexOf("to ")<0&&(0<=i.indexOf("top")?i=0<=i.indexOf("left")?"to bottom right":0<=i.indexOf("right")?"to bottom left":"to bottom":0<=i.indexOf("bottom")?i=0<=i.indexOf("left")?"to top right":0<=i.indexOf("right")?"to top left":"to top":0<=i.indexOf("left")?i="to right":0<=i.indexOf("right")?i="to left":e&&(0<=i.indexOf("deg")?i=90-parseFloat(i)+"deg":0<=i.indexOf("rad")&&(i=Math.PI/2-parseFloat(i)+"rad"))),s+"("+i+","+t.join(",")+")"}(t,i,a):0<=i.indexOf("radial")?r[e]=function(e,s,t){if(t[0].indexOf("at")<0){var i="center",a="ellipse",r="farthest-corner";if(/\bcenter|top|right|bottom|left\b|^\d+/.test(t[0])&&(i=t.shift().replace(/\s*-?\d+(?:rad|deg)\s*/,"")),/\bcircle|ellipse|closest|farthest|contain|cover\b/.test(t[0])){var n=t.shift().split(/\s+/);!n[0]||"circle"!==n[0]&&"ellipse"!==n[0]||(a=n.shift()),n[0]&&(r=n.shift()),"cover"===r?r="farthest-corner":"contain"===r&&(r="clothest-side")}return s+"("+a+" "+r+" at "+i+","+t.join(",")+")"}return s+"("+t.join(",")+")"}(0,i,a):r[e]=i+"("+a.join(",")+")"},function(){new Prism.plugins.Previewer("gradient",function(e){return this.firstChild.style.backgroundImage="",this.firstChild.style.backgroundImage=s(e),!!this.firstChild.style.backgroundImage},"*",function(){this._elt.innerHTML="<div></div>"})}),tokens:{gradient:{pattern:/(?:\b|\B-[a-z]{1,10}-)(?:repeating-)?(?:linear|radial)-gradient\((?:(?:rgb|hsl)a?\(.+?\)|[^\)])+\)/gi,inside:{function:/[\w-]+(?=\()/,punctuation:/[(),]/}}},languages:{css:!0,less:!0,sass:[{lang:"sass",before:"punctuation",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["variable-line"]},{lang:"sass",before:"punctuation",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["property-line"]}],scss:!0,stylus:[{lang:"stylus",before:"func",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["property-declaration"].inside},{lang:"stylus",before:"func",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["variable-declaration"].inside}]}},angle:{create:function(){new Prism.plugins.Previewer("angle",function(e){var s,t,i=parseFloat(e),a=e.match(/[a-z]+$/i);if(!i||!a)return!1;switch(a=a[0]){case"deg":s=360;break;case"grad":s=400;break;case"rad":s=2*Math.PI;break;case"turn":s=1}return t=100*i/s,t%=100,this[(i<0?"set":"remove")+"Attribute"]("data-negative",""),this.querySelector("circle").style.strokeDasharray=Math.abs(t)+",500",!0},"*",function(){this._elt.innerHTML='<svg viewBox="0 0 64 64"><circle r="16" cy="32" cx="32"></circle></svg>'})},tokens:{angle:/(?:\b|\B-|(?=\B\.))\d*\.?\d+(?:deg|g?rad|turn)\b/i},languages:{css:!0,less:!0,markup:{lang:"markup",before:"punctuation",inside:"inside",root:Prism.languages.markup&&Prism.languages.markup.tag.inside["attr-value"]},sass:[{lang:"sass",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["property-line"]},{lang:"sass",before:"operator",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["variable-line"]}],scss:!0,stylus:[{lang:"stylus",before:"func",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["property-declaration"].inside},{lang:"stylus",before:"func",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["variable-declaration"].inside}]}},color:{create:function(){new Prism.plugins.Previewer("color",function(e){return this.style.backgroundColor="",this.style.backgroundColor=e,!!this.style.backgroundColor})},tokens:{color:[Prism.languages.css.hexcode].concat(Prism.languages.css.color)},languages:{css:!1,less:!0,markup:{lang:"markup",before:"punctuation",inside:"inside",root:Prism.languages.markup&&Prism.languages.markup.tag.inside["attr-value"]},sass:[{lang:"sass",before:"punctuation",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["variable-line"]},{lang:"sass",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["property-line"]}],scss:!1,stylus:[{lang:"stylus",before:"hexcode",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["property-declaration"].inside},{lang:"stylus",before:"hexcode",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["variable-declaration"].inside}]}},easing:{create:function(){new Prism.plugins.Previewer("easing",function(e){var s=(e={linear:"0,0,1,1",ease:".25,.1,.25,1","ease-in":".42,0,1,1","ease-out":"0,0,.58,1","ease-in-out":".42,0,.58,1"}[e]||e).match(/-?\d*\.?\d+/g);if(4!==s.length)return!1;s=s.map(function(e,s){return 100*(s%2?1-e:e)}),this.querySelector("path").setAttribute("d","M0,100 C"+s[0]+","+s[1]+", "+s[2]+","+s[3]+", 100,0");var t=this.querySelectorAll("line");return t[0].setAttribute("x2",s[0]),t[0].setAttribute("y2",s[1]),t[1].setAttribute("x2",s[2]),t[1].setAttribute("y2",s[3]),!0},"*",function(){this._elt.innerHTML='<svg viewBox="-20 -20 140 140" width="100" height="100"><defs><marker id="prism-previewer-easing-marker" viewBox="0 0 4 4" refX="2" refY="2" markerUnits="strokeWidth"><circle cx="2" cy="2" r="1.5" /></marker></defs><path d="M0,100 C20,50, 40,30, 100,0" /><line x1="0" y1="100" x2="20" y2="50" marker-start="url('+location.href+'#prism-previewer-easing-marker)" marker-end="url('+location.href+'#prism-previewer-easing-marker)" /><line x1="100" y1="0" x2="40" y2="30" marker-start="url('+location.href+'#prism-previewer-easing-marker)" marker-end="url('+location.href+'#prism-previewer-easing-marker)" /></svg>'})},tokens:{easing:{pattern:/\bcubic-bezier\((?:-?\d*\.?\d+,\s*){3}-?\d*\.?\d+\)\B|\b(?:linear|ease(?:-in)?(?:-out)?)(?=\s|[;}]|$)/i,inside:{function:/[\w-]+(?=\()/,punctuation:/[(),]/}}},languages:{css:!0,less:!0,sass:[{lang:"sass",inside:"inside",before:"punctuation",root:Prism.languages.sass&&Prism.languages.sass["variable-line"]},{lang:"sass",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["property-line"]}],scss:!0,stylus:[{lang:"stylus",before:"hexcode",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["property-declaration"].inside},{lang:"stylus",before:"hexcode",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["variable-declaration"].inside}]}},time:{create:function(){new Prism.plugins.Previewer("time",function(e){var s=parseFloat(e),t=e.match(/[a-z]+$/i);return!(!s||!t)&&(t=t[0],this.querySelector("circle").style.animationDuration=2*s+t,!0)},"*",function(){this._elt.innerHTML='<svg viewBox="0 0 64 64"><circle r="16" cy="32" cx="32"></circle></svg>'})},tokens:{time:/(?:\b|\B-|(?=\B\.))\d*\.?\d+m?s\b/i},languages:{css:!0,less:!0,markup:{lang:"markup",before:"punctuation",inside:"inside",root:Prism.languages.markup&&Prism.languages.markup.tag.inside["attr-value"]},sass:[{lang:"sass",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["property-line"]},{lang:"sass",before:"operator",inside:"inside",root:Prism.languages.sass&&Prism.languages.sass["variable-line"]}],scss:!0,stylus:[{lang:"stylus",before:"hexcode",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["property-declaration"].inside},{lang:"stylus",before:"hexcode",inside:"rest",root:Prism.languages.stylus&&Prism.languages.stylus["variable-declaration"].inside}]}}},t=/(?:^|\s)token(?=$|\s)/,e=/(?:^|\s)active(?=$|\s)/g,i=/(?:^|\s)flipped(?=$|\s)/g,n=function(e,s,t,i){this._elt=null,this._type=e,this._clsRegexp=RegExp("(?:^|\\s)"+e+"(?=$|\\s)"),this._token=null,this.updater=s,this._mouseout=this.mouseout.bind(this),this.initializer=i;var a=this;t||(t=["*"]),Array.isArray(t)||(t=[t]),t.forEach(function(e){"string"!=typeof e&&(e=e.lang),n.byLanguages[e]||(n.byLanguages[e]=[]),n.byLanguages[e].indexOf(a)<0&&n.byLanguages[e].push(a)}),n.byType[e]=this};for(var a in n.prototype.init=function(){this._elt||(this._elt=document.createElement("div"),this._elt.className="prism-previewer prism-previewer-"+this._type,document.body.appendChild(this._elt),this.initializer&&this.initializer())},n.prototype.isDisabled=function(e){do{if(e.hasAttribute&&e.hasAttribute("data-previewers"))return-1===(e.getAttribute("data-previewers")||"").split(/\s+/).indexOf(this._type)}while(e=e.parentNode);return!1},n.prototype.check=function(e){if(!t.test(e.className)||!this.isDisabled(e)){do{if(t.test(e.className)&&this._clsRegexp.test(e.className))break}while(e=e.parentNode);e&&e!==this._token&&(this._token=e,this.show())}},n.prototype.mouseout=function(){this._token.removeEventListener("mouseout",this._mouseout,!1),this._token=null,this.hide()},n.prototype.show=function(){if(this._elt||this.init(),this._token)if(this.updater.call(this._elt,this._token.textContent)){this._token.addEventListener("mouseout",this._mouseout,!1);var e=function(e){var s=e.getBoundingClientRect(),t=s.left,i=s.top,a=document.documentElement.getBoundingClientRect();return t-=a.left,{top:i-=a.top,right:innerWidth-t-s.width,bottom:innerHeight-i-s.height,left:t,width:s.width,height:s.height}}(this._token);this._elt.className+=" active",0<e.top-this._elt.offsetHeight?(this._elt.className=this._elt.className.replace(i,""),this._elt.style.top=e.top+"px",this._elt.style.bottom=""):(this._elt.className+=" flipped",this._elt.style.bottom=e.bottom+"px",this._elt.style.top=""),this._elt.style.left=e.left+Math.min(200,e.width/2)+"px"}else this.hide()},n.prototype.hide=function(){this._elt.className=this._elt.className.replace(e,"")},n.byLanguages={},n.byType={},n.initEvents=function(e,s){var t=[];n.byLanguages[s]&&(t=t.concat(n.byLanguages[s])),n.byLanguages["*"]&&(t=t.concat(n.byLanguages["*"])),e.addEventListener("mouseover",function(e){var s=e.target;t.forEach(function(e){e.check(s)})},!1)},Prism.plugins.Previewer=n,Prism.hooks.add("before-highlight",function(r){for(var n in o){var l=o[n].languages;if(r.language&&l[r.language]&&!l[r.language].initialized){var e=l[r.language];Array.isArray(e)||(e=[e]),e.forEach(function(e){var s,t,i,a;e=(!0===e?(s="important",t=r.language):(s=e.before||"important",t=e.inside||e.lang,i=e.root||Prism.languages,a=e.skip),r.language),!a&&Prism.languages[e]&&(Prism.languages.insertBefore(t,s,o[n].tokens,i),r.grammar=Prism.languages[e],l[r.language]={initialized:!0})})}}}),Prism.hooks.add("after-highlight",function(e){(n.byLanguages["*"]||n.byLanguages[e.language])&&n.initEvents(e.element,e.language)}),o)o[a].create()}}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.js":
-/*!*************************************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.js ***!
-  \*************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function() {
-
-if (typeof self === 'undefined' || !self.Prism || !self.document) {
-	return;
-}
-
-Prism.hooks.add('before-sanity-check', function (env) {
-	if (env.code) {
-		var pre = env.element.parentNode;
-		var clsReg = /(?:^|\s)keep-initial-line-feed(?:\s|$)/;
-		if (
-			pre && pre.nodeName.toLowerCase() === 'pre' &&
-			// Apply only if nor the <pre> or the <code> have the class
-			(!clsReg.test(pre.className) && !clsReg.test(env.element.className))
-		) {
-			env.code = env.code.replace(/^(?:\r?\n|\r)/, '');
-		}
-	}
-});
-
-}());
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.min.js":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/remove-initial-line-feed/prism-remove-initial-line-feed.min.js ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-"undefined"!=typeof self&&self.Prism&&self.document&&Prism.hooks.add("before-sanity-check",function(e){if(e.code){var s=e.element.parentNode,n=/(?:^|\s)keep-initial-line-feed(?:\s|$)/;!s||"pre"!==s.nodeName.toLowerCase()||n.test(s.className)||n.test(e.element.className)||(e.code=e.code.replace(/^(?:\r?\n|\r)/,""))}});
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.css":
-/*!********************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.css ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-show-invisibles.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {(function () {
-
-	if (
-		typeof self !== 'undefined' && !self.Prism ||
-		typeof global !== 'undefined' && !global.Prism
-	) {
-		return;
-	}
-
-
-	var invisibles = {
-		'tab': /\t/,
-		'crlf': /\r\n/,
-		'lf': /\n/,
-		'cr': /\r/,
-		'space': / /
-	};
-
-
-	/**
-	 * Handles the recursive calling of `addInvisibles` for one token.
-	 *
-	 * @param {Object|Array} tokens The grammar or array which contains the token.
-	 * @param {string|number} name The name or index of the token in `tokens`.
-	 */
-	function handleToken(tokens, name) {
-		var value = tokens[name];
-
-		var type = Prism.util.type(value);
-		switch (type) {
-			case 'RegExp':
-				var inside = {};
-				tokens[name] = {
-					pattern: value,
-					inside: inside
-				};
-				addInvisibles(inside);
-				break;
-
-			case 'Array':
-				for (var i = 0, l = value.length; i < l; i++) {
-					handleToken(value, i);
-				}
-				break;
-
-			default: // 'Object'
-				var inside = value.inside || (value.inside = {});
-				addInvisibles(inside);
-				break;
-		}
-	}
-
-	/**
-	 * Recursively adds patterns to match invisible characters to the given grammar (if not added already).
-	 *
-	 * @param {Object} grammar
-	 */
-	function addInvisibles(grammar) {
-		if (!grammar || grammar['tab']) {
-			return;
-		}
-
-		// assign invisibles here to "mark" the grammar in case of self references
-		for (var name in invisibles) {
-			if (invisibles.hasOwnProperty(name)) {
-				grammar[name] = invisibles[name];
-			}
-		}
-
-		for (var name in grammar) {
-			if (grammar.hasOwnProperty(name) && !invisibles[name]) {
-				if (name === 'rest') {
-					addInvisibles(grammar['rest']);
-				} else {
-					handleToken(grammar, name);
-				}
-			}
-		}
-	}
-
-	Prism.hooks.add('before-highlight', function (env) {
-		addInvisibles(env.grammar);
-	});
-})();
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.min.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/show-invisibles/prism-show-invisibles.min.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {!function(){if(("undefined"==typeof self||self.Prism)&&("undefined"==typeof global||global.Prism)){var i={tab:/\t/,crlf:/\r\n/,lf:/\n/,cr:/\r/,space:/ /};Prism.hooks.add("before-highlight",function(r){s(r.grammar)})}function f(r,e){var i=r[e];switch(Prism.util.type(i)){case"RegExp":var a={};r[e]={pattern:i,inside:a},s(a);break;case"Array":for(var n=0,t=i.length;n<t;n++)f(i,n);break;default:s(a=i.inside||(i.inside={}))}}function s(r){if(r&&!r.tab){for(var e in i)i.hasOwnProperty(e)&&(r[e]=i[e]);for(var e in r)r.hasOwnProperty(e)&&!i[e]&&("rest"===e?s(r.rest):f(r,e))}}}();
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/show-language/prism-show-language.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/show-language/prism-show-language.js ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-
-	if (typeof self === 'undefined' || !self.Prism || !self.document) {
-		return;
-	}
-
-	if (!Prism.plugins.toolbar) {
-		console.warn('Show Languages plugin loaded before Toolbar plugin.');
-
-		return;
-	}
-
-	// The languages map is built automatically with gulp
-	var Languages = /*languages_placeholder[*/{
-		"html": "HTML",
-		"xml": "XML",
-		"svg": "SVG",
-		"mathml": "MathML",
-		"css": "CSS",
-		"clike": "C-like",
-		"js": "JavaScript",
-		"abap": "ABAP",
-		"abnf": "Augmented Backus–Naur form",
-		"antlr4": "ANTLR4",
-		"g4": "ANTLR4",
-		"apacheconf": "Apache Configuration",
-		"apl": "APL",
-		"aql": "AQL",
-		"arff": "ARFF",
-		"asciidoc": "AsciiDoc",
-		"adoc": "AsciiDoc",
-		"asm6502": "6502 Assembly",
-		"aspnet": "ASP.NET (C#)",
-		"autohotkey": "AutoHotkey",
-		"autoit": "AutoIt",
-		"shell": "Bash",
-		"basic": "BASIC",
-		"bbcode": "BBcode",
-		"shortcode": "BBcode",
-		"bnf": "Backus–Naur form",
-		"rbnf": "Routing Backus–Naur form",
-		"conc": "Concurnas",
-		"csharp": "C#",
-		"cs": "C#",
-		"dotnet": "C#",
-		"cpp": "C++",
-		"cil": "CIL",
-		"coffee": "CoffeeScript",
-		"cmake": "CMake",
-		"csp": "Content-Security-Policy",
-		"css-extras": "CSS Extras",
-		"dax": "DAX",
-		"django": "Django/Jinja2",
-		"jinja2": "Django/Jinja2",
-		"dns-zone-file": "DNS zone file",
-		"dns-zone": "DNS zone file",
-		"dockerfile": "Docker",
-		"ebnf": "Extended Backus–Naur form",
-		"ejs": "EJS",
-		"etlua": "Embedded Lua templating",
-		"erb": "ERB",
-		"excel-formula": "Excel Formula",
-		"xlsx": "Excel Formula",
-		"xls": "Excel Formula",
-		"fsharp": "F#",
-		"firestore-security-rules": "Firestore security rules",
-		"ftl": "FreeMarker Template Language",
-		"gcode": "G-code",
-		"gdscript": "GDScript",
-		"gedcom": "GEDCOM",
-		"glsl": "GLSL",
-		"gml": "GameMaker Language",
-		"gamemakerlanguage": "GameMaker Language",
-		"graphql": "GraphQL",
-		"hs": "Haskell",
-		"hcl": "HCL",
-		"http": "HTTP",
-		"hpkp": "HTTP Public-Key-Pins",
-		"hsts": "HTTP Strict-Transport-Security",
-		"ichigojam": "IchigoJam",
-		"inform7": "Inform 7",
-		"javadoc": "JavaDoc",
-		"javadoclike": "JavaDoc-like",
-		"javastacktrace": "Java stack trace",
-		"jq": "JQ",
-		"jsdoc": "JSDoc",
-		"js-extras": "JS Extras",
-		"js-templates": "JS Templates",
-		"json": "JSON",
-		"jsonp": "JSONP",
-		"json5": "JSON5",
-		"latex": "LaTeX",
-		"tex": "TeX",
-		"context": "ConTeXt",
-		"lilypond": "LilyPond",
-		"ly": "LilyPond",
-		"emacs": "Lisp",
-		"elisp": "Lisp",
-		"emacs-lisp": "Lisp",
-		"llvm": "LLVM IR",
-		"lolcode": "LOLCODE",
-		"md": "Markdown",
-		"markup-templating": "Markup templating",
-		"matlab": "MATLAB",
-		"mel": "MEL",
-		"moon": "MoonScript",
-		"n1ql": "N1QL",
-		"n4js": "N4JS",
-		"n4jsd": "N4JS",
-		"nand2tetris-hdl": "Nand To Tetris HDL",
-		"nasm": "NASM",
-		"neon": "NEON",
-		"nginx": "nginx",
-		"nsis": "NSIS",
-		"objectivec": "Objective-C",
-		"ocaml": "OCaml",
-		"opencl": "OpenCL",
-		"parigp": "PARI/GP",
-		"objectpascal": "Object Pascal",
-		"pcaxis": "PC-Axis",
-		"px": "PC-Axis",
-		"php": "PHP",
-		"phpdoc": "PHPDoc",
-		"php-extras": "PHP Extras",
-		"plsql": "PL/SQL",
-		"powerquery": "PowerQuery",
-		"pq": "PowerQuery",
-		"mscript": "PowerQuery",
-		"powershell": "PowerShell",
-		"properties": ".properties",
-		"protobuf": "Protocol Buffers",
-		"py": "Python",
-		"q": "Q (kdb+ database)",
-		"qml": "QML",
-		"jsx": "React JSX",
-		"tsx": "React TSX",
-		"renpy": "Ren'py",
-		"rest": "reST (reStructuredText)",
-		"robotframework": "Robot Framework",
-		"robot": "Robot Framework",
-		"rb": "Ruby",
-		"sas": "SAS",
-		"sass": "Sass (Sass)",
-		"scss": "Sass (Scss)",
-		"shell-session": "Shell session",
-		"solidity": "Solidity (Ethereum)",
-		"solution-file": "Solution file",
-		"sln": "Solution file",
-		"soy": "Soy (Closure Template)",
-		"sparql": "SPARQL",
-		"rq": "SPARQL",
-		"splunk-spl": "Splunk SPL",
-		"sqf": "SQF: Status Quo Function (Arma 3)",
-		"sql": "SQL",
-		"tap": "TAP",
-		"toml": "TOML",
-		"tt2": "Template Toolkit 2",
-		"trig": "TriG",
-		"ts": "TypeScript",
-		"t4-cs": "T4 Text Templates (C#)",
-		"t4": "T4 Text Templates (C#)",
-		"t4-vb": "T4 Text Templates (VB)",
-		"t4-templating": "T4 templating",
-		"vbnet": "VB.Net",
-		"vhdl": "VHDL",
-		"vim": "vim",
-		"visual-basic": "Visual Basic",
-		"vb": "Visual Basic",
-		"wasm": "WebAssembly",
-		"wiki": "Wiki markup",
-		"xeoracube": "XeoraCube",
-		"xojo": "Xojo (REALbasic)",
-		"xquery": "XQuery",
-		"yaml": "YAML",
-		"yml": "YAML"
-	}/*]*/;
-
-	Prism.plugins.toolbar.registerButton('show-language', function (env) {
-		var pre = env.element.parentNode;
-		if (!pre || !/pre/i.test(pre.nodeName)) {
-			return;
-		}
-
-		/**
-		 * Tries to guess the name of a language given its id.
-		 *
-		 * @param {string} id The language id.
-		 * @returns {string}
-		 */
-		function guessTitle(id) {
-			if (!id) {
-				return id;
-			}
-			return (id.substring(0, 1).toUpperCase() + id.substring(1)).replace(/s(?=cript)/, 'S');
-		}
-
-		var language = pre.getAttribute('data-language') || Languages[env.language] || guessTitle(env.language);
-
-		if (!language) {
-			return;
-		}
-		var element = document.createElement('span');
-		element.textContent = language;
-
-		return element;
-	});
-
-})();
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/show-language/prism-show-language.min.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/show-language/prism-show-language.min.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-!function(){if("undefined"!=typeof self&&self.Prism&&self.document)if(Prism.plugins.toolbar){var r={html:"HTML",xml:"XML",svg:"SVG",mathml:"MathML",css:"CSS",clike:"C-like",js:"JavaScript",abap:"ABAP",abnf:"Augmented Backus–Naur form",antlr4:"ANTLR4",g4:"ANTLR4",apacheconf:"Apache Configuration",apl:"APL",aql:"AQL",arff:"ARFF",asciidoc:"AsciiDoc",adoc:"AsciiDoc",asm6502:"6502 Assembly",aspnet:"ASP.NET (C#)",autohotkey:"AutoHotkey",autoit:"AutoIt",shell:"Bash",basic:"BASIC",bbcode:"BBcode",shortcode:"BBcode",bnf:"Backus–Naur form",rbnf:"Routing Backus–Naur form",conc:"Concurnas",csharp:"C#",cs:"C#",dotnet:"C#",cpp:"C++",cil:"CIL",coffee:"CoffeeScript",cmake:"CMake",csp:"Content-Security-Policy","css-extras":"CSS Extras",dax:"DAX",django:"Django/Jinja2",jinja2:"Django/Jinja2","dns-zone-file":"DNS zone file","dns-zone":"DNS zone file",dockerfile:"Docker",ebnf:"Extended Backus–Naur form",ejs:"EJS",etlua:"Embedded Lua templating",erb:"ERB","excel-formula":"Excel Formula",xlsx:"Excel Formula",xls:"Excel Formula",fsharp:"F#","firestore-security-rules":"Firestore security rules",ftl:"FreeMarker Template Language",gcode:"G-code",gdscript:"GDScript",gedcom:"GEDCOM",glsl:"GLSL",gml:"GameMaker Language",gamemakerlanguage:"GameMaker Language",graphql:"GraphQL",hs:"Haskell",hcl:"HCL",http:"HTTP",hpkp:"HTTP Public-Key-Pins",hsts:"HTTP Strict-Transport-Security",ichigojam:"IchigoJam",inform7:"Inform 7",javadoc:"JavaDoc",javadoclike:"JavaDoc-like",javastacktrace:"Java stack trace",jq:"JQ",jsdoc:"JSDoc","js-extras":"JS Extras","js-templates":"JS Templates",json:"JSON",jsonp:"JSONP",json5:"JSON5",latex:"LaTeX",tex:"TeX",context:"ConTeXt",lilypond:"LilyPond",ly:"LilyPond",emacs:"Lisp",elisp:"Lisp","emacs-lisp":"Lisp",llvm:"LLVM IR",lolcode:"LOLCODE",md:"Markdown","markup-templating":"Markup templating",matlab:"MATLAB",mel:"MEL",moon:"MoonScript",n1ql:"N1QL",n4js:"N4JS",n4jsd:"N4JS","nand2tetris-hdl":"Nand To Tetris HDL",nasm:"NASM",neon:"NEON",nginx:"nginx",nsis:"NSIS",objectivec:"Objective-C",ocaml:"OCaml",opencl:"OpenCL",parigp:"PARI/GP",objectpascal:"Object Pascal",pcaxis:"PC-Axis",px:"PC-Axis",php:"PHP",phpdoc:"PHPDoc","php-extras":"PHP Extras",plsql:"PL/SQL",powerquery:"PowerQuery",pq:"PowerQuery",mscript:"PowerQuery",powershell:"PowerShell",properties:".properties",protobuf:"Protocol Buffers",py:"Python",q:"Q (kdb+ database)",qml:"QML",jsx:"React JSX",tsx:"React TSX",renpy:"Ren'py",rest:"reST (reStructuredText)",robotframework:"Robot Framework",robot:"Robot Framework",rb:"Ruby",sas:"SAS",sass:"Sass (Sass)",scss:"Sass (Scss)","shell-session":"Shell session",solidity:"Solidity (Ethereum)","solution-file":"Solution file",sln:"Solution file",soy:"Soy (Closure Template)",sparql:"SPARQL",rq:"SPARQL","splunk-spl":"Splunk SPL",sqf:"SQF: Status Quo Function (Arma 3)",sql:"SQL",tap:"TAP",toml:"TOML",tt2:"Template Toolkit 2",trig:"TriG",ts:"TypeScript","t4-cs":"T4 Text Templates (C#)",t4:"T4 Text Templates (C#)","t4-vb":"T4 Text Templates (VB)","t4-templating":"T4 templating",vbnet:"VB.Net",vhdl:"VHDL",vim:"vim","visual-basic":"Visual Basic",vb:"Visual Basic",wasm:"WebAssembly",wiki:"Wiki markup",xeoracube:"XeoraCube",xojo:"Xojo (REALbasic)",xquery:"XQuery",yaml:"YAML",yml:"YAML"};Prism.plugins.toolbar.registerButton("show-language",function(e){var a=e.element.parentNode;if(a&&/pre/i.test(a.nodeName)){var s,t=a.getAttribute("data-language")||r[e.language]||((s=e.language)?(s.substring(0,1).toUpperCase()+s.substring(1)).replace(/s(?=cript)/,"S"):s);if(t){var o=document.createElement("span");return o.textContent=t,o}}})}else console.warn("Show Languages plugin loaded before Toolbar plugin.")}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/toolbar/prism-toolbar.css":
-/*!****************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/toolbar/prism-toolbar.css ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-toolbar.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/toolbar/prism-toolbar.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/toolbar/prism-toolbar.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/toolbar/prism-toolbar.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function(){
-	if (typeof self === 'undefined' || !self.Prism || !self.document) {
-		return;
-	}
-
-	var callbacks = [];
-	var map = {};
-	var noop = function() {};
-
-	Prism.plugins.toolbar = {};
-
-	/**
-	 * @typedef ButtonOptions
-	 * @property {string} text The text displayed.
-	 * @property {string} [url] The URL of the link which will be created.
-	 * @property {Function} [onClick] The event listener for the `click` event of the created button.
-	 * @property {string} [className] The class attribute to include with element.
-	 */
-
-	/**
-	 * Register a button callback with the toolbar.
-	 *
-	 * @param {string} key
-	 * @param {ButtonOptions|Function} opts
-	 */
-	var registerButton = Prism.plugins.toolbar.registerButton = function (key, opts) {
-		var callback;
-
-		if (typeof opts === 'function') {
-			callback = opts;
-		} else {
-			callback = function (env) {
-				var element;
-
-				if (typeof opts.onClick === 'function') {
-					element = document.createElement('button');
-					element.type = 'button';
-					element.addEventListener('click', function () {
-						opts.onClick.call(this, env);
-					});
-				} else if (typeof opts.url === 'string') {
-					element = document.createElement('a');
-					element.href = opts.url;
-				} else {
-					element = document.createElement('span');
-				}
-
-				if (opts.className) {
-					element.classList.add(opts.className);
-				}
-
-				element.textContent = opts.text;
-
-				return element;
-			};
-		}
-
-		if (key in map) {
-			console.warn('There is a button with the key "' + key + '" registered already.');
-			return;
-		}
-
-		callbacks.push(map[key] = callback);
-	};
-
-	/**
-	 * Returns the callback order of the given element.
-	 *
-	 * @param {HTMLElement} element
-	 * @returns {string[] | undefined}
-	 */
-	function getOrder(element) {
-		while (element) {
-			var order = element.getAttribute('data-toolbar-order');
-			if (order != null) {
-				order = order.trim();
-				if (order.length) {
-					return order.split(/\s*,\s*/g);
-				} else {
-					return [];
-				}
-			}
-			element = element.parentElement;
-		}
-	}
-
-	/**
-	 * Post-highlight Prism hook callback.
-	 *
-	 * @param env
-	 */
-	var hook = Prism.plugins.toolbar.hook = function (env) {
-		// Check if inline or actual code block (credit to line-numbers plugin)
-		var pre = env.element.parentNode;
-		if (!pre || !/pre/i.test(pre.nodeName)) {
-			return;
-		}
-
-		// Autoloader rehighlights, so only do this once.
-		if (pre.parentNode.classList.contains('code-toolbar')) {
-			return;
-		}
-
-		// Create wrapper for <pre> to prevent scrolling toolbar with content
-		var wrapper = document.createElement('div');
-		wrapper.classList.add('code-toolbar');
-		pre.parentNode.insertBefore(wrapper, pre);
-		wrapper.appendChild(pre);
-
-		// Setup the toolbar
-		var toolbar = document.createElement('div');
-		toolbar.classList.add('toolbar');
-
-		// order callbacks
-		var elementCallbacks = callbacks;
-		var order = getOrder(env.element);
-		if (order) {
-			elementCallbacks = order.map(function (key) {
-				return map[key] || noop;
-			});
-		}
-
-		elementCallbacks.forEach(function(callback) {
-			var element = callback(env);
-
-			if (!element) {
-				return;
-			}
-
-			var item = document.createElement('div');
-			item.classList.add('toolbar-item');
-
-			item.appendChild(element);
-			toolbar.appendChild(item);
-		});
-
-		// Add our toolbar to the currently created wrapper of <pre> tag
-		wrapper.appendChild(toolbar);
-	};
-
-	registerButton('label', function(env) {
-		var pre = env.element.parentNode;
-		if (!pre || !/pre/i.test(pre.nodeName)) {
-			return;
-		}
-
-		if (!pre.hasAttribute('data-label')) {
-			return;
-		}
-
-		var element, template;
-		var text = pre.getAttribute('data-label');
-		try {
-			// Any normal text will blow up this selector.
-			template = document.querySelector('template#' + text);
-		} catch (e) {}
-
-		if (template) {
-			element = template.content;
-		} else {
-			if (pre.hasAttribute('data-url')) {
-				element = document.createElement('a');
-				element.href = pre.getAttribute('data-url');
-			} else {
-				element = document.createElement('span');
-			}
-
-			element.textContent = text;
-		}
-
-		return element;
-	});
-
-	/**
-	 * Register the toolbar with Prism.
-	 */
-	Prism.hooks.add('complete', hook);
-})();
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-!function(){if("undefined"!=typeof self&&self.Prism&&self.document){var i=[],l={},c=function(){};Prism.plugins.toolbar={};var e=Prism.plugins.toolbar.registerButton=function(e,n){var t;t="function"==typeof n?n:function(e){var t;return"function"==typeof n.onClick?((t=document.createElement("button")).type="button",t.addEventListener("click",function(){n.onClick.call(this,e)})):"string"==typeof n.url?(t=document.createElement("a")).href=n.url:t=document.createElement("span"),n.className&&t.classList.add(n.className),t.textContent=n.text,t},e in l?console.warn('There is a button with the key "'+e+'" registered already.'):i.push(l[e]=t)},t=Prism.plugins.toolbar.hook=function(a){var e=a.element.parentNode;if(e&&/pre/i.test(e.nodeName)&&!e.parentNode.classList.contains("code-toolbar")){var t=document.createElement("div");t.classList.add("code-toolbar"),e.parentNode.insertBefore(t,e),t.appendChild(e);var r=document.createElement("div");r.classList.add("toolbar");var n=i,o=function(e){for(;e;){var t=e.getAttribute("data-toolbar-order");if(null!=t)return(t=t.trim()).length?t.split(/\s*,\s*/g):[];e=e.parentElement}}(a.element);o&&(n=o.map(function(e){return l[e]||c})),n.forEach(function(e){var t=e(a);if(t){var n=document.createElement("div");n.classList.add("toolbar-item"),n.appendChild(t),r.appendChild(n)}}),t.appendChild(r)}};e("label",function(e){var t=e.element.parentNode;if(t&&/pre/i.test(t.nodeName)&&t.hasAttribute("data-label")){var n,a,r=t.getAttribute("data-label");try{a=document.querySelector("template#"+r)}catch(e){}return a?n=a.content:(t.hasAttribute("data-url")?(n=document.createElement("a")).href=t.getAttribute("data-url"):n=document.createElement("span"),n.textContent=r),n}}),Prism.hooks.add("complete",t)}}();
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/treeview/prism-treeview.css":
-/*!******************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/treeview/prism-treeview.css ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-treeview.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/treeview/prism-treeview.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/treeview/prism-treeview.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/treeview/prism-treeview.js ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-Prism.languages.treeview = {
-	'treeview-part': {
-		pattern: /^.+/m,
-		inside: {
-			'entry-line': [
-				{
-					pattern: /\|-- |├── /,
-					alias: 'line-h'
-				},
-				{
-					pattern: /\|   |│   /,
-					alias: 'line-v'
-				},
-				{
-					pattern: /`-- |└── /,
-					alias: 'line-v-last'
-				},
-				{
-					pattern: / {4}/,
-					alias: 'line-v-gap'
-				}
-			],
-			'entry-name': {
-				pattern: /.*\S.*/,
-				inside: {
-					// symlink
-					'operator': / -> /,
-				}
-			}
-		}
-	}
-};
-
-Prism.hooks.add('wrap', function (env) {
-	if (env.language === 'treeview' && env.type === 'entry-name') {
-		var classes = env.classes;
-
-		var folderPattern = /(^|[^\\])\/\s*$/;
-		if (folderPattern.test(env.content)) {
-			// folder
-
-			// remove trailing /
-			env.content = env.content.replace(folderPattern, '$1');
-			classes.push('dir');
-		} else {
-			// file
-
-			// remove trailing file marker
-			env.content = env.content.replace(/(^|[^\\])[=*|]\s*$/, '$1');
-
-			var parts = env.content.toLowerCase().replace(/\s+/g, '').split('.');
-			while (parts.length > 1) {
-				parts.shift();
-				// Ex. 'foo.min.js' would become '<span class="token keyword ext-min-js ext-js">foo.min.js</span>'
-				classes.push('ext-' + parts.join('-'));
-			}
-		}
-
-		if (env.content[0] === '.') {
-			classes.push('dotfile');
-		}
-	}
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/treeview/prism-treeview.min.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/treeview/prism-treeview.min.js ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-Prism.languages.treeview={"treeview-part":{pattern:/^.+/m,inside:{"entry-line":[{pattern:/\|-- |├── /,alias:"line-h"},{pattern:/\|   |│   /,alias:"line-v"},{pattern:/`-- |└── /,alias:"line-v-last"},{pattern:/ {4}/,alias:"line-v-gap"}],"entry-name":{pattern:/.*\S.*/,inside:{operator:/ -> /}}}}},Prism.hooks.add("wrap",function(e){if("treeview"===e.language&&"entry-name"===e.type){var t=e.classes,n=/(^|[^\\])\/\s*$/;if(n.test(e.content))e.content=e.content.replace(n,"$1"),t.push("dir");else{e.content=e.content.replace(/(^|[^\\])[=*|]\s*$/,"$1");for(var a=e.content.toLowerCase().replace(/\s+/g,"").split(".");1<a.length;)a.shift(),t.push("ext-"+a.join("-"))}"."===e.content[0]&&t.push("dotfile")}});
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-unescaped-markup.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function () {
-
-	if (typeof self === 'undefined' || !self.Prism || !self.document || !Prism.languages.markup) {
-		return;
-	}
-
-	Prism.plugins.UnescapedMarkup = true;
-
-	Prism.hooks.add('before-highlightall', function (env) {
-		env.selector += ", [class*='lang-'] script[type='text/plain'], [class*='language-'] script[type='text/plain']" +
-		                ", script[type='text/plain'][class*='lang-'], script[type='text/plain'][class*='language-']";
-	});
-
-	Prism.hooks.add('before-sanity-check', function (env) {
-		if ((env.element.matches || env.element.msMatchesSelector).call(env.element, "script[type='text/plain']")) {
-			var code = document.createElement("code");
-			var pre = document.createElement("pre");
-
-			pre.className = code.className = env.element.className;
-
-			if (env.element.dataset) {
-				Object.keys(env.element.dataset).forEach(function (key) {
-					if (Object.prototype.hasOwnProperty.call(env.element.dataset, key)) {
-						pre.dataset[key] = env.element.dataset[key];
-					}
-				});
-			}
-
-			env.code = env.code.replace(/&lt;\/script(>|&gt;)/gi, "</scri" + "pt>");
-			code.textContent = env.code;
-
-			pre.appendChild(code);
-			env.element.parentNode.replaceChild(pre, env.element);
-			env.element = code;
-			return;
-		}
-
-		var pre = env.element.parentNode;
-		if (!env.code && pre && pre.nodeName.toLowerCase() == 'pre' &&
-				env.element.childNodes.length && env.element.childNodes[0].nodeName == "#comment") {
-			env.element.textContent = env.code = env.element.childNodes[0].textContent;
-		}
-	});
-}());
-
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.min.js":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.min.js ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-"undefined"!=typeof self&&self.Prism&&self.document&&Prism.languages.markup&&(Prism.plugins.UnescapedMarkup=!0,Prism.hooks.add("before-highlightall",function(e){e.selector+=", [class*='lang-'] script[type='text/plain'], [class*='language-'] script[type='text/plain'], script[type='text/plain'][class*='lang-'], script[type='text/plain'][class*='language-']"}),Prism.hooks.add("before-sanity-check",function(t){if((t.element.matches||t.element.msMatchesSelector).call(t.element,"script[type='text/plain']")){var e=document.createElement("code");return(a=document.createElement("pre")).className=e.className=t.element.className,t.element.dataset&&Object.keys(t.element.dataset).forEach(function(e){Object.prototype.hasOwnProperty.call(t.element.dataset,e)&&(a.dataset[e]=t.element.dataset[e])}),t.code=t.code.replace(/&lt;\/script(>|&gt;)/gi,"<\/script>"),e.textContent=t.code,a.appendChild(e),t.element.parentNode.replaceChild(a,t.element),void(t.element=e)}var a=t.element.parentNode;!t.code&&a&&"pre"==a.nodeName.toLowerCase()&&t.element.childNodes.length&&"#comment"==t.element.childNodes[0].nodeName&&(t.element.textContent=t.code=t.element.childNodes[0].textContent)}));
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/wpd/prism-wpd.css":
-/*!********************************************************!*\
-  !*** ./node_modules/prismjs/plugins/wpd/prism-wpd.css ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader??ref--6-1!../../../postcss-loader/src??ref--6-2!./prism-wpd.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/prismjs/plugins/wpd/prism-wpd.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/wpd/prism-wpd.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/prismjs/plugins/wpd/prism-wpd.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {(function(){
-
-if (
-	typeof self !== 'undefined' && !self.Prism ||
-	typeof global !== 'undefined' && !global.Prism
-) {
-	return;
-}
-
-if (Prism.languages.css) {
-	// check whether the selector is an advanced pattern before extending it
-	if (Prism.languages.css.selector.pattern)
-	{
-		Prism.languages.css.selector.inside['pseudo-class'] = /:[\w-]+/;
-		Prism.languages.css.selector.inside['pseudo-element'] = /::[\w-]+/;
-	}
-	else
-	{
-		Prism.languages.css.selector = {
-			pattern: Prism.languages.css.selector,
-			inside: {
-				'pseudo-class': /:[\w-]+/,
-				'pseudo-element': /::[\w-]+/
-			}
-		};
-	}
-}
-
-if (Prism.languages.markup) {
-	Prism.languages.markup.tag.inside.tag.inside['tag-id'] = /[\w-]+/;
-	
-	var Tags = {
-		HTML: {
-			'a': 1, 'abbr': 1, 'acronym': 1, 'b': 1, 'basefont': 1, 'bdo': 1, 'big': 1, 'blink': 1, 'cite': 1, 'code': 1, 'dfn': 1, 'em': 1, 'kbd': 1,  'i': 1, 
-			'rp': 1, 'rt': 1, 'ruby': 1, 's': 1, 'samp': 1, 'small': 1, 'spacer': 1, 'strike': 1, 'strong': 1, 'sub': 1, 'sup': 1, 'time': 1, 'tt': 1,  'u': 1, 
-			'var': 1, 'wbr': 1, 'noframes': 1, 'summary': 1, 'command': 1, 'dt': 1, 'dd': 1, 'figure': 1, 'figcaption': 1, 'center': 1, 'section': 1, 'nav': 1,
-			'article': 1, 'aside': 1, 'hgroup': 1, 'header': 1, 'footer': 1, 'address': 1, 'noscript': 1, 'isIndex': 1, 'main': 1, 'mark': 1, 'marquee': 1,
-			'meter': 1, 'menu': 1
-		},
-		SVG: {
-			'animateColor': 1, 'animateMotion': 1, 'animateTransform': 1, 'glyph': 1, 'feBlend': 1, 'feColorMatrix': 1, 'feComponentTransfer': 1, 
-			'feFuncR': 1, 'feFuncG': 1, 'feFuncB': 1, 'feFuncA': 1, 'feComposite': 1, 'feConvolveMatrix': 1, 'feDiffuseLighting': 1, 'feDisplacementMap': 1, 
-			'feFlood': 1, 'feGaussianBlur': 1, 'feImage': 1, 'feMerge': 1, 'feMergeNode': 1, 'feMorphology': 1, 'feOffset': 1, 'feSpecularLighting': 1, 
-			'feTile': 1, 'feTurbulence': 1, 'feDistantLight': 1, 'fePointLight': 1, 'feSpotLight': 1, 'linearGradient': 1, 'radialGradient': 1, 'altGlyph': 1, 
-			'textPath': 1, 'tref': 1, 'altglyph': 1, 'textpath': 1, 'altglyphdef': 1, 'altglyphitem': 1, 'clipPath': 1, 'color-profile': 1, 'cursor': 1,
-			'font-face': 1, 'font-face-format': 1, 'font-face-name': 1, 'font-face-src': 1, 'font-face-uri': 1, 'foreignObject': 1, 'glyphRef': 1,
-			'hkern': 1, 'vkern': 1
-		},
-		MathML: {}
-	}
-}
-
-var language;
-
-Prism.hooks.add('wrap', function(env) {
-	if ((env.type == 'tag-id'
-		|| (env.type == 'property' && env.content.indexOf('-') != 0)
-		|| (env.type == 'rule'&& env.content.indexOf('@-') != 0)
-		|| (env.type == 'pseudo-class'&& env.content.indexOf(':-') != 0) 
-		|| (env.type == 'pseudo-element'&& env.content.indexOf('::-') != 0) 
-        || (env.type == 'attr-name' && env.content.indexOf('data-') != 0)
-		) && env.content.indexOf('<') === -1
-	) {
-		if (env.language == 'css'
-			|| env.language == 'scss'
-			|| env.language == 'markup'
-		) {
-			var href = 'https://webplatform.github.io/docs/';
-			var content = env.content;
-
-			if (env.language == 'css' || env.language == 'scss') {
-				href += 'css/';
-
-				if (env.type == 'property') {
-					href += 'properties/';
-				}
-				else if (env.type == 'rule') {
-					href += 'atrules/';
-					content = content.substring(1);
-				}
-				else if (env.type == 'pseudo-class') {
-					href += 'selectors/pseudo-classes/';
-					content = content.substring(1);
-				}
-				else if (env.type == 'pseudo-element') {
-					href += 'selectors/pseudo-elements/';
-					content = content.substring(2);
-				}
-			}
-			else if (env.language == 'markup') {
-				if (env.type == 'tag-id') {
-					// Check language
-					language = getLanguage(env.content) || language;
-
-					if (language) {
-						href += language + '/elements/';
-					}
-					else {
-						return; // Abort
-					}
-				}
-				else if (env.type == 'attr-name') {
-					if (language) {
-						href += language + '/attributes/';
-					}
-					else {
-						return; // Abort
-					}
-				}
-			}
-
-			href += content;
-			env.tag = 'a';
-			env.attributes.href = href;
-			env.attributes.target = '_blank';
-		}
-	}
-});
-
-function getLanguage(tag) {
-	var tagL = tag.toLowerCase();
-	
-	if (Tags.HTML[tagL]) {
-		return 'html';
-	}
-	else if (Tags.SVG[tag]) {
-		return 'svg';
-	}
-	else if (Tags.MathML[tag]) {
-		return 'mathml';
-	}
-	
-	// Not in dictionary, perform check
-	if (Tags.HTML[tagL] !== 0 && typeof document !== 'undefined') {
-		var htmlInterface = (document.createElement(tag).toString().match(/\[object HTML(.+)Element\]/) || [])[1];
-		
-		if (htmlInterface && htmlInterface != 'Unknown') {
-			Tags.HTML[tagL] = 1;
-			return 'html';
-		}
-	}
-	
-	Tags.HTML[tagL] = 0;
-	
-	if (Tags.SVG[tag] !== 0 && typeof document !== 'undefined') {
-		var svgInterface = (document.createElementNS('http://www.w3.org/2000/svg', tag).toString().match(/\[object SVG(.+)Element\]/) || [])[1];
-		
-		if (svgInterface && svgInterface != 'Unknown') {
-			Tags.SVG[tag] = 1;
-			return 'svg';
-		}
-	}
-	
-	Tags.SVG[tag] = 0;
-	
-	// Lame way to detect MathML, but browsers don’t expose interface names there :(
-	if (Tags.MathML[tag] !== 0) {
-		if (tag.indexOf('m') === 0) {
-			Tags.MathML[tag] = 1;
-			return 'mathml';
-		}
-	}
-	
-	Tags.MathML[tag] = 0;
-	
-	return null;
-}
-
-})();
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/prismjs/plugins/wpd/prism-wpd.min.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/prismjs/plugins/wpd/prism-wpd.min.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {!function(){if(("undefined"==typeof self||self.Prism)&&("undefined"==typeof global||global.Prism)){if(Prism.languages.css&&(Prism.languages.css.selector.pattern?(Prism.languages.css.selector.inside["pseudo-class"]=/:[\w-]+/,Prism.languages.css.selector.inside["pseudo-element"]=/::[\w-]+/):Prism.languages.css.selector={pattern:Prism.languages.css.selector,inside:{"pseudo-class":/:[\w-]+/,"pseudo-element":/::[\w-]+/}}),Prism.languages.markup){Prism.languages.markup.tag.inside.tag.inside["tag-id"]=/[\w-]+/;var s={HTML:{a:1,abbr:1,acronym:1,b:1,basefont:1,bdo:1,big:1,blink:1,cite:1,code:1,dfn:1,em:1,kbd:1,i:1,rp:1,rt:1,ruby:1,s:1,samp:1,small:1,spacer:1,strike:1,strong:1,sub:1,sup:1,time:1,tt:1,u:1,var:1,wbr:1,noframes:1,summary:1,command:1,dt:1,dd:1,figure:1,figcaption:1,center:1,section:1,nav:1,article:1,aside:1,hgroup:1,header:1,footer:1,address:1,noscript:1,isIndex:1,main:1,mark:1,marquee:1,meter:1,menu:1},SVG:{animateColor:1,animateMotion:1,animateTransform:1,glyph:1,feBlend:1,feColorMatrix:1,feComponentTransfer:1,feFuncR:1,feFuncG:1,feFuncB:1,feFuncA:1,feComposite:1,feConvolveMatrix:1,feDiffuseLighting:1,feDisplacementMap:1,feFlood:1,feGaussianBlur:1,feImage:1,feMerge:1,feMergeNode:1,feMorphology:1,feOffset:1,feSpecularLighting:1,feTile:1,feTurbulence:1,feDistantLight:1,fePointLight:1,feSpotLight:1,linearGradient:1,radialGradient:1,altGlyph:1,textPath:1,tref:1,altglyph:1,textpath:1,altglyphdef:1,altglyphitem:1,clipPath:1,"color-profile":1,cursor:1,"font-face":1,"font-face-format":1,"font-face-name":1,"font-face-src":1,"font-face-uri":1,foreignObject:1,glyphRef:1,hkern:1,vkern:1},MathML:{}}}var a;Prism.hooks.add("wrap",function(e){if(("tag-id"==e.type||"property"==e.type&&0!=e.content.indexOf("-")||"rule"==e.type&&0!=e.content.indexOf("@-")||"pseudo-class"==e.type&&0!=e.content.indexOf(":-")||"pseudo-element"==e.type&&0!=e.content.indexOf("::-")||"attr-name"==e.type&&0!=e.content.indexOf("data-"))&&-1===e.content.indexOf("<")&&("css"==e.language||"scss"==e.language||"markup"==e.language)){var t="https://webplatform.github.io/docs/",n=e.content;if("css"==e.language||"scss"==e.language)t+="css/","property"==e.type?t+="properties/":"rule"==e.type?(t+="atrules/",n=n.substring(1)):"pseudo-class"==e.type?(t+="selectors/pseudo-classes/",n=n.substring(1)):"pseudo-element"==e.type&&(t+="selectors/pseudo-elements/",n=n.substring(2));else if("markup"==e.language)if("tag-id"==e.type){if(!(a=function(e){var t=e.toLowerCase();{if(s.HTML[t])return"html";if(s.SVG[e])return"svg";if(s.MathML[e])return"mathml"}if(0!==s.HTML[t]&&"undefined"!=typeof document){var n=(document.createElement(e).toString().match(/\[object HTML(.+)Element\]/)||[])[1];if(n&&"Unknown"!=n)return s.HTML[t]=1,"html"}if((s.HTML[t]=0)!==s.SVG[e]&&"undefined"!=typeof document){var a=(document.createElementNS("http://www.w3.org/2000/svg",e).toString().match(/\[object SVG(.+)Element\]/)||[])[1];if(a&&"Unknown"!=a)return s.SVG[e]=1,"svg"}if((s.SVG[e]=0)!==s.MathML[e]&&0===e.indexOf("m"))return s.MathML[e]=1,"mathml";return s.MathML[e]=0,null}(e.content)||a))return;t+=a+"/elements/"}else if("attr-name"==e.type){if(!a)return;t+=a+"/attributes/"}t+=n,e.tag="a",e.attributes.href=t,e.attributes.target="_blank"}})}}();
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
 /***/ "./node_modules/prismjs/prism.js":
 /*!***************************************!*\
   !*** ./node_modules/prismjs/prism.js ***!
@@ -54888,6 +56036,8 @@ function getLanguage(tag) {
      Begin prism-core.js
 ********************************************** */
 
+/// <reference lib="WebWorker"/>
+
 var _self = (typeof window !== 'undefined')
 	? window   // if in browser
 	: (
@@ -54898,10 +56048,12 @@ var _self = (typeof window !== 'undefined')
 
 /**
  * Prism: Lightweight, robust, elegant syntax highlighting
- * MIT license http://www.opensource.org/licenses/mit-license.php/
- * @author Lea Verou http://lea.verou.me
+ *
+ * @license MIT <https://opensource.org/licenses/MIT>
+ * @author Lea Verou <https://lea.verou.me>
+ * @namespace
+ * @public
  */
-
 var Prism = (function (_self){
 
 // Private helper vars
@@ -54910,8 +56062,39 @@ var uniqueId = 0;
 
 
 var _ = {
+	/**
+	 * By default, Prism will attempt to highlight all code elements (by calling {@link Prism.highlightAll}) on the
+	 * current page after the page finished loading. This might be a problem if e.g. you wanted to asynchronously load
+	 * additional languages or plugins yourself.
+	 *
+	 * By setting this value to `true`, Prism will not automatically highlight all code elements on the page.
+	 *
+	 * You obviously have to change this value before the automatic highlighting started. To do this, you can add an
+	 * empty Prism object into the global scope before loading the Prism script like this:
+	 *
+	 * ```js
+	 * window.Prism = window.Prism || {};
+	 * Prism.manual = true;
+	 * // add a new <script> to load Prism's script
+	 * ```
+	 *
+	 * @default false
+	 * @type {boolean}
+	 * @memberof Prism
+	 * @public
+	 */
 	manual: _self.Prism && _self.Prism.manual,
 	disableWorkerMessageHandler: _self.Prism && _self.Prism.disableWorkerMessageHandler,
+
+	/**
+	 * A namespace for utility methods.
+	 *
+	 * All function in this namespace that are not explicitly marked as _public_ are for __internal use only__ and may
+	 * change or disappear at any time.
+	 *
+	 * @namespace
+	 * @memberof Prism
+	 */
 	util: {
 		encode: function encode(tokens) {
 			if (tokens instanceof Token) {
@@ -54923,10 +56106,32 @@ var _ = {
 			}
 		},
 
+		/**
+		 * Returns the name of the type of the given value.
+		 *
+		 * @param {any} o
+		 * @returns {string}
+		 * @example
+		 * type(null)      === 'Null'
+		 * type(undefined) === 'Undefined'
+		 * type(123)       === 'Number'
+		 * type('foo')     === 'String'
+		 * type(true)      === 'Boolean'
+		 * type([1, 2])    === 'Array'
+		 * type({})        === 'Object'
+		 * type(String)    === 'Function'
+		 * type(/abc+/)    === 'RegExp'
+		 */
 		type: function (o) {
 			return Object.prototype.toString.call(o).slice(8, -1);
 		},
 
+		/**
+		 * Returns a unique number for the given object. Later calls will still return the same number.
+		 *
+		 * @param {Object} obj
+		 * @returns {number}
+		 */
 		objId: function (obj) {
 			if (!obj['__id']) {
 				Object.defineProperty(obj, '__id', { value: ++uniqueId });
@@ -54934,18 +56139,27 @@ var _ = {
 			return obj['__id'];
 		},
 
-		// Deep clone a language definition (e.g. to extend it)
+		/**
+		 * Creates a deep clone of the given object.
+		 *
+		 * The main intended use of this function is to clone language definitions.
+		 *
+		 * @param {T} o
+		 * @param {Record<number, any>} [visited]
+		 * @returns {T}
+		 * @template T
+		 */
 		clone: function deepClone(o, visited) {
-			var clone, id, type = _.util.type(o);
 			visited = visited || {};
 
-			switch (type) {
+			var clone, id;
+			switch (_.util.type(o)) {
 				case 'Object':
 					id = _.util.objId(o);
 					if (visited[id]) {
 						return visited[id];
 					}
-					clone = {};
+					clone = /** @type {Record<string, any>} */ ({});
 					visited[id] = clone;
 
 					for (var key in o) {
@@ -54954,7 +56168,7 @@ var _ = {
 						}
 					}
 
-					return clone;
+					return /** @type {any} */ (clone);
 
 				case 'Array':
 					id = _.util.objId(o);
@@ -54964,11 +56178,11 @@ var _ = {
 					clone = [];
 					visited[id] = clone;
 
-					o.forEach(function (v, i) {
+					(/** @type {Array} */(/** @type {any} */(o))).forEach(function (v, i) {
 						clone[i] = deepClone(v, visited);
 					});
 
-					return clone;
+					return /** @type {any} */ (clone);
 
 				default:
 					return o;
@@ -55004,8 +56218,8 @@ var _ = {
 			if (typeof document === 'undefined') {
 				return null;
 			}
-			if ('currentScript' in document) {
-				return document.currentScript;
+			if ('currentScript' in document && 1 < 2 /* hack to trip TS' flow analysis */) {
+				return /** @type {any} */ (document.currentScript);
 			}
 
 			// IE11 workaround
@@ -55033,10 +56247,80 @@ var _ = {
 				}
 				return null;
 			}
+		},
+
+		/**
+		 * Returns whether a given class is active for `element`.
+		 *
+		 * The class can be activated if `element` or one of its ancestors has the given class and it can be deactivated
+		 * if `element` or one of its ancestors has the negated version of the given class. The _negated version_ of the
+		 * given class is just the given class with a `no-` prefix.
+		 *
+		 * Whether the class is active is determined by the closest ancestor of `element` (where `element` itself is
+		 * closest ancestor) that has the given class or the negated version of it. If neither `element` nor any of its
+		 * ancestors have the given class or the negated version of it, then the default activation will be returned.
+		 *
+		 * In the paradoxical situation where the closest ancestor contains __both__ the given class and the negated
+		 * version of it, the class is considered active.
+		 *
+		 * @param {Element} element
+		 * @param {string} className
+		 * @param {boolean} [defaultActivation=false]
+		 * @returns {boolean}
+		 */
+		isActive: function (element, className, defaultActivation) {
+			var no = 'no-' + className;
+
+			while (element) {
+				var classList = element.classList;
+				if (classList.contains(className)) {
+					return true;
+				}
+				if (classList.contains(no)) {
+					return false;
+				}
+				element = element.parentElement;
+			}
+			return !!defaultActivation;
 		}
 	},
 
+	/**
+	 * This namespace contains all currently loaded languages and the some helper functions to create and modify languages.
+	 *
+	 * @namespace
+	 * @memberof Prism
+	 * @public
+	 */
 	languages: {
+		/**
+		 * Creates a deep copy of the language with the given id and appends the given tokens.
+		 *
+		 * If a token in `redef` also appears in the copied language, then the existing token in the copied language
+		 * will be overwritten at its original position.
+		 *
+		 * ## Best practices
+		 *
+		 * Since the position of overwriting tokens (token in `redef` that overwrite tokens in the copied language)
+		 * doesn't matter, they can technically be in any order. However, this can be confusing to others that trying to
+		 * understand the language definition because, normally, the order of tokens matters in Prism grammars.
+		 *
+		 * Therefore, it is encouraged to order overwriting tokens according to the positions of the overwritten tokens.
+		 * Furthermore, all non-overwriting tokens should be placed after the overwriting ones.
+		 *
+		 * @param {string} id The id of the language to extend. This has to be a key in `Prism.languages`.
+		 * @param {Grammar} redef The new tokens to append.
+		 * @returns {Grammar} The new language created.
+		 * @public
+		 * @example
+		 * Prism.languages['css-with-colors'] = Prism.languages.extend('css', {
+		 *     // Prism.languages.css already has a 'comment' token, so this token will overwrite CSS' 'comment' token
+		 *     // at its original position
+		 *     'comment': { ... },
+		 *     // CSS doesn't have a 'color' token, so this token will be appended
+		 *     'color': /\b(?:red|green|blue)\b/
+		 * });
+		 */
 		extend: function (id, redef) {
 			var lang = _.util.clone(_.languages[id]);
 
@@ -55048,17 +56332,84 @@ var _ = {
 		},
 
 		/**
-		 * Insert a token before another token in a language literal
-		 * As this needs to recreate the object (we cannot actually insert before keys in object literals),
-		 * we cannot just provide an object, we need an object and a key.
-		 * @param inside The key (or language id) of the parent
-		 * @param before The key to insert before.
-		 * @param insert Object with the key/value pairs to insert
-		 * @param root The object that contains `inside`. If equal to Prism.languages, it can be omitted.
+		 * Inserts tokens _before_ another token in a language definition or any other grammar.
+		 *
+		 * ## Usage
+		 *
+		 * This helper method makes it easy to modify existing languages. For example, the CSS language definition
+		 * not only defines CSS highlighting for CSS documents, but also needs to define highlighting for CSS embedded
+		 * in HTML through `<style>` elements. To do this, it needs to modify `Prism.languages.markup` and add the
+		 * appropriate tokens. However, `Prism.languages.markup` is a regular JavaScript object literal, so if you do
+		 * this:
+		 *
+		 * ```js
+		 * Prism.languages.markup.style = {
+		 *     // token
+		 * };
+		 * ```
+		 *
+		 * then the `style` token will be added (and processed) at the end. `insertBefore` allows you to insert tokens
+		 * before existing tokens. For the CSS example above, you would use it like this:
+		 *
+		 * ```js
+		 * Prism.languages.insertBefore('markup', 'cdata', {
+		 *     'style': {
+		 *         // token
+		 *     }
+		 * });
+		 * ```
+		 *
+		 * ## Special cases
+		 *
+		 * If the grammars of `inside` and `insert` have tokens with the same name, the tokens in `inside`'s grammar
+		 * will be ignored.
+		 *
+		 * This behavior can be used to insert tokens after `before`:
+		 *
+		 * ```js
+		 * Prism.languages.insertBefore('markup', 'comment', {
+		 *     'comment': Prism.languages.markup.comment,
+		 *     // tokens after 'comment'
+		 * });
+		 * ```
+		 *
+		 * ## Limitations
+		 *
+		 * The main problem `insertBefore` has to solve is iteration order. Since ES2015, the iteration order for object
+		 * properties is guaranteed to be the insertion order (except for integer keys) but some browsers behave
+		 * differently when keys are deleted and re-inserted. So `insertBefore` can't be implemented by temporarily
+		 * deleting properties which is necessary to insert at arbitrary positions.
+		 *
+		 * To solve this problem, `insertBefore` doesn't actually insert the given tokens into the target object.
+		 * Instead, it will create a new object and replace all references to the target object with the new one. This
+		 * can be done without temporarily deleting properties, so the iteration order is well-defined.
+		 *
+		 * However, only references that can be reached from `Prism.languages` or `insert` will be replaced. I.e. if
+		 * you hold the target object in a variable, then the value of the variable will not change.
+		 *
+		 * ```js
+		 * var oldMarkup = Prism.languages.markup;
+		 * var newMarkup = Prism.languages.insertBefore('markup', 'comment', { ... });
+		 *
+		 * assert(oldMarkup !== Prism.languages.markup);
+		 * assert(newMarkup === Prism.languages.markup);
+		 * ```
+		 *
+		 * @param {string} inside The property of `root` (e.g. a language id in `Prism.languages`) that contains the
+		 * object to be modified.
+		 * @param {string} before The key to insert before.
+		 * @param {Grammar} insert An object containing the key-value pairs to be inserted.
+		 * @param {Object<string, any>} [root] The object containing `inside`, i.e. the object that contains the
+		 * object to be modified.
+		 *
+		 * Defaults to `Prism.languages`.
+		 * @returns {Grammar} The new grammar object.
+		 * @public
 		 */
 		insertBefore: function (inside, before, insert, root) {
-			root = root || _.languages;
+			root = root || /** @type {any} */ (_.languages);
 			var grammar = root[inside];
+			/** @type {Grammar} */
 			var ret = {};
 
 			for (var token in grammar) {
@@ -55117,12 +56468,39 @@ var _ = {
 			}
 		}
 	},
+
 	plugins: {},
 
+	/**
+	 * This is the most high-level function in Prism’s API.
+	 * It fetches all the elements that have a `.language-xxxx` class and then calls {@link Prism.highlightElement} on
+	 * each one of them.
+	 *
+	 * This is equivalent to `Prism.highlightAllUnder(document, async, callback)`.
+	 *
+	 * @param {boolean} [async=false] Same as in {@link Prism.highlightAllUnder}.
+	 * @param {HighlightCallback} [callback] Same as in {@link Prism.highlightAllUnder}.
+	 * @memberof Prism
+	 * @public
+	 */
 	highlightAll: function(async, callback) {
 		_.highlightAllUnder(document, async, callback);
 	},
 
+	/**
+	 * Fetches all the descendants of `container` that have a `.language-xxxx` class and then calls
+	 * {@link Prism.highlightElement} on each one of them.
+	 *
+	 * The following hooks will be run:
+	 * 1. `before-highlightall`
+	 * 2. All hooks of {@link Prism.highlightElement} for each element.
+	 *
+	 * @param {ParentNode} container The root element, whose descendants that have a `.language-xxxx` class will be highlighted.
+	 * @param {boolean} [async=false] Whether each element is to be highlighted asynchronously using Web Workers.
+	 * @param {HighlightCallback} [callback] An optional callback to be invoked on each element after its highlighting is done.
+	 * @memberof Prism
+	 * @public
+	 */
 	highlightAllUnder: function(container, async, callback) {
 		var env = {
 			callback: callback,
@@ -55141,6 +56519,31 @@ var _ = {
 		}
 	},
 
+	/**
+	 * Highlights the code inside a single element.
+	 *
+	 * The following hooks will be run:
+	 * 1. `before-sanity-check`
+	 * 2. `before-highlight`
+	 * 3. All hooks of {@link Prism.highlight}. These hooks will only be run by the current worker if `async` is `true`.
+	 * 4. `before-insert`
+	 * 5. `after-highlight`
+	 * 6. `complete`
+	 *
+	 * @param {Element} element The element containing the code.
+	 * It must have a class of `language-xxxx` to be processed, where `xxxx` is a valid language identifier.
+	 * @param {boolean} [async=false] Whether the element is to be highlighted asynchronously using Web Workers
+	 * to improve performance and avoid blocking the UI when highlighting very large chunks of code. This option is
+	 * [disabled by default](https://prismjs.com/faq.html#why-is-asynchronous-highlighting-disabled-by-default).
+	 *
+	 * Note: All language definitions required to highlight the code must be included in the main `prism.js` file for
+	 * asynchronous highlighting to work. You can build your own bundle on the
+	 * [Download page](https://prismjs.com/download.html).
+	 * @param {HighlightCallback} [callback] An optional callback to be invoked after the highlighting is done.
+	 * Mostly useful when `async` is `true`, since in that case, the highlighting is done asynchronously.
+	 * @memberof Prism
+	 * @public
+	 */
 	highlightElement: function(element, async, callback) {
 		// Find language
 		var language = _.util.getLanguage(element);
@@ -55150,7 +56553,7 @@ var _ = {
 		element.className = element.className.replace(lang, '').replace(/\s+/g, ' ') + ' language-' + language;
 
 		// Set language on the parent, for styling
-		var parent = element.parentNode;
+		var parent = element.parentElement;
 		if (parent && parent.nodeName.toLowerCase() === 'pre') {
 			parent.className = parent.className.replace(lang, '').replace(/\s+/g, ' ') + ' language-' + language;
 		}
@@ -55209,6 +56612,26 @@ var _ = {
 		}
 	},
 
+	/**
+	 * Low-level function, only use if you know what you’re doing. It accepts a string of text as input
+	 * and the language definitions to use, and returns a string with the HTML produced.
+	 *
+	 * The following hooks will be run:
+	 * 1. `before-tokenize`
+	 * 2. `after-tokenize`
+	 * 3. `wrap`: On each {@link Token}.
+	 *
+	 * @param {string} text A string with the code to be highlighted.
+	 * @param {Grammar} grammar An object containing the tokens to use.
+	 *
+	 * Usually a language definition like `Prism.languages.markup`.
+	 * @param {string} language The name of the language definition passed to `grammar`.
+	 * @returns {string} The highlighted HTML.
+	 * @memberof Prism
+	 * @public
+	 * @example
+	 * Prism.highlight('var foo = true;', Prism.languages.javascript, 'javascript');
+	 */
 	highlight: function (text, grammar, language) {
 		var env = {
 			code: text,
@@ -55221,6 +56644,30 @@ var _ = {
 		return Token.stringify(_.util.encode(env.tokens), env.language);
 	},
 
+	/**
+	 * This is the heart of Prism, and the most low-level function you can use. It accepts a string of text as input
+	 * and the language definitions to use, and returns an array with the tokenized code.
+	 *
+	 * When the language definition includes nested tokens, the function is called recursively on each of these tokens.
+	 *
+	 * This method could be useful in other contexts as well, as a very crude parser.
+	 *
+	 * @param {string} text A string with the code to be highlighted.
+	 * @param {Grammar} grammar An object containing the tokens to use.
+	 *
+	 * Usually a language definition like `Prism.languages.markup`.
+	 * @returns {TokenStream} An array of strings and tokens, a token stream.
+	 * @memberof Prism
+	 * @public
+	 * @example
+	 * let code = `var foo = 0;`;
+	 * let tokens = Prism.tokenize(code, Prism.languages.javascript);
+	 * tokens.forEach(token => {
+	 *     if (token instanceof Prism.Token && token.type === 'number') {
+	 *         console.log(`Found numeric literal: ${token.content}`);
+	 *     }
+	 * });
+	 */
 	tokenize: function(text, grammar) {
 		var rest = grammar.rest;
 		if (rest) {
@@ -55239,9 +56686,26 @@ var _ = {
 		return toArray(tokenList);
 	},
 
+	/**
+	 * @namespace
+	 * @memberof Prism
+	 * @public
+	 */
 	hooks: {
 		all: {},
 
+		/**
+		 * Adds the given callback to the list of callbacks for the given hook.
+		 *
+		 * The callback will be invoked when the hook it is registered for is run.
+		 * Hooks are usually directly run by a highlight function but you can also run hooks yourself.
+		 *
+		 * One callback function can be registered to multiple hooks and the same hook multiple times.
+		 *
+		 * @param {string} name The name of the hook.
+		 * @param {HookCallback} callback The callback function which is given environment variables.
+		 * @public
+		 */
 		add: function (name, callback) {
 			var hooks = _.hooks.all;
 
@@ -55250,6 +56714,15 @@ var _ = {
 			hooks[name].push(callback);
 		},
 
+		/**
+		 * Runs a hook invoking all registered callbacks with the given environment variables.
+		 *
+		 * Callbacks will be invoked synchronously and in the order in which they were registered.
+		 *
+		 * @param {string} name The name of the hook.
+		 * @param {Object<string, any>} env The environment variables of the hook passed to all callbacks registered.
+		 * @public
+		 */
 		run: function (name, env) {
 			var callbacks = _.hooks.all[name];
 
@@ -55265,18 +56738,85 @@ var _ = {
 
 	Token: Token
 };
-
 _self.Prism = _;
 
-function Token(type, content, alias, matchedStr, greedy) {
+
+// Typescript note:
+// The following can be used to import the Token type in JSDoc:
+//
+//   @typedef {InstanceType<import("./prism-core")["Token"]>} Token
+
+/**
+ * Creates a new token.
+ *
+ * @param {string} type See {@link Token#type type}
+ * @param {string | TokenStream} content See {@link Token#content content}
+ * @param {string|string[]} [alias] The alias(es) of the token.
+ * @param {string} [matchedStr=""] A copy of the full string this token was created from.
+ * @class
+ * @global
+ * @public
+ */
+function Token(type, content, alias, matchedStr) {
+	/**
+	 * The type of the token.
+	 *
+	 * This is usually the key of a pattern in a {@link Grammar}.
+	 *
+	 * @type {string}
+	 * @see GrammarToken
+	 * @public
+	 */
 	this.type = type;
+	/**
+	 * The strings or tokens contained by this token.
+	 *
+	 * This will be a token stream if the pattern matched also defined an `inside` grammar.
+	 *
+	 * @type {string | TokenStream}
+	 * @public
+	 */
 	this.content = content;
+	/**
+	 * The alias(es) of the token.
+	 *
+	 * @type {string|string[]}
+	 * @see GrammarToken
+	 * @public
+	 */
 	this.alias = alias;
 	// Copy of the full string this token was created from
-	this.length = (matchedStr || '').length|0;
-	this.greedy = !!greedy;
+	this.length = (matchedStr || '').length | 0;
 }
 
+/**
+ * A token stream is an array of strings and {@link Token Token} objects.
+ *
+ * Token streams have to fulfill a few properties that are assumed by most functions (mostly internal ones) that process
+ * them.
+ *
+ * 1. No adjacent strings.
+ * 2. No empty strings.
+ *
+ *    The only exception here is the token stream that only contains the empty string and nothing else.
+ *
+ * @typedef {Array<string | Token>} TokenStream
+ * @global
+ * @public
+ */
+
+/**
+ * Converts the given token or token stream to an HTML representation.
+ *
+ * The following hooks will be run:
+ * 1. `wrap`: On each {@link Token}.
+ *
+ * @param {string | Token | TokenStream} o The token or token stream to be converted.
+ * @param {string} language The name of current language.
+ * @returns {string} The HTML representation of the token or token stream.
+ * @memberof Token
+ * @static
+ */
 Token.stringify = function stringify(o, language) {
 	if (typeof o == 'string') {
 		return o;
@@ -55323,10 +56863,15 @@ Token.stringify = function stringify(o, language) {
  * @param {any} grammar
  * @param {LinkedListNode<string | Token>} startNode
  * @param {number} startPos
- * @param {boolean} [oneshot=false]
- * @param {string} [target]
+ * @param {RematchOptions} [rematch]
+ * @returns {void}
+ * @private
+ *
+ * @typedef RematchOptions
+ * @property {string} cause
+ * @property {number} reach
  */
-function matchGrammar(text, tokenList, grammar, startNode, startPos, oneshot, target) {
+function matchGrammar(text, tokenList, grammar, startNode, startPos, rematch) {
 	for (var token in grammar) {
 		if (!grammar.hasOwnProperty(token) || !grammar[token]) {
 			continue;
@@ -55336,30 +56881,35 @@ function matchGrammar(text, tokenList, grammar, startNode, startPos, oneshot, ta
 		patterns = Array.isArray(patterns) ? patterns : [patterns];
 
 		for (var j = 0; j < patterns.length; ++j) {
-			if (target && target == token + ',' + j) {
+			if (rematch && rematch.cause == token + ',' + j) {
 				return;
 			}
 
-			var pattern = patterns[j],
-				inside = pattern.inside,
-				lookbehind = !!pattern.lookbehind,
-				greedy = !!pattern.greedy,
+			var patternObj = patterns[j],
+				inside = patternObj.inside,
+				lookbehind = !!patternObj.lookbehind,
+				greedy = !!patternObj.greedy,
 				lookbehindLength = 0,
-				alias = pattern.alias;
+				alias = patternObj.alias;
 
-			if (greedy && !pattern.pattern.global) {
+			if (greedy && !patternObj.pattern.global) {
 				// Without the global flag, lastIndex won't work
-				var flags = pattern.pattern.toString().match(/[imsuy]*$/)[0];
-				pattern.pattern = RegExp(pattern.pattern.source, flags + 'g');
+				var flags = patternObj.pattern.toString().match(/[imsuy]*$/)[0];
+				patternObj.pattern = RegExp(patternObj.pattern.source, flags + 'g');
 			}
 
-			pattern = pattern.pattern || pattern;
+			/** @type {RegExp} */
+			var pattern = patternObj.pattern || patternObj;
 
 			for ( // iterate the token list and keep track of the current token/string position
 				var currentNode = startNode.next, pos = startPos;
 				currentNode !== tokenList.tail;
 				pos += currentNode.value.length, currentNode = currentNode.next
 			) {
+
+				if (rematch && pos >= rematch.reach) {
+					break;
+				}
 
 				var str = currentNode.value;
 
@@ -55403,7 +56953,7 @@ function matchGrammar(text, tokenList, grammar, startNode, startPos, oneshot, ta
 					// find the last node which is affected by this match
 					for (
 						var k = currentNode;
-						k !== tokenList.tail && (p < to || (typeof k.value === 'string' && !k.prev.value.greedy));
+						k !== tokenList.tail && (p < to || typeof k.value === 'string');
 						k = k.next
 					) {
 						removeCount++;
@@ -55421,10 +56971,6 @@ function matchGrammar(text, tokenList, grammar, startNode, startPos, oneshot, ta
 				}
 
 				if (!match) {
-					if (oneshot) {
-						break;
-					}
-
 					continue;
 				}
 
@@ -55433,10 +56979,15 @@ function matchGrammar(text, tokenList, grammar, startNode, startPos, oneshot, ta
 				}
 
 				var from = match.index + lookbehindLength,
-					match = match[0].slice(lookbehindLength),
-					to = from + match.length,
+					matchStr = match[0].slice(lookbehindLength),
+					to = from + matchStr.length,
 					before = str.slice(0, from),
 					after = str.slice(to);
+
+				var reach = pos + str.length;
+				if (rematch && reach > rematch.reach) {
+					rematch.reach = reach;
+				}
 
 				var removeFrom = currentNode.prev;
 
@@ -55447,19 +56998,21 @@ function matchGrammar(text, tokenList, grammar, startNode, startPos, oneshot, ta
 
 				removeRange(tokenList, removeFrom, removeCount);
 
-				var wrapped = new Token(token, inside ? _.tokenize(match, inside) : match, alias, match, greedy);
+				var wrapped = new Token(token, inside ? _.tokenize(matchStr, inside) : matchStr, alias, matchStr);
 				currentNode = addAfter(tokenList, removeFrom, wrapped);
 
 				if (after) {
 					addAfter(tokenList, currentNode, after);
 				}
 
-
-				if (removeCount > 1)
-					matchGrammar(text, tokenList, grammar, currentNode.prev, pos, true, token + ',' + j);
-
-				if (oneshot)
-					break;
+				if (removeCount > 1) {
+					// at least one Token object was removed, so we have to do some rematching
+					// this can only happen if the current pattern is greedy
+					matchGrammar(text, tokenList, grammar, currentNode.prev, pos, {
+						cause: token + ',' + j,
+						reach: reach
+					});
+				}
 			}
 		}
 	}
@@ -55471,10 +57024,12 @@ function matchGrammar(text, tokenList, grammar, startNode, startPos, oneshot, ta
  * @property {LinkedListNode<T> | null} prev The previous node.
  * @property {LinkedListNode<T> | null} next The next node.
  * @template T
+ * @private
  */
 
 /**
  * @template T
+ * @private
  */
 function LinkedList() {
 	/** @type {LinkedListNode<T>} */
@@ -55565,7 +57120,7 @@ if (!_self.document) {
 	return _;
 }
 
-//Get current script and highlight
+// Get current script and highlight
 var script = _.util.currentScript();
 
 if (script) {
@@ -55614,6 +57169,55 @@ if (typeof global !== 'undefined') {
 	global.Prism = Prism;
 }
 
+// some additional documentation/types
+
+/**
+ * The expansion of a simple `RegExp` literal to support additional properties.
+ *
+ * @typedef GrammarToken
+ * @property {RegExp} pattern The regular expression of the token.
+ * @property {boolean} [lookbehind=false] If `true`, then the first capturing group of `pattern` will (effectively)
+ * behave as a lookbehind group meaning that the captured text will not be part of the matched text of the new token.
+ * @property {boolean} [greedy=false] Whether the token is greedy.
+ * @property {string|string[]} [alias] An optional alias or list of aliases.
+ * @property {Grammar} [inside] The nested grammar of this token.
+ *
+ * The `inside` grammar will be used to tokenize the text value of each token of this kind.
+ *
+ * This can be used to make nested and even recursive language definitions.
+ *
+ * Note: This can cause infinite recursion. Be careful when you embed different languages or even the same language into
+ * each another.
+ * @global
+ * @public
+*/
+
+/**
+ * @typedef Grammar
+ * @type {Object<string, RegExp | GrammarToken | Array<RegExp | GrammarToken>>}
+ * @property {Grammar} [rest] An optional grammar object that will be appended to this grammar.
+ * @global
+ * @public
+ */
+
+/**
+ * A function which will invoked after an element was successfully highlighted.
+ *
+ * @callback HighlightCallback
+ * @param {Element} element The element successfully highlighted.
+ * @returns {void}
+ * @global
+ * @public
+*/
+
+/**
+ * @callback HookCallback
+ * @param {Object<string, any>} env The environment variables of the hook.
+ * @returns {void}
+ * @global
+ * @public
+ */
+
 
 /* **********************************************
      Begin prism-markup.js
@@ -55623,30 +57227,46 @@ Prism.languages.markup = {
 	'comment': /<!--[\s\S]*?-->/,
 	'prolog': /<\?[\s\S]+?\?>/,
 	'doctype': {
-		pattern: /<!DOCTYPE(?:[^>"'[\]]|"[^"]*"|'[^']*')+(?:\[(?:(?!<!--)[^"'\]]|"[^"]*"|'[^']*'|<!--[\s\S]*?-->)*\]\s*)?>/i,
-		greedy: true
+		// https://www.w3.org/TR/xml/#NT-doctypedecl
+		pattern: /<!DOCTYPE(?:[^>"'[\]]|"[^"]*"|'[^']*')+(?:\[(?:[^<"'\]]|"[^"]*"|'[^']*'|<(?!!--)|<!--(?:[^-]|-(?!->))*-->)*\]\s*)?>/i,
+		greedy: true,
+		inside: {
+			'internal-subset': {
+				pattern: /(\[)[\s\S]+(?=\]>$)/,
+				lookbehind: true,
+				greedy: true,
+				inside: null // see below
+			},
+			'string': {
+				pattern: /"[^"]*"|'[^']*'/,
+				greedy: true
+			},
+			'punctuation': /^<!|>$|[[\]]/,
+			'doctype-tag': /^DOCTYPE/,
+			'name': /[^\s<>'"]+/
+		}
 	},
 	'cdata': /<!\[CDATA\[[\s\S]*?]]>/i,
 	'tag': {
-		pattern: /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/i,
+		pattern: /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/,
 		greedy: true,
 		inside: {
 			'tag': {
-				pattern: /^<\/?[^\s>\/]+/i,
+				pattern: /^<\/?[^\s>\/]+/,
 				inside: {
 					'punctuation': /^<\/?/,
 					'namespace': /^[^\s>\/:]+:/
 				}
 			},
 			'attr-value': {
-				pattern: /=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/i,
+				pattern: /=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/,
 				inside: {
 					'punctuation': [
-						/^=/,
 						{
-							pattern: /^(\s*)["']|["']$/,
-							lookbehind: true
-						}
+							pattern: /^=/,
+							alias: 'attr-equals'
+						},
+						/"|'/
 					]
 				}
 			},
@@ -55660,14 +57280,21 @@ Prism.languages.markup = {
 
 		}
 	},
-	'entity': /&#?[\da-z]{1,8};/i
+	'entity': [
+		{
+			pattern: /&[\da-z]{1,8};/i,
+			alias: 'named-entity'
+		},
+		/&#x?[\da-f]{1,8};/i
+	]
 };
 
 Prism.languages.markup['tag'].inside['attr-value'].inside['entity'] =
 	Prism.languages.markup['entity'];
+Prism.languages.markup['doctype'].inside['internal-subset'].inside = Prism.languages.markup;
 
 // Plugin to make entity title show the real entity, idea by Roman Komarov
-Prism.hooks.add('wrap', function(env) {
+Prism.hooks.add('wrap', function (env) {
 
 	if (env.type === 'entity') {
 		env.attributes['title'] = env.content.replace(/&amp;/, '&');
@@ -55708,7 +57335,7 @@ Object.defineProperty(Prism.languages.markup.tag, 'addInlined', {
 
 		var def = {};
 		def[tagName] = {
-			pattern: RegExp(/(<__[\s\S]*?>)(?:<!\[CDATA\[[\s\S]*?\]\]>\s*|[\s\S])*?(?=<\/__>)/.source.replace(/__/g, function () { return tagName; }), 'i'),
+			pattern: RegExp(/(<__[\s\S]*?>)(?:<!\[CDATA\[(?:[^\]]|\](?!\]>))*\]\]>|(?!<!\[CDATA\[)[\s\S])*?(?=<\/__>)/.source.replace(/__/g, function () { return tagName; }), 'i'),
 			lookbehind: true,
 			greedy: true,
 			inside: inside
@@ -55718,10 +57345,14 @@ Object.defineProperty(Prism.languages.markup.tag, 'addInlined', {
 	}
 });
 
-Prism.languages.xml = Prism.languages.extend('markup', {});
 Prism.languages.html = Prism.languages.markup;
 Prism.languages.mathml = Prism.languages.markup;
 Prism.languages.svg = Prism.languages.markup;
+
+Prism.languages.xml = Prism.languages.extend('markup', {});
+Prism.languages.ssml = Prism.languages.xml;
+Prism.languages.atom = Prism.languages.xml;
+Prism.languages.rss = Prism.languages.xml;
 
 
 /* **********************************************
@@ -55742,16 +57373,25 @@ Prism.languages.svg = Prism.languages.markup;
 					pattern: /(\bselector\s*\((?!\s*\))\s*)(?:[^()]|\((?:[^()]|\([^()]*\))*\))+?(?=\s*\))/,
 					lookbehind: true,
 					alias: 'selector'
+				},
+				'keyword': {
+					pattern: /(^|[^\w-])(?:and|not|only|or)(?![\w-])/,
+					lookbehind: true
 				}
 				// See rest below
 			}
 		},
 		'url': {
-			pattern: RegExp('url\\((?:' + string.source + '|[^\n\r()]*)\\)', 'i'),
+			// https://drafts.csswg.org/css-values-3/#urls
+			pattern: RegExp('\\burl\\((?:' + string.source + '|' + /(?:[^\\\r\n()"']|\\[\s\S])*/.source + ')\\)', 'i'),
 			greedy: true,
 			inside: {
 				'function': /^url/i,
-				'punctuation': /^\(|\)$/
+				'punctuation': /^\(|\)$/,
+				'string': {
+					pattern: RegExp('^' + string.source + '$'),
+					alias: 'url'
+				}
 			}
 		},
 		'selector': RegExp('[^{}\\s](?:[^{};"\']|' + string.source + ')*?(?=\\s*\\{)'),
@@ -55847,21 +57487,21 @@ Prism.languages.javascript = Prism.languages.extend('clike', {
 			lookbehind: true
 		},
 		{
-			pattern: /(^|[^.]|\.\.\.\s*)\b(?:as|async(?=\s*(?:function\b|\(|[$\w\xA0-\uFFFF]|$))|await|break|case|class|const|continue|debugger|default|delete|do|else|enum|export|extends|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)\b/,
+			pattern: /(^|[^.]|\.\.\.\s*)\b(?:as|async(?=\s*(?:function\b|\(|[$\w\xA0-\uFFFF]|$))|await|break|case|class|const|continue|debugger|default|delete|do|else|enum|export|extends|for|from|function|(?:get|set)(?=\s*[\[$\w\xA0-\uFFFF])|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)\b/,
 			lookbehind: true
 		},
 	],
 	'number': /\b(?:(?:0[xX](?:[\dA-Fa-f](?:_[\dA-Fa-f])?)+|0[bB](?:[01](?:_[01])?)+|0[oO](?:[0-7](?:_[0-7])?)+)n?|(?:\d(?:_\d)?)+n|NaN|Infinity)\b|(?:\b(?:\d(?:_\d)?)+\.?(?:\d(?:_\d)?)*|\B\.(?:\d(?:_\d)?)+)(?:[Ee][+-]?(?:\d(?:_\d)?)+)?/,
 	// Allow for all non-ASCII characters (See http://stackoverflow.com/a/2008444)
 	'function': /#?[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\s*(?:\.\s*(?:apply|bind|call)\s*)?\()/,
-	'operator': /--|\+\+|\*\*=?|=>|&&|\|\||[!=]==|<<=?|>>>?=?|[-+*/%&|^!=<>]=?|\.{3}|\?[.?]?|[~:]/
+	'operator': /--|\+\+|\*\*=?|=>|&&=?|\|\|=?|[!=]==|<<=?|>>>?=?|[-+*/%&|^!=<>]=?|\.{3}|\?\?=?|\?\.?|[~:]/
 });
 
 Prism.languages.javascript['class-name'][0].pattern = /(\b(?:class|interface|extends|implements|instanceof|new)\s+)[\w.\\]+/;
 
 Prism.languages.insertBefore('javascript', 'keyword', {
 	'regex': {
-		pattern: /((?:^|[^$\w\xA0-\uFFFF."'\])\s])\s*)\/(?:\[(?:[^\]\\\r\n]|\\.)*]|\\.|[^/\\\[\r\n])+\/[gimyus]{0,6}(?=(?:\s|\/\*[\s\S]*?\*\/)*(?:$|[\r\n,.;:})\]]|\/\/))/,
+		pattern: /((?:^|[^$\w\xA0-\uFFFF."'\])\s]|\b(?:return|yield))\s*)\/(?:\[(?:[^\]\\\r\n]|\\.)*]|\\.|[^/\\\[\r\n])+\/[gimyus]{0,6}(?=(?:\s|\/\*(?:[^*]|\*(?!\/))*\*\/)*(?:$|[\r\n,.;:})\]]|\/\/))/,
 		lookbehind: true,
 		greedy: true
 	},
@@ -55886,7 +57526,7 @@ Prism.languages.insertBefore('javascript', 'keyword', {
 			inside: Prism.languages.javascript
 		},
 		{
-			pattern: /((?:\b|\s|^)(?!(?:as|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)(?![$\w\xA0-\uFFFF]))(?:[_$A-Za-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*\s*)\(\s*)(?!\s)(?:[^()]|\([^()]*\))+?(?=\s*\)\s*\{)/,
+			pattern: /((?:\b|\s|^)(?!(?:as|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)(?![$\w\xA0-\uFFFF]))(?:[_$A-Za-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*\s*)\(\s*|\]\s*\(\s*)(?!\s)(?:[^()]|\([^()]*\))+?(?=\s*\)\s*\{)/,
 			lookbehind: true,
 			inside: Prism.languages.javascript
 		}
@@ -55931,92 +57571,144 @@ Prism.languages.js = Prism.languages.javascript;
 ********************************************** */
 
 (function () {
-	if (typeof self === 'undefined' || !self.Prism || !self.document || !document.querySelector) {
+	if (typeof self === 'undefined' || !self.Prism || !self.document) {
 		return;
 	}
 
+	var Prism = window.Prism;
+
+	var LOADING_MESSAGE = 'Loading…';
+	var FAILURE_MESSAGE = function (status, message) {
+		return '✖ Error ' + status + ' while fetching file: ' + message;
+	};
+	var FAILURE_EMPTY_MESSAGE = '✖ Error: File does not exist or is empty';
+
+	var EXTENSIONS = {
+		'js': 'javascript',
+		'py': 'python',
+		'rb': 'ruby',
+		'ps1': 'powershell',
+		'psm1': 'powershell',
+		'sh': 'bash',
+		'bat': 'batch',
+		'h': 'c',
+		'tex': 'latex'
+	};
+
+	var STATUS_ATTR = 'data-src-status';
+	var STATUS_LOADING = 'loading';
+	var STATUS_LOADED = 'loaded';
+	var STATUS_FAILED = 'failed';
+
+	var SELECTOR = 'pre[data-src]:not([' + STATUS_ATTR + '="' + STATUS_LOADED + '"])'
+		+ ':not([' + STATUS_ATTR + '="' + STATUS_LOADING + '"])';
+
+	var lang = /\blang(?:uage)?-([\w-]+)\b/i;
+
 	/**
-	 * @param {Element} [container=document]
+	 * Sets the Prism `language-xxxx` or `lang-xxxx` class to the given language.
+	 *
+	 * @param {HTMLElement} element
+	 * @param {string} language
+	 * @returns {void}
 	 */
-	self.Prism.fileHighlight = function(container) {
-		container = container || document;
+	function setLanguageClass(element, language) {
+		var className = element.className;
+		className = className.replace(lang, ' ') + ' language-' + language;
+		element.className = className.replace(/\s+/g, ' ').trim();
+	}
 
-		var Extensions = {
-			'js': 'javascript',
-			'py': 'python',
-			'rb': 'ruby',
-			'ps1': 'powershell',
-			'psm1': 'powershell',
-			'sh': 'bash',
-			'bat': 'batch',
-			'h': 'c',
-			'tex': 'latex'
-		};
 
-		Array.prototype.slice.call(container.querySelectorAll('pre[data-src]')).forEach(function (pre) {
-			// ignore if already loaded
-			if (pre.hasAttribute('data-src-loaded')) {
-				return;
-			}
+	Prism.hooks.add('before-highlightall', function (env) {
+		env.selector += ', ' + SELECTOR;
+	});
 
-			// load current
+	Prism.hooks.add('before-sanity-check', function (env) {
+		var pre = /** @type {HTMLPreElement} */ (env.element);
+		if (pre.matches(SELECTOR)) {
+			env.code = ''; // fast-path the whole thing and go to complete
+
+			pre.setAttribute(STATUS_ATTR, STATUS_LOADING); // mark as loading
+
+			// add code element with loading message
+			var code = pre.appendChild(document.createElement('CODE'));
+			code.textContent = LOADING_MESSAGE;
+
 			var src = pre.getAttribute('data-src');
 
-			var language, parent = pre;
-			var lang = /\blang(?:uage)?-([\w-]+)\b/i;
-			while (parent && !lang.test(parent.className)) {
-				parent = parent.parentNode;
+			var language = env.language;
+			if (language === 'none') {
+				// the language might be 'none' because there is no language set;
+				// in this case, we want to use the extension as the language
+				var extension = (/\.(\w+)$/.exec(src) || [, 'none'])[1];
+				language = EXTENSIONS[extension] || extension;
 			}
 
-			if (parent) {
-				language = (pre.className.match(lang) || [, ''])[1];
+			// set language classes
+			setLanguageClass(code, language);
+			setLanguageClass(pre, language);
+
+			// preload the language
+			var autoloader = Prism.plugins.autoloader;
+			if (autoloader) {
+				autoloader.loadLanguages(language);
 			}
 
-			if (!language) {
-				var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-				language = Extensions[extension] || extension;
-			}
-
-			var code = document.createElement('code');
-			code.className = 'language-' + language;
-
-			pre.textContent = '';
-
-			code.textContent = 'Loading…';
-
-			pre.appendChild(code);
-
+			// load file
 			var xhr = new XMLHttpRequest();
-
 			xhr.open('GET', src, true);
-
 			xhr.onreadystatechange = function () {
 				if (xhr.readyState == 4) {
-
 					if (xhr.status < 400 && xhr.responseText) {
-						code.textContent = xhr.responseText;
-
-						Prism.highlightElement(code);
 						// mark as loaded
-						pre.setAttribute('data-src-loaded', '');
-					}
-					else if (xhr.status >= 400) {
-						code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
-					}
-					else {
-						code.textContent = '✖ Error: File does not exist or is empty';
+						pre.setAttribute(STATUS_ATTR, STATUS_LOADED);
+
+						// highlight code
+						code.textContent = xhr.responseText;
+						Prism.highlightElement(code);
+
+					} else {
+						// mark as failed
+						pre.setAttribute(STATUS_ATTR, STATUS_FAILED);
+
+						if (xhr.status >= 400) {
+							code.textContent = FAILURE_MESSAGE(xhr.status, xhr.statusText);
+						} else {
+							code.textContent = FAILURE_EMPTY_MESSAGE;
+						}
 					}
 				}
 			};
-
 			xhr.send(null);
-		});
+		}
+	});
+
+	Prism.plugins.fileHighlight = {
+		/**
+		 * Executes the File Highlight plugin for all matching `pre` elements under the given container.
+		 *
+		 * Note: Elements which are already loaded or currently loading will not be touched by this method.
+		 *
+		 * @param {ParentNode} [container=document]
+		 */
+		highlight: function highlight(container) {
+			var elements = (container || document).querySelectorAll(SELECTOR);
+
+			for (var i = 0, element; element = elements[i++];) {
+				Prism.highlightElement(element);
+			}
+		}
 	};
 
-	document.addEventListener('DOMContentLoaded', function () {
-		// execute inside handler, for dropping Event as argument
-		self.Prism.fileHighlight();
-	});
+	var logged = false;
+	/** @deprecated Use `Prism.plugins.fileHighlight.highlight` instead. */
+	Prism.fileHighlight = function () {
+		if (!logged) {
+			console.warn('Prism.fileHighlight is deprecated. Use `Prism.plugins.fileHighlight.highlight` instead.');
+			logged = true;
+		}
+		Prism.plugins.fileHighlight.highlight.apply(this, arguments);
+	}
 
 })();
 
