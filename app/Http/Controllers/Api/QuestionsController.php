@@ -4,21 +4,25 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Question;
-use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Http\Response;
+use App\Http\Resources\QuestionResource;
 
 class QuestionsController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return LengthAwarePaginator
+     * @return AnonymousResourceCollection
      */
     public function index()
     {
         //Return all questions as JSON
-        return Question::with('user')->latest()->paginate(5);
+        $questions = Question::with('user')->latest()->paginate(5);
+
+        //Transform collection into JSON structure
+        return QuestionResource::collection($questions);
     }
 
     /**
