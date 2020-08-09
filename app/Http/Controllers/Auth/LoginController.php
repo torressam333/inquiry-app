@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 class LoginController extends Controller
 {
@@ -52,5 +53,9 @@ class LoginController extends Controller
 
         //Returns the request object
         $requestToken = Request::create(env('APP_URL'). '/oauth/token', 'post');
+        //Hit the request
+        $response = Route::dispatch($requestToken);
+
+        return $response;
     }
 }
