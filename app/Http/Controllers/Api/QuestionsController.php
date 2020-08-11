@@ -4,10 +4,12 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Question;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Http\Response;
 use App\Http\Resources\QuestionResource;
+use App\Http\Requests\AskQuestionRequest;
 
 class QuestionsController extends Controller
 {
@@ -28,12 +30,19 @@ class QuestionsController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return Response
+     * @param Request $request
+     * @return JsonResponse
      */
     public function store(Request $request)
     {
-        //
+        //Adds user id value to the questions model upon question creation
+        $question = $request->user()->question()->create($request->only('title', 'body'));
+
+        //return a json response containing a message that we can grab from the view.
+        return response()->json([
+           'message' => 'Your question has been submitted',
+            'question' => new QuestionResource($question),
+        ]);
     }
 
     /**
@@ -50,7 +59,7 @@ class QuestionsController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param Request $request
      * @param  \App\Question  $question
      * @return Response
      */
