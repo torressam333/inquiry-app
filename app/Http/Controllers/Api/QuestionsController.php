@@ -4,12 +4,14 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Question;
+use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Http\Response;
 use App\Http\Resources\QuestionResource;
 use App\Http\Requests\AskQuestionRequest;
+use Illuminate\Support\Facades\Gate;
 
 class QuestionsController extends Controller
 {
@@ -46,36 +48,55 @@ class QuestionsController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Display the specified api resource.
      *
-     * @param  \App\Question  $question
-     * @return Response
+     * @param Question $question
+     * @return JsonResponse
      */
     public function show(Question $question)
     {
-        //
+        return \response()->json([
+           'title' => $question->title,
+           'body' => $question->body,
+           'body_html' => $question->body_html
+        ]);
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param  \App\Question  $question
-     * @return Response
+     * @param Question $question
+     * @return JsonResponse
      */
     public function update(Request $request, Question $question)
     {
-        //
+        Gate::authorize('update-question', $question);
+        $question->update($request->only('title', 'body'));
+
+        return response()->json([
+            'message' => "Your question has been updated.",
+            'body_html' => $question->body_html
+        ]);
+
+
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Question  $question
-     * @return Response
+     * @param Question $question
+     * @return JsonResponse
+     * @throws AuthorizationException
      */
     public function destroy(Question $question)
     {
-        //
+        $this->authorize("delete", $question);
+
+        $question->delete();
+
+        return response()->json([
+            'message' => "Your question has been deleted."
+        ]);
     }
 }
