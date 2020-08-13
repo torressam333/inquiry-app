@@ -5,10 +5,13 @@ namespace App\Http\Resources;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class QuestionResource extends JsonResource
+class QuestionDetailsResource extends JsonResource
 {
     /**
-     * Transform the resource into an array.
+     * Created separate Question Resource
+     * for viewing questions without authorization
+     * needed since questions themselves are for
+     * public viewing
      *
      * @param  Request  $request
      * @return array
@@ -18,15 +21,15 @@ class QuestionResource extends JsonResource
         return [
             'id' => $this->id,
             'title' => $this->title,
-            'slug' => $this->id . '-' . $this->slug,
             'votes_count' => $this->votes_count,
             'answers_count' => $this->answers_count,
-            'views' => $this->views,
-            'status' => $this->status,
-            'excerpt' => $this->excerpt,
+            'is_favorited'    => $this->is_favorited,
+            'favorites_count' => $this->favorites_count,
+            'body' => $this->body,
+            'body_html' => $this->body_html,
             'created_date' => $this->created_date,
             'updated_date' => $this->updated_date,
-            //Transform individual user model resource
+            //Returns user info for question being returned
             'user' => new UserResource($this->user),
         ];
     }
