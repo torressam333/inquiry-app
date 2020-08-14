@@ -10,6 +10,7 @@ use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Resources\AnswerResource;
 
 class AnswersController extends Controller
 {
@@ -21,7 +22,9 @@ class AnswersController extends Controller
          * Bring back answers belonging to questions
          * Show 3 answers at a time
          * */
-        return $question->answers()->with('user')->simplePaginate(5);
+        $answers = $question->answers()->with('user')->simplePaginate(4);
+
+        return AnswerResource::collection($answers);
     }
 
     /**
@@ -42,7 +45,7 @@ class AnswersController extends Controller
         return response()->json([
             'message' => "Your answer has been submitted successfully",
             //Eager load user relationship
-            'answer' => $answer->load('user'),
+            'answer' => new AnswerResource($answer->load('user')),
         ]);
     }
 
