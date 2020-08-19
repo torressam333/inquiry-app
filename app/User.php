@@ -2,9 +2,6 @@
 
 namespace App;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Passport\HasApiTokens;
@@ -63,6 +60,49 @@ class User extends Authenticatable
 
     public function answers(){
         return $this->hasMany(Answer::class);
+    }
+
+    /*Retrieve collection of answers and questions based on
+      the type of request that comes in
+    */
+    public function posts()
+    {
+        $type = request()->get('type');
+
+        if ($type === 'questions') {
+            $posts = $this->question()->get();
+        }else{
+            $posts = $this->answers()->with('question')->get();
+
+            if ($type !== 'answers') {
+                $posts2 = $this->question()->get();
+
+                $posts = $posts->merge($posts2);
+            }
+        }
+
+        $data = collect();
+
+        foreach ($posts as $post) {
+            $item = [
+                'votes_count' => $post->votes_count,
+                'created_at' => $post->created_at->format('M d Y')
+            ];
+
+            if ($post instanceof Answer) {
+                $item['type'] = 'A';
+                $item['title'] = $post->question->title;
+                $item['accepted'] = $post->question->best_answer_id === $post->id;
+            } else if ($post instanceof Question) {
+                $item['type'] = 'Q';
+                $item['title'] = $post->title;
+                $item['accepted'] = (bool) $post->best_answer_id;
+            }
+            //Append to collection
+            $data->push($item);
+        }
+        //Sort data and reset array keys
+        return $data->sortByDesc('votes_count')->values()->all();
     }
 
     public function favorites()
