@@ -32,4 +32,12 @@ class LoginController extends Controller
 
         return $response;
     }
+
+    public function destroy(Request $request)
+    {
+        /*Get current users access token and revoke when user logs out*/
+        $request->user()->token()->revoke();
+
+        return response()->noContent();
+    }
 }
