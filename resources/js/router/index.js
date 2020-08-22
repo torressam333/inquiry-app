@@ -5,10 +5,10 @@ import routes from './routes';
 Vue.use(VueRouter);
 
 //Instantiate Vue Routed
-const router = new VueRouter([
+const router = new VueRouter({
     mode: 'history',
     routes
-]);
+});
 
 export default router;
 
