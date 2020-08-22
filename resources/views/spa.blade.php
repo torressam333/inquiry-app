@@ -75,7 +75,7 @@
     </nav>
 
     <main class="py-4">
-        content goes here
+        <router-view></router-view>
     </main>
 </div>
 <!-- Scripts -->
