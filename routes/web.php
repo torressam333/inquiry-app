@@ -11,6 +11,8 @@
 |
 */
 
+Route::view('/{any}', 'spa')->where('any', '.*');
+
 //Root Route
 Route::get('/', 'QuestionsController@index');
 
