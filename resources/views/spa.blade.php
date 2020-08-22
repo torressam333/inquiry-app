@@ -82,7 +82,8 @@
 <script>
     window.Auth = {!! json_encode([
     'signedIn' => Auth::check(),
-    'user' => Auth::user()
+    'user' => Auth::user(),
+    'url' => route('login')
 ]) !!}
 </script>
 <script src="{{ asset('js/app.js') }}"></script>

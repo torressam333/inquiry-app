@@ -1,4 +1,4 @@
-/*Define actual Vue routes here*/
+/*Define Vue front-end routes here*/
 import QuestionsPage from "../pages/QuestionsPage";
 import QuestionPage from "../pages/QuestionPage";
 import MyPostsPage from "../pages/MyPostsPage";
@@ -13,12 +13,15 @@ const routes = [
     {
         path: '/questions',
         component: QuestionsPage,
-        name: 'questions'
+        name: 'questions',
     },
     {
         path: '/my-posts',
         component: MyPostsPage,
-        name: 'my-posts'
+        name: 'my-posts',
+        meta: {
+            requiresAuth: true
+        }
     },
     {
         //Dynamic route matching --> {slug}

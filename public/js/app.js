@@ -76114,6 +76114,22 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: 'history',
   routes: _routes__WEBPACK_IMPORTED_MODULE_2__["default"],
   linkActiveClass: 'active'
+}); //Global before guard
+
+router.beforeEach(function (to, from, next) {
+  //If someone is not signed in and tries
+  // to access a route that requires authorization
+  if (to.matched.some(function (r) {
+    return r.meta.requiresAuth;
+  }) && !window.Auth.signedIn) {
+    //Redirect unauthorized user
+    window.location = window.Auth.url; //Ignore next execution outside of if()
+
+    return;
+  } //Move on to next hook
+
+
+  next();
 });
 /* harmony default export */ __webpack_exports__["default"] = (router);
 
@@ -76131,7 +76147,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_QuestionsPage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/QuestionsPage */ "./resources/js/pages/QuestionsPage.vue");
 /* harmony import */ var _pages_QuestionPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pages/QuestionPage */ "./resources/js/pages/QuestionPage.vue");
 /* harmony import */ var _pages_MyPostsPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/MyPostsPage */ "./resources/js/pages/MyPostsPage.vue");
-/*Define actual Vue routes here*/
+/*Define Vue front-end routes here*/
 
 
  //Map components to respective routes, load paths
@@ -76147,7 +76163,10 @@ var routes = [{
 }, {
   path: '/my-posts',
   component: _pages_MyPostsPage__WEBPACK_IMPORTED_MODULE_2__["default"],
-  name: 'my-posts'
+  name: 'my-posts',
+  meta: {
+    requiresAuth: true
+  }
 }, {
   //Dynamic route matching --> {slug}
   path: '/questions/:slug',
