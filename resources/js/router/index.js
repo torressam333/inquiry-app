@@ -17,7 +17,7 @@ router.beforeEach((to, from, next)=>{
     // to access a route that requires authorization
     if (to.matched.some(r => r.meta.requiresAuth) && !window.Auth.signedIn) {
         //Redirect unauthorized user
-        window.location = window.Auth.url;
+        window.location = window.Urls.login;
         //Ignore next execution outside of if()
         return;
     }

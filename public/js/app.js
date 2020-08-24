@@ -75149,7 +75149,7 @@ try {
 
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
-window.axios.defaults.baseURL = 'http://localhost:8000/api';
+window.axios.defaults.baseURL = window.Urls.api || 'http://localhost:8000/api';
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting
@@ -76221,7 +76221,7 @@ router.beforeEach(function (to, from, next) {
     return r.meta.requiresAuth;
   }) && !window.Auth.signedIn) {
     //Redirect unauthorized user
-    window.location = window.Auth.url; //Ignore next execution outside of if()
+    window.location = window.Urls.login; //Ignore next execution outside of if()
 
     return;
   } //Move on to next hook
