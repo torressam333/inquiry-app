@@ -2,6 +2,7 @@
 import QuestionsPage from "../pages/QuestionsPage";
 import QuestionPage from "../pages/QuestionPage";
 import MyPostsPage from "../pages/MyPostsPage";
+import NotFoundPage from "../pages/NotFoundPage";
 
 //Map components to respective routes, load paths
 const routes = [
@@ -28,6 +29,11 @@ const routes = [
         path: '/questions/:slug',
         component: QuestionPage,
         name: 'questions.show'
+    },
+    {
+        //404 route
+        path: '*',
+        component: NotFoundPage,
     }
 ];
 
