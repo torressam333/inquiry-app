@@ -4404,6 +4404,37 @@ __webpack_require__.r(__webpack_exports__);
   computed: {
     pagesInfo: function pagesInfo() {
       return "Page ".concat(this.meta.current_page, " of ").concat(this.meta.last_page);
+    },
+    isFirst: function isFirst() {
+      return this.meta.current_page === 1;
+    },
+    isLast: function isLast() {
+      return this.meta.current_page === this.meta.last_page;
+    }
+  },
+  methods: {
+    switchPage: function switchPage() {
+      //Define routing for where pagination should take you
+      this.$router.push({
+        name: 'questions',
+        query: {
+          page: this.meta.current_page
+        }
+      });
+    },
+    prev: function prev() {
+      if (!this.isFirst) {
+        this.meta.current_page--;
+      }
+
+      this.switchPage();
+    },
+    next: function next() {
+      if (!this.isLast) {
+        this.meta.current_page++;
+      }
+
+      this.switchPage();
     }
   }
 });
@@ -4656,7 +4687,9 @@ __webpack_require__.r(__webpack_exports__);
     fetchQuestions: function fetchQuestions() {
       var _this = this;
 
-      axios.get('/questions').then(function (_ref) {
+      axios.get('/questions', {
+        params: this.$route.query
+      }).then(function (_ref) {
         var data = _ref.data;
         //Assign api returned response to questions
         _this.questions = data.data;
@@ -4664,6 +4697,9 @@ __webpack_require__.r(__webpack_exports__);
         _this.links = data.links;
       });
     }
+  },
+  watch: {
+    "$route": 'fetchQuestions'
   }
 });
 
@@ -59540,7 +59576,17 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "row align-items-center" }, [
-    _vm._m(0),
+    _c("div", { staticClass: "col" }, [
+      _c(
+        "button",
+        {
+          staticClass: "btn btn-outline-info",
+          attrs: { disabled: _vm.isFirst },
+          on: { click: _vm.prev }
+        },
+        [_vm._v("Newer")]
+      )
+    ]),
     _vm._v(" "),
     _c("div", { staticClass: "col" }, [
       _c("div", { staticClass: "col text-center" }, [
@@ -59550,33 +59596,22 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(1)
+    _c("div", { staticClass: "col" }, [
+      _c("div", { staticClass: "col text-right" }, [
+        _c(
+          "button",
+          {
+            staticClass: "btn btn-outline-info",
+            attrs: { disabled: _vm.isLast },
+            on: { click: _vm.next }
+          },
+          [_vm._v("Older")]
+        )
+      ])
+    ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col" }, [
-      _c("button", { staticClass: "btn btn-outline-secondary" }, [
-        _vm._v("Newer")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col" }, [
-      _c("div", { staticClass: "col text-right" }, [
-        _c("button", { staticClass: "btn btn-outline-secondary" }, [
-          _vm._v("Older")
-        ])
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

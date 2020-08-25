@@ -35,7 +35,7 @@
         },
         methods: {
             fetchQuestions() {
-                axios.get('/questions')
+                axios.get('/questions', {params: this.$route.query})
                     .then(({data}) => {
                         //Assign api returned response to questions
                         this.questions = data.data;
@@ -43,6 +43,9 @@
                         this.links = data.links;
                     });
             }
+        },
+        watch: {
+            "$route": 'fetchQuestions'
         }
     }
 </script>
