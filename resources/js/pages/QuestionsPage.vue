@@ -38,6 +38,18 @@
                 //Define property to hold all questions
                 questions: []
             }
+        },
+        mounted() {
+            this.fetchQuestions();
+        },
+        methods: {
+            fetchQuestions() {
+                axios.get('/questions')
+                    .then(({data}) => {
+                        //Assign api returned response to questions
+                        this.questions = data.data
+                    })
+            }
         }
     }
 </script>

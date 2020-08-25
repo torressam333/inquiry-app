@@ -8,7 +8,7 @@
                 <strong>{{question.answers_count}}</strong> {{str_plural('answer', question.answers_count)}}
             </div>
             <div class="view">
-                {{question.views}} + " " + {{str_plural('view', question.views)}}
+                {{question.views}} {{str_plural('view', question.views)}}
             </div>
         </div>
         <div class="media-body">

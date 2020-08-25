@@ -4783,6 +4783,20 @@ __webpack_require__.r(__webpack_exports__);
       //Define property to hold all questions
       questions: []
     };
+  },
+  mounted: function mounted() {
+    this.fetchQuestions();
+  },
+  methods: {
+    fetchQuestions: function fetchQuestions() {
+      var _this = this;
+
+      axios.get('/questions').then(function (_ref) {
+        var data = _ref.data;
+        //Assign api returned response to questions
+        _this.questions = data.data;
+      });
+    }
   }
 });
 
@@ -59716,7 +59730,7 @@ var render = function() {
         _vm._v(
           "\n            " +
             _vm._s(_vm.question.views) +
-            ' + " " + ' +
+            " " +
             _vm._s(_vm.str_plural("view", _vm.question.views)) +
             "\n        "
         )
