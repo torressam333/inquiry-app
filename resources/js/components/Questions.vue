@@ -1,25 +1,33 @@
 <template>
-    <div class="card-body">
-        <div v-if="questions.length">
-            <question-excerpt v-for="question in questions" :question="question"
-                              :key="question.id"></question-excerpt>
+    <div>
+        <div class="card-body">
+            <div v-if="questions.length">
+                <question-excerpt v-for="question in questions" :question="question"
+                                  :key="question.id"></question-excerpt>
+            </div>
+            <div v-else class="alert alert-info">
+                <h6><strong>There are no questions available. Be the first to add one!</strong></h6>
+            </div>
+            <!--Pagination goes here-->
         </div>
-        <div v-else class="alert alert-info">
-            <h6><strong>There are no questions available. Be the first to add one!</strong></h6>
+        <div class="card-footer">
+            <pagination v-bind:meta="meta" v-bind:links="links"></pagination>
         </div>
-        <!--Pagination goes here-->
     </div>
 </template>
 
 <script>
     import QuestionExcerpt from "./QuestionExcerpt";
+    import Pagination from "./Pagination";
 
     export default {
-        components: {QuestionExcerpt},
+        components: {QuestionExcerpt, Pagination},
         data() {
             return {
                 //Define property to hold all questions
-                questions: []
+                questions: [],
+                meta: {},
+                links: {}
             }
         },
         mounted() {
@@ -30,8 +38,10 @@
                 axios.get('/questions')
                     .then(({data}) => {
                         //Assign api returned response to questions
-                        this.questions = data.data
-                    })
+                        this.questions = data.data;
+                        this.meta = data.meta;
+                        this.links = data.links;
+                    });
             }
         }
     }
