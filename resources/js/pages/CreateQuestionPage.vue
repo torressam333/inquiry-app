@@ -5,13 +5,18 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="d-flex align-items-center">
-                            <h2>All Questions</h2>
+                            <h2>Ask A Question</h2>
                             <div class="ml-auto">
-                                <router-link :to="{name: 'questions.create'}" class='btn btn-outline-info'>Post Question</router-link>
+                                <router-link :to="{name: 'questions'}" class="btn btn-outline-info">
+                                    Back to all questions
+                                </router-link>
                             </div>
                         </div>
+
                     </div>
-                    <questions></questions>
+                    <div class="card-body">
+                       <question-form></question-form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -19,9 +24,10 @@
 </template>
 
 <script>
-    import Questions from "../components/Questions";
+    import QuestionForm from '../components/QuestionForm';
 
     export default {
-        components: {Questions},
+        components: {QuestionForm},
+
     }
 </script>
