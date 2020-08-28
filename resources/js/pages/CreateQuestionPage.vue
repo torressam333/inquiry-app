@@ -15,7 +15,7 @@
 
                     </div>
                     <div class="card-body">
-                       <question-form></question-form>
+                       <question-form @submitted="create"></question-form>
                     </div>
                 </div>
             </div>
@@ -25,9 +25,22 @@
 
 <script>
     import QuestionForm from '../components/QuestionForm';
+    import EventBus from '../event-bus';
 
     export default {
         components: {QuestionForm},
-
+        methods: {
+            create(data) {
+                axios.post('/questions', data)
+                    .then(({data}) => {
+                        this.$router.push({name: 'questions'})
+                        this.$toast.success(data.message, "Success");
+                    })
+                    .catch(({response}) => {
+                        console.log(response.data.errors)
+                        EventBus.$emit('error ', response.data.errors)
+                    })
+            }
+        }
     }
 </script>

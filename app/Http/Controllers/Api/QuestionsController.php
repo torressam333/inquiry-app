@@ -32,10 +32,10 @@ class QuestionsController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param Request $request
+     * @param AskQuestionRequest $request
      * @return JsonResponse
      */
-    public function store(Request $request)
+    public function store(AskQuestionRequest $request)
     {
         //Adds user id value to the questions model upon question creation
         $question = $request->user()->question()->create($request->only('title', 'body'));

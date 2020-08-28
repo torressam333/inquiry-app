@@ -12,14 +12,16 @@
         </div>
         <div class="form-group">
             <label for="question-body">What is your question?</label>
-            <textarea name="body"
-                      rows="11"
-                      v-model="body"
-                      v-bind:class="errorClass('body')">
+            <m-editor :body="body" name="question-body">
+                <textarea name="body"
+                          rows="11"
+                          :class="errorClass('body')"
+                          v-model="body">
             </textarea>
-            <div v-if="errors['body'][0]" class="invalid-feedback">
-                <strong>{{errors['body'][0]}}</strong>
-            </div>
+                <div v-if="errors['body'][0]" class="invalid-feedback">
+                    <strong>{{errors['body'][0]}}</strong>
+                </div>
+            </m-editor>
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-outline-info btn-lg">{{buttonText}}</button>
@@ -28,7 +30,11 @@
 </template>
 
 <script>
+    import EventBus from "../event-bus";
+    import MEditor from "./MEditor";
+
     export default {
+        components: {MEditor},
         data(){
             return{
                 title: '',
@@ -39,9 +45,16 @@
                 }
             }
         },
+        mounted() {
+            EventBus.$on('error', errors => this.errors = errors);
+        },
         methods: {
             handleSubmit() {
-
+                //Emit vue event
+                this.$emit('submitted', {
+                    title: this.title,
+                    body: this.body
+                })
             },
             errorClass(column) {
                 return [

@@ -4,7 +4,7 @@
             <div class="vote">
                 <strong>{{question.votes_count}}</strong> {{str_plural('vote', question.votes_count)}}
             </div>
-            <div :class="statusClasses"">
+            <div :class="statusClasses">
                 <strong>{{question.answers_count}}</strong> {{str_plural('answer', question.answers_count)}}
             </div>
             <div class="view">
@@ -19,8 +19,6 @@
                         Edit
                     </a>
                     <form v-if="authorize('deleteQuestion', question)" class="form-delete" action="#" method="POST">
-                        @method('DELETE')
-                        @csrf
                         <button type="submit"
                                 class="btn btn-sm btn-outline-danger"
                                 onclick="return confirm('Are you sure you want to delete this question?')"
