@@ -8,7 +8,6 @@ use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
-use Illuminate\Http\Response;
 use App\Http\Resources\QuestionResource;
 use App\Http\Requests\AskQuestionRequest;
 use Illuminate\Support\Facades\Gate;
@@ -42,7 +41,7 @@ class QuestionsController extends Controller
 
         //return a json response containing a message that we can grab from the view.
         return response()->json([
-           'message' => 'Your question has been submitted',
+            'message' => 'Your question has been submitted',
             'question' => new QuestionResource($question),
         ]);
     }
@@ -56,9 +55,9 @@ class QuestionsController extends Controller
     public function show(Question $question)
     {
         return \response()->json([
-           'title' => $question->title,
-           'body' => $question->body,
-           'body_html' => $question->body_html
+            'title' => $question->title,
+            'body' => $question->body,
+            'body_html' => $question->body_html
         ]);
     }
 
@@ -78,9 +77,6 @@ class QuestionsController extends Controller
             'message' => "Your question has been updated.",
             'body_html' => $question->body_html
         ]);
-
-
-
     }
 
     /**
