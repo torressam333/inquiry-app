@@ -1,7 +1,10 @@
 <template>
-    <div class="jumbotron container text-center">
-        <h1 class="display-4">Page not found</h1>
-        <p class="lead">Sorry, the page you are looking for does not exist.</p>
-        <router-link :to="{name: 'home'}" class="btn btn-outline-info btn-lg">Home Page</router-link>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Page Not Found</h1>
+            <p class="lead">Sorry, the page you're looking for is not found</p>
+            <hr class="my-4">
+            <router-link :to="{ name: 'home' }" class="btn btn-primary btn-lg">Back to home page</router-link>
+        </div>
     </div>
 </template>

@@ -4934,11 +4934,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_QuestionForm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/QuestionForm */ "./resources/js/components/QuestionForm.vue");
+/* harmony import */ var _components_QuestionForm_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/QuestionForm.vue */ "./resources/js/components/QuestionForm.vue");
 /* harmony import */ var _event_bus__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../event-bus */ "./resources/js/event-bus.js");
-//
-//
-//
 //
 //
 //
@@ -4965,7 +4962,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    QuestionForm: _components_QuestionForm__WEBPACK_IMPORTED_MODULE_0__["default"]
+    QuestionForm: _components_QuestionForm_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
   },
   methods: {
     create: function create(data) {
@@ -4982,7 +4979,7 @@ __webpack_require__.r(__webpack_exports__);
       })["catch"](function (_ref2) {
         var response = _ref2.response;
         console.log(response.data.errors);
-        _event_bus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('error ', response.data.errors);
+        _event_bus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('error', response.data.errors);
       });
     }
   }
@@ -5007,14 +5004,34 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//Register local components
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  props: ['question'],
   components: {
     Question: _components_Question_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
     Answers: _components_Answers_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
+  },
+  props: ['slug'],
+  data: function data() {
+    return {
+      question: {}
+    };
+  },
+  mounted: function mounted() {
+    this.fetchQuestion();
+  },
+  methods: {
+    fetchQuestion: function fetchQuestion() {
+      var _this = this;
+
+      axios.get("/questions/".concat(this.slug)).then(function (_ref) {
+        var data = _ref.data;
+        _this.question = data.data;
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    }
   }
 });
 
@@ -5029,7 +5046,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_Questions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Questions */ "./resources/js/components/Questions.vue");
+/* harmony import */ var _components_Questions_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Questions.vue */ "./resources/js/components/Questions.vue");
+//
+//
 //
 //
 //
@@ -5053,7 +5072,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    Questions: _components_Questions__WEBPACK_IMPORTED_MODULE_0__["default"]
+    Questions: _components_Questions_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
 });
 
@@ -60447,11 +60466,7 @@ var render = function() {
                       staticClass: "btn btn-outline-info",
                       attrs: { to: { name: "questions" } }
                     },
-                    [
-                      _vm._v(
-                        "\n                                Back to all questions\n                            "
-                      )
-                    ]
+                    [_vm._v("Back to all Questions")]
                   )
                 ],
                 1
@@ -60516,27 +60531,31 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "jumbotron container text-center" },
-    [
-      _c("h1", { staticClass: "display-4" }, [_vm._v("Page not found")]),
-      _vm._v(" "),
-      _c("p", { staticClass: "lead" }, [
-        _vm._v("Sorry, the page you are looking for does not exist.")
-      ]),
-      _vm._v(" "),
-      _c(
-        "router-link",
-        {
-          staticClass: "btn btn-outline-info btn-lg",
-          attrs: { to: { name: "home" } }
-        },
-        [_vm._v("Home Page")]
-      )
-    ],
-    1
-  )
+  return _c("div", { staticClass: "container" }, [
+    _c(
+      "div",
+      { staticClass: "jumbotron text-center" },
+      [
+        _c("h1", { staticClass: "display-4" }, [_vm._v("Page Not Found")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "lead" }, [
+          _vm._v("Sorry, the page you're looking for is not found")
+        ]),
+        _vm._v(" "),
+        _c("hr", { staticClass: "my-4" }),
+        _vm._v(" "),
+        _c(
+          "router-link",
+          {
+            staticClass: "btn btn-primary btn-lg",
+            attrs: { to: { name: "home" } }
+          },
+          [_vm._v("Back to home page")]
+        )
+      ],
+      1
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -60560,16 +60579,18 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "container" },
-    [
-      _c("question", { attrs: { question: _vm.question } }),
-      _vm._v(" "),
-      _c("answers", { attrs: { question: _vm.question } })
-    ],
-    1
-  )
+  return _vm.question.id
+    ? _c(
+        "div",
+        { staticClass: "container" },
+        [
+          _c("question", { attrs: { question: _vm.question } }),
+          _vm._v(" "),
+          _c("answers", { attrs: { question: _vm.question } })
+        ],
+        1
+      )
+    : _vm._e()
 }
 var staticRenderFns = []
 render._withStripped = true

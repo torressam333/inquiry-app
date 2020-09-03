@@ -10,7 +10,9 @@
                                 <router-link :to="{ name: 'questions.create' }" class="btn btn-outline-secondary">Ask Question</router-link>
                             </div>
                         </div>
+
                     </div>
+
                     <questions></questions>
                 </div>
             </div>
@@ -19,9 +21,8 @@
 </template>
 
 <script>
-    import Questions from "../components/Questions";
-
-    export default {
-        components: {Questions},
-    }
+import Questions from '../components/Questions.vue'
+export default {
+    components: { Questions }
+}
 </script>
