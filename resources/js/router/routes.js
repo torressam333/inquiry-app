@@ -4,6 +4,7 @@ import QuestionPage from "../pages/QuestionPage";
 import MyPostsPage from "../pages/MyPostsPage";
 import NotFoundPage from "../pages/NotFoundPage";
 import CreateQuestionPage from "../pages/CreateQuestionPage";
+import EditQuestionPage from "../pages/EditQuestionPage";
 
 //Map components to respective routes, load paths
 const routes = [
@@ -35,6 +36,11 @@ const routes = [
         path: '/questions/:slug',
         component: QuestionPage,
         name: 'questions.show'
+    },
+    {
+        path: '/questions/:id/edit',
+        component: EditQuestionPage,
+        name: 'questions.edit'
     },
     {
         //404 route

@@ -34,6 +34,12 @@
     import MEditor from "./MEditor";
 
     export default {
+        props: {
+            isEdit: {
+                type: Boolean,
+                default: false
+            }
+        },
         components: {MEditor},
         data(){
             return{
@@ -47,6 +53,10 @@
         },
         mounted() {
             EventBus.$on('error', errors => this.errors = errors);
+
+            if (this.isEdit) {
+                this.fetchQuestion();
+            }
         },
         methods: {
             handleSubmit() {
@@ -61,11 +71,21 @@
                     'form-control',
                     this.errors[column] && this.errors[column][0] ? 'is-invalid' : '',
                 ]
+            },
+            fetchQuestion() {
+                axios.get(`/questions/${this.$route.params.id}`)
+                .then(({data})=> {
+                    this.title = data.title
+                    this.body = data.body
+                })
+                .catch(error => {
+                    console.log(error.response);
+                })
             }
         },
         computed: {
             buttonText() {
-                return 'Post Question'
+                return this.isEdit ? 'Update Question' : 'Post Question';
             }
         }
     }
