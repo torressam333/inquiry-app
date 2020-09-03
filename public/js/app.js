@@ -4618,6 +4618,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['question'],
   methods: {
@@ -60169,12 +60170,17 @@ var render = function() {
           [
             _vm.authorize("modify", _vm.question)
               ? _c(
-                  "a",
+                  "router-link",
                   {
-                    staticClass: "btn btn-sm btn-outline-dark",
-                    attrs: { href: "#" }
+                    staticClass: "btn btn-sm btn-outline-info",
+                    attrs: {
+                      to: {
+                        name: "questions.edit",
+                        params: { id: _vm.question.id }
+                      }
+                    }
                   },
-                  [_vm._v("\n                    Edit\n                ")]
+                  [_vm._v("Edit")]
                 )
               : _vm._e(),
             _vm._v(" "),
@@ -60201,7 +60207,8 @@ var render = function() {
                   ]
                 )
               : _vm._e()
-          ]
+          ],
+          1
         )
       ]),
       _vm._v(" "),
