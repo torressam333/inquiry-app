@@ -1,3 +1,4 @@
+
 <template>
     <div class="container">
         <div class="row justify-content-center">
@@ -12,10 +13,7 @@
                         </div>
 
                     </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> 9c8b63959be976fa5d1ce67670ba54bb76a2dc2e
                     <questions></questions>
                 </div>
             </div>
@@ -24,15 +22,8 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-import Questions from '../components/Questions.vue';
-
-export default {
-    components: {Questions}
-=======
 import Questions from '../components/Questions.vue'
 export default {
     components: { Questions }
->>>>>>> 9c8b63959be976fa5d1ce67670ba54bb76a2dc2e
 }
 </script>
