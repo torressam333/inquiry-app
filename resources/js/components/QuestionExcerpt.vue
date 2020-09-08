@@ -4,7 +4,7 @@
             <div class="vote">
                 <strong>{{question.votes_count}}</strong> {{str_plural('vote', question.votes_count)}}
             </div>
-            <div :class="statusClasses"">
+            <div :class="statusClasses">
                 <strong>{{question.answers_count}}</strong> {{str_plural('answer', question.answers_count)}}
             </div>
             <div class="view">
@@ -15,12 +15,11 @@
             <div class="d-flex align-items-center">
                 <h3 class="mt-0"><a href="#">{{question.title}}</a></h3>
                 <div class="ml-auto" style="min-width:150px">
-                    <a href="#" v-if="authorize('modify', question) " class="btn btn-sm btn-outline-dark">
-                        Edit
-                    </a>
+                    <router-link
+                        :to="{name : 'questions.edit', params: {id: question.id} }"
+                        v-if="authorize('modify', question)"
+                        class="btn btn-sm btn-outline-info">Edit</router-link>
                     <form v-if="authorize('deleteQuestion', question)" class="form-delete" action="#" method="POST">
-                        @method('DELETE')
-                        @csrf
                         <button type="submit"
                                 class="btn btn-sm btn-outline-danger"
                                 onclick="return confirm('Are you sure you want to delete this question?')"
