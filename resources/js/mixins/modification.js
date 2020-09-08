@@ -2,9 +2,10 @@ import highlight from "./highlight";
 import Vote from '../components/Vote.vue';
 import UserInfo from '../components/UserInfo.vue';
 import MEditor from "../components/MEditor";
+import destroy from "./destroy";
 
 export default {
-    mixins: [highlight],
+    mixins: [highlight, destroy],
     components: { Vote, UserInfo, MEditor },
 
     data() {

@@ -3,7 +3,12 @@
         <div class="card-body">
             <spinner v-if="$root.loading"></spinner>
             <div v-else-if="questions.length">
-                <question-excerpt v-for="question in questions" :question="question" :key="question.id"></question-excerpt>
+                <question-excerpt
+                    @deleted="remove(index)"
+                    v-for="(question, index) in questions"
+                    :question="question"
+                    :key="question.id"
+                ></question-excerpt>
             </div>
             <div v-else class="alert alert-warning">
                 <strong>Sorry</strong> There are no questions available.

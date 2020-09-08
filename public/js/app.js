@@ -4625,15 +4625,14 @@ __webpack_require__.r(__webpack_exports__);
     "delete": function _delete() {
       var _this = this;
 
-      this.$root.disableInterceptor();
-      axios["delete"]("/questions/".concat(this.question.id)).then(function (res) {
-        _this.$toast.success(res.data.message, "Success", {
+      axios["delete"]("/questions/" + this.question.id).then(function (_ref) {
+        var data = _ref.data;
+
+        _this.$toast.success(data.message, "Success", {
           timeout: 2000
         });
 
-        _event_bus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('deleted', _this.question.id);
-
-        _this.$root.enableInterceptor();
+        _this.$emit('deleted');
       });
     }
   },
@@ -4762,6 +4761,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _QuestionExcerpt_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./QuestionExcerpt.vue */ "./resources/js/components/QuestionExcerpt.vue");
 /* harmony import */ var _Pagination_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Pagination.vue */ "./resources/js/components/Pagination.vue");
 /* harmony import */ var _event_bus__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../event-bus */ "./resources/js/event-bus.js");
+//
+//
+//
+//
+//
 //
 //
 //
@@ -60558,10 +60562,15 @@ var render = function() {
           : _vm.questions.length
           ? _c(
               "div",
-              _vm._l(_vm.questions, function(question) {
+              _vm._l(_vm.questions, function(question, index) {
                 return _c("question-excerpt", {
                   key: question.id,
-                  attrs: { question: question }
+                  attrs: { question: question },
+                  on: {
+                    deleted: function($event) {
+                      return _vm.remove(index)
+                    }
+                  }
                 })
               }),
               1
@@ -77527,12 +77536,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Vote_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Vote.vue */ "./resources/js/components/Vote.vue");
 /* harmony import */ var _components_UserInfo_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/UserInfo.vue */ "./resources/js/components/UserInfo.vue");
 /* harmony import */ var _components_MEditor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/MEditor */ "./resources/js/components/MEditor.vue");
+/* harmony import */ var _destroy__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./destroy */ "./resources/js/mixins/destroy.js");
+
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mixins: [_highlight__WEBPACK_IMPORTED_MODULE_0__["default"]],
+  mixins: [_highlight__WEBPACK_IMPORTED_MODULE_0__["default"], _destroy__WEBPACK_IMPORTED_MODULE_4__["default"]],
   components: {
     Vote: _components_Vote_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
     UserInfo: _components_UserInfo_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
