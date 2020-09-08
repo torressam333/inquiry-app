@@ -8,9 +8,7 @@ use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
-use Illuminate\Http\Response;
 use App\Http\Resources\QuestionResource;
-use App\Http\Requests\AskQuestionRequest;
 use Illuminate\Support\Facades\Gate;
 
 class QuestionsController extends Controller
@@ -23,7 +21,7 @@ class QuestionsController extends Controller
     public function index()
     {
         //Return all questions as JSON
-        $questions = Question::with('user')->latest()->paginate(5);
+        $questions = Question::with('user')->latest()->paginate(4);
 
         //Transform collection into JSON structure
         return QuestionResource::collection($questions);
@@ -78,9 +76,6 @@ class QuestionsController extends Controller
             'message' => "Your question has been updated.",
             'body_html' => $question->body_html
         ]);
-
-
-
     }
 
     /**
