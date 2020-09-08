@@ -1,12 +1,10 @@
-/*Define Vue front-end routes here*/
-import QuestionsPage from "../pages/QuestionsPage";
-import QuestionPage from "../pages/QuestionPage";
-import MyPostsPage from "../pages/MyPostsPage";
-import NotFoundPage from "../pages/NotFoundPage";
-import CreateQuestionPage from "../pages/CreateQuestionPage";
-import EditQuestionPage from "../pages/EditQuestionPage";
+import QuestionsPage from '../pages/QuestionsPage.vue'
+import QuestionPage from '../pages/QuestionPage.vue'
+import MyPostsPage from '../pages/MyPostsPage.vue'
+import NotFoundPage from '../pages/NotFoundPage.vue'
+import CreateQuestionPage from '../pages/CreateQuestionPage.vue'
+import EditQuestionPage from '../pages/EditQuestionPage.vue'
 
-//Map components to respective routes, load paths
 const routes = [
     {
         path: '/',
@@ -16,26 +14,12 @@ const routes = [
     {
         path: '/questions',
         component: QuestionsPage,
-        name: 'questions',
+        name: 'questions'
     },
     {
         path: '/questions/create',
         component: CreateQuestionPage,
-        name: 'questions.create',
-    },
-    {
-        path: '/my-posts',
-        component: MyPostsPage,
-        name: 'my-posts',
-        meta: {
-            requiresAuth: true
-        }
-    },
-    {
-        //Dynamic route matching --> {slug}
-        path: '/questions/:slug',
-        component: QuestionPage,
-        name: 'questions.show'
+        name: 'questions.create'
     },
     {
         path: '/questions/:id/edit',
@@ -43,11 +27,23 @@ const routes = [
         name: 'questions.edit'
     },
     {
-        //404 route
+        path: '/home',
+        component: MyPostsPage,
+        name: 'my-posts',
+        meta: {
+            requiresAuth: true
+        }
+    },
+    {
+        path: '/questions/:slug',
+        component: QuestionPage,
+        name: 'questions.show',
+        props: true
+    },
+    {
         path: '*',
-        component: NotFoundPage,
+        component: NotFoundPage
     }
-];
+]
 
-//To be used elsewhere
-export default routes;
+export default routes

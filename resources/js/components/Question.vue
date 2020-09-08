@@ -26,7 +26,7 @@
                         <div class="d-flex align-items-center">
                             <h1>{{ title }}</h1>
                             <div class="ml-auto">
-                                <a href="/questions" class="btn btn-outline-secondary">Back to all Questions</a>
+                                <router-link exact :to="{ name: 'questions' }" class="btn btn-outline-secondary">Back to all Questions</router-link>
                             </div>
                         </div>
                     </div>
@@ -35,6 +35,7 @@
 
                     <div class="media">
                         <vote :model="question" name="question"></vote>
+
                         <div class="media-body">
                             <div v-html="bodyHtml" ref="bodyHtml"></div>
                             <div class="row">
@@ -58,58 +59,60 @@
 </template>
 
 <script>
-
-    import modification from "../mixins/modification";
-
-    export default {
-        props: ['question'],
-        mixins: [modification],
-        data () {
+import modification from '../mixins/modification';
+import EventBus from '../event-bus';
+export default {
+    mounted () {
+        EventBus.$on('answers-count-changed', (count) => {
+            this.question.answers_count = count;
+        })
+    },
+    props: ['question'],
+    mixins: [modification],
+    data () {
+        return {
+            title: this.question.title,
+            body: this.question.body,
+            bodyHtml: this.question.body_html,
+            id: this.question.id,
+            beforeEditCache: {}
+        }
+    },
+    computed: {
+        isInvalid () {
+            return this.body.length < 10 || this.title.length < 10;
+        },
+        endpoint () {
+            return `/questions/${this.id}`;
+        },
+        uniqueName () {
+            return `question-${this.id}`;
+        }
+    },
+    methods: {
+        setEditCache () {
+            this.beforeEditCache = {
+                body: this.body,
+                title: this.title
+            };
+        },
+        restoreFromCache () {
+            this.body = this.beforeEditCache.body;
+            this.title = this.beforeEditCache.title;
+        },
+        payload () {
             return {
-                title: this.question.title,
-                body: this.question.body,
-                bodyHtml: this.question.body_html,
-                id: this.question.id,
-                beforeEditCache: {}
-            }
+                body: this.body,
+                title: this.title
+            };
         },
-        computed: {
-            isInvalid () {
-                return this.body.length < 10 || this.title.length < 10;
-            },
-            endpoint () {
-                return `/questions/${this.id}`;
-            },
-            uniqueName() {
-                return `question-${this.id}`; //question-4
-            }
-        },
-        methods: {
-            setEditCache () {
-                this.beforeEditCache = {
-                    body: this.body,
-                    title: this.title
-                };
-            },
-            restoreFromCache () {
-                this.body = this.beforeEditCache.body;
-                this.title = this.beforeEditCache.title;
-            },
-            payload() {
-                return {
-                    body: this.body,
-                    title: this.title
-                }
-            },
-            delete() {
-                axios.delete(this.endpoint)
-                    .then(({data}) => {
-                        this.$toast.success(data.message, "Success", { timeout: 2000 });
-                    });
-                setTimeout(() => {
-                    window.location.href = "/questions";
-                }, 3000);
-            }
+        delete () {
+            axios.delete(this.endpoint)
+                .then(({data}) => {
+                    this.$toast.success(data.message, "Success", { timeout: 2000 });
+                    this.$router.push({ name: 'questions' });
+                });
         }
     }
+}
 </script>

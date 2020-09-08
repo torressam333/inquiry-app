@@ -7,10 +7,10 @@
                         <h3>Your Answer</h3>
                     </div>
                     <hr>
-                    <form @submit.prevent="create">
+                    <form @submit.prevent="create">                        
                         <div class="form-group">
                             <m-editor :body="body" name="new-answer">
-                                <textarea class="form-control" rows="7" required v-model="body" name="body"></textarea>
+                                <textarea class="form-control" rows="7" required v-model="body" name="body"></textarea>                            
                             </m-editor>
                         </div>
                         <div class="form-group">
@@ -27,34 +27,39 @@
 </template>
 
 <script>
-    import MEditor from './MEditor.vue';
-    export default {
-        props: ['questionId'],
-        components: { MEditor },
-        methods: {
-            create () {
-                axios.post(`/questions/${this.questionId}/answers`, {
-                    body: this.body
-                })
-                    .catch(error => {
-                        this.$toast.error(error.response.data.message, "Error");
-                    })
-                    .then(({data}) => {
-                        this.$toast.success(data.message, "Success");
-                        this.body = '';
-                        this.$emit('created', data.answer);
-                    })
-            }
-        },
-        data () {
-            return {
-                body: ''
-            }
-        },
-        computed: {
-            isInvalid () {
-                return !this.signedIn || this.body.length < 10;
-            }
+import MEditor from './MEditor.vue';
+
+export default {
+    props: ['questionId'],
+
+    components: { MEditor },
+
+    methods: {
+        create () {
+            axios.post(`/questions/${this.questionId}/answers`, {
+                body: this.body
+            })
+            .catch(error => {
+                this.$toast.error(error.response.data.message, "Error");
+            })
+            .then(({data}) => {
+                this.$toast.success(data.message, "Success");
+                this.body = '';
+                this.$emit('created', data.answer);
+            })
+        }
+    },
+
+    data () {
+        return {
+            body: ''
+        }
+    },
+
+    computed: {
+        isInvalid () {
+            return !this.signedIn || this.body.length < 10;
         }
     }
+}
 </script>

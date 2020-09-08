@@ -2,13 +2,15 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Http\Controllers\Controller;
 use App\Question;
+use Exception;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
+use App\Http\Controllers\Controller;
 use App\Http\Resources\QuestionResource;
+use App\Http\Requests\AskQuestionRequest;
+use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Support\Facades\Gate;
 
 class QuestionsController extends Controller
@@ -84,6 +86,7 @@ class QuestionsController extends Controller
      * @param Question $question
      * @return JsonResponse
      * @throws AuthorizationException
+     * @throws Exception
      */
     public function destroy(Question $question)
     {
