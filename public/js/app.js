@@ -4126,7 +4126,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
         (_this2$answers = _this2.answers).push.apply(_this2$answers, _toConsumableArray(data.data));
 
-        _this2.nextUrl = data.links.next;
+        _this2.nextUrl = data.meta.next;
       }).then(function () {
         _this2.answerIds.forEach(function (id) {
           _this2.highlight("answer-".concat(id));
@@ -76449,7 +76449,7 @@ __webpack_require__.r(__webpack_exports__);
     return user.id === model.user.id;
   },
   accept: function accept(user, answer) {
-    return user.id === answer.question.user.id;
+    return user.id === answer.question_user_id;
   },
   deleteQuestion: function deleteQuestion(user, question) {
     return user.id === question.user.id && question.answers_count < 1;

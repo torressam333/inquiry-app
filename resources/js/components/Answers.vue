@@ -7,8 +7,8 @@
                         <div class="card-title">
                             <h2>{{ title }}</h2>
                         </div>
-                        <hr>                    
-                        
+                        <hr>
+
                         <answer @deleted="remove(index)" v-for="(answer, index) in answers"  :answer="answer" :key="answer.id"></answer>
 
                         <div class="text-center mt-3" v-if="theNextUrl">
@@ -77,8 +77,8 @@ export default {
                 this.answerIds = data.data.map(a => a.id);
 
                 this.answers.push(...data.data);
-                
-                this.nextUrl = data.links.next;
+
+                this.nextUrl = data.meta.next;
             })
             .then(() => {
                 this.answerIds.forEach(id => {
