@@ -4126,7 +4126,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
         (_this2$answers = _this2.answers).push.apply(_this2$answers, _toConsumableArray(data.data));
 
-        _this2.nextUrl = data.meta.next;
+        _this2.nextUrl = data.links.next;
       }).then(function () {
         _this2.answerIds.forEach(function (id) {
           _this2.highlight("answer-".concat(id));

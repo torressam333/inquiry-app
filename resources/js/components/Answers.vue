@@ -78,7 +78,7 @@ export default {
 
                 this.answers.push(...data.data);
 
-                this.nextUrl = data.meta.next;
+                this.nextUrl = data.links.next;
             })
             .then(() => {
                 this.answerIds.forEach(id => {
