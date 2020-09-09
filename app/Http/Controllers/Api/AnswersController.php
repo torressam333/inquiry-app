@@ -22,7 +22,11 @@ class AnswersController extends Controller
          * Bring back answers belonging to questions
          * Show 3 answers at a time
          * */
-        $answers = $question->answers()->with('user')->simplePaginate(4);
+        $answers = $question->answers()->with('user')->where(function ($q) {
+            if (request()->has('excludes')) {
+                $q->whereNotIn('id', request()->query('excludes'));
+            }
+        })->simplePaginate(3);
 
         return AnswerResource::collection($answers);
     }

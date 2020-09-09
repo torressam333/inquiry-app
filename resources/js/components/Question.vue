@@ -61,6 +61,7 @@
 <script>
 import modification from '../mixins/modification';
 import EventBus from '../event-bus';
+
 export default {
     mounted () {
         EventBus.$on('answers-count-changed', (count) => {
@@ -110,6 +111,7 @@ export default {
             axios.delete(this.endpoint)
                 .then(({data}) => {
                     this.$toast.success(data.message, "Success", { timeout: 2000 });
+                    //Redirect to questions dashboard
                     this.$router.push({ name: 'questions' });
                 });
         }
