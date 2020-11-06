@@ -20,7 +20,7 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^1.1",
         "mews/purifier": "^3.2",
-        "symfony/http-kernel": "v4.4.14",
+        "symfony/http-kernel": "v4.4.13",
         "php-parallel-lint/php-console-color": "^0.3.0"
     },
     "require-dev": {
